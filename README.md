@@ -6,6 +6,8 @@ industrial parks and plants directly rather than through the PLN grid. It covers
 construction or planned, and shows for each one what it would cost to move off coal by 2035.
 It is available in English, Bahasa Indonesia and 简体中文.
 
+**Open CITRA: <https://power-lab.github.io/citra-site/>**
+
 CITRA is published by the [Power Transformation Lab](https://pwrlab.org), University of
 California San Diego.
 
