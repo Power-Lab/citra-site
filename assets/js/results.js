@@ -4,7 +4,7 @@
    park electricity demand met by each source; cap and new are MW. */
 window.GARUDA = {
  "year": 2035,
- "built": "2026-11-03",
+ "built": "2026-11-04",
  "gate": 0.01,
  "capex": {
   "solar": 560,
@@ -496,6 +496,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.71,
+       "served": 0.988,
+       "mwh": 8945632,
+       "cost": 274684431,
+       "co2": 8426994,
+       "coal": 80257081,
+       "coalHeat": 60370747,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.98,
+        "unserved": 0.02
+       }
+      },
+      {
        "lcoe": 50.37,
        "served": 0.988,
        "mwh": 8945589,
@@ -572,6 +591,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.72,
+       "served": 1.0,
+       "mwh": 9053365,
+       "cost": 250965466,
+       "co2": 8204173,
+       "coal": 78134980,
+       "coalHeat": 60907266,
+       "imp": 342544,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.849,
+        "grid": 0.151,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.5,
        "served": 1.0,
@@ -654,6 +693,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 28.84,
+       "served": 1.0,
+       "mwh": 9052461,
+       "cost": 261112883,
+       "co2": 8499094,
+       "coal": 80943751,
+       "coalHeat": 60577158,
+       "imp": 0,
+       "re": 11015830,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 47.66,
        "served": 1.0,
        "mwh": 9050786,
@@ -735,6 +793,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 24.87,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 225185742,
+       "co2": 8306448,
+       "coal": 79109029,
+       "coalHeat": 60524979,
+       "imp": 212335,
+       "re": 10307788,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.907,
+        "grid": 0.093,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.58,
        "served": 1.0,
@@ -832,6 +910,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.71,
+       "served": 0.988,
+       "mwh": 7210702,
+       "cost": 221417091,
+       "co2": 6792649,
+       "coal": 64691893,
+       "coalHeat": 48639291,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.981,
+        "unserved": 0.019
+       }
+      },
+      {
        "lcoe": 50.37,
        "served": 0.988,
        "mwh": 7210651,
@@ -908,6 +1005,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.65,
+       "served": 1.0,
+       "mwh": 7294772,
+       "cost": 201712932,
+       "co2": 6611935,
+       "coal": 62970811,
+       "coalHeat": 49063362,
+       "imp": 274512,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.85,
+        "grid": 0.15,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.5,
        "served": 1.0,
@@ -990,6 +1107,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 28.33,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 206628394,
+       "co2": 6939262,
+       "coal": 66088214,
+       "coalHeat": 48804900,
+       "imp": 0,
+       "re": 33047489,
+       "solarMW": 0.0,
+       "batMW": 300.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.5,
        "served": 1.0,
        "mwh": 7294890,
@@ -1071,6 +1207,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 27.6,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 201342937,
+       "co2": 6828856,
+       "coal": 65036724,
+       "coalHeat": 48755691,
+       "imp": 99107,
+       "re": 29937816,
+       "solarMW": 0.0,
+       "batMW": 290.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.948,
+        "grid": 0.052,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.93,
        "served": 1.0,
@@ -1167,6 +1323,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 31.76,
+       "served": 0.985,
+       "mwh": 505000,
+       "cost": 16038410,
+       "co2": 475721,
+       "coal": 4530681,
+       "coalHeat": 3419357,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.975,
+        "unserved": 0.025
+       }
+      },
+      {
        "lcoe": 51.43,
        "served": 0.985,
        "mwh": 505001,
@@ -1243,6 +1418,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 28.29,
+       "served": 1.0,
+       "mwh": 512454,
+       "cost": 14496623,
+       "co2": 454765,
+       "coal": 4331093,
+       "coalHeat": 3456855,
+       "imp": 29642,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.767,
+        "grid": 0.233,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.09,
        "served": 1.0,
@@ -1325,6 +1520,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 40.14,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 20568337,
+       "co2": 500460,
+       "coal": 4766284,
+       "coalHeat": 3438616,
+       "imp": 0,
+       "re": 7640732,
+       "solarMW": 0.0,
+       "batMW": 69.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 48.56,
        "served": 1.0,
        "mwh": 512460,
@@ -1406,6 +1620,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 35.0,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 17935727,
+       "co2": 492081,
+       "coal": 4686488,
+       "coalHeat": 3435149,
+       "imp": 3627,
+       "re": 5412596,
+       "solarMW": 0.0,
+       "batMW": 52.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.975,
+        "grid": 0.025,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 47.98,
        "served": 1.0,
@@ -1503,6 +1737,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 31.09,
+       "served": 0.987,
+       "mwh": 21197291,
+       "cost": 659099191,
+       "co2": 19968342,
+       "coal": 190174683,
+       "coalHeat": 143037885,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.979,
+        "unserved": 0.021
+       }
+      },
+      {
        "lcoe": 50.76,
        "served": 0.987,
        "mwh": 21197229,
@@ -1579,6 +1832,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.91,
+       "served": 1.0,
+       "mwh": 21466064,
+       "cost": 599062691,
+       "co2": 19323332,
+       "coal": 184031734,
+       "coalHeat": 144401555,
+       "imp": 949913,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.824,
+        "grid": 0.176,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.65,
        "served": 1.0,
@@ -1661,6 +1934,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 29.64,
+       "served": 1.0,
+       "mwh": 21456978,
+       "cost": 636042842,
+       "co2": 20135095,
+       "coal": 191762813,
+       "coalHeat": 143556487,
+       "imp": 0,
+       "re": 22031659,
+       "solarMW": 0.0,
+       "batMW": 200.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 48.6,
        "served": 1.0,
        "mwh": 21455809,
@@ -1742,6 +2034,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 25.64,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 550414801,
+       "co2": 19452851,
+       "coal": 185265245,
+       "coalHeat": 143495533,
+       "imp": 562958,
+       "re": 32716308,
+       "solarMW": 196.1,
+       "batMW": 200.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.857,
+        "solar": 0.04,
+        "grid": 0.103,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.61,
        "served": 1.0,
@@ -1838,6 +2151,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.86,
+       "served": 0.988,
+       "mwh": 3236462,
+       "cost": 99868099,
+       "co2": 3048823,
+       "coal": 29036405,
+       "coalHeat": 21837494,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.98,
+        "unserved": 0.02
+       }
+      },
+      {
        "lcoe": 50.52,
        "served": 0.988,
        "mwh": 3236447,
@@ -1914,6 +2246,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.77,
+       "served": 1.0,
+       "mwh": 3276202,
+       "cost": 90980146,
+       "co2": 2959437,
+       "coal": 28185118,
+       "coalHeat": 22037352,
+       "imp": 134040,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.837,
+        "grid": 0.163,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.59,
        "served": 1.0,
@@ -1996,6 +2348,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 29.68,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 97248776,
+       "co2": 3126232,
+       "coal": 29773640,
+       "coalHeat": 21921176,
+       "imp": 0,
+       "re": 18656562,
+       "solarMW": 0.0,
+       "batMW": 169.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.84,
        "served": 1.0,
        "mwh": 3276240,
@@ -2077,6 +2448,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 28.46,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 93230960,
+       "co2": 3076614,
+       "coal": 29301086,
+       "coalHeat": 21899073,
+       "imp": 42694,
+       "re": 15720385,
+       "solarMW": 0.0,
+       "batMW": 152.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.951,
+        "grid": 0.049,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.45,
        "served": 1.0,
@@ -2174,6 +2565,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.93,
+       "served": 0.988,
+       "mwh": 9236557,
+       "cost": 285705009,
+       "co2": 8701052,
+       "coal": 82867158,
+       "coalHeat": 62330833,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.98,
+        "unserved": 0.02
+       }
+      },
+      {
        "lcoe": 50.6,
        "served": 0.988,
        "mwh": 9236520,
@@ -2250,6 +2660,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.85,
+       "served": 1.0,
+       "mwh": 9351183,
+       "cost": 260443904,
+       "co2": 8444222,
+       "coal": 80421164,
+       "coalHeat": 62910628,
+       "imp": 385602,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.836,
+        "grid": 0.164,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.61,
        "served": 1.0,
@@ -2332,6 +2762,26 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 28.13,
+       "served": 1.0,
+       "mwh": 9350500,
+       "cost": 263070569,
+       "co2": 8769197,
+       "coal": 83516162,
+       "coalHeat": 62571760,
+       "imp": 0,
+       "re": 24733370,
+       "solarMW": 43.8,
+       "batMW": 200.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.977,
+        "solar": 0.023,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 47.31,
        "served": 1.0,
        "mwh": 9349091,
@@ -2413,6 +2863,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 26.13,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 244390162,
+       "co2": 8595381,
+       "coal": 81860769,
+       "coalHeat": 62515804,
+       "imp": 151297,
+       "re": 25381080,
+       "solarMW": 77.2,
+       "batMW": 200.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.899,
+        "solar": 0.038,
+        "grid": 0.063,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.71,
        "served": 1.0,
@@ -2508,6 +2979,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.92,
+       "served": 1.0,
+       "mwh": 514581,
+       "cost": 13853774,
+       "co2": 484747,
+       "coal": 4616641,
+       "coalHeat": 4164798,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.43,
        "served": 0.999,
        "mwh": 514029,
@@ -2584,6 +3074,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.52,
+       "served": 1.0,
+       "mwh": 514585,
+       "cost": 12618116,
+       "co2": 479326,
+       "coal": 4565013,
+       "coalHeat": 4163392,
+       "imp": 5608,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.889,
+        "grid": 0.111,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.27,
        "served": 1.0,
@@ -2666,6 +3176,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.32,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 12513741,
+       "co2": 483248,
+       "coal": 4602360,
+       "coalHeat": 4141969,
+       "imp": 0,
+       "re": 584381,
+       "solarMW": 0.0,
+       "batMW": 5.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.18,
        "served": 1.0,
        "mwh": 514650,
@@ -2747,6 +3276,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.47,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 12080062,
+       "co2": 482563,
+       "coal": 4595838,
+       "coalHeat": 4137793,
+       "imp": 191,
+       "re": 537067,
+       "solarMW": 0.0,
+       "batMW": 5.2,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.996,
+        "grid": 0.004,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.86,
        "served": 1.0,
@@ -2843,6 +3392,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 31.77,
+       "served": 0.985,
+       "mwh": 232939,
+       "cost": 7400105,
+       "co2": 219434,
+       "coal": 2089849,
+       "coalHeat": 1573174,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.974,
+        "unserved": 0.026
+       }
+      },
+      {
        "lcoe": 51.44,
        "served": 0.985,
        "mwh": 232939,
@@ -2919,6 +3487,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 28.47,
+       "served": 1.0,
+       "mwh": 236518,
+       "cost": 6733659,
+       "co2": 210207,
+       "coal": 2001972,
+       "coalHeat": 1590939,
+       "imp": 13345,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.775,
+        "grid": 0.225,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.16,
        "served": 1.0,
@@ -3001,6 +3589,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 40.06,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 9474158,
+       "co2": 230903,
+       "coal": 2199073,
+       "coalHeat": 1582545,
+       "imp": 0,
+       "re": 3475907,
+       "solarMW": 0.0,
+       "batMW": 31.6,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 47.94,
        "served": 1.0,
        "mwh": 236516,
@@ -3082,6 +3689,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 34.9,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 8253440,
+       "co2": 226226,
+       "coal": 2154530,
+       "coalHeat": 1580949,
+       "imp": 1485,
+       "re": 2483111,
+       "solarMW": 1.0,
+       "batMW": 23.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.961,
+        "solar": 0.017,
+        "grid": 0.022,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 47.0,
        "served": 1.0,
@@ -3178,6 +3806,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 28.81,
+       "served": 0.999,
+       "mwh": 121032,
+       "cost": 3487136,
+       "co2": 114015,
+       "coal": 1085858,
+       "coalHeat": 798043,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.999,
+        "unserved": 0.001
+       }
+      },
+      {
        "lcoe": 48.23,
        "served": 0.999,
        "mwh": 121032,
@@ -3254,6 +3901,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 25.67,
+       "served": 1.0,
+       "mwh": 121179,
+       "cost": 3110105,
+       "co2": 110490,
+       "coal": 1052289,
+       "coalHeat": 798740,
+       "imp": 3862,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.88,
+        "grid": 0.12,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.23,
        "served": 1.0,
@@ -3336,6 +4003,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 25.27,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 3062280,
+       "co2": 114174,
+       "coal": 1087369,
+       "coalHeat": 794529,
+       "imp": 0,
+       "re": 206375,
+       "solarMW": 0.0,
+       "batMW": 1.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 44.41,
        "served": 1.0,
        "mwh": 121180,
@@ -3415,6 +4101,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 24.79,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 3003925,
+       "co2": 112638,
+       "coal": 1072745,
+       "coalHeat": 793728,
+       "imp": 1675,
+       "re": 179255,
+       "solarMW": 0.0,
+       "batMW": 1.7,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.949,
+        "grid": 0.051,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.63,
        "served": 1.0,
@@ -3509,6 +4215,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.71,
+       "served": 0.988,
+       "mwh": 1948838,
+       "cost": 59842456,
+       "co2": 1835851,
+       "coal": 17484295,
+       "coalHeat": 13149018,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.98,
+        "unserved": 0.02
+       }
+      },
+      {
        "lcoe": 50.37,
        "served": 0.988,
        "mwh": 1948829,
@@ -3585,6 +4310,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.79,
+       "served": 1.0,
+       "mwh": 1972281,
+       "cost": 54811056,
+       "co2": 1789301,
+       "coal": 17040958,
+       "coalHeat": 13266603,
+       "imp": 72475,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.853,
+        "grid": 0.146,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.5,
        "served": 1.0,
@@ -3667,6 +4412,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 29.48,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 58151753,
+       "co2": 1882318,
+       "coal": 17926836,
+       "coalHeat": 13196607,
+       "imp": 0,
+       "re": 11015830,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 47.25,
        "served": 1.0,
        "mwh": 1972303,
@@ -3744,6 +4508,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 28.71,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 56620435,
+       "co2": 1857493,
+       "coal": 17690407,
+       "coalHeat": 13183301,
+       "imp": 21385,
+       "re": 10307788,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.959,
+        "grid": 0.041,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.36,
        "served": 1.0,
@@ -3836,6 +4620,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.92,
+       "served": 1.0,
+       "mwh": 303892,
+       "cost": 8180389,
+       "co2": 286273,
+       "coal": 2726411,
+       "coalHeat": 2448823,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.42,
        "served": 0.999,
        "mwh": 303566,
@@ -3912,6 +4715,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.44,
+       "served": 1.0,
+       "mwh": 303894,
+       "cost": 7426719,
+       "co2": 282853,
+       "coal": 2693834,
+       "coalHeat": 2447996,
+       "imp": 3546,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.886,
+        "grid": 0.114,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.17,
        "served": 1.0,
@@ -3994,6 +4817,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.31,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 7389631,
+       "co2": 285388,
+       "coal": 2717983,
+       "coalHeat": 2435400,
+       "imp": 0,
+       "re": 344839,
+       "solarMW": 0.0,
+       "batMW": 3.1,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.18,
        "served": 1.0,
        "mwh": 303933,
@@ -4071,6 +4913,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.47,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 7133610,
+       "co2": 284988,
+       "coal": 2714173,
+       "coalHeat": 2432944,
+       "imp": 108,
+       "re": 317134,
+       "solarMW": 0.0,
+       "batMW": 3.1,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.997,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.89,
        "served": 1.0,
@@ -4163,6 +5025,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.92,
+       "served": 1.0,
+       "mwh": 173646,
+       "cost": 4674392,
+       "co2": 163578,
+       "coal": 1557890,
+       "coalHeat": 1399293,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.42,
        "served": 0.999,
        "mwh": 173460,
@@ -4239,6 +5120,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.44,
+       "served": 1.0,
+       "mwh": 173647,
+       "cost": 4243935,
+       "co2": 161621,
+       "coal": 1539246,
+       "coalHeat": 1398821,
+       "imp": 2029,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.886,
+        "grid": 0.114,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.17,
        "served": 1.0,
@@ -4321,6 +5222,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.31,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 4222511,
+       "co2": 163073,
+       "coal": 1553075,
+       "coalHeat": 1391623,
+       "imp": 0,
+       "re": 197061,
+       "solarMW": 0.0,
+       "batMW": 1.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.18,
        "served": 1.0,
        "mwh": 173669,
@@ -4398,6 +5318,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.39,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 4061781,
+       "co2": 161787,
+       "coal": 1540829,
+       "coalHeat": 1390220,
+       "imp": 1028,
+       "re": 130110,
+       "solarMW": 0.0,
+       "batMW": 1.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.943,
+        "grid": 0.057,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.67,
        "served": 1.0,
@@ -4489,6 +5429,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 31.73,
+       "served": 0.987,
+       "mwh": 58375,
+       "cost": 1852310,
+       "co2": 54991,
+       "coal": 523722,
+       "coalHeat": 393845,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.979,
+        "unserved": 0.021
+       }
+      },
+      {
        "lcoe": 51.4,
        "served": 0.987,
        "mwh": 58375,
@@ -4565,6 +5524,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 28.21,
+       "served": 1.0,
+       "mwh": 59171,
+       "cost": 1668979,
+       "co2": 52700,
+       "coal": 501909,
+       "coalHeat": 398010,
+       "imp": 3219,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.783,
+        "grid": 0.217,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.88,
        "served": 1.0,
@@ -4647,6 +5626,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 39.55,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 2340011,
+       "co2": 57700,
+       "coal": 549523,
+       "coalHeat": 395910,
+       "imp": 0,
+       "re": 851676,
+       "solarMW": 0.0,
+       "batMW": 7.7,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 53.72,
        "served": 1.0,
        "mwh": 59172,
@@ -4724,6 +5722,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 34.46,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 2039340,
+       "co2": 56740,
+       "coal": 540382,
+       "coalHeat": 395511,
+       "imp": 417,
+       "re": 597528,
+       "solarMW": 0.0,
+       "batMW": 5.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.975,
+        "grid": 0.025,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 49.51,
        "served": 1.0,
@@ -4818,6 +5836,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.39,
+       "served": 0.988,
+       "mwh": 9759115,
+       "cost": 296596677,
+       "co2": 9193308,
+       "coal": 87555314,
+       "coalHeat": 65814208,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.981,
+        "unserved": 0.019
+       }
+      },
+      {
        "lcoe": 50.07,
        "served": 0.988,
        "mwh": 9759078,
@@ -4894,6 +5931,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 30.66,
+       "served": 0.999,
+       "mwh": 9865968,
+       "cost": 302456627,
+       "co2": 9189841,
+       "coal": 87522297,
+       "coalHeat": 66366678,
+       "imp": 108182,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.955,
+        "grid": 0.044,
+        "unserved": 0.001
+       }
+      },
       {
        "lcoe": 50.11,
        "served": 0.999,
@@ -4976,6 +6033,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 29.62,
+       "served": 1.0,
+       "mwh": 9878115,
+       "cost": 292543723,
+       "co2": 9336078,
+       "coal": 88915028,
+       "coalHeat": 66253488,
+       "imp": 0,
+       "re": 23917059,
+       "solarMW": 0.0,
+       "batMW": 235.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 48.58,
        "served": 1.0,
        "mwh": 9878109,
@@ -5057,6 +6133,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 28.39,
+       "served": 1.0,
+       "mwh": 9878099,
+       "cost": 280446620,
+       "co2": 9300822,
+       "coal": 88579256,
+       "coalHeat": 66234009,
+       "imp": 23539,
+       "re": 25008410,
+       "solarMW": 0.0,
+       "batMW": 201.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.991,
+        "grid": 0.009,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.31,
        "served": 1.0,
@@ -5153,6 +6249,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.23,
+       "served": 0.988,
+       "mwh": 17707804,
+       "cost": 535264482,
+       "co2": 16681153,
+       "coal": 158868123,
+       "coalHeat": 119406978,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.982,
+        "unserved": 0.018
+       }
+      },
+      {
        "lcoe": 49.91,
        "served": 0.988,
        "mwh": 17707718,
@@ -5229,6 +6344,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 30.49,
+       "served": 0.999,
+       "mwh": 17897049,
+       "cost": 545633151,
+       "co2": 16674682,
+       "coal": 158806492,
+       "coalHeat": 120393693,
+       "imp": 191860,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.956,
+        "grid": 0.043,
+        "unserved": 0.001
+       }
+      },
       {
        "lcoe": 49.94,
        "served": 0.999,
@@ -5311,6 +6446,26 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 30.65,
+       "served": 0.999,
+       "mwh": 17898547,
+       "cost": 548589429,
+       "co2": 16609722,
+       "coal": 158187827,
+       "coalHeat": 120021864,
+       "imp": 0,
+       "re": 20995370,
+       "solarMW": 175.9,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.952,
+        "solar": 0.047,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 50.92,
        "served": 0.999,
        "mwh": 17906809,
@@ -5392,6 +6547,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 26.98,
+       "served": 1.0,
+       "mwh": 17918616,
+       "cost": 483364476,
+       "co2": 16631611,
+       "coal": 158396296,
+       "coalHeat": 120149973,
+       "imp": 230815,
+       "re": 12392306,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.949,
+        "grid": 0.051,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.78,
        "served": 1.0,
@@ -5488,6 +6663,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.24,
+       "served": 0.988,
+       "mwh": 3819724,
+       "cost": 115498309,
+       "co2": 3598267,
+       "coal": 34269206,
+       "coalHeat": 25772035,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.98,
+        "unserved": 0.02
+       }
+      },
+      {
        "lcoe": 49.92,
        "served": 0.988,
        "mwh": 3819706,
@@ -5564,6 +6758,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 30.5,
+       "served": 0.999,
+       "mwh": 3860452,
+       "cost": 117733765,
+       "co2": 3596771,
+       "coal": 34254963,
+       "coalHeat": 25971344,
+       "imp": 41397,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.956,
+        "grid": 0.043,
+        "unserved": 0.001
+       }
+      },
       {
        "lcoe": 49.95,
        "served": 0.999,
@@ -5646,6 +6860,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 26.31,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 101719810,
+       "co2": 3668906,
+       "coal": 34941961,
+       "coalHeat": 25930498,
+       "imp": 0,
+       "re": 10140834,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.67,
        "served": 1.0,
        "mwh": 3865716,
@@ -5727,6 +6960,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 27.17,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 105026799,
+       "co2": 3640199,
+       "coal": 34668566,
+       "coalHeat": 25922933,
+       "imp": 29652,
+       "re": 12392306,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.971,
+        "grid": 0.029,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.64,
        "served": 1.0,
@@ -5823,6 +7076,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 31.26,
+       "served": 0.987,
+       "mwh": 350247,
+       "cost": 10949132,
+       "co2": 329940,
+       "coal": 3142289,
+       "coalHeat": 2363027,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.979,
+        "unserved": 0.021
+       }
+      },
+      {
        "lcoe": 50.94,
        "served": 0.987,
        "mwh": 350247,
@@ -5899,6 +7171,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 31.55,
+       "served": 0.999,
+       "mwh": 354500,
+       "cost": 11185057,
+       "co2": 329793,
+       "coal": 3140888,
+       "coalHeat": 2385136,
+       "imp": 4324,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.949,
+        "grid": 0.049,
+        "unserved": 0.002
+       }
+      },
       {
        "lcoe": 50.98,
        "served": 0.999,
@@ -5981,6 +7273,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 38.42,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 13639811,
+       "co2": 347053,
+       "coal": 3305271,
+       "coalHeat": 2381385,
+       "imp": 0,
+       "re": 4701273,
+       "solarMW": 0.0,
+       "batMW": 46.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 48.59,
        "served": 1.0,
        "mwh": 355013,
@@ -6062,6 +7373,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 37.31,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 13245733,
+       "co2": 341619,
+       "coal": 3253513,
+       "coalHeat": 2380690,
+       "imp": 2434,
+       "re": 4306979,
+       "solarMW": 0.0,
+       "batMW": 34.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.976,
+        "grid": 0.024,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 52.35,
        "served": 1.0,
@@ -6158,6 +7489,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 21.74,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 27234968,
+       "co2": 1180005,
+       "coal": 11238141,
+       "coalHeat": 3379301,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.18,
        "served": 1.0,
        "mwh": 1252680,
@@ -6234,6 +7584,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.48,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 26912565,
+       "co2": 1179775,
+       "coal": 11235952,
+       "coalHeat": 3378643,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.86,
        "served": 1.0,
@@ -6312,6 +7681,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.25,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 26622185,
+       "co2": 1178006,
+       "coal": 11219109,
+       "coalHeat": 3373578,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 39.62,
        "served": 1.0,
        "mwh": 1252680,
@@ -6388,6 +7776,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.26,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 26636292,
+       "co2": 1178823,
+       "coal": 11226889,
+       "coalHeat": 3375918,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.62,
        "served": 1.0,
@@ -6475,6 +7882,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 21.74,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 7618173,
+       "co2": 330071,
+       "coal": 3143536,
+       "coalHeat": 943061,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.18,
        "served": 1.0,
        "mwh": 350400,
@@ -6551,6 +7977,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.48,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 7527990,
+       "co2": 330007,
+       "coal": 3142924,
+       "coalHeat": 942877,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.86,
        "served": 1.0,
@@ -6629,6 +8074,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.25,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 7446765,
+       "co2": 329512,
+       "coal": 3138212,
+       "coalHeat": 941464,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 39.62,
        "served": 1.0,
        "mwh": 350400,
@@ -6705,6 +8169,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.26,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 7450711,
+       "co2": 329741,
+       "coal": 3140388,
+       "coalHeat": 942117,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.62,
        "served": 1.0,
@@ -6792,6 +8275,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 25.16,
+       "served": 1.0,
+       "mwh": 234298,
+       "cost": 5893936,
+       "co2": 220705,
+       "coal": 2101955,
+       "coalHeat": 1885866,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.08,
        "served": 0.999,
        "mwh": 234044,
@@ -6868,6 +8370,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.93,
+       "served": 1.0,
+       "mwh": 234296,
+       "cost": 5372364,
+       "co2": 217869,
+       "coal": 2074944,
+       "coalHeat": 1885453,
+       "imp": 2900,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.877,
+        "grid": 0.123,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.09,
        "served": 1.0,
@@ -6950,6 +8472,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 22.31,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 5227288,
+       "co2": 220956,
+       "coal": 2104344,
+       "coalHeat": 1882927,
+       "imp": 0,
+       "re": 130213,
+       "solarMW": 0.0,
+       "batMW": 2.7,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.76,
        "served": 1.0,
        "mwh": 234330,
@@ -7028,6 +8569,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 22.47,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 5265804,
+       "co2": 219652,
+       "coal": 2091920,
+       "coalHeat": 1884233,
+       "imp": 1329,
+       "re": 115190,
+       "solarMW": 0.0,
+       "batMW": 2.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.946,
+        "grid": 0.054,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.2,
        "served": 1.0,
@@ -7120,6 +8681,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.22,
+       "served": 0.946,
+       "mwh": 51818,
+       "cost": 1514200,
+       "co2": 48811,
+       "coal": 464871,
+       "coalHeat": 363227,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.862,
+        "unserved": 0.138
+       }
+      },
+      {
        "lcoe": 47.77,
        "served": 0.946,
        "mwh": 51818,
@@ -7196,6 +8776,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 30.19,
+       "served": 1.0,
+       "mwh": 54746,
+       "cost": 1652685,
+       "co2": 48755,
+       "coal": 464334,
+       "coalHeat": 373188,
+       "imp": 2914,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.773,
+        "grid": 0.227,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 47.61,
        "served": 1.0,
@@ -7278,6 +8878,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 37.62,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 2059575,
+       "co2": 57746,
+       "coal": 549966,
+       "coalHeat": 372663,
+       "imp": 0,
+       "re": 608618,
+       "solarMW": 0.0,
+       "batMW": 12.6,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 49.89,
        "served": 1.0,
        "mwh": 54749,
@@ -7358,6 +8977,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 37.94,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 2077335,
+       "co2": 55722,
+       "coal": 530685,
+       "coalHeat": 372921,
+       "imp": 1517,
+       "re": 576164,
+       "solarMW": 0.0,
+       "batMW": 9.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.919,
+        "solar": 0.003,
+        "grid": 0.079,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 55.94,
        "served": 1.0,
@@ -7453,6 +9093,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 27.09,
+       "served": 0.999,
+       "mwh": 209333,
+       "cost": 5670887,
+       "co2": 197188,
+       "coal": 1877981,
+       "coalHeat": 1688211,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.999,
+        "unserved": 0.001
+       }
+      },
+      {
        "lcoe": 45.15,
        "served": 0.999,
        "mwh": 209214,
@@ -7529,6 +9188,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.36,
+       "served": 1.0,
+       "mwh": 209482,
+       "cost": 5103853,
+       "co2": 190562,
+       "coal": 1814879,
+       "coalHeat": 1689073,
+       "imp": 6990,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.663,
+        "grid": 0.337,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.99,
        "served": 1.0,
@@ -7611,6 +9290,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 22.73,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 4762828,
+       "co2": 197992,
+       "coal": 1885637,
+       "coalHeat": 1686789,
+       "imp": 0,
+       "re": 142580,
+       "solarMW": 0.0,
+       "batMW": 3.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 42.36,
        "served": 1.0,
        "mwh": 209510,
@@ -7692,6 +9390,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 22.93,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 4804811,
+       "co2": 197226,
+       "coal": 1878347,
+       "coalHeat": 1687959,
+       "imp": 1029,
+       "re": 141464,
+       "solarMW": 0.0,
+       "batMW": 2.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.954,
+        "grid": 0.046,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.83,
        "served": 1.0,
@@ -7785,6 +9503,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 28.87,
+       "served": 0.993,
+       "mwh": 243497,
+       "cost": 7029689,
+       "co2": 229370,
+       "coal": 2184477,
+       "coalHeat": 1639851,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.99,
+        "unserved": 0.01
+       }
+      },
+      {
        "lcoe": 47.42,
        "served": 0.993,
        "mwh": 243497,
@@ -7861,6 +9598,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 25.73,
+       "served": 1.0,
+       "mwh": 245275,
+       "cost": 6310628,
+       "co2": 216592,
+       "coal": 2062786,
+       "coalHeat": 1650022,
+       "imp": 14967,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.75,
+        "grid": 0.249,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.73,
        "served": 1.0,
@@ -7943,6 +9700,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 28.0,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 6868639,
+       "co2": 237776,
+       "coal": 2264530,
+       "coalHeat": 1647561,
+       "imp": 0,
+       "re": 1183908,
+       "solarMW": 0.0,
+       "batMW": 24.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.17,
        "served": 1.0,
        "mwh": 245278,
@@ -8020,6 +9796,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 26.21,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 6427957,
+       "co2": 227156,
+       "coal": 2163393,
+       "coalHeat": 1648704,
+       "imp": 7834,
+       "re": 486307,
+       "solarMW": 0.0,
+       "batMW": 8.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.881,
+        "grid": 0.119,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.27,
        "served": 1.0,
@@ -8112,6 +9908,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.99,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 230363512,
+       "co2": 9440038,
+       "coal": 89905127,
+       "coalHeat": 26955820,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.42,
        "served": 1.0,
        "mwh": 10021440,
@@ -8188,6 +10003,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.73,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 227784311,
+       "co2": 9438199,
+       "coal": 89887613,
+       "coalHeat": 26950569,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.11,
        "served": 1.0,
@@ -8266,6 +10100,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 22.5,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 225461420,
+       "co2": 9424052,
+       "coal": 89752873,
+       "coalHeat": 26910171,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.86,
        "served": 1.0,
        "mwh": 10021440,
@@ -8342,6 +10195,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 22.51,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 225574208,
+       "co2": 9430586,
+       "coal": 89815109,
+       "coalHeat": 26928831,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.87,
        "served": 1.0,
@@ -8429,6 +10301,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 21.3,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 29786942,
+       "co2": 1317554,
+       "coal": 12548131,
+       "coalHeat": 8810388,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 39.73,
        "served": 1.0,
        "mwh": 1398700,
@@ -8505,6 +10396,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.04,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 29426958,
+       "co2": 1317297,
+       "coal": 12545686,
+       "coalHeat": 8808672,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.42,
        "served": 1.0,
@@ -8583,6 +10493,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 20.81,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 29102729,
+       "co2": 1315322,
+       "coal": 12526881,
+       "coalHeat": 8795468,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 39.17,
        "served": 1.0,
        "mwh": 1398700,
@@ -8659,6 +10588,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 20.82,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 29118480,
+       "co2": 1316235,
+       "coal": 12535567,
+       "coalHeat": 8801567,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.18,
        "served": 1.0,
@@ -8746,6 +10694,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 21.74,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 12134606,
+       "co2": 525754,
+       "coal": 5007181,
+       "coalHeat": 1503475,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.18,
        "served": 1.0,
        "mwh": 558135,
@@ -8822,6 +10789,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.48,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 11990959,
+       "co2": 525652,
+       "coal": 5006206,
+       "coalHeat": 1503182,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.86,
        "served": 1.0,
@@ -8900,6 +10886,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.25,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 11861580,
+       "co2": 524864,
+       "coal": 4998702,
+       "coalHeat": 1500929,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 39.62,
        "served": 1.0,
        "mwh": 558135,
@@ -8976,6 +10981,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.26,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 11867865,
+       "co2": 525228,
+       "coal": 5002168,
+       "coalHeat": 1501969,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.62,
        "served": 1.0,
@@ -9063,6 +11087,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 21.74,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 11123484,
+       "co2": 481945,
+       "coal": 4589955,
+       "coalHeat": 1378205,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.18,
        "served": 1.0,
        "mwh": 511628,
@@ -9139,6 +11182,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.48,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 10991807,
+       "co2": 481851,
+       "coal": 4589061,
+       "coalHeat": 1377936,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.86,
        "served": 1.0,
@@ -9217,6 +11279,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.25,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 10873208,
+       "co2": 481129,
+       "coal": 4582182,
+       "coalHeat": 1375871,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 39.62,
        "served": 1.0,
        "mwh": 511628,
@@ -9293,6 +11374,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.26,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 10878969,
+       "co2": 481463,
+       "coal": 4585360,
+       "coalHeat": 1376825,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.62,
        "served": 1.0,
@@ -9380,6 +11480,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 28.87,
+       "served": 0.993,
+       "mwh": 243497,
+       "cost": 7029689,
+       "co2": 229370,
+       "coal": 2184477,
+       "coalHeat": 1639947,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.99,
+        "unserved": 0.01
+       }
+      },
+      {
        "lcoe": 47.42,
        "served": 0.993,
        "mwh": 243497,
@@ -9456,6 +11575,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 25.73,
+       "served": 1.0,
+       "mwh": 245275,
+       "cost": 6310616,
+       "co2": 216592,
+       "coal": 2062786,
+       "coalHeat": 1650022,
+       "imp": 14967,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.75,
+        "grid": 0.249,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.73,
        "served": 1.0,
@@ -9538,6 +11677,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 28.0,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 6868639,
+       "co2": 237776,
+       "coal": 2264530,
+       "coalHeat": 1647561,
+       "imp": 0,
+       "re": 1183908,
+       "solarMW": 0.0,
+       "batMW": 24.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.17,
        "served": 1.0,
        "mwh": 245278,
@@ -9615,6 +11773,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 26.21,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 6427957,
+       "co2": 227156,
+       "coal": 2163393,
+       "coalHeat": 1648704,
+       "imp": 7834,
+       "re": 486307,
+       "solarMW": 0.0,
+       "batMW": 8.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.881,
+        "grid": 0.119,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.27,
        "served": 1.0,
@@ -9707,6 +11885,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 28.87,
+       "served": 0.993,
+       "mwh": 228282,
+       "cost": 6590388,
+       "co2": 215038,
+       "coal": 2047977,
+       "coalHeat": 1537375,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.99,
+        "unserved": 0.01
+       }
+      },
+      {
        "lcoe": 47.42,
        "served": 0.993,
        "mwh": 228282,
@@ -9783,6 +11980,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 25.73,
+       "served": 1.0,
+       "mwh": 229950,
+       "cost": 5916401,
+       "co2": 202041,
+       "coal": 1924203,
+       "coalHeat": 1546915,
+       "imp": 15091,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.732,
+        "grid": 0.268,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.61,
        "served": 1.0,
@@ -9865,6 +12082,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 28.0,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 6439617,
+       "co2": 222919,
+       "coal": 2123042,
+       "coalHeat": 1544609,
+       "imp": 0,
+       "re": 1110012,
+       "solarMW": 0.0,
+       "batMW": 23.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.17,
        "served": 1.0,
        "mwh": 229952,
@@ -9942,6 +12178,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 26.21,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 6026683,
+       "co2": 212966,
+       "coal": 2028251,
+       "coalHeat": 1545680,
+       "imp": 7343,
+       "re": 456210,
+       "solarMW": 0.0,
+       "batMW": 7.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.881,
+        "grid": 0.119,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.26,
        "served": 1.0,
@@ -10034,6 +12290,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 21.74,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 2426959,
+       "co2": 105152,
+       "coal": 1001452,
+       "coalHeat": 300679,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.18,
        "served": 1.0,
        "mwh": 111629,
@@ -10110,6 +12385,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.48,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 2398229,
+       "co2": 105132,
+       "coal": 1001257,
+       "coalHeat": 300621,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.86,
        "served": 1.0,
@@ -10188,6 +12482,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.25,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 2372353,
+       "co2": 104974,
+       "coal": 999756,
+       "coalHeat": 300170,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 39.62,
        "served": 1.0,
        "mwh": 111629,
@@ -10264,6 +12577,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.26,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 2373610,
+       "co2": 105047,
+       "coal": 1000449,
+       "coalHeat": 300378,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.62,
        "served": 1.0,
@@ -10351,6 +12683,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 24.93,
+       "served": 1.0,
+       "mwh": 81057,
+       "cost": 2020519,
+       "co2": 76354,
+       "coal": 727183,
+       "coalHeat": 652857,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.41,
        "served": 1.0,
        "mwh": 81057,
@@ -10427,6 +12778,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 23.31,
+       "served": 1.0,
+       "mwh": 81073,
+       "cost": 1890041,
+       "co2": 74916,
+       "coal": 713489,
+       "coalHeat": 652853,
+       "imp": 1494,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.816,
+        "grid": 0.184,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.27,
        "served": 1.0,
@@ -10509,6 +12880,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 22.36,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 1813322,
+       "co2": 76486,
+       "coal": 728441,
+       "coalHeat": 651970,
+       "imp": 0,
+       "re": 40761,
+       "solarMW": 0.0,
+       "batMW": 0.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.73,
        "served": 1.0,
        "mwh": 81083,
@@ -10586,6 +12976,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 22.5,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 1824341,
+       "co2": 76309,
+       "coal": 726756,
+       "coalHeat": 652422,
+       "imp": 234,
+       "re": 41207,
+       "solarMW": 0.0,
+       "batMW": 0.7,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.973,
+        "grid": 0.027,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.29,
        "served": 1.0,
@@ -10678,6 +13088,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.85,
+       "served": 1.0,
+       "mwh": 144520,
+       "cost": 3880586,
+       "co2": 136116,
+       "coal": 1296339,
+       "coalHeat": 1158850,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.23,
        "served": 0.999,
        "mwh": 144363,
@@ -10754,6 +13183,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.13,
+       "served": 1.0,
+       "mwh": 144522,
+       "cost": 3486696,
+       "co2": 134179,
+       "coal": 1277896,
+       "coalHeat": 1158952,
+       "imp": 2067,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.865,
+        "grid": 0.135,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.46,
        "served": 1.0,
@@ -10836,6 +13285,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.25,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 3505167,
+       "co2": 136243,
+       "coal": 1297553,
+       "coalHeat": 1156430,
+       "imp": 0,
+       "re": 206219,
+       "solarMW": 0.0,
+       "batMW": 1.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.32,
        "served": 1.0,
        "mwh": 144540,
@@ -10914,6 +13382,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.28,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 3364345,
+       "co2": 135200,
+       "coal": 1287615,
+       "coalHeat": 1155860,
+       "imp": 916,
+       "re": 133532,
+       "solarMW": 0.0,
+       "batMW": 1.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.941,
+        "grid": 0.059,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.58,
        "served": 1.0,
@@ -11008,6 +13496,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.85,
+       "served": 1.0,
+       "mwh": 144520,
+       "cost": 3880586,
+       "co2": 136116,
+       "coal": 1296339,
+       "coalHeat": 1158850,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.23,
        "served": 0.999,
        "mwh": 144363,
@@ -11084,6 +13591,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.13,
+       "served": 1.0,
+       "mwh": 144522,
+       "cost": 3486696,
+       "co2": 134179,
+       "coal": 1277896,
+       "coalHeat": 1158952,
+       "imp": 2067,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.865,
+        "grid": 0.135,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.46,
        "served": 1.0,
@@ -11166,6 +13693,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.25,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 3505167,
+       "co2": 136243,
+       "coal": 1297553,
+       "coalHeat": 1156430,
+       "imp": 0,
+       "re": 206219,
+       "solarMW": 0.0,
+       "batMW": 1.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.32,
        "served": 1.0,
        "mwh": 144540,
@@ -11244,6 +13790,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.28,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 3364345,
+       "co2": 135200,
+       "coal": 1287615,
+       "coalHeat": 1155860,
+       "imp": 916,
+       "re": 133532,
+       "solarMW": 0.0,
+       "batMW": 1.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.941,
+        "grid": 0.059,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.58,
        "served": 1.0,
@@ -11338,6 +13904,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.71,
+       "served": 0.984,
+       "mwh": 228440,
+       "cost": 7014726,
+       "co2": 215155,
+       "coal": 2049091,
+       "coalHeat": 639986,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.983,
+        "unserved": 0.017
+       }
+      },
+      {
        "lcoe": 50.04,
        "served": 0.984,
        "mwh": 228439,
@@ -11414,6 +13999,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.87,
+       "served": 1.0,
+       "mwh": 232139,
+       "cost": 6470003,
+       "co2": 202652,
+       "coal": 1930017,
+       "coalHeat": 648315,
+       "imp": 16965,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.894,
+        "grid": 0.106,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.89,
        "served": 1.0,
@@ -11496,6 +14101,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 40.54,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 9412080,
+       "co2": 230829,
+       "coal": 2198368,
+       "coalHeat": 646817,
+       "imp": 0,
+       "re": 3496368,
+       "solarMW": 0.0,
+       "batMW": 30.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 48.47,
        "served": 1.0,
        "mwh": 232140,
@@ -11577,6 +14201,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 34.01,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 7894765,
+       "co2": 222777,
+       "coal": 2121685,
+       "coalHeat": 646498,
+       "imp": 6058,
+       "re": 1967747,
+       "solarMW": 0.0,
+       "batMW": 20.2,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.964,
+        "grid": 0.036,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.0,
        "served": 1.0,
@@ -11673,6 +14317,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.45,
+       "served": 0.965,
+       "mwh": 50040,
+       "cost": 1473736,
+       "co2": 47130,
+       "coal": 448856,
+       "coalHeat": 396439,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.889,
+        "unserved": 0.111
+       }
+      },
+      {
        "lcoe": 48.69,
        "served": 0.965,
        "mwh": 50041,
@@ -11749,6 +14412,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 29.99,
+       "served": 0.998,
+       "mwh": 51724,
+       "cost": 1551314,
+       "co2": 47027,
+       "coal": 447875,
+       "coalHeat": 405064,
+       "imp": 1795,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.726,
+        "grid": 0.274,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 48.12,
        "served": 0.998,
@@ -11831,6 +14514,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 43.05,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 2231538,
+       "co2": 51291,
+       "coal": 488486,
+       "coalHeat": 405077,
+       "imp": 0,
+       "re": 945225,
+       "solarMW": 0.0,
+       "batMW": 8.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 59.53,
        "served": 1.0,
        "mwh": 51830,
@@ -11909,6 +14611,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 40.13,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 2079903,
+       "co2": 50694,
+       "coal": 482800,
+       "coalHeat": 404877,
+       "imp": 674,
+       "re": 804527,
+       "solarMW": 0.0,
+       "batMW": 8.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.928,
+        "grid": 0.072,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 59.66,
        "served": 1.0,
@@ -12000,6 +14722,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.54,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 8491288,
+       "co2": 354774,
+       "coal": 3378800,
+       "coalHeat": 2357302,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.32,
        "served": 1.0,
        "mwh": 376680,
@@ -12076,6 +14817,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.29,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 8396795,
+       "co2": 354807,
+       "coal": 3379113,
+       "coalHeat": 2357521,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.84,
        "served": 1.0,
@@ -12154,6 +14914,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 22.19,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 8360064,
+       "co2": 353985,
+       "coal": 3371287,
+       "coalHeat": 2352061,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.86,
        "served": 1.0,
        "mwh": 376680,
@@ -12230,6 +15009,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.53,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 8110340,
+       "co2": 353811,
+       "coal": 3369625,
+       "coalHeat": 2350901,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.83,
        "served": 1.0,
@@ -12317,6 +15115,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.1,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 188165938,
+       "co2": 8020145,
+       "coal": 76382329,
+       "coalHeat": 22948495,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.87,
        "served": 1.0,
        "mwh": 8515359,
@@ -12393,6 +15210,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.85,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 186029784,
+       "co2": 8020888,
+       "coal": 76389409,
+       "coalHeat": 22950622,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.39,
        "served": 1.0,
@@ -12471,6 +15307,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.75,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 185199445,
+       "co2": 8002311,
+       "coal": 76212489,
+       "coalHeat": 22897467,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.42,
        "served": 1.0,
        "mwh": 8515359,
@@ -12547,6 +15402,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.09,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 179554101,
+       "co2": 7998367,
+       "coal": 76174924,
+       "coalHeat": 22886181,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.39,
        "served": 1.0,
@@ -12637,6 +15511,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.1,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 188165938,
+       "co2": 8020145,
+       "coal": 76382329,
+       "coalHeat": 22948495,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.87,
        "served": 1.0,
        "mwh": 8515359,
@@ -12713,6 +15606,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.85,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 186029784,
+       "co2": 8020888,
+       "coal": 76389409,
+       "coalHeat": 22950622,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.39,
        "served": 1.0,
@@ -12791,6 +15703,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.75,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 185199445,
+       "co2": 8002311,
+       "coal": 76212489,
+       "coalHeat": 22897467,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.42,
        "served": 1.0,
        "mwh": 8515359,
@@ -12867,6 +15798,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.09,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 179554101,
+       "co2": 7998367,
+       "coal": 76174924,
+       "coalHeat": 22886181,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.39,
        "served": 1.0,
@@ -12957,6 +15907,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.1,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 77428727,
+       "co2": 3300223,
+       "coal": 31430697,
+       "coalHeat": 22001488,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.87,
        "served": 1.0,
        "mwh": 3504000,
@@ -13033,6 +16002,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.85,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 76549717,
+       "co2": 3300529,
+       "coal": 31433610,
+       "coalHeat": 22003527,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.39,
        "served": 1.0,
@@ -13111,6 +16099,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.75,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 76208040,
+       "co2": 3292885,
+       "coal": 31360809,
+       "coalHeat": 21952566,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.42,
        "served": 1.0,
        "mwh": 3504000,
@@ -13187,6 +16194,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.09,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 73885027,
+       "co2": 3291262,
+       "coal": 31345351,
+       "coalHeat": 21941746,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.39,
        "served": 1.0,
@@ -13274,6 +16300,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 32.11,
+       "served": 0.991,
+       "mwh": 9781267,
+       "cost": 314057381,
+       "co2": 9212432,
+       "coal": 87737450,
+       "coalHeat": 65951110,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.984,
+        "unserved": 0.016
+       }
+      },
+      {
        "lcoe": 51.41,
        "served": 0.991,
        "mwh": 9781212,
@@ -13350,6 +16395,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.09,
+       "served": 1.0,
+       "mwh": 9869551,
+       "cost": 267339886,
+       "co2": 8830287,
+       "coal": 84097967,
+       "coalHeat": 66403153,
+       "imp": 494069,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.799,
+        "grid": 0.201,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.76,
        "served": 1.0,
@@ -13432,6 +16497,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 29.82,
+       "served": 1.0,
+       "mwh": 9865233,
+       "cost": 294185226,
+       "co2": 9282300,
+       "coal": 88402862,
+       "coalHeat": 66210594,
+       "imp": 0,
+       "re": 11298571,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 49.03,
        "served": 1.0,
        "mwh": 9865233,
@@ -13509,6 +16593,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 26.06,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 257213500,
+       "co2": 9016703,
+       "coal": 85873366,
+       "coalHeat": 66217055,
+       "imp": 314109,
+       "re": 9749977,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.874,
+        "grid": 0.126,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.92,
        "served": 1.0,
@@ -13601,6 +16705,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.36,
+       "served": 0.99,
+       "mwh": 273098,
+       "cost": 8290964,
+       "co2": 257216,
+       "coal": 2449677,
+       "coalHeat": 1849922,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.985,
+        "unserved": 0.015
+       }
+      },
+      {
        "lcoe": 49.66,
        "served": 0.99,
        "mwh": 273096,
@@ -13677,6 +16800,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.76,
+       "served": 1.0,
+       "mwh": 275936,
+       "cost": 7383601,
+       "co2": 244096,
+       "coal": 2324729,
+       "coalHeat": 1866361,
+       "imp": 16763,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.753,
+        "grid": 0.247,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.14,
        "served": 1.0,
@@ -13759,6 +16902,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 36.73,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 10135944,
+       "co2": 268079,
+       "coal": 2553130,
+       "coalHeat": 1862048,
+       "imp": 0,
+       "re": 3383594,
+       "solarMW": 0.0,
+       "batMW": 29.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 47.8,
        "served": 1.0,
        "mwh": 275940,
@@ -13840,6 +17002,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 31.69,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 8743858,
+       "co2": 260035,
+       "coal": 2476528,
+       "coalHeat": 1861130,
+       "imp": 5880,
+       "re": 2023872,
+       "solarMW": 0.0,
+       "batMW": 20.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.921,
+        "grid": 0.079,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.94,
        "served": 1.0,
@@ -13935,6 +17117,22 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.54,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 592415,
+       "co2": 24752,
+       "coal": 235730,
+       "coalHeat": 235730,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {}
+      },
+      {
        "lcoe": 41.32,
        "served": 1.0,
        "mwh": 26280,
@@ -13999,6 +17197,22 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.29,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 585823,
+       "co2": 24754,
+       "coal": 235752,
+       "coalHeat": 235752,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {}
+      },
       {
        "lcoe": 40.84,
        "served": 1.0,
@@ -14065,6 +17279,22 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 22.19,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 583260,
+       "co2": 24697,
+       "coal": 235206,
+       "coalHeat": 235206,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {}
+      },
+      {
        "lcoe": 40.86,
        "served": 1.0,
        "mwh": 26280,
@@ -14129,6 +17359,22 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.53,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 565838,
+       "co2": 24684,
+       "coal": 235090,
+       "coalHeat": 235090,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {}
+      },
       {
        "lcoe": 39.83,
        "served": 1.0,
@@ -14203,6 +17449,25 @@ window.GARUDA = {
    "path": {
     "base": {
      "anchors": [
+      {
+       "lcoe": 26.2,
+       "served": 1.0,
+       "mwh": 253963,
+       "cost": 6654810,
+       "co2": 239194,
+       "coal": 2278037,
+       "coalHeat": 2042366,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.23,
        "served": 1.0,
@@ -14280,6 +17545,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.28,
+       "served": 1.0,
+       "mwh": 254007,
+       "cost": 6168061,
+       "co2": 234676,
+       "coal": 2235006,
+       "coalHeat": 2042890,
+       "imp": 4856,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.815,
+        "grid": 0.185,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.52,
        "served": 1.0,
@@ -14362,6 +17647,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.08,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 6116220,
+       "co2": 239472,
+       "coal": 2280687,
+       "coalHeat": 2038453,
+       "imp": 0,
+       "re": 298619,
+       "solarMW": 0.0,
+       "batMW": 2.6,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.1,
        "served": 1.0,
        "mwh": 254040,
@@ -14439,6 +17743,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.14,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 5877923,
+       "co2": 238639,
+       "coal": 2272753,
+       "coalHeat": 2037448,
+       "imp": 717,
+       "re": 216483,
+       "solarMW": 0.0,
+       "batMW": 2.2,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.973,
+        "grid": 0.027,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.49,
        "served": 1.0,
@@ -14535,6 +17859,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.2,
+       "served": 1.0,
+       "mwh": 253963,
+       "cost": 6654810,
+       "co2": 239194,
+       "coal": 2278037,
+       "coalHeat": 2042366,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.23,
        "served": 1.0,
        "mwh": 253963,
@@ -14611,6 +17954,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.28,
+       "served": 1.0,
+       "mwh": 254007,
+       "cost": 6168061,
+       "co2": 234676,
+       "coal": 2235006,
+       "coalHeat": 2042890,
+       "imp": 4856,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.815,
+        "grid": 0.185,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.52,
        "served": 1.0,
@@ -14693,6 +18056,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.08,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 6116220,
+       "co2": 239472,
+       "coal": 2280687,
+       "coalHeat": 2038453,
+       "imp": 0,
+       "re": 298619,
+       "solarMW": 0.0,
+       "batMW": 2.6,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.1,
        "served": 1.0,
        "mwh": 254040,
@@ -14770,6 +18152,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.14,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 5877923,
+       "co2": 238639,
+       "coal": 2272753,
+       "coalHeat": 2037448,
+       "imp": 717,
+       "re": 216483,
+       "solarMW": 0.0,
+       "batMW": 2.2,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.973,
+        "grid": 0.027,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.49,
        "served": 1.0,
@@ -14866,6 +18268,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.1,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 20905756,
+       "co2": 891060,
+       "coal": 8486288,
+       "coalHeat": 2514456,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.87,
        "served": 1.0,
        "mwh": 946080,
@@ -14942,6 +18363,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.85,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 20668424,
+       "co2": 891143,
+       "coal": 8487075,
+       "coalHeat": 2514689,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.39,
        "served": 1.0,
@@ -15020,6 +18460,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.75,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 20576171,
+       "co2": 889079,
+       "coal": 8467418,
+       "coalHeat": 2508865,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.42,
        "served": 1.0,
        "mwh": 946080,
@@ -15096,6 +18555,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.09,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 19948957,
+       "co2": 888641,
+       "coal": 8463245,
+       "coalHeat": 2507628,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.39,
        "served": 1.0,
@@ -15183,6 +18661,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.49,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 22062202,
+       "co2": 924062,
+       "coal": 8800595,
+       "coalHeat": 6128986,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.26,
        "served": 1.0,
        "mwh": 981120,
@@ -15259,6 +18756,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.24,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 21816108,
+       "co2": 924148,
+       "coal": 8801411,
+       "coalHeat": 6129554,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.78,
        "served": 1.0,
@@ -15337,6 +18853,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 22.14,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 21719708,
+       "co2": 922008,
+       "coal": 8781026,
+       "coalHeat": 6115358,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.8,
        "served": 1.0,
        "mwh": 981120,
@@ -15413,6 +18948,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.47,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 21069110,
+       "co2": 921553,
+       "coal": 8776698,
+       "coalHeat": 6112344,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.78,
        "served": 1.0,
@@ -15500,6 +19054,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 34.0,
+       "served": 0.937,
+       "mwh": 46501,
+       "cost": 1581118,
+       "co2": 43797,
+       "coal": 417112,
+       "coalHeat": 399032,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.552,
+        "unserved": 0.448
+       }
+      },
+      {
        "lcoe": 53.55,
        "served": 0.937,
        "mwh": 46501,
@@ -15576,6 +19149,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 34.48,
+       "served": 0.982,
+       "mwh": 48764,
+       "cost": 1681319,
+       "co2": 43801,
+       "coal": 417150,
+       "coalHeat": 404708,
+       "imp": 2259,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.38,
+        "grid": 0.62,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 52.53,
        "served": 0.982,
@@ -15658,6 +19251,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 65.63,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 3258034,
+       "co2": 56491,
+       "coal": 538009,
+       "coalHeat": 411611,
+       "imp": 0,
+       "re": 1705983,
+       "solarMW": 0.0,
+       "batMW": 15.1,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 82.48,
        "served": 1.0,
        "mwh": 49640,
@@ -15738,6 +19350,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 56.44,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 2801830,
+       "co2": 55082,
+       "coal": 524588,
+       "coalHeat": 411408,
+       "imp": 558,
+       "re": 1311188,
+       "solarMW": 0.0,
+       "batMW": 13.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.957,
+        "grid": 0.043,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 77.1,
        "served": 1.0,
@@ -15830,6 +19462,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 28.82,
+       "served": 0.973,
+       "mwh": 52559,
+       "cost": 1514713,
+       "co2": 49503,
+       "coal": 471453,
+       "coalHeat": 347541,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.946,
+        "unserved": 0.054
+       }
+      },
+      {
        "lcoe": 48.02,
        "served": 0.973,
        "mwh": 52559,
@@ -15906,6 +19557,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 28.04,
+       "served": 1.0,
+       "mwh": 54018,
+       "cost": 1514536,
+       "co2": 47336,
+       "coal": 450817,
+       "coalHeat": 353612,
+       "imp": 3757,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.742,
+        "grid": 0.258,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.07,
        "served": 1.0,
@@ -15988,6 +19659,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 41.46,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 2239469,
+       "co2": 53384,
+       "coal": 508415,
+       "coalHeat": 352809,
+       "imp": 0,
+       "re": 904849,
+       "solarMW": 0.0,
+       "batMW": 8.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 52.76,
        "served": 1.0,
        "mwh": 54020,
@@ -16065,6 +19755,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 36.55,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 1974352,
+       "co2": 51401,
+       "coal": 489531,
+       "coalHeat": 352635,
+       "imp": 1792,
+       "re": 619716,
+       "solarMW": 0.0,
+       "batMW": 6.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.894,
+        "grid": 0.106,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.24,
        "served": 1.0,
@@ -16158,6 +19868,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.64,
+       "served": 0.996,
+       "mwh": 94550,
+       "cost": 2802545,
+       "co2": 89052,
+       "coal": 848112,
+       "coalHeat": 639124,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.997,
+        "unserved": 0.003
+       }
+      },
+      {
        "lcoe": 48.9,
        "served": 0.996,
        "mwh": 94550,
@@ -16234,6 +19963,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.3,
+       "served": 1.0,
+       "mwh": 94897,
+       "cost": 2495718,
+       "co2": 84561,
+       "coal": 805345,
+       "coalHeat": 641741,
+       "imp": 5114,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.781,
+        "grid": 0.219,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.39,
        "served": 1.0,
@@ -16316,6 +20065,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 31.29,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 2969409,
+       "co2": 91515,
+       "coal": 871569,
+       "coalHeat": 640283,
+       "imp": 0,
+       "re": 710502,
+       "solarMW": 0.0,
+       "batMW": 6.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.31,
        "served": 1.0,
        "mwh": 94900,
@@ -16393,6 +20161,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 28.03,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 2659647,
+       "co2": 88650,
+       "coal": 844287,
+       "coalHeat": 639968,
+       "imp": 2394,
+       "re": 394420,
+       "solarMW": 0.0,
+       "batMW": 4.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.904,
+        "grid": 0.096,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.92,
        "served": 1.0,
@@ -16486,6 +20274,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.54,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 7503929,
+       "co2": 313521,
+       "coal": 2985916,
+       "coalHeat": 2121572,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.32,
        "served": 1.0,
        "mwh": 332880,
@@ -16562,6 +20369,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.29,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 7420423,
+       "co2": 313550,
+       "coal": 2986193,
+       "coalHeat": 2121769,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.84,
        "served": 1.0,
@@ -16640,6 +20466,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 22.19,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 7387964,
+       "co2": 312824,
+       "coal": 2979277,
+       "coalHeat": 2116855,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.86,
        "served": 1.0,
        "mwh": 332880,
@@ -16716,6 +20561,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.53,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 7167278,
+       "co2": 312670,
+       "coal": 2977808,
+       "coalHeat": 2115811,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.83,
        "served": 1.0,
@@ -16803,6 +20667,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.29,
+       "served": 0.991,
+       "mwh": 141102,
+       "cost": 4274517,
+       "co2": 132896,
+       "coal": 1265675,
+       "coalHeat": 935952,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.987,
+        "unserved": 0.013
+       }
+      },
+      {
        "lcoe": 49.59,
        "served": 0.991,
        "mwh": 141099,
@@ -16879,6 +20762,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.84,
+       "served": 1.0,
+       "mwh": 142348,
+       "cost": 3819977,
+       "co2": 125127,
+       "coal": 1191685,
+       "coalHeat": 943003,
+       "imp": 9491,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.745,
+        "grid": 0.255,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.03,
        "served": 1.0,
@@ -16961,6 +20864,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 35.68,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 5078997,
+       "co2": 137923,
+       "coal": 1313554,
+       "coalHeat": 940824,
+       "imp": 0,
+       "re": 1617262,
+       "solarMW": 0.0,
+       "batMW": 14.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 47.76,
        "served": 1.0,
        "mwh": 142350,
@@ -17041,6 +20963,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 27.87,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 3967126,
+       "co2": 131577,
+       "coal": 1253112,
+       "coalHeat": 940361,
+       "imp": 4492,
+       "re": 474115,
+       "solarMW": 0.0,
+       "batMW": 4.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.885,
+        "grid": 0.115,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.61,
        "served": 1.0,
@@ -17137,6 +21079,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.71,
+       "served": 0.994,
+       "mwh": 60926,
+       "cost": 1870738,
+       "co2": 57383,
+       "coal": 546504,
+       "coalHeat": 410237,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.991,
+        "unserved": 0.009
+       }
+      },
+      {
        "lcoe": 50.03,
        "served": 0.994,
        "mwh": 60926,
@@ -17213,6 +21174,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.36,
+       "served": 1.0,
+       "mwh": 61317,
+       "cost": 1616216,
+       "co2": 54415,
+       "coal": 518237,
+       "coalHeat": 412547,
+       "imp": 3542,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.769,
+        "grid": 0.231,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.69,
        "served": 1.0,
@@ -17295,6 +21276,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 36.59,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 2243536,
+       "co2": 59752,
+       "coal": 569066,
+       "coalHeat": 411611,
+       "imp": 0,
+       "re": 765007,
+       "solarMW": 0.0,
+       "batMW": 6.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 52.47,
        "served": 1.0,
        "mwh": 61320,
@@ -17376,6 +21376,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 32.92,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 2018815,
+       "co2": 58207,
+       "coal": 554356,
+       "coalHeat": 411408,
+       "imp": 1264,
+       "re": 541069,
+       "solarMW": 0.0,
+       "batMW": 5.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.926,
+        "grid": 0.074,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.95,
        "served": 1.0,
@@ -17471,6 +21491,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.36,
+       "served": 0.988,
+       "mwh": 8776607,
+       "cost": 257695052,
+       "co2": 8266199,
+       "coal": 78725701,
+       "coalHeat": 59194235,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.981,
+        "unserved": 0.019
+       }
+      },
+      {
        "lcoe": 48.67,
        "served": 0.988,
        "mwh": 8776565,
@@ -17547,6 +21586,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.31,
+       "served": 1.0,
+       "mwh": 8882458,
+       "cost": 233677126,
+       "co2": 8000264,
+       "coal": 76192992,
+       "coalHeat": 59762482,
+       "imp": 388345,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.825,
+        "grid": 0.175,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.63,
        "served": 1.0,
@@ -17629,6 +21688,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 27.86,
+       "served": 1.0,
+       "mwh": 8881658,
+       "cost": 247447035,
+       "co2": 8366087,
+       "coal": 79677018,
+       "coalHeat": 59615967,
+       "imp": 0,
+       "re": 11298571,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 47.12,
        "served": 1.0,
        "mwh": 8881658,
@@ -17706,6 +21784,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 24.7,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 219396727,
+       "co2": 8134265,
+       "coal": 77469190,
+       "coalHeat": 59595349,
+       "imp": 266275,
+       "re": 9749977,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.882,
+        "grid": 0.118,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.94,
        "served": 1.0,
@@ -17801,6 +21899,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.1,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 127750625,
+       "co2": 5445079,
+       "coal": 51857899,
+       "coalHeat": 36410890,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.87,
        "served": 1.0,
        "mwh": 5781293,
@@ -17877,6 +21994,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 21.85,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 126300336,
+       "co2": 5445584,
+       "coal": 51862706,
+       "coalHeat": 36414266,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.39,
        "served": 1.0,
@@ -17955,6 +22091,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.75,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 125736598,
+       "co2": 5432972,
+       "coal": 51742590,
+       "coalHeat": 36329929,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.42,
        "served": 1.0,
        "mwh": 5781293,
@@ -18031,6 +22186,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.09,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 121903830,
+       "co2": 5430294,
+       "coal": 51717087,
+       "coalHeat": 36312022,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.39,
        "served": 1.0,
@@ -18118,6 +22292,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.36,
+       "served": 0.988,
+       "mwh": 3510643,
+       "cost": 103078028,
+       "co2": 3306480,
+       "coal": 31490284,
+       "coalHeat": 23667481,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.982,
+        "unserved": 0.018
+       }
+      },
+      {
        "lcoe": 48.67,
        "served": 0.988,
        "mwh": 3510626,
@@ -18194,6 +22387,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.3,
+       "served": 1.0,
+       "mwh": 3553019,
+       "cost": 93446063,
+       "co2": 3200449,
+       "coal": 30480463,
+       "coalHeat": 23905155,
+       "imp": 155010,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.825,
+        "grid": 0.175,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.63,
        "served": 1.0,
@@ -18276,6 +22489,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 26.47,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 94057499,
+       "co2": 3379036,
+       "coal": 32181298,
+       "coalHeat": 23849915,
+       "imp": 0,
+       "re": 11298571,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.3,
        "served": 1.0,
        "mwh": 3553056,
@@ -18356,6 +22588,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 25.49,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 90575510,
+       "co2": 3264252,
+       "coal": 31088110,
+       "coalHeat": 23838159,
+       "imp": 106644,
+       "re": 6686522,
+       "solarMW": 0.0,
+       "batMW": 68.6,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.883,
+        "grid": 0.117,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.85,
        "served": 1.0,
@@ -18450,6 +22702,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.2,
+       "served": 1.0,
+       "mwh": 104568,
+       "cost": 2739373,
+       "co2": 98487,
+       "coal": 937974,
+       "coalHeat": 842055,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.22,
        "served": 1.0,
        "mwh": 104568,
@@ -18526,6 +22797,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.3,
+       "served": 1.0,
+       "mwh": 104589,
+       "cost": 2541960,
+       "co2": 96659,
+       "coal": 920565,
+       "coalHeat": 842293,
+       "imp": 1967,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.816,
+        "grid": 0.184,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.43,
        "served": 1.0,
@@ -18608,6 +22899,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.08,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 2518725,
+       "co2": 98605,
+       "coal": 939096,
+       "coalHeat": 840463,
+       "imp": 0,
+       "re": 123166,
+       "solarMW": 0.0,
+       "batMW": 1.1,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.1,
        "served": 1.0,
        "mwh": 104602,
@@ -18685,6 +22995,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.14,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 2420568,
+       "co2": 98261,
+       "coal": 935818,
+       "coalHeat": 840049,
+       "imp": 296,
+       "re": 89305,
+       "solarMW": 0.0,
+       "batMW": 0.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.973,
+        "grid": 0.027,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.49,
        "served": 1.0,
@@ -18777,6 +23107,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.2,
+       "served": 1.0,
+       "mwh": 97192,
+       "cost": 2546366,
+       "co2": 91540,
+       "coal": 871806,
+       "coalHeat": 782643,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.22,
        "served": 1.0,
        "mwh": 97192,
@@ -18853,6 +23202,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.3,
+       "served": 1.0,
+       "mwh": 97210,
+       "cost": 2362477,
+       "co2": 89841,
+       "coal": 855624,
+       "coalHeat": 782859,
+       "imp": 1828,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.816,
+        "grid": 0.184,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.43,
        "served": 1.0,
@@ -18935,6 +23304,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.08,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 2340985,
+       "co2": 91649,
+       "coal": 872843,
+       "coalHeat": 781159,
+       "imp": 0,
+       "re": 114449,
+       "solarMW": 0.0,
+       "batMW": 1.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.1,
        "served": 1.0,
        "mwh": 97223,
@@ -19012,6 +23400,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.14,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 2249750,
+       "co2": 91328,
+       "coal": 869793,
+       "coalHeat": 780774,
+       "imp": 275,
+       "re": 82962,
+       "solarMW": 0.0,
+       "batMW": 0.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.973,
+        "grid": 0.027,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.49,
        "served": 1.0,
@@ -19104,6 +23512,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.2,
+       "served": 1.0,
+       "mwh": 28370,
+       "cost": 743383,
+       "co2": 26720,
+       "coal": 254477,
+       "coalHeat": 228474,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.23,
        "served": 1.0,
        "mwh": 28370,
@@ -19180,6 +23607,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.3,
+       "served": 1.0,
+       "mwh": 28375,
+       "cost": 689555,
+       "co2": 26225,
+       "coal": 249762,
+       "coalHeat": 228535,
+       "imp": 532,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.816,
+        "grid": 0.184,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.55,
        "served": 1.0,
@@ -19262,6 +23709,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.08,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 683308,
+       "co2": 26752,
+       "coal": 254777,
+       "coalHeat": 228039,
+       "imp": 0,
+       "re": 33403,
+       "solarMW": 0.0,
+       "batMW": 0.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.1,
        "served": 1.0,
        "mwh": 28379,
@@ -19339,6 +23805,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.14,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 656672,
+       "co2": 26658,
+       "coal": 253884,
+       "coalHeat": 227926,
+       "imp": 81,
+       "re": 24194,
+       "solarMW": 0.0,
+       "batMW": 0.2,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.973,
+        "grid": 0.027,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.49,
        "served": 1.0,
@@ -19432,6 +23918,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.2,
+       "served": 1.0,
+       "mwh": 28370,
+       "cost": 743383,
+       "co2": 26720,
+       "coal": 254477,
+       "coalHeat": 228474,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.23,
        "served": 1.0,
        "mwh": 28370,
@@ -19508,6 +24013,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.3,
+       "served": 1.0,
+       "mwh": 28375,
+       "cost": 689555,
+       "co2": 26225,
+       "coal": 249762,
+       "coalHeat": 228535,
+       "imp": 532,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.816,
+        "grid": 0.184,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.55,
        "served": 1.0,
@@ -19590,6 +24115,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.08,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 683308,
+       "co2": 26752,
+       "coal": 254777,
+       "coalHeat": 228039,
+       "imp": 0,
+       "re": 33403,
+       "solarMW": 0.0,
+       "batMW": 0.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.1,
        "served": 1.0,
        "mwh": 28379,
@@ -19667,6 +24211,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.14,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 656672,
+       "co2": 26658,
+       "coal": 253884,
+       "coalHeat": 227926,
+       "imp": 81,
+       "re": 24194,
+       "solarMW": 0.0,
+       "batMW": 0.2,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.973,
+        "grid": 0.027,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.49,
        "served": 1.0,
@@ -19762,6 +24326,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.06,
+       "served": 0.999,
+       "mwh": 2096446,
+       "cost": 60916947,
+       "co2": 1974879,
+       "coal": 18808374,
+       "coalHeat": 14086868,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.999,
+        "unserved": 0.001
+       }
+      },
+      {
        "lcoe": 48.43,
        "served": 0.999,
        "mwh": 2096385,
@@ -19838,6 +24421,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.51,
+       "served": 1.0,
+       "mwh": 2099441,
+       "cost": 51461657,
+       "co2": 1895726,
+       "coal": 18054532,
+       "coalHeat": 14105915,
+       "imp": 86957,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.835,
+        "grid": 0.165,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.67,
        "served": 1.0,
@@ -19920,6 +24523,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.29,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 50998941,
+       "co2": 1979589,
+       "coal": 18853232,
+       "coalHeat": 14026148,
+       "imp": 0,
+       "re": 4164011,
+       "solarMW": 0.0,
+       "batMW": 43.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.02,
        "served": 1.0,
        "mwh": 2099480,
@@ -20001,6 +24623,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.49,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 49322807,
+       "co2": 1931015,
+       "coal": 18390620,
+       "coalHeat": 14020045,
+       "imp": 46927,
+       "re": 1830088,
+       "solarMW": 0.1,
+       "batMW": 21.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.912,
+        "grid": 0.087,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.44,
        "served": 1.0,
@@ -20097,6 +24739,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 26.5,
+       "served": 1.0,
+       "mwh": 260575,
+       "cost": 6904436,
+       "co2": 245465,
+       "coal": 2337762,
+       "coalHeat": 2102019,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 44.91,
        "served": 0.999,
        "mwh": 260295,
@@ -20173,6 +24834,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 23.94,
+       "served": 1.0,
+       "mwh": 260573,
+       "cost": 6236886,
+       "co2": 242829,
+       "coal": 2312660,
+       "coalHeat": 2101851,
+       "imp": 2783,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.894,
+        "grid": 0.106,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.26,
        "served": 1.0,
@@ -20255,6 +24936,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 23.38,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 6092325,
+       "co2": 244655,
+       "coal": 2330045,
+       "coalHeat": 2090248,
+       "imp": 0,
+       "re": 252729,
+       "solarMW": 0.0,
+       "batMW": 2.6,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 42.08,
        "served": 1.0,
        "mwh": 260610,
@@ -20333,6 +25033,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 22.69,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 5912390,
+       "co2": 243108,
+       "coal": 2315315,
+       "coalHeat": 2089338,
+       "imp": 1304,
+       "re": 161258,
+       "solarMW": 0.0,
+       "batMW": 1.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.951,
+        "grid": 0.049,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.05,
        "served": 1.0,
@@ -20425,6 +25145,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.33,
+       "served": 0.999,
+       "mwh": 169153,
+       "cost": 4962070,
+       "co2": 159344,
+       "coal": 1517566,
+       "coalHeat": 1151251,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.999,
+        "unserved": 0.001
+       }
+      },
+      {
        "lcoe": 48.69,
        "served": 0.999,
        "mwh": 169153,
@@ -20501,6 +25240,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 25.44,
+       "served": 1.0,
+       "mwh": 169359,
+       "cost": 4307726,
+       "co2": 150884,
+       "coal": 1436995,
+       "coalHeat": 1152591,
+       "imp": 9183,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.776,
+        "grid": 0.224,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.15,
        "served": 1.0,
@@ -20583,6 +25342,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 25.45,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 4310401,
+       "co2": 159937,
+       "coal": 1523210,
+       "coalHeat": 1146055,
+       "imp": 0,
+       "re": 448611,
+       "solarMW": 0.0,
+       "batMW": 4.7,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.33,
        "served": 1.0,
        "mwh": 169360,
@@ -20661,6 +25439,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.87,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 4042042,
+       "co2": 155481,
+       "coal": 1480771,
+       "coalHeat": 1145556,
+       "imp": 4025,
+       "re": 130839,
+       "solarMW": 0.0,
+       "batMW": 1.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.903,
+        "grid": 0.097,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.84,
        "served": 1.0,
@@ -20754,6 +25552,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 18645010,
+       "co2": 767439,
+       "coal": 7308945,
+       "coalHeat": 5108402,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 1.0,
        "mwh": 814680,
@@ -20830,6 +25647,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.57,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 18390862,
+       "co2": 767395,
+       "coal": 7308525,
+       "coalHeat": 5108109,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.08,
        "served": 1.0,
@@ -20908,6 +25744,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.91,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 17847475,
+       "co2": 763038,
+       "coal": 7267029,
+       "coalHeat": 5079107,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.22,
        "served": 1.0,
        "mwh": 814680,
@@ -20984,6 +25839,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.41,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 17445155,
+       "co2": 762706,
+       "coal": 7263867,
+       "coalHeat": 5076896,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.7,
        "served": 1.0,
@@ -21071,6 +25945,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.78,
+       "served": 0.995,
+       "mwh": 94404,
+       "cost": 2811167,
+       "co2": 88930,
+       "coal": 846953,
+       "coalHeat": 638540,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.994,
+        "unserved": 0.006
+       }
+      },
+      {
        "lcoe": 49.17,
        "served": 0.995,
        "mwh": 94404,
@@ -21147,6 +26040,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.29,
+       "served": 1.0,
+       "mwh": 94899,
+       "cost": 2495124,
+       "co2": 84137,
+       "coal": 801308,
+       "coalHeat": 641783,
+       "imp": 5581,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.761,
+        "grid": 0.239,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.63,
        "served": 1.0,
@@ -21229,6 +26142,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 29.82,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 2829615,
+       "co2": 91209,
+       "coal": 868657,
+       "coalHeat": 638144,
+       "imp": 0,
+       "re": 601317,
+       "solarMW": 0.0,
+       "batMW": 6.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 44.4,
        "served": 1.0,
        "mwh": 94900,
@@ -21307,6 +26239,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 27.39,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 2599354,
+       "co2": 88545,
+       "coal": 843290,
+       "coalHeat": 637866,
+       "imp": 2240,
+       "re": 351262,
+       "solarMW": 0.0,
+       "batMW": 4.1,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.911,
+        "grid": 0.089,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.85,
        "served": 1.0,
@@ -21403,6 +26355,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.93,
+       "served": 0.991,
+       "mwh": 63667,
+       "cost": 1905330,
+       "co2": 59975,
+       "coal": 571195,
+       "coalHeat": 429077,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.986,
+        "unserved": 0.014
+       }
+      },
+      {
        "lcoe": 49.33,
        "served": 0.991,
        "mwh": 63667,
@@ -21479,6 +26450,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.15,
+       "served": 1.0,
+       "mwh": 64239,
+       "cost": 1679632,
+       "co2": 57073,
+       "coal": 543555,
+       "coalHeat": 432219,
+       "imp": 3651,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.773,
+        "grid": 0.227,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.76,
        "served": 1.0,
@@ -21561,6 +26552,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 34.4,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 2209713,
+       "co2": 61820,
+       "coal": 588762,
+       "coalHeat": 429771,
+       "imp": 0,
+       "re": 711322,
+       "solarMW": 0.0,
+       "batMW": 7.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 55.3,
        "served": 1.0,
        "mwh": 64240,
@@ -21639,6 +26649,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 33.31,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 2139948,
+       "co2": 60980,
+       "coal": 580764,
+       "coalHeat": 429584,
+       "imp": 847,
+       "re": 644918,
+       "solarMW": 0.0,
+       "batMW": 7.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.952,
+        "grid": 0.048,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 51.66,
        "served": 1.0,
@@ -21732,6 +26762,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 27.1,
+       "served": 1.0,
+       "mwh": 74450,
+       "cost": 2017682,
+       "co2": 70133,
+       "coal": 667933,
+       "coalHeat": 510771,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.58,
        "served": 0.999,
        "mwh": 74371,
@@ -21808,6 +26857,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.54,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 1826976,
+       "co2": 67529,
+       "coal": 643133,
+       "coalHeat": 510811,
+       "imp": 2772,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.842,
+        "grid": 0.158,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.36,
        "served": 1.0,
@@ -21890,6 +26959,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 23.56,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 1754488,
+       "co2": 69996,
+       "coal": 666630,
+       "coalHeat": 507911,
+       "imp": 0,
+       "re": 87151,
+       "solarMW": 0.0,
+       "batMW": 0.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 42.37,
        "served": 1.0,
        "mwh": 74460,
@@ -21968,6 +27056,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 22.86,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 1702077,
+       "co2": 69139,
+       "coal": 658465,
+       "coalHeat": 507690,
+       "imp": 775,
+       "re": 45705,
+       "solarMW": 0.0,
+       "batMW": 0.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.956,
+        "grid": 0.044,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.05,
        "served": 1.0,
@@ -22061,6 +27169,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 2004840,
+       "co2": 82520,
+       "coal": 785908,
+       "coalHeat": 550136,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 1.0,
        "mwh": 87600,
@@ -22137,6 +27264,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.57,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 1977512,
+       "co2": 82516,
+       "coal": 785863,
+       "coalHeat": 550104,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.08,
        "served": 1.0,
@@ -22215,6 +27361,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.91,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 1919083,
+       "co2": 82047,
+       "coal": 781401,
+       "coalHeat": 546981,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.22,
        "served": 1.0,
        "mwh": 87600,
@@ -22291,6 +27456,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.41,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 1875823,
+       "co2": 82011,
+       "coal": 781061,
+       "coalHeat": 546743,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.7,
        "served": 1.0,
@@ -22378,6 +27562,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 0.246,
+       "mwh": 262800,
+       "cost": 6014519,
+       "co2": 247561,
+       "coal": 2357724,
+       "coalHeat": 1968279,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.134,
+        "unserved": 0.866
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 0.246,
        "mwh": 262800,
@@ -22454,6 +27657,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 42.71,
+       "served": 0.549,
+       "mwh": 586918,
+       "cost": 25066837,
+       "co2": 247547,
+       "coal": 2357589,
+       "coalHeat": 2357589,
+       "imp": 324310,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "grid": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 50.87,
        "served": 0.549,
@@ -22532,6 +27754,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 35.65,
+       "served": 0.549,
+       "mwh": 586920,
+       "cost": 20920926,
+       "co2": 246141,
+       "coal": 2344203,
+       "coalHeat": 2344203,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 37.0,
+       "t": 30.0,
+       "mix": {
+        "geo": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.85,
        "served": 0.549,
        "mwh": 586920,
@@ -22608,6 +27849,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 35.42,
+       "served": 0.549,
+       "mwh": 586920,
+       "cost": 20791115,
+       "co2": 246034,
+       "coal": 2343183,
+       "coalHeat": 2343183,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 37.0,
+       "t": 30.0,
+       "mix": {
+        "geo": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.61,
        "served": 0.549,
@@ -22695,6 +27955,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 1603872,
+       "co2": 66016,
+       "coal": 628726,
+       "coalHeat": 471545,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 1.0,
        "mwh": 70080,
@@ -22771,6 +28050,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.57,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 1582010,
+       "co2": 66012,
+       "coal": 628690,
+       "coalHeat": 471518,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.08,
        "served": 1.0,
@@ -22849,6 +28147,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.91,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 1535267,
+       "co2": 65638,
+       "coal": 625121,
+       "coalHeat": 468841,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.22,
        "served": 1.0,
        "mwh": 70080,
@@ -22925,6 +28242,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.41,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 1500659,
+       "co2": 65609,
+       "coal": 624849,
+       "coalHeat": 468637,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.7,
        "served": 1.0,
@@ -23012,6 +28348,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 4203548,
+       "co2": 173020,
+       "coal": 1647813,
+       "coalHeat": 1163144,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 1.0,
        "mwh": 183671,
@@ -23088,6 +28443,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.57,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 4146250,
+       "co2": 173010,
+       "coal": 1647719,
+       "coalHeat": 1163077,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.08,
        "served": 1.0,
@@ -23166,6 +28540,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.91,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 4023742,
+       "co2": 172028,
+       "coal": 1638364,
+       "coalHeat": 1156474,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.22,
        "served": 1.0,
        "mwh": 183671,
@@ -23242,6 +28635,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.41,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 3933038,
+       "co2": 171953,
+       "coal": 1637651,
+       "coalHeat": 1155970,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.7,
        "served": 1.0,
@@ -23329,6 +28741,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 36.58,
+       "served": 0.999,
+       "mwh": 111532,
+       "cost": 4079567,
+       "co2": 105065,
+       "coal": 1000618,
+       "coalHeat": 810956,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.999,
+        "unserved": 0.001
+       }
+      },
+      {
        "lcoe": 56.5,
        "served": 0.999,
        "mwh": 111532,
@@ -23405,6 +28836,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 28.41,
+       "served": 1.0,
+       "mwh": 111689,
+       "cost": 3173052,
+       "co2": 100954,
+       "coal": 961469,
+       "coalHeat": 812052,
+       "imp": 4517,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.787,
+        "grid": 0.213,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.16,
        "served": 1.0,
@@ -23487,6 +28938,26 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 31.18,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 3482179,
+       "co2": 104595,
+       "coal": 996146,
+       "coalHeat": 807448,
+       "imp": 0,
+       "re": 790033,
+       "solarMW": 3.0,
+       "batMW": 6.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.852,
+        "solar": 0.148,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 48.39,
        "served": 1.0,
        "mwh": 111679,
@@ -23567,6 +29038,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 30.15,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 3367674,
+       "co2": 103841,
+       "coal": 988961,
+       "coalHeat": 807096,
+       "imp": 1044,
+       "re": 713852,
+       "solarMW": 2.8,
+       "batMW": 6.3,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.82,
+        "solar": 0.138,
+        "grid": 0.042,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 48.1,
        "served": 1.0,
@@ -23662,6 +29154,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 6816455,
+       "co2": 280569,
+       "coal": 2672087,
+       "coalHeat": 1886179,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 1.0,
        "mwh": 297840,
@@ -23738,6 +29249,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.57,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 6723541,
+       "co2": 280553,
+       "coal": 2671934,
+       "coalHeat": 1886071,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.08,
        "served": 1.0,
@@ -23816,6 +29346,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.91,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 6524883,
+       "co2": 278960,
+       "coal": 2656763,
+       "coalHeat": 1875362,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.22,
        "served": 1.0,
        "mwh": 297840,
@@ -23892,6 +29441,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.41,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 6377799,
+       "co2": 278839,
+       "coal": 2655607,
+       "coalHeat": 1874546,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.7,
        "served": 1.0,
@@ -23979,6 +29547,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 33.0,
+       "served": 0.973,
+       "mwh": 228673,
+       "cost": 7546197,
+       "co2": 215413,
+       "coal": 2051549,
+       "coalHeat": 1572888,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.949,
+        "unserved": 0.051
+       }
+      },
+      {
        "lcoe": 52.64,
        "served": 0.973,
        "mwh": 228666,
@@ -24055,6 +29642,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 30.76,
+       "served": 1.0,
+       "mwh": 235043,
+       "cost": 7230620,
+       "co2": 208767,
+       "coal": 1988259,
+       "coalHeat": 1604340,
+       "imp": 13420,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.761,
+        "grid": 0.239,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 48.3,
        "served": 1.0,
@@ -24137,6 +29744,26 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 33.93,
+       "served": 1.0,
+       "mwh": 235056,
+       "cost": 7976299,
+       "co2": 217115,
+       "coal": 2067764,
+       "coalHeat": 1595349,
+       "imp": 0,
+       "re": 2287775,
+       "solarMW": 10.1,
+       "batMW": 17.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.81,
+        "solar": 0.19,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 52.43,
        "served": 1.0,
        "mwh": 235048,
@@ -24217,6 +29844,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 35.31,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 8299161,
+       "co2": 221368,
+       "coal": 2108265,
+       "coalHeat": 1594679,
+       "imp": 3440,
+       "re": 2450006,
+       "solarMW": 8.3,
+       "batMW": 22.6,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.81,
+        "solar": 0.142,
+        "grid": 0.048,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 52.59,
        "served": 1.0,
@@ -24315,6 +29963,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 33.0,
+       "served": 0.973,
+       "mwh": 228673,
+       "cost": 7546197,
+       "co2": 215413,
+       "coal": 2051549,
+       "coalHeat": 1572888,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.949,
+        "unserved": 0.051
+       }
+      },
+      {
        "lcoe": 52.64,
        "served": 0.973,
        "mwh": 228666,
@@ -24391,6 +30058,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 30.76,
+       "served": 1.0,
+       "mwh": 235043,
+       "cost": 7230620,
+       "co2": 208767,
+       "coal": 1988259,
+       "coalHeat": 1604340,
+       "imp": 13420,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.761,
+        "grid": 0.239,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 48.3,
        "served": 1.0,
@@ -24473,6 +30160,26 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 33.93,
+       "served": 1.0,
+       "mwh": 235056,
+       "cost": 7976299,
+       "co2": 217115,
+       "coal": 2067764,
+       "coalHeat": 1595349,
+       "imp": 0,
+       "re": 2287775,
+       "solarMW": 10.1,
+       "batMW": 17.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.81,
+        "solar": 0.19,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 52.43,
        "served": 1.0,
        "mwh": 235048,
@@ -24553,6 +30260,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 35.31,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 8299161,
+       "co2": 221368,
+       "coal": 2108265,
+       "coalHeat": 1594679,
+       "imp": 3440,
+       "re": 2450006,
+       "solarMW": 8.3,
+       "batMW": 22.6,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.81,
+        "solar": 0.142,
+        "grid": 0.048,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 52.59,
        "served": 1.0,
@@ -24651,6 +30379,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 0.702,
+       "mwh": 289080,
+       "cost": 6615971,
+       "co2": 272317,
+       "coal": 2593497,
+       "coalHeat": 2419732,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.158,
+        "unserved": 0.842
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 0.702,
        "mwh": 289080,
@@ -24727,6 +30474,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 33.43,
+       "served": 1.0,
+       "mwh": 411715,
+       "cost": 13765552,
+       "co2": 272302,
+       "coal": 2593348,
+       "coalHeat": 2593330,
+       "imp": 122708,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "grid": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.36,
        "served": 1.0,
@@ -24805,6 +30571,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 29.32,
+       "served": 1.0,
+       "mwh": 411720,
+       "cost": 12070582,
+       "co2": 270755,
+       "coal": 2578623,
+       "coalHeat": 2578623,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 14.0,
+       "t": 30.0,
+       "mix": {
+        "geo": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 42.18,
        "served": 1.0,
        "mwh": 411720,
@@ -24881,6 +30666,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 28.97,
+       "served": 1.0,
+       "mwh": 411720,
+       "cost": 11927812,
+       "co2": 270638,
+       "coal": 2577501,
+       "coalHeat": 2577501,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 14.0,
+       "t": 30.0,
+       "mix": {
+        "geo": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.81,
        "served": 1.0,
@@ -24968,6 +30772,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 3408228,
+       "co2": 140285,
+       "coal": 1336044,
+       "coalHeat": 943090,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 1.0,
        "mwh": 148920,
@@ -25044,6 +30867,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.57,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 3361771,
+       "co2": 140277,
+       "coal": 1335967,
+       "coalHeat": 943035,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.08,
        "served": 1.0,
@@ -25122,6 +30964,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.91,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 3262442,
+       "co2": 139480,
+       "coal": 1328382,
+       "coalHeat": 937681,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.22,
        "served": 1.0,
        "mwh": 148920,
@@ -25198,6 +31059,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.41,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 3188899,
+       "co2": 139419,
+       "coal": 1327804,
+       "coalHeat": 937273,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.7,
        "served": 1.0,
@@ -25285,6 +31165,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.89,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 3408228,
+       "co2": 140285,
+       "coal": 1336044,
+       "coalHeat": 943090,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.75,
        "served": 1.0,
        "mwh": 148920,
@@ -25361,6 +31260,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.57,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 3361771,
+       "co2": 140277,
+       "coal": 1335967,
+       "coalHeat": 943035,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.08,
        "served": 1.0,
@@ -25439,6 +31357,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.91,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 3262442,
+       "co2": 139480,
+       "coal": 1328382,
+       "coalHeat": 937681,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 40.22,
        "served": 1.0,
        "mwh": 148920,
@@ -25515,6 +31452,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 21.41,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 3188899,
+       "co2": 139419,
+       "coal": 1327804,
+       "coalHeat": 937273,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.7,
        "served": 1.0,
@@ -25602,6 +31558,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.13,
+       "served": 0.988,
+       "mwh": 7801428,
+       "cost": 235058279,
+       "co2": 7349047,
+       "coal": 69990922,
+       "coalHeat": 52640408,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.98,
+        "unserved": 0.02
+       }
+      },
+      {
        "lcoe": 49.63,
        "served": 0.988,
        "mwh": 7801390,
@@ -25678,6 +31653,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.55,
+       "served": 1.0,
+       "mwh": 7895614,
+       "cost": 209615199,
+       "co2": 7088080,
+       "coal": 67505521,
+       "coalHeat": 53123895,
+       "imp": 371006,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.812,
+        "grid": 0.188,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.9,
        "served": 1.0,
@@ -25760,6 +31755,26 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 26.53,
+       "served": 1.0,
+       "mwh": 7895292,
+       "cost": 209439088,
+       "co2": 7362955,
+       "coal": 70123382,
+       "coalHeat": 52819256,
+       "imp": 0,
+       "re": 16068831,
+       "solarMW": 105.5,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.967,
+        "solar": 0.033,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.81,
        "served": 1.0,
        "mwh": 7895355,
@@ -25841,6 +31856,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 24.77,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 195551480,
+       "co2": 7193738,
+       "coal": 68511791,
+       "coalHeat": 52799704,
+       "imp": 267322,
+       "re": 8579949,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.868,
+        "grid": 0.132,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.97,
        "served": 1.0,
@@ -25932,6 +31967,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 22.44,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 35573443,
+       "co2": 1493272,
+       "coal": 14221635,
+       "coalHeat": 9985433,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.3,
        "served": 1.0,
        "mwh": 1585192,
@@ -26008,6 +32062,25 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 22.13,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 35078927,
+       "co2": 1493186,
+       "coal": 14220818,
+       "coalHeat": 9984860,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.63,
        "served": 1.0,
@@ -26086,6 +32159,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.46,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 34021611,
+       "co2": 1484708,
+       "coal": 14140077,
+       "coalHeat": 9928169,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 39.77,
        "served": 1.0,
        "mwh": 1585192,
@@ -26162,6 +32254,25 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 20.97,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 33238784,
+       "co2": 1484062,
+       "coal": 14133924,
+       "coalHeat": 9923849,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 39.25,
        "served": 1.0,
@@ -26249,6 +32360,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 31.15,
+       "served": 0.987,
+       "mwh": 1090498,
+       "cost": 33972470,
+       "co2": 1027263,
+       "coal": 9783460,
+       "coalHeat": 7357441,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.979,
+        "unserved": 0.021
+       }
+      },
+      {
        "lcoe": 50.65,
        "served": 0.987,
        "mwh": 1090498,
@@ -26325,6 +32455,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 27.45,
+       "served": 1.0,
+       "mwh": 1105389,
+       "cost": 30340172,
+       "co2": 976934,
+       "coal": 9304131,
+       "coalHeat": 7437368,
+       "imp": 68300,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.753,
+        "grid": 0.247,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.74,
        "served": 1.0,
@@ -26407,6 +32557,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 32.64,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 36080256,
+       "co2": 1067223,
+       "coal": 10164027,
+       "coalHeat": 7395199,
+       "imp": 0,
+       "re": 9562288,
+       "solarMW": 0.0,
+       "batMW": 100.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 51.44,
        "served": 1.0,
        "mwh": 1105398,
@@ -26484,6 +32653,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 30.29,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 33478849,
+       "co2": 1028595,
+       "coal": 9796140,
+       "coalHeat": 7391981,
+       "imp": 36101,
+       "re": 6148496,
+       "solarMW": 0.0,
+       "batMW": 71.7,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.882,
+        "grid": 0.118,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 45.56,
        "served": 1.0,
@@ -26576,6 +32765,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 30.44,
+       "served": 0.986,
+       "mwh": 762897,
+       "cost": 23225261,
+       "co2": 718659,
+       "coal": 6844371,
+       "coalHeat": 2136578,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.985,
+        "unserved": 0.015
+       }
+      },
+      {
        "lcoe": 49.97,
        "served": 0.986,
        "mwh": 762905,
@@ -26652,6 +32860,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 26.99,
+       "served": 1.0,
+       "mwh": 773789,
+       "cost": 20886226,
+       "co2": 689598,
+       "coal": 6567601,
+       "coalHeat": 2161086,
+       "imp": 41724,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.922,
+        "grid": 0.078,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.92,
        "served": 1.0,
@@ -26734,6 +32962,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 32.58,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 25211488,
+       "co2": 744779,
+       "coal": 7093133,
+       "coalHeat": 2148833,
+       "imp": 0,
+       "re": 6689527,
+       "solarMW": 0.0,
+       "batMW": 70.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.61,
        "served": 1.0,
        "mwh": 773795,
@@ -26811,6 +33058,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 24.89,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 19257038,
+       "co2": 711281,
+       "coal": 6774108,
+       "coalHeat": 2147898,
+       "imp": 19866,
+       "re": 871469,
+       "solarMW": 0.0,
+       "batMW": 10.2,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.963,
+        "grid": 0.037,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.66,
        "served": 1.0,
@@ -26903,6 +33170,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 29.94,
+       "served": 0.999,
+       "mwh": 508767,
+       "cost": 15233333,
+       "co2": 479265,
+       "coal": 4564430,
+       "coalHeat": 3443177,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.999,
+        "unserved": 0.001
+       }
+      },
+      {
        "lcoe": 49.35,
        "served": 0.999,
        "mwh": 508767,
@@ -26979,6 +33265,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 25.75,
+       "served": 1.0,
+       "mwh": 509467,
+       "cost": 13118475,
+       "co2": 452718,
+       "coal": 4311597,
+       "coalHeat": 3447909,
+       "imp": 28871,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.769,
+        "grid": 0.231,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.29,
        "served": 1.0,
@@ -27061,6 +33367,26 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.82,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 12645633,
+       "co2": 476455,
+       "coal": 4537663,
+       "coalHeat": 3428358,
+       "imp": 0,
+       "re": 1057569,
+       "solarMW": 4.5,
+       "batMW": 8.2,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.972,
+        "solar": 0.028,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.67,
        "served": 1.0,
        "mwh": 509473,
@@ -27142,6 +33468,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 25.07,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 12773642,
+       "co2": 470634,
+       "coal": 4482227,
+       "coalHeat": 3426866,
+       "imp": 11851,
+       "re": 924761,
+       "solarMW": 0.0,
+       "batMW": 10.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.909,
+        "grid": 0.091,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 42.01,
        "served": 1.0,
@@ -27234,6 +33580,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 28.37,
+       "served": 0.999,
+       "mwh": 51102,
+       "cost": 1449707,
+       "co2": 48139,
+       "coal": 458463,
+       "coalHeat": 341114,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.999,
+        "unserved": 0.001
+       }
+      },
+      {
        "lcoe": 47.65,
        "served": 0.999,
        "mwh": 51102,
@@ -27310,6 +33675,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 25.08,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 1283145,
+       "co2": 45970,
+       "coal": 437813,
+       "coalHeat": 341507,
+       "imp": 2362,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.82,
+        "grid": 0.18,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.13,
        "served": 1.0,
@@ -27392,6 +33777,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 24.22,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 1239384,
+       "co2": 48194,
+       "coal": 458992,
+       "coalHeat": 339571,
+       "imp": 0,
+       "re": 75747,
+       "solarMW": 0.0,
+       "batMW": 0.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 43.24,
        "served": 1.0,
        "mwh": 51164,
@@ -27473,6 +33877,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 23.74,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 1214681,
+       "co2": 47109,
+       "coal": 448657,
+       "coalHeat": 339423,
+       "imp": 1074,
+       "re": 40324,
+       "solarMW": 0.0,
+       "batMW": 0.5,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.919,
+        "grid": 0.081,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 41.74,
        "served": 1.0,
@@ -27565,6 +33989,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 34.45,
+       "served": 0.989,
+       "mwh": 471507,
+       "cost": 16243600,
+       "co2": 445853,
+       "coal": 4246219,
+       "coalHeat": 3198841,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.983,
+        "unserved": 0.017
+       }
+      },
+      {
        "lcoe": 53.96,
        "served": 0.989,
        "mwh": 471506,
@@ -27641,6 +34084,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 28.73,
+       "served": 1.0,
+       "mwh": 476602,
+       "cost": 13690560,
+       "co2": 416902,
+       "coal": 3970491,
+       "coalHeat": 3202466,
+       "imp": 32203,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.727,
+        "grid": 0.273,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.51,
        "served": 1.0,
@@ -27723,6 +34186,26 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 27.67,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 13188365,
+       "co2": 451646,
+       "coal": 4301388,
+       "coalHeat": 3144618,
+       "imp": 0,
+       "re": 2316125,
+       "solarMW": 1.9,
+       "batMW": 50.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.981,
+        "solar": 0.019,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 45.29,
        "served": 1.0,
        "mwh": 476610,
@@ -27804,6 +34287,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 26.4,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 12586263,
+       "co2": 427942,
+       "coal": 4075638,
+       "coalHeat": 3166597,
+       "imp": 11864,
+       "re": 1544643,
+       "solarMW": 8.8,
+       "batMW": 21.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.81,
+        "solar": 0.093,
+        "grid": 0.097,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.69,
        "served": 1.0,
@@ -27899,6 +34403,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 34.03,
+       "served": 0.987,
+       "mwh": 749955,
+       "cost": 25521883,
+       "co2": 707738,
+       "coal": 6740365,
+       "coalHeat": 5055204,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.98,
+        "unserved": 0.02
+       }
+      },
+      {
        "lcoe": 53.63,
        "served": 0.987,
        "mwh": 749955,
@@ -27975,6 +34498,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 28.88,
+       "served": 1.0,
+       "mwh": 759857,
+       "cost": 21946162,
+       "co2": 669828,
+       "coal": 6379314,
+       "coalHeat": 5101229,
+       "imp": 49116,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.745,
+        "grid": 0.255,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 46.39,
        "served": 1.0,
@@ -28057,6 +34600,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 28.39,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 21574240,
+       "co2": 727171,
+       "coal": 6925437,
+       "coalHeat": 4980619,
+       "imp": 0,
+       "re": 3983486,
+       "solarMW": 0.0,
+       "batMW": 97.9,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.16,
        "served": 1.0,
        "mwh": 759930,
@@ -28137,6 +34699,27 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 26.81,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 20374125,
+       "co2": 692580,
+       "coal": 6596000,
+       "coalHeat": 5032930,
+       "imp": 25249,
+       "re": 2017292,
+       "solarMW": 6.7,
+       "batMW": 34.4,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.844,
+        "solar": 0.034,
+        "grid": 0.122,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 44.67,
        "served": 1.0,
@@ -28232,6 +34815,25 @@ window.GARUDA = {
     "base": {
      "anchors": [
       {
+       "lcoe": 28.37,
+       "served": 1.0,
+       "mwh": 260474,
+       "cost": 7389204,
+       "co2": 245812,
+       "coal": 2341062,
+       "coalHeat": 2102732,
+       "imp": 0,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 46.71,
        "served": 0.999,
        "mwh": 260195,
@@ -28308,6 +34910,26 @@ window.GARUDA = {
     },
     "grid": {
      "anchors": [
+      {
+       "lcoe": 24.96,
+       "served": 1.0,
+       "mwh": 260454,
+       "cost": 6500794,
+       "co2": 242399,
+       "coal": 2308564,
+       "coalHeat": 2098674,
+       "imp": 3146,
+       "re": 0,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.882,
+        "grid": 0.118,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 43.57,
        "served": 1.0,
@@ -28390,6 +35012,25 @@ window.GARUDA = {
     "captive": {
      "anchors": [
       {
+       "lcoe": 21.74,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 5664092,
+       "co2": 240147,
+       "coal": 2287118,
+       "coalHeat": 2049355,
+       "imp": 0,
+       "re": 109139,
+       "solarMW": 0.0,
+       "batMW": 2.7,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 41.82,
        "served": 1.0,
        "mwh": 260509,
@@ -28467,6 +35108,26 @@ window.GARUDA = {
     },
     "gridcaptive": {
      "anchors": [
+      {
+       "lcoe": 22.03,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 5739333,
+       "co2": 240999,
+       "coal": 2295229,
+       "coalHeat": 2070880,
+       "imp": 1516,
+       "re": 83438,
+       "solarMW": 0.0,
+       "batMW": 1.8,
+       "firmMW": 0.0,
+       "t": 30.0,
+       "mix": {
+        "coal": 0.943,
+        "grid": 0.057,
+        "unserved": 0.0
+       }
+      },
       {
        "lcoe": 40.4,
        "served": 1.0,

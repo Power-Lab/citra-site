@@ -224,14 +224,16 @@
   /* GARUDA 2035 results (window.GARUDA, scripts/build_results.py). For a site that is a model
      node, each pathway starts from its no-CO2-cap run (BAU = base, on-site = captive, grid = grid,
      hybrid = gridcaptive) and the sliders move that cost to first order: coal burned x coal price,
-     grid imports x tariff, solar + battery investment x capex multiplier, with the build held fixed.
+     grid imports x tariff. The coal slider follows the runs at each coal price. The capex slider
+     scales solar + battery investment with the build held fixed, unless a pathway has runs at other
+     capex levels (path.capex, solved at the baseline coal price), which it then follows.
      Other sites keep the illustrative parametric model below. */
   var G = window.GARUDA, site = G && G.sites[fac.id];
   var RUN = { bau: 'base', solar: 'captive', grid: 'grid', hybrid: 'gridcaptive' };
   var wired = !!(site && site.path && Object.keys(RUN).every(function (k) { return site.path[RUN[k]]; }));
   var prices = wired ? G.islands[site.island].prices : null;
   /* GARUDA prices captive coal per MMBtu; the slider is per tonne at 4,200 kcal/kg (GAR). */
-  var MMBTU_PER_T = 16.67;
+  var MMBTU_PER_T = 16.67, BASELINE_T = 70;
   function setRange(id, min, max, step, v) {
     var el = document.getElementById(id);
     el.min = min; el.max = max; el.step = step; el.value = v;
@@ -265,20 +267,49 @@
     return { r: r, t: cp };
   }
 
+  /* cost not moved by a slider: what's left of a run's cost after coal, grid power and new build */
+  function restOf(r, t) { return r.cost - r.coal * t / MMBTU_PER_T - r.imp * prices.tariff - r.re; }
+
+  /* A pathway at coal price cp and capex multiplier sx: the coal-price point plus the change GARUDA
+     makes between 100% capex and sx at the baseline coal price. */
+  var CAPEX_FIELDS = FIELDS.filter(function (k) { return k !== 'cost'; });
+  function atPoint(p, cp, sx) {
+    var at = atCoal(p, cp), rest = restOf(at.r, at.t);
+    if (!p.capex || !p.capex.length) return { r: at.r, t: at.t, rest: rest, reScale: sx };
+    var b = p.anchors.reduce(function (x, y) {
+      return Math.abs(y.t - BASELINE_T) < Math.abs(x.t - BASELINE_T) ? y : x;
+    });
+    var pts = p.capex.concat([Object.assign({}, b, { x: 1 })]).sort(function (u, v) { return u.x - v.x; });
+    var lo = pts[0], hi = pts[pts.length - 1], x = Math.min(hi.x, Math.max(lo.x, sx)), i = 0;
+    while (i < pts.length - 2 && x > pts[i + 1].x) i++;
+    var f = (x - pts[i].x) / (pts[i + 1].x - pts[i].x), c = { mix: {} };
+    FIELDS.forEach(function (k) { c[k] = pts[i][k] + f * (pts[i + 1][k] - pts[i][k]); });
+    var r = { cost: at.r.cost, mix: {} }, mixTotal = 0;
+    CAPEX_FIELDS.forEach(function (k) { r[k] = Math.max(0, at.r[k] + c[k] - b[k]); });
+    r.coalHeat = Math.min(r.coalHeat, r.coal);
+    var m0 = pts[i].mix || {}, m1 = pts[i + 1].mix || {}, mb = b.mix || {}, ma = at.r.mix || {};
+    Object.keys(ma).concat(Object.keys(m0), Object.keys(m1), Object.keys(mb)).forEach(function (k) {
+      if (k in r.mix) return;
+      r.mix[k] = Math.max(0, (ma[k] || 0) + (m0[k] || 0) + f * ((m1[k] || 0) - (m0[k] || 0)) - (mb[k] || 0));
+      mixTotal += r.mix[k];
+    });
+    Object.keys(r.mix).forEach(function (k) { r.mix[k] = mixTotal ? r.mix[k] / mixTotal : 0; });
+    return { r: r, t: at.t, rest: rest + restOf(c, b.t) - restOf(b, b.t), reScale: sx / x };
+  }
+
   function garudaPaths(state) {
-    var base = atCoal(site.path.base, state.cp).r, baseInt = base.co2 / base.mwh;
+    var base = atPoint(site.path.base, state.cp, state.sx).r, baseInt = base.co2 / base.mwh;
     return ['bau', 'solar', 'grid', 'hybrid'].map(function (k) {
-      var at = atCoal(site.path[RUN[k]], state.cp), p = at.r;
+      var at = atPoint(site.path[RUN[k]], state.cp, state.sx), p = at.r;
       /* cost parts, US$/yr: coal burned for process heat and for electricity, grid purchases, new
          solar + storage investment, and the rest (O&M, existing plant, start-ups), which the sliders
          leave unchanged */
       var parts = { heat: p.coalHeat * state.cp / MMBTU_PER_T, fuel: (p.coal - p.coalHeat) * state.cp / MMBTU_PER_T,
-        grid: p.imp * state.gt, re: p.re * state.sx,
-        other: p.cost - p.coal * at.t / MMBTU_PER_T - p.imp * prices.tariff - p.re };
+        grid: p.imp * state.gt, re: p.re * at.reScale, other: at.rest };
       var cost = parts.heat + parts.fuel + parts.grid + parts.re + parts.other;
       return { key: k, name: t('path_' + k), short: t(k === 'bau' || k === 'grid' ? 'path_' + k + '_s' : 'path_' + k),
         val: cost / p.mwh, em: Math.round((1 - p.co2 / p.mwh / baseInt) * 100), color: PATH_COLOR[k],
-        parts: parts, mwh: p.mwh, mix: p.mix || {}, solarMW: p.solarMW, batMW: p.batMW, firmMW: p.firmMW, heatShare: p.coal ? p.coalHeat / p.coal : 0 };
+        parts: parts, mwh: p.mwh, mix: p.mix || {}, solarMW: p.solarMW, batMW: p.batMW, firmMW: p.firmMW };
     });
   }
 
@@ -300,10 +331,9 @@
 
   /* what GARUDA built for an on-site pathway at this coal price */
   function buildText(r) {
-    var s = Math.round(r.solarMW), b = Math.round(r.batMW), g = Math.round(r.firmMW);
-    if (!s && !b && !g) return t('path_build_none');
-    return t('path_build').replace('{s}', s.toLocaleString()).replace('{b}', b.toLocaleString()) +
-      (g ? t('path_build_firm').replace('{g}', g.toLocaleString()) : '');
+    var re = Math.round(r.solarMW + r.firmMW), b = Math.round(r.batMW);
+    if (!re && !b) return t('path_build_none');
+    return t('path_build').replace('{r}', re.toLocaleString()) + (b ? t('path_build_stor').replace('{b}', b.toLocaleString()) : '');
   }
 
   function emText(em) { return (em > 0 ? '−' + em : em < 0 ? '+' + (-em) : '±0') + '% CO₂'; }
@@ -343,8 +373,7 @@
     }).join('');
 
     if (wired) {
-      /* why the coal slider moves every pathway, and what the capex slider is scaled from */
-      document.getElementById('slCoalNote').textContent = t('sl_coal_note').replace('{h}', Math.round(rows[0].heatShare * 100));
+      /* what the capex slider is scaled from */
       document.getElementById('slSolarNote').textContent = t('sl_solar_note').replace('{s}', G.capex.solar)
         .replace('{bp}', G.capex.batPower).replace('{be}', G.capex.batEnergy).replace('{w}', G.capex.wacc);
       var cx = cheapest.key === 'bau' ? coalCrossover() : null;

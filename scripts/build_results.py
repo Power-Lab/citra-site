@@ -63,12 +63,18 @@ CAPEX_LIFE = {'solar': 25, 'battery': 15}
 # Coal-price variants of the reference runs (input folder <island>_<variant>), the anchors of the
 # facility coal-price slider, and the four pathways that have them. The slider is in $/t; captive
 # coal is converted at 4,200 kcal/kg GAR, as on the website (facility.js MMBTU_PER_T).
-COAL_VARIANTS = ['coal70', 'coal100']
+COAL_VARIANTS = ['coal30', 'coal70', 'coal100']
+# Solar + storage capex variants of the baseline-price runs (input folder <island>_<baseline>_capex<pct>),
+# for the capex slider. Only the on-site pathways build at the park, so only they have them. Off until
+# these runs are verified: with none listed, the slider scales the cost with the build held fixed.
+CAPEX_VARIANTS = []
+CAPEX_SCENARIOS = ['captive', 'gridcaptive']
 # The coal price the slider starts at and the pathways' headline figures use: the input folder of
 # that variant supplies the price (falls back to the island's own inputs if it is missing).
 BASELINE_VARIANT = 'coal70'
 ANCHOR_SCENARIOS = ['base', 'grid', 'captive', 'gridcaptive']
 MMBTU_PER_T = 16.67
+BASELINE_T = 70  # $/t, the run behind BASELINE_VARIANT
 
 # cost_results.csv column -> results.js key (US$ million per year)
 COSTS = [
@@ -470,6 +476,29 @@ def main():
                     path = s.setdefault('path', {}).setdefault(scen, {})
                     mix = site_view([parks[p] for p in nodes if p in parks])['elec']
                     path.setdefault('anchors', []).append(dict(site_path(pc, nodes), t=tonne, mix=mix))
+        for pct in CAPEX_VARIANTS if tag else []:
+            name = '%s_%s_capex%d' % (isl, BASELINE_VARIANT, pct)
+            vin = os.path.join(a.inputs, name)
+            for scen in CAPEX_SCENARIOS:
+                folder = os.path.join(a.results, '%s_%s_%s_reference%s' % (scen, name, a.year, tag))
+                if not os.path.exists(os.path.join(folder, 'run_info.json')):
+                    continue
+                run = read_run(folder)
+                if run['gap'] > a.gate + GATE_SLACK:
+                    print('  excluded %s %s capex %d%%: %s, gap %.1f%%' % (isl, scen, pct, run['status'], 100 * run['gap']))
+                    continue
+                parks = park_results(folder, dem_e, dem_h)
+                pc = park_costs(folder, vin, run, parks, ann_e, ann_h, IMPORT_PRICE)
+                parts = run['costParts']
+                model = sum(parts[k] for k in ('parkGen', 'parkStor', 'parkVar', 'parkStart', 'imports'))
+                print('  %s %s at %d%% capex%s: park costs %.0f of %.0f M$/yr, park CO2 %.2f of %.2f Mt'
+                      % (isl, scen, pct, tag, sum(c['cost'] for c in pc.values()) / 1e6, model,
+                         sum(c['co2'] for c in pc.values()) / 1e6, run['co2Park']))
+                for sid, nodes in site_nodes.items():
+                    if all(p in pc for p in nodes) and sid in sites and scen in sites[sid].get('path', {}):
+                        mix = site_view([parks[p] for p in nodes if p in parks])['elec']
+                        sites[sid]['path'][scen].setdefault('capex', []).append(
+                            dict(site_path(pc, nodes), x=pct / 100, mix=mix))
         own = round(prices['coal'] * MMBTU_PER_T, 1)
         for sid in site_nodes:
             for scen, path in list(sites.get(sid, {}).get('path', {}).items()):
@@ -530,9 +559,10 @@ def main():
     path_rows, corr_rows = [], []
     for sid, s in sorted(sites.items()):
         for scen, path in s.get('path', {}).items():
-            for x in path.get('anchors', []):
+            baseline = next((x['t'] for x in path.get('anchors', []) if abs(x['t'] - BASELINE_T) < 1), None)
+            for x in path.get('anchors', []) + path.get('capex', []):
                 r = {'site_id': sid, 'island': s['island'], 'shared_with': ';'.join(s.get('shared', [])),
-                     'scenario': scen, 'coal_usd_t': x['t'],
+                     'scenario': scen, 'coal_usd_t': x.get('t', baseline), 'capex_pct': round(x.get('x', 1) * 100),
                      'lcoe_usd_mwh': x.get('lcoe'), 'cost_usd_yr': x.get('cost'), 'demand_mwh_yr': x.get('mwh'),
                      'served_share': x.get('served'), 'co2_t_yr': x.get('co2'), 'coal_mmbtu_yr': x.get('coal'),
                      'coal_heat_mmbtu_yr': x.get('coalHeat'), 'import_mwh_yr': x.get('imp'),
