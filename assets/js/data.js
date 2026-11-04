@@ -20,8 +20,9 @@ window.SECTORS = {
   metals:    { en: 'Mining & metals',          id: 'Pertambangan & logam', zh: '采矿和金属' },
   mixed:     { en: 'Multi-sector & other',     id: 'Multisektor & lainnya', zh: '多行业及其他' }
 };
-window.SECTOR_COLOR = { nickel: '#2a78d6', aluminium: '#eb6834', other: '#8a9197' };
-window.sectorColor = function (s) { return window.SECTOR_COLOR[s] || window.SECTOR_COLOR.other; };
+window.SECTOR_COLOR = { nickel: '#2a78d6', aluminium: '#eb6834', pulp: '#1baf7a', cement: '#eda100', chem: '#e87ba4',
+  agro: '#008300', metals: '#6250d6', mixed: '#e34948' };
+window.sectorColor = function (s) { return window.SECTOR_COLOR[s]; };
 window.sectorName = function (s) { return window.SECTORS[s][window.CP_LANG] || window.SECTORS[s].en; };
 
 /* Total live captive coal (operating + construction + planned), MW. */

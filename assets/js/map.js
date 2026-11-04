@@ -25,6 +25,9 @@
     chipBox.innerHTML = Object.keys(window.SECTORS).map(function (s) {
       return '<button class="chip' + (fInd === s ? ' on' : '') + '" data-ind="' + s + '">' + window.sectorName(s) + '</button>';
     }).join('');
+    document.getElementById('legSectors').innerHTML = Object.keys(window.SECTORS).map(function (s) {
+      return '<div class="row"><i style="background:' + window.sectorColor(s) + '"></i><span>' + window.sectorName(s) + '</span></div>';
+    }).join('');
   }
   renderChips();
   document.querySelector('.filters').addEventListener('click', function (e) {
