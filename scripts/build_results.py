@@ -57,6 +57,9 @@ GATE_SLACK = 1e-6
 # Park grid import price (US$/MWh) and the highimportprice multiplier, as in the model's preflight.jl.
 IMPORT_PRICE = 59.0
 HIGH_IMPORT = 1.21
+# Financing behind the annualised capex in the inputs (captive-indonesia-2025 annualize_costs.py).
+CAPEX_WACC = 0.10
+CAPEX_LIFE = {'solar': 25, 'battery': 15}
 # Coal-price variants of the reference runs (input folder <island>_<variant>), the anchors of the
 # facility coal-price slider, and the four pathways that have them. The slider is in $/t; captive
 # coal is converted at 4,200 kcal/kg GAR, as on the website (facility.js MMBTU_PER_T).
@@ -180,6 +183,21 @@ def annual_demand(path):
     return tot
 
 
+def capex_assumptions(isl_inputs):
+    """Overnight capex behind the new-build solar and battery costs, which the inputs hold annualised
+    (scripts/annualize_costs.py in captive-indonesia-2025): solar and battery power in $/kW, battery
+    energy in $/kWh."""
+    def crf(n):
+        return CAPEX_WACC * (1 + CAPEX_WACC) ** n / ((1 + CAPEX_WACC) ** n - 1)
+    new = [r for r in rows(os.path.join(isl_inputs, 'ip_generators.csv')) if num(r['New_Build']) == 1]
+    solar = next(r for r in new if tech_of(r) == 'solar')
+    bat = next(r for r in new if tech_of(r) == 'battery')
+    return {'solar': round(num(solar['Inv_Cost_per_MWyr']) / crf(CAPEX_LIFE['solar']) / 1000),
+            'batPower': round(num(bat['Inv_Cost_per_MWyr']) / crf(CAPEX_LIFE['battery']) / 1000),
+            'batEnergy': round(num(bat['Inv_Cost_per_MWhyr']) / crf(CAPEX_LIFE['battery']) / 1000),
+            'wacc': round(CAPEX_WACC * 100)}
+
+
 def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price):
     """What each park pays per year in one run, and the quantities the facility sliders scale.
 
@@ -192,7 +210,7 @@ def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price):
     units = {int(r['R_ID']): r for r in rows(os.path.join(isl_inputs, 'ip_generators.csv'))}
     fuels = {r['Fuel']: r for r in rows(os.path.join(isl_inputs, 'fuels_data.csv'))}
     parts = run['costParts']
-    fixed, var, mmbtu, start_w, bat_mw, solar_inv, bat_inv = (defaultdict(float) for _ in range(7))
+    fixed, var, mmbtu, mmbtu_heat, start_w, bat_mw, solar_inv, solar_mw, firm_mw, bat_inv = (defaultdict(float) for _ in range(10))
     for r in rows(os.path.join(folder, 'ip_generator_results.csv')):
         u = units[int(r['ID'])]
         # New-build candidates (New_Build = 1) start from nothing: their whole Total_MW is new build.
@@ -206,6 +224,9 @@ def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price):
             fixed[p] += num(u['Fixed_OM_Cost_per_MWyr']) * mw + num(u['Inv_Cost_per_MWyr']) * new
             if tech_of(u) == 'solar':
                 solar_inv[p] += num(u['Inv_Cost_per_MWyr']) * new
+                solar_mw[p] += new
+            elif tech_of(u) in ('geothermal', 'wind'):
+                firm_mw[p] += new
         mwh = num(r['Electricity_GWh']) * 1000
         fuel = fuels.get(u.get('Fuel'), {})
         var[p] += (num(u['Var_OM_Cost_per_MWh']) + num(fuel.get('Cost_per_MMBtu')) * num(u['Heat_Rate_MMBTU_per_MWh'])) * mwh
@@ -221,6 +242,7 @@ def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price):
                                           num(fuel.get('Cost_per_MMBtu')) * num(u['Heat_Rate_MMBTU_per_MWh'])) * mwh
         if u.get('Fuel') == 'coal_captive':
             mmbtu[int(r['Industrial_Park'])] += num(u['Heat_Rate_MMBTU_per_MWh']) * mwh
+            mmbtu_heat[int(r['Industrial_Park'])] += num(u['Heat_Rate_MMBTU_per_MWh']) * mwh
     imp = {int(r['ID']): num(r['Total_Import_MWh']) for r in rows(os.path.join(folder, 'ip_import_results.csv'))}
 
     def scale(total_m, shares):
@@ -243,6 +265,8 @@ def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price):
             # annual fuel burned (MMBtu, scaled like operating costs) and grid imports (MWh), for the
             # coal-price and tariff sliders
             'coal': mmbtu[p] * k_var,
+            'coalHeat': mmbtu_heat[p] * k_var,  # the part of it burned for process heat
+            'solarMW': solar_mw[p], 'batMW': bat_mw[p], 'firmMW': firm_mw[p],  # what the model built
             'imp': k_imp * imp.get(p, 0.0) / import_price if import_price else 0.0,
             # annualised solar and battery investment, for the solar + storage capex slider
             're': solar_inv[p] + bat,
@@ -260,7 +284,9 @@ def site_path(pc, nodes):
     return {'lcoe': round(agg['cost'] / agg['mwh'], 2) if agg['mwh'] else None,
             'served': round(agg['mwh'] / agg['dem'], 3) if agg['dem'] else None,
             'mwh': round(agg['mwh']), 'cost': round(agg['cost']), 'co2': round(agg['co2']),
-            'coal': round(agg['coal']), 'imp': round(agg['imp']), 're': round(agg['re'])}
+            'coal': round(agg['coal']), 'coalHeat': round(agg['coalHeat']), 'imp': round(agg['imp']),
+            're': round(agg['re']), 'solarMW': round(agg['solarMW'], 1), 'batMW': round(agg['batMW'], 1),
+            'firmMW': round(agg['firmMW'], 1)}
 
 
 def site_view(parks):
@@ -449,7 +475,7 @@ def main():
             for scen, path in list(sites.get(sid, {}).get('path', {}).items()):
                 if not path.get('anchors'):
                     continue
-                fields = ('lcoe', 'served', 'mwh', 'cost', 'co2', 'coal', 'imp', 're', 'mix')
+                fields = ('lcoe', 'served', 'mwh', 'cost', 'co2', 'coal', 'coalHeat', 'imp', 're', 'solarMW', 'batMW', 'firmMW', 'mix')
                 if not any(x['t'] == own for x in path['anchors']):
                     if 'cost' not in path:  # no run at the baseline price yet: leave the pathway out
                         del sites[sid]['path'][scen]
@@ -494,6 +520,7 @@ def main():
           '   park electricity demand met by each source; cap and new are MW. */\n'
           'window.GARUDA = %s;\n') % (a.year, 100 * a.gate, json.dumps(
               {'year': int(a.year), 'built': date.today().isoformat(), 'gate': a.gate,
+               'capex': capex_assumptions(os.path.join(a.inputs, 'sulawesi')),
                'scenarios': SCENARIOS, 'islands': islands, 'corridors': lines, 'sites': sites}, ensure_ascii=False, indent=1))
     with open(os.path.join(ROOT, 'assets', 'js', 'results.js'), 'w', encoding='utf-8') as f:
         f.write(js)
@@ -507,8 +534,10 @@ def main():
                 r = {'site_id': sid, 'island': s['island'], 'shared_with': ';'.join(s.get('shared', [])),
                      'scenario': scen, 'coal_usd_t': x['t'],
                      'lcoe_usd_mwh': x.get('lcoe'), 'cost_usd_yr': x.get('cost'), 'demand_mwh_yr': x.get('mwh'),
-                     'served_share': x.get('served'), 'co2_t_yr': x.get('co2'), 'coal_t_yr': x.get('coal'),
-                     'import_mwh_yr': x.get('imp'), 're_mwh_yr': x.get('re')}
+                     'served_share': x.get('served'), 'co2_t_yr': x.get('co2'), 'coal_mmbtu_yr': x.get('coal'),
+                     'coal_heat_mmbtu_yr': x.get('coalHeat'), 'import_mwh_yr': x.get('imp'),
+                     'solar_battery_inv_usd_yr': x.get('re'), 'new_solar_mw': x.get('solarMW'), 'new_battery_mw': x.get('batMW'),
+                     'new_geothermal_wind_mw': x.get('firmMW')}
                 r.update({'mix_' + k: v for k, v in sorted((x.get('mix') or {}).items())})
                 path_rows.append(r)
     for isl, cs in lines.items():

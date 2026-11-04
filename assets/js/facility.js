@@ -249,7 +249,7 @@
   /* A pathway at coal price cp ($/t): linear between GARUDA runs at different coal prices (the
      anchors), and from the nearest anchor to first order outside them. Returns the run figures and
      the coal price ($/t) they were solved at. */
-  var FIELDS = ['cost', 'mwh', 'co2', 'coal', 'imp', 're', 'served'];
+  var FIELDS = ['cost', 'mwh', 'co2', 'coal', 'coalHeat', 'imp', 're', 'solarMW', 'batMW', 'firmMW', 'served'];
   function atCoal(p, cp) {
     var a = p.anchors;
     if (!a || a.length < 2) return { r: p, t: prices.coal * MMBTU_PER_T };
@@ -269,14 +269,16 @@
     var base = atCoal(site.path.base, state.cp).r, baseInt = base.co2 / base.mwh;
     return ['bau', 'solar', 'grid', 'hybrid'].map(function (k) {
       var at = atCoal(site.path[RUN[k]], state.cp), p = at.r;
-      /* cost parts, US$/yr: coal burned, grid purchases, new solar + storage investment, and the
-         rest (O&M, existing plant, start-ups), which the sliders leave unchanged */
-      var parts = { fuel: p.coal * state.cp / MMBTU_PER_T, grid: p.imp * state.gt, re: p.re * state.sx,
+      /* cost parts, US$/yr: coal burned for process heat and for electricity, grid purchases, new
+         solar + storage investment, and the rest (O&M, existing plant, start-ups), which the sliders
+         leave unchanged */
+      var parts = { heat: p.coalHeat * state.cp / MMBTU_PER_T, fuel: (p.coal - p.coalHeat) * state.cp / MMBTU_PER_T,
+        grid: p.imp * state.gt, re: p.re * state.sx,
         other: p.cost - p.coal * at.t / MMBTU_PER_T - p.imp * prices.tariff - p.re };
-      var cost = parts.fuel + parts.grid + parts.re + parts.other;
+      var cost = parts.heat + parts.fuel + parts.grid + parts.re + parts.other;
       return { key: k, name: t('path_' + k), short: t(k === 'bau' || k === 'grid' ? 'path_' + k + '_s' : 'path_' + k),
         val: cost / p.mwh, em: Math.round((1 - p.co2 / p.mwh / baseInt) * 100), color: PATH_COLOR[k],
-        parts: parts, mwh: p.mwh, mix: p.mix || {} };
+        parts: parts, mwh: p.mwh, mix: p.mix || {}, solarMW: p.solarMW, batMW: p.batMW, firmMW: p.firmMW, heatShare: p.coal ? p.coalHeat / p.coal : 0 };
     });
   }
 
@@ -294,6 +296,14 @@
       { key:'grid',   name: t('path_grid'),   short: t('path_grid_s'), val: grid,   em: 55, color: PATH_COLOR.grid },
       { key:'hybrid', name: t('path_hybrid'), short: t('path_hybrid'), val: hybrid, em: 68, color: PATH_COLOR.hybrid }
     ];
+  }
+
+  /* what GARUDA built for an on-site pathway at this coal price */
+  function buildText(r) {
+    var s = Math.round(r.solarMW), b = Math.round(r.batMW), g = Math.round(r.firmMW);
+    if (!s && !b && !g) return t('path_build_none');
+    return t('path_build').replace('{s}', s.toLocaleString()).replace('{b}', b.toLocaleString()) +
+      (g ? t('path_build_firm').replace('{g}', g.toLocaleString()) : '');
   }
 
   function emText(em) { return (em > 0 ? '−' + em : em < 0 ? '+' + (-em) : '±0') + '% CO₂'; }
@@ -328,10 +338,15 @@
         '<div class="top"><b>' + r.name + (win ? ' <span class="rec">· ' + t(wired ? 'path_cheapest' : 'recommended') + '</span>' : '') + '</b>' +
         '<span style="color:#6b6a78">' + money(r.val) + '/MWh · ' + emText(r.em) + '</span></div>' +
         '<div class="track"><div class="bar" style="width:' + Math.round(r.val / max * 100) + '%;background:' + r.color + '"></div></div>' +
+        (wired && (r.key === 'solar' || r.key === 'hybrid') ? '<div class="sub" style="font-size:11.5px;margin-top:3px">' + buildText(r) + '</div>' : '') +
       '</div>';
     }).join('');
 
     if (wired) {
+      /* why the coal slider moves every pathway, and what the capex slider is scaled from */
+      document.getElementById('slCoalNote').textContent = t('sl_coal_note').replace('{h}', Math.round(rows[0].heatShare * 100));
+      document.getElementById('slSolarNote').textContent = t('sl_solar_note').replace('{s}', G.capex.solar)
+        .replace('{bp}', G.capex.batPower).replace('{be}', G.capex.batEnergy).replace('{w}', G.capex.wacc);
       var cx = cheapest.key === 'bau' ? coalCrossover() : null;
       document.getElementById('insight').innerHTML = cheapest.key !== 'bau'
         ? t('ins_res_now').replace('{p}', state.cp).replace('{path}', cheapest.name)
@@ -479,7 +494,7 @@
        transmission upgrades, since they map to different payers. */
     if (wired) {
       /* cost per MWh by pathway, split into what the sliders move */
-      var PARTS = [['fuel', PATH_COLOR.bau], ['other', '#b7c1c5'], ['grid', PATH_COLOR.grid], ['re', '#f2b31d']];
+      var PARTS = [['heat', '#2f363d'], ['fuel', PATH_COLOR.bau], ['other', '#b7c1c5'], ['grid', PATH_COLOR.grid], ['re', '#f2b31d']];
       costChart = new Chart(document.getElementById('costChart'), {
         type: 'bar',
         data: { labels: shorts, datasets: PARTS.map(function (s) {
