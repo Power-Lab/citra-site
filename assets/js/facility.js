@@ -240,7 +240,8 @@
   }
   if (wired) {
     setRange('slCoal', 30, 130, 1, Math.round(prices.coal * MMBTU_PER_T));
-    setRange('slTariff', 40, 120, 1, prices.tariff);
+    /* the tariff range is the runs': $45, $59 and $71/MWh */
+    setRange('slTariff', 45, 71, 1, prices.tariff);
     setRange('slSolar', 0.4, 1.6, 0.05, 1);
   }
 
@@ -251,30 +252,48 @@
   /* A pathway at coal price cp ($/t): linear between GARUDA runs at different coal prices (the
      anchors), and from the nearest anchor to first order outside them. Returns the run figures and
      the coal price ($/t) they were solved at. */
-  var FIELDS = ['cost', 'mwh', 'co2', 'coal', 'coalHeat', 'imp', 're', 'solarMW', 'batMW', 'firmMW', 'served'];
-  function atCoal(p, cp) {
-    var a = p.anchors;
-    if (!a || a.length < 2) return { r: p, t: prices.coal * MMBTU_PER_T };
-    if (cp <= a[0].t) return { r: a[0], t: a[0].t };
-    if (cp >= a[a.length - 1].t) return { r: a[a.length - 1], t: a[a.length - 1].t };
-    for (var i = 0; cp > a[i + 1].t; i++) {}
-    var f = (cp - a[i].t) / (a[i + 1].t - a[i].t), r = { mix: {} };
-    FIELDS.forEach(function (k) { r[k] = a[i][k] + f * (a[i + 1][k] - a[i][k]); });
-    var m0 = a[i].mix || {}, m1 = a[i + 1].mix || {};
+  var FIELDS = ['cost', 'mwh', 'co2', 'coal', 'coalHeat', 'imp', 're', 'carbon', 'solarMW', 'batMW', 'firmMW', 'served', 'g'];
+
+  /* One coal-price run at grid tariff gt ($/MWh): linear between the same run at the tariffs
+     GARUDA solved (anchor.tariffs, for the pathways that import), held at the nearest one outside
+     them. g is the tariff the figures were solved at. */
+  function lerp(p0, p1, f) {
+    var r = { mix: {} }, m0 = p0.mix || {}, m1 = p1.mix || {};
+    FIELDS.forEach(function (k) { r[k] = (p0[k] || 0) + f * ((p1[k] || 0) - (p0[k] || 0)); });
     Object.keys(m0).concat(Object.keys(m1)).forEach(function (k) {
       r.mix[k] = (m0[k] || 0) + f * ((m1[k] || 0) - (m0[k] || 0));
     });
-    return { r: r, t: cp };
+    return r;
+  }
+  function atTariff(a, gt) {
+    var base = Object.assign({}, a, { g: a.g || prices.tariff });
+    if (!a.tariffs || !a.tariffs.length) return base;
+    var pts = a.tariffs.concat([base]).sort(function (u, v) { return u.g - v.g; });
+    var x = Math.min(pts[pts.length - 1].g, Math.max(pts[0].g, gt)), i = 0;
+    while (i < pts.length - 2 && x > pts[i + 1].g) i++;
+    return Object.assign(lerp(pts[i], pts[i + 1], (x - pts[i].g) / (pts[i + 1].g - pts[i].g)), { t: a.t });
   }
 
-  /* cost not moved by a slider: what's left of a run's cost after coal, grid power and new build */
-  function restOf(r, t) { return r.cost - r.coal * t / MMBTU_PER_T - r.imp * prices.tariff - r.re; }
+  function atCoal(p, cp, gt) {
+    var a = (p.anchors || []).map(function (x) { return atTariff(x, gt); });
+    if (a.length < 2) return { r: a[0] || p, t: prices.coal * MMBTU_PER_T };
+    if (cp <= a[0].t) return { r: a[0], t: a[0].t };
+    if (cp >= a[a.length - 1].t) return { r: a[a.length - 1], t: a[a.length - 1].t };
+    for (var i = 0; cp > a[i + 1].t; i++) {}
+    return { r: lerp(a[i], a[i + 1], (cp - a[i].t) / (a[i + 1].t - a[i].t)), t: cp };
+  }
+
+  /* cost not moved by a slider: what's left of a run's cost after coal, the carbon cost on it, grid
+     power (at the tariff the run was solved at) and new build */
+  function restOf(r, t) {
+    return r.cost - r.coal * t / MMBTU_PER_T - r.imp * (r.g || prices.tariff) - r.re - (r.carbon || 0);
+  }
 
   /* A pathway at coal price cp and capex multiplier sx: the coal-price point plus the change GARUDA
      makes between 100% capex and sx at the baseline coal price. */
   var CAPEX_FIELDS = FIELDS.filter(function (k) { return k !== 'cost'; });
-  function atPoint(p, cp, sx) {
-    var at = atCoal(p, cp), rest = restOf(at.r, at.t);
+  function atPoint(p, cp, sx, gt) {
+    var at = atCoal(p, cp, gt), rest = restOf(at.r, at.t);
     if (!p.capex || !p.capex.length) return { r: at.r, t: at.t, rest: rest, reScale: sx };
     var b = p.anchors.reduce(function (x, y) {
       return Math.abs(y.t - BASELINE_T) < Math.abs(x.t - BASELINE_T) ? y : x;
@@ -298,15 +317,15 @@
   }
 
   function garudaPaths(state) {
-    var base = atPoint(site.path.base, state.cp, state.sx).r, baseInt = base.co2 / base.mwh;
+    var base = atPoint(site.path.base, state.cp, state.sx, state.gt).r, baseInt = base.co2 / base.mwh;
     return ['bau', 'solar', 'grid', 'hybrid'].map(function (k) {
-      var at = atPoint(site.path[RUN[k]], state.cp, state.sx), p = at.r;
-      /* cost parts, US$/yr: coal burned for process heat and for electricity, grid purchases, new
-         solar + storage investment, and the rest (O&M, existing plant, start-ups), which the sliders
-         leave unchanged */
-      var parts = { heat: p.coalHeat * state.cp / MMBTU_PER_T, fuel: (p.coal - p.coalHeat) * state.cp / MMBTU_PER_T,
+      var at = atPoint(site.path[RUN[k]], state.cp, state.sx, state.gt), p = at.r;
+      /* cost parts, US$/yr: coal burned for process heat and electricity together with the carbon
+         cost on it, grid purchases, new solar + storage investment, and the rest (O&M, existing plant,
+         start-ups), which the sliders leave unchanged */
+      var parts = { coal: p.coal * state.cp / MMBTU_PER_T + (p.carbon || 0),
         grid: p.imp * state.gt, re: p.re * at.reScale, other: at.rest };
-      var cost = parts.heat + parts.fuel + parts.grid + parts.re + parts.other;
+      var cost = parts.coal + parts.grid + parts.re + parts.other;
       return { key: k, name: t('path_' + k), short: t(k === 'bau' || k === 'grid' ? 'path_' + k + '_s' : 'path_' + k),
         val: cost / p.mwh, em: Math.round((1 - p.co2 / p.mwh / baseInt) * 100), color: PATH_COLOR[k],
         parts: parts, mwh: p.mwh, mix: p.mix || {}, solarMW: p.solarMW, batMW: p.batMW, firmMW: p.firmMW };
@@ -523,7 +542,7 @@
        transmission upgrades, since they map to different payers. */
     if (wired) {
       /* cost per MWh by pathway, split into what the sliders move */
-      var PARTS = [['heat', '#2f363d'], ['fuel', PATH_COLOR.bau], ['other', '#b7c1c5'], ['grid', PATH_COLOR.grid], ['re', '#f2b31d']];
+      var PARTS = [['coal', PATH_COLOR.bau], ['other', '#b7c1c5'], ['grid', PATH_COLOR.grid], ['re', '#f2b31d']];
       costChart = new Chart(document.getElementById('costChart'), {
         type: 'bar',
         data: { labels: shorts, datasets: PARTS.map(function (s) {

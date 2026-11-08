@@ -57,13 +57,21 @@ GATE_SLACK = 1e-6
 # Park grid import price (US$/MWh) and the highimportprice multiplier, as in the model's preflight.jl.
 IMPORT_PRICE = 59.0
 HIGH_IMPORT = 1.21
-# Financing behind the annualised capex in the inputs (captive-indonesia-2025 annualize_costs.py).
+# Financing behind the annualised capex in the inputs (2024 technology catalogue, 2030 column, as
+# set by the run pipeline's make_variant.py): solar 30 years, batteries 20 years, at a 10% WACC.
 CAPEX_WACC = 0.10
-CAPEX_LIFE = {'solar': 25, 'battery': 15}
+CAPEX_LIFE = {'solar': 30, 'battery': 20}
 # Coal-price variants of the reference runs (input folder <island>_<variant>), the anchors of the
 # facility coal-price slider, and the four pathways that have them. The slider is in $/t; captive
-# coal is converted at 4,200 kcal/kg GAR, as on the website (facility.js MMBTU_PER_T).
-COAL_VARIANTS = ['coal30', 'coal70', 'coal100']
+# coal is converted at 4,200 kcal/kg GAR, as on the website (facility.js MMBTU_PER_T). The runs carry
+# a carbon price (co2p<P>, $/tCO2), which the pipeline adds to every fuel's Cost_per_MMBtu; the build
+# takes it back out of the coal price and reports the carbon cost as its own part.
+COAL_VARIANTS = ['p1_coal30_co2p25', 'p1_coal70_co2p25', 'p1_coal100_co2p25']
+# Grid-tariff runs ($/MWh) of the pathways that import, at every coal price: folders end
+# __<anchor tag>_t<tariff>. A run missing here because it imports nothing at IMPORT_PRICE (a
+# stand-in: a higher tariff cannot change it) takes the IMPORT_PRICE run's figures.
+TARIFF_RUNS = [45, 71]
+TARIFF_SCENARIOS = ['grid', 'gridcaptive']
 # Solar + storage capex variants of the baseline-price runs (input folder <island>_<baseline>_capex<pct>),
 # for the capex slider. Only the on-site pathways build at the park, so only they have them. Off until
 # these runs are verified: with none listed, the slider scales the cost with the build held fixed.
@@ -71,7 +79,7 @@ CAPEX_VARIANTS = []
 CAPEX_SCENARIOS = ['captive', 'gridcaptive']
 # The coal price the slider starts at and the pathways' headline figures use: the input folder of
 # that variant supplies the price (falls back to the island's own inputs if it is missing).
-BASELINE_VARIANT = 'coal70'
+BASELINE_VARIANT = 'p1_coal70_co2p25'
 ANCHOR_SCENARIOS = ['base', 'grid', 'captive', 'gridcaptive']
 MMBTU_PER_T = 16.67
 BASELINE_T = 70  # $/t, the run behind BASELINE_VARIANT
@@ -90,6 +98,18 @@ def num(x):
         return float(x)
     except (TypeError, ValueError):
         return 0.0
+
+
+def carbon_price(variant):
+    """$/tCO2 of a variant name (..._co2p<P>), 0 without one."""
+    m = re.search(r'co2p([\d.]+)', variant or '')
+    return float(m.group(1)) if m else 0.0
+
+
+def coal_tonne(fuels, cprice):
+    """Captive coal price in $/t before carbon, from a fuels_data.csv table."""
+    row = fuels.get('coal_captive', {})
+    return round((num(row.get('Cost_per_MMBtu')) - cprice * num(row.get('CO2_content_tons_per_MMBtu'))) * MMBTU_PER_T, 1)
 
 
 def rows(path):
@@ -204,7 +224,7 @@ def capex_assumptions(isl_inputs):
             'wacc': round(CAPEX_WACC * 100)}
 
 
-def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price):
+def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price, cprice=0.0):
     """What each park pays per year in one run, and the quantities the facility sliders scale.
 
     Park fixed costs (fixed O&M on all capacity, annualised investment on new build) are exact per
@@ -278,6 +298,8 @@ def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price):
             're': solar_inv[p] + bat,
         }
         out[p]['co2'] = out[p]['coal'] * co2
+        # the carbon charge inside the coal cost (the run's fuel price includes it)
+        out[p]['carbon'] = out[p]['co2'] * cprice
     return out
 
 
@@ -291,8 +313,8 @@ def site_path(pc, nodes):
             'served': round(agg['mwh'] / agg['dem'], 3) if agg['dem'] else None,
             'mwh': round(agg['mwh']), 'cost': round(agg['cost']), 'co2': round(agg['co2']),
             'coal': round(agg['coal']), 'coalHeat': round(agg['coalHeat']), 'imp': round(agg['imp']),
-            're': round(agg['re']), 'solarMW': round(agg['solarMW'], 1), 'batMW': round(agg['batMW'], 1),
-            'firmMW': round(agg['firmMW'], 1)}
+            're': round(agg['re']), 'carbon': round(agg['carbon']), 'solarMW': round(agg['solarMW'], 1),
+            'batMW': round(agg['batMW'], 1), 'firmMW': round(agg['firmMW'], 1)}
 
 
 def site_view(parks):
@@ -375,15 +397,18 @@ def main():
     for isl, region in ISLANDS.items():
         if isl not in xw:
             continue
-        dem_e = park_demand(os.path.join(a.inputs, isl, 'ip_demand.csv'))
-        dem_h = park_demand(os.path.join(a.inputs, isl, 'ip_demandheat.csv'))
-        ann_e = annual_demand(os.path.join(a.inputs, isl, 'ip_demand.csv'))
-        ann_h = annual_demand(os.path.join(a.inputs, isl, 'ip_demandheat.csv'))
-        fuels = {r['Fuel']: r for r in rows(os.path.join(a.inputs, isl, 'fuels_data.csv'))}
-        prices = {'coal': num(fuels.get('coal_captive', {}).get('Cost_per_MMBtu')), 'tariff': IMPORT_PRICE}
-        base_fuels = os.path.join(a.inputs, '%s_%s' % (isl, BASELINE_VARIANT), 'fuels_data.csv')
-        if a.anchor_tag and os.path.exists(base_fuels):
-            prices['coal'] = num({r['Fuel']: r for r in rows(base_fuels)}['coal_captive']['Cost_per_MMBtu'])
+        # Demand and prices come from the baseline variant's inputs when they exist: its demand is the
+        # one the runs solved (Jawa-Bali parks 12, 18 and 19 are scaled there; see build notes).
+        isl_in = os.path.join(a.inputs, '%s_%s' % (isl, BASELINE_VARIANT))
+        if not (a.anchor_tag and os.path.isdir(isl_in)):
+            isl_in = os.path.join(a.inputs, isl)
+        dem_e = park_demand(os.path.join(isl_in, 'ip_demand.csv'))
+        dem_h = park_demand(os.path.join(isl_in, 'ip_demandheat.csv'))
+        ann_e = annual_demand(os.path.join(isl_in, 'ip_demand.csv'))
+        ann_h = annual_demand(os.path.join(isl_in, 'ip_demandheat.csv'))
+        fuels = {r['Fuel']: r for r in rows(os.path.join(isl_in, 'fuels_data.csv'))}
+        cprice = carbon_price(os.path.basename(isl_in))
+        prices = {'coal': coal_tonne(fuels, cprice) / MMBTU_PER_T, 'tariff': IMPORT_PRICE}
         runs, missing = {}, {}
         for scen in SCENARIOS:
             for case in CASES:
@@ -460,22 +485,62 @@ def main():
                     print('  excluded %s %s/%s: %s, gap %.1f%%' % (isl, scen, var, run['status'], 100 * run['gap']))
                     continue
                 vf = {r['Fuel']: r for r in rows(os.path.join(vin, 'fuels_data.csv'))}
-                tonne = round(num(vf['coal_captive']['Cost_per_MMBtu']) * MMBTU_PER_T, 1)
-                parks = park_results(folder, dem_e, dem_h)
-                pc = park_costs(folder, vin, run, parks, ann_e, ann_h, IMPORT_PRICE)
-                parts = run['costParts']
-                model = sum(parts[k] for k in ('parkGen', 'parkStor', 'parkVar', 'parkStart', 'imports'))
-                print('  %s %s at $%.0f/t coal%s: park costs %.0f of %.0f M$/yr, park CO2 %.2f of %.2f Mt'
-                      % (isl, scen, tonne, tag, sum(c['cost'] for c in pc.values()) / 1e6, model,
-                         sum(c['co2'] for c in pc.values()) / 1e6, run['co2Park']))
+                vcp = carbon_price(var)
+                tonne = coal_tonne(vf, vcp)
+                # the run at IMPORT_PRICE, then (importing pathways) the same run at the other tariffs
+                tariff_runs = [(IMPORT_PRICE, folder, run)]
+                for g in TARIFF_RUNS if scen in TARIFF_SCENARIOS else []:
+                    tf = '%s_t%d' % (folder, g)
+                    if os.path.exists(os.path.join(tf, 'run_info.json')):
+                        tr = read_run(tf)
+                        if tr['gap'] <= a.gate + GATE_SLACK:
+                            tariff_runs.append((float(g), tf, tr))
+                            continue
+                        print('  excluded %s %s/%s at $%d/MWh: gap %.1f%%' % (isl, scen, var, g, 100 * tr['gap']))
+                    elif g > IMPORT_PRICE and run['costParts']['imports'] == 0:
+                        tariff_runs.append((float(g), folder, run))  # stand-in: no imports at the base tariff
+                    else:
+                        print('  missing %s %s/%s at $%d/MWh' % (isl, scen, var, g))
+                points = {}
+                for g, f, r in tariff_runs:
+                    parks = park_results(f, dem_e, dem_h)
+                    pc = park_costs(f, vin, r, parks, ann_e, ann_h, g, vcp)
+                    parts = r['costParts']
+                    model = sum(parts[k] for k in ('parkGen', 'parkStor', 'parkVar', 'parkStart', 'imports'))
+                    print('  %s %s at $%.0f/t coal, $%.0f/MWh%s%s: park costs %.0f of %.0f M$/yr, park CO2 %.2f of %.2f Mt'
+                          % (isl, scen, tonne, g, tag, ' (stand-in)' if f == folder and g != IMPORT_PRICE else '',
+                             sum(c['cost'] for c in pc.values()) / 1e6, model,
+                             sum(c['co2'] for c in pc.values()) / 1e6, r['co2Park']))
+                    run_rows.append(dict({'island': isl, 'scenario': scen, 'case': 'reference', 'coal_usd_t': tonne,
+                                          'tariff_usd_mwh': g,
+                                          'stand_in': f == folder and g != IMPORT_PRICE},
+                                         **{k: v for k, v in r.items() if k != 'costParts'}, **r['costParts']))
+                    points[g] = (parks, pc)
                 for sid, nodes in site_nodes.items():
+                    parks, pc = points[IMPORT_PRICE]
                     if not all(p in pc for p in nodes):
                         continue
                     # islands without full-UC reference runs get their sites' pathways from these runs alone
                     s = sites.setdefault(sid, {'island': isl, 'nodes': sorted(nodes), 'runs': {}})
                     path = s.setdefault('path', {}).setdefault(scen, {})
-                    mix = site_view([parks[p] for p in nodes if p in parks])['elec']
-                    path.setdefault('anchors', []).append(dict(site_path(pc, nodes), t=tonne, mix=mix))
+                    anchor, others = None, []
+                    for g in sorted(points):
+                        gp, gc = points[g]
+                        v = site_view([gp[p] for p in nodes if p in gp])
+                        x = dict(site_path(gc, nodes), t=tonne, g=g, mix=v['elec'])
+                        if g == IMPORT_PRICE:
+                            anchor = x
+                        else:
+                            others.append(x)
+                        site_rows.append(dict({'site_id': sid, 'island': isl, 'scenario': scen, 'coal_usd_t': tonne,
+                                               'tariff_usd_mwh': g, 'import_peak_mw': v['importPeak'],
+                                               'heat_served': v['heatServed']},
+                                              **{'mw_' + k: y for k, y in v['cap'].items()},
+                                              **{'new_mw_' + k: y for k, y in v['new'].items()},
+                                              **{'elec_' + k: y for k, y in v['elec'].items()}))
+                    if others:  # the same coal price at the other tariffs, for the tariff slider
+                        anchor['tariffs'] = others
+                    path.setdefault('anchors', []).append(anchor)
         for pct in CAPEX_VARIANTS if tag else []:
             name = '%s_%s_capex%d' % (isl, BASELINE_VARIANT, pct)
             vin = os.path.join(a.inputs, name)
@@ -504,7 +569,8 @@ def main():
             for scen, path in list(sites.get(sid, {}).get('path', {}).items()):
                 if not path.get('anchors'):
                     continue
-                fields = ('lcoe', 'served', 'mwh', 'cost', 'co2', 'coal', 'coalHeat', 'imp', 're', 'solarMW', 'batMW', 'firmMW', 'mix')
+                fields = ('lcoe', 'served', 'mwh', 'cost', 'co2', 'coal', 'coalHeat', 'imp', 're', 'carbon', 'solarMW',
+                          'batMW', 'firmMW', 'mix')
                 if not any(x['t'] == own for x in path['anchors']):
                     if 'cost' not in path:  # no run at the baseline price yet: leave the pathway out
                         del sites[sid]['path'][scen]
@@ -524,11 +590,11 @@ def main():
     # start) once that run is in.
     lines = {}
     for isl in ISLANDS:
-        if not os.path.exists(os.path.join(a.inputs, isl, 'network.csv')):
-            continue
         tag = '__' + a.anchor_tag if a.anchor_tag else ''
         base = '%s_%s' % (isl, BASELINE_VARIANT) if tag and os.path.isdir(os.path.join(a.inputs, '%s_%s' % (isl, BASELINE_VARIANT))) else isl
-        cor = corridors(os.path.join(a.inputs, isl), {
+        if not os.path.exists(os.path.join(a.inputs, base, 'network.csv')):
+            continue
+        cor = corridors(os.path.join(a.inputs, base), {
             scen: os.path.join(a.results, '%s_%s_%s_reference%s' % (scen, base, a.year, tag)) for scen in CORRIDOR_SCENARIOS})
         if cor:
             lines[isl] = cor
@@ -549,7 +615,7 @@ def main():
           '   park electricity demand met by each source; cap and new are MW. */\n'
           'window.GARUDA = %s;\n') % (a.year, 100 * a.gate, json.dumps(
               {'year': int(a.year), 'built': date.today().isoformat(), 'gate': a.gate,
-               'capex': capex_assumptions(os.path.join(a.inputs, 'sulawesi')),
+               'capex': capex_assumptions(os.path.join(a.inputs, 'sulawesi_' + BASELINE_VARIANT if a.anchor_tag else 'sulawesi')),
                'scenarios': SCENARIOS, 'islands': islands, 'corridors': lines, 'sites': sites}, ensure_ascii=False, indent=1))
     with open(os.path.join(ROOT, 'assets', 'js', 'results.js'), 'w', encoding='utf-8') as f:
         f.write(js)
@@ -560,10 +626,15 @@ def main():
     for sid, s in sorted(sites.items()):
         for scen, path in s.get('path', {}).items():
             baseline = next((x['t'] for x in path.get('anchors', []) if abs(x['t'] - BASELINE_T) < 1), None)
-            for x in path.get('anchors', []) + path.get('capex', []):
+            points = []
+            for x in path.get('anchors', []):
+                points += [x] + x.get('tariffs', [])
+            for x in points + path.get('capex', []):
                 r = {'site_id': sid, 'island': s['island'], 'shared_with': ';'.join(s.get('shared', [])),
-                     'scenario': scen, 'coal_usd_t': x.get('t', baseline), 'capex_pct': round(x.get('x', 1) * 100),
-                     'lcoe_usd_mwh': x.get('lcoe'), 'cost_usd_yr': x.get('cost'), 'demand_mwh_yr': x.get('mwh'),
+                     'scenario': scen, 'coal_usd_t': x.get('t', baseline), 'tariff_usd_mwh': x.get('g', IMPORT_PRICE),
+                     'capex_pct': round(x.get('x', 1) * 100),
+                     'lcoe_usd_mwh': x.get('lcoe'), 'cost_usd_yr': x.get('cost'), 'carbon_cost_usd_yr': x.get('carbon'),
+                     'demand_mwh_yr': x.get('mwh'),
                      'served_share': x.get('served'), 'co2_t_yr': x.get('co2'), 'coal_mmbtu_yr': x.get('coal'),
                      'coal_heat_mmbtu_yr': x.get('coalHeat'), 'import_mwh_yr': x.get('imp'),
                      'solar_battery_inv_usd_yr': x.get('re'), 'new_solar_mw': x.get('solarMW'), 'new_battery_mw': x.get('batMW'),
