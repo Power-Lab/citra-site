@@ -16,9 +16,9 @@ California San Diego.
 - **National map**: every site, filterable by sector, region and status, with a summary card for
   each.
 - **Facility pages**: for each site, the 2035 cost per MWh of four pathways (business as
-  usual on existing coal, grid connection to PLN, on-site solar plus storage, and a hybrid of
-  the two), the energy mix and
-  cost breakdown of each, and sliders for the coal price, grid tariff and solar-plus-storage cost.
+  usual on existing coal, grid connection to PLN, on-site renewables, and a hybrid of the two),
+  the energy mix and cost breakdown of each, and sliders for the coal price, grid tariff and
+  solar-plus-storage cost.
   Also the site's coal units, nearest PLN substation and any connection PLN has planned for it.
 - **Ownership and financing**: who owns each site's coal units, up to the ultimate owner, and
   the disclosed loans behind them.
@@ -34,8 +34,8 @@ California San Diego.
   [GARUDA](https://github.com/Power-Lab/garuda) (Grid And Renewable Utilization & Deployment
   Analysis), the lab's open-source generation and transmission expansion model, using the
   [captive-indonesia-2025](https://github.com/Power-Lab/captive-indonesia-2025) study inputs.
-  Each site is a node in the model, run at captive coal prices of $30, $64, $70 and $100 per
-  tonne.
+  Each site is a node in the model, run at captive coal prices of $30, $70 and $100 per tonne,
+  and the pathways that buy grid power also at PLN tariffs of $45, $59 and $71 per MWh.
 - **PLN substations**: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
 - **PLN's planned connections**: RUPTL 2025–2034 (PLN's electricity supply business plan),
   Appendix E.
@@ -47,7 +47,7 @@ The tables behind the site are in [`data/`](data):
 | File | Contents |
 |---|---|
 | `parks.csv` | The 86 sites: location, sector, captive coal capacity by status, main owner |
-| `garuda_2035_pathways.csv` | Each site's four pathways at each coal price: $/MWh, cost, CO₂, energy mix |
+| `garuda_2035_pathways.csv` | Each site's four pathways at each coal price and tariff: $/MWh, cost, carbon cost, CO₂, energy mix |
 | `garuda_2035_corridors.csv` | Transmission corridors between provinces: existing, used and added capacity |
 | `site_substations.csv` | Each site's nearest PLN substation (150 kV and above), distance and rough connection cost |
 | `ruptl_connections.csv` | Connections PLN plans for these sites in RUPTL 2025–2034 |
