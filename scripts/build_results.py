@@ -66,7 +66,7 @@ CAPEX_LIFE = {'solar': 30, 'battery': 20}
 # coal is converted at 4,200 kcal/kg GAR, as on the website (facility.js MMBTU_PER_T). The runs carry
 # a carbon price (co2p<P>, $/tCO2), which the pipeline adds to every fuel's Cost_per_MMBtu; the build
 # takes it back out of the coal price and reports the carbon cost as its own part.
-COAL_VARIANTS = ['p1_coal30_co2p25', 'p1_coal70_co2p25', 'p1_coal100_co2p25']
+COAL_VARIANTS = ['p1_coal%d_co2p25' % c for c in (30, 40, 50, 60, 70, 100)]
 # Grid-tariff runs ($/MWh) of the pathways that import, at every coal price: folders end
 # __<anchor tag>_t<tariff>. A run missing here because it imports nothing at IMPORT_PRICE (a
 # stand-in: a higher tariff cannot change it) takes the IMPORT_PRICE run's figures.
