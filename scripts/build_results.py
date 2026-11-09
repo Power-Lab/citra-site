@@ -66,15 +66,17 @@ CAPEX_LIFE = {'solar': 30, 'battery': 20}
 # coal is converted at 4,200 kcal/kg GAR, as on the website (facility.js MMBTU_PER_T). The runs carry
 # a carbon price (co2p<P>, $/tCO2), which the pipeline adds to every fuel's Cost_per_MMBtu; the build
 # takes it back out of the coal price and reports the carbon cost as its own part.
-COAL_VARIANTS = ['p1_coal%d_co2p25' % c for c in (30, 40, 50, 60, 70, 100)]
+COAL_VARIANTS = ['p1_coal%d_co2p25' % c for c in (30, 40, 50, 60, 70, 80, 90, 100)]
 # Grid-tariff runs ($/MWh) of the pathways that import, at every coal price: folders end
 # __<anchor tag>_t<tariff>. A run missing here because it imports nothing at IMPORT_PRICE (a
 # stand-in: a higher tariff cannot change it) takes the IMPORT_PRICE run's figures.
 TARIFF_RUNS = [45, 71]
 TARIFF_SCENARIOS = ['grid', 'gridcaptive']
 # Solar + storage capex variants of the baseline-price runs (input folder <island>_<baseline>_capex<pct>),
-# for the capex slider. Only the on-site pathways build at the park, so only they have them. Off until
-# these runs are verified: with none listed, the slider scales the cost with the build held fixed.
+# for the capex slider. Only the on-site pathways build at the park, so only they have them. The runs
+# (70% and 130%) scale new solar and battery investment cost in the parks and the grid alike. Off until
+# it is settled how to carry them to other coal prices: with none listed, the slider scales the cost
+# with the build held fixed.
 CAPEX_VARIANTS = []
 CAPEX_SCENARIOS = ['captive', 'gridcaptive']
 # The coal price the slider starts at and the pathways' headline figures use: the input folder of
@@ -244,6 +246,7 @@ def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price, cpric
         p, mw = int(r['Industrial_Park']), num(r['Total_MW'])
         new = mw if num(u['New_Build']) == 1 else 0.0
         if tech_of(u) == 'battery':
+            fixed[p] += num(u['Fixed_OM_Cost_per_MWyr']) * mw  # in the model's park generation cost
             bat_mw[p] += new
             bat_inv[p] += num(u['Inv_Cost_per_MWyr']) * new
         else:
@@ -513,7 +516,7 @@ def main():
                              sum(c['co2'] for c in pc.values()) / 1e6, r['co2Park']))
                     run_rows.append(dict({'island': isl, 'scenario': scen, 'case': 'reference', 'coal_usd_t': tonne,
                                           'tariff_usd_mwh': g,
-                                          'stand_in': f == folder and g != IMPORT_PRICE},
+                                          'stand_in': f == folder and g != IMPORT_PRICE, 'capex_pct': 100},
                                          **{k: v for k, v in r.items() if k != 'costParts'}, **r['costParts']))
                     points[g] = (parks, pc)
                 for sid, nodes in site_nodes.items():
@@ -544,6 +547,8 @@ def main():
         for pct in CAPEX_VARIANTS if tag else []:
             name = '%s_%s_capex%d' % (isl, BASELINE_VARIANT, pct)
             vin = os.path.join(a.inputs, name)
+            vcp = carbon_price(BASELINE_VARIANT)
+            tonne = coal_tonne({r['Fuel']: r for r in rows(os.path.join(vin, 'fuels_data.csv'))}, vcp)
             for scen in CAPEX_SCENARIOS:
                 folder = os.path.join(a.results, '%s_%s_%s_reference%s' % (scen, name, a.year, tag))
                 if not os.path.exists(os.path.join(folder, 'run_info.json')):
@@ -553,17 +558,20 @@ def main():
                     print('  excluded %s %s capex %d%%: %s, gap %.1f%%' % (isl, scen, pct, run['status'], 100 * run['gap']))
                     continue
                 parks = park_results(folder, dem_e, dem_h)
-                pc = park_costs(folder, vin, run, parks, ann_e, ann_h, IMPORT_PRICE)
+                pc = park_costs(folder, vin, run, parks, ann_e, ann_h, IMPORT_PRICE, vcp)
                 parts = run['costParts']
                 model = sum(parts[k] for k in ('parkGen', 'parkStor', 'parkVar', 'parkStart', 'imports'))
                 print('  %s %s at %d%% capex%s: park costs %.0f of %.0f M$/yr, park CO2 %.2f of %.2f Mt'
                       % (isl, scen, pct, tag, sum(c['cost'] for c in pc.values()) / 1e6, model,
                          sum(c['co2'] for c in pc.values()) / 1e6, run['co2Park']))
+                run_rows.append(dict({'island': isl, 'scenario': scen, 'case': 'reference', 'coal_usd_t': tonne,
+                                      'tariff_usd_mwh': IMPORT_PRICE, 'stand_in': False, 'capex_pct': pct},
+                                     **{k: v for k, v in run.items() if k != 'costParts'}, **parts))
                 for sid, nodes in site_nodes.items():
                     if all(p in pc for p in nodes) and sid in sites and scen in sites[sid].get('path', {}):
                         mix = site_view([parks[p] for p in nodes if p in parks])['elec']
                         sites[sid]['path'][scen].setdefault('capex', []).append(
-                            dict(site_path(pc, nodes), x=pct / 100, mix=mix))
+                            dict(site_path(pc, nodes), t=tonne, g=IMPORT_PRICE, x=pct / 100, mix=mix))
         own = round(prices['coal'] * MMBTU_PER_T, 1)
         for sid in site_nodes:
             for scen, path in list(sites.get(sid, {}).get('path', {}).items()):
