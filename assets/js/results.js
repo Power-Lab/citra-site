@@ -503,6 +503,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 476156592,
+       "co2": 8535505,
+       "coal": 81290526,
+       "coalHeat": 60977727,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213387632,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 524847322,
+       "co2": 8535464,
+       "coal": 81290129,
+       "coalHeat": 60977429,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213386588,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 573619721,
+       "co2": 8535436,
+       "coal": 81289866,
+       "coalHeat": 60977231,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213385897,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.75,
        "served": 1.0,
        "mwh": 9053460,
@@ -629,6 +692,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 476156592,
+       "co2": 8535505,
+       "coal": 81290526,
+       "coalHeat": 60977727,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213387632,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 9053460,
+         "cost": 476156592,
+         "co2": 8535505,
+         "coal": 81290526,
+         "coalHeat": 60977727,
+         "imp": 0,
+         "re": 0,
+         "carbon": 213387632,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 524847322,
+       "co2": 8535464,
+       "coal": 81290129,
+       "coalHeat": 60977429,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213386588,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 9053460,
+         "cost": 524847322,
+         "co2": 8535464,
+         "coal": 81290129,
+         "coalHeat": 60977429,
+         "imp": 0,
+         "re": 0,
+         "carbon": 213386588,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.37,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 573680297,
+       "co2": 8536434,
+       "coal": 81299369,
+       "coalHeat": 60984360,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213410843,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.75,
@@ -803,6 +975,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 476156592,
+       "co2": 8535505,
+       "coal": 81290526,
+       "coalHeat": 60977727,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213387632,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 524833132,
+       "co2": 8535206,
+       "coal": 81287671,
+       "coalHeat": 60975585,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213380138,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.3,
+       "served": 1.0,
+       "mwh": 9053198,
+       "cost": 573088053,
+       "co2": 7938018,
+       "coal": 75600170,
+       "coalHeat": 61050125,
+       "imp": 0,
+       "re": 32734270,
+       "carbon": 198450445,
+       "solarMW": 460.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.715,
+        "solar": 0.285,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.29,
        "served": 1.0,
        "mwh": 9053137,
@@ -932,6 +1168,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 476156592,
+       "co2": 8535505,
+       "coal": 81290526,
+       "coalHeat": 60977727,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213387632,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 9053460,
+         "cost": 476156592,
+         "co2": 8535505,
+         "coal": 81290526,
+         "coalHeat": 60977727,
+         "imp": 0,
+         "re": 0,
+         "carbon": 213387632,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.98,
+       "served": 1.0,
+       "mwh": 9053460,
+       "cost": 524956750,
+       "co2": 8537453,
+       "coal": 81309080,
+       "coalHeat": 60991644,
+       "imp": 0,
+       "re": 0,
+       "carbon": 213436334,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.24,
+       "served": 1.0,
+       "mwh": 9053407,
+       "cost": 572536734,
+       "co2": 7919303,
+       "coal": 75421937,
+       "coalHeat": 61057198,
+       "imp": 2718,
+       "re": 33668922,
+       "carbon": 197982584,
+       "solarMW": 473.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.706,
+        "solar": 0.292,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.21,
@@ -1131,6 +1455,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 383630061,
+       "co2": 6877544,
+       "coal": 65500422,
+       "coalHeat": 49120400,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171938607,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 422862964,
+       "co2": 6877511,
+       "coal": 65500101,
+       "coalHeat": 49120160,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171937766,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.35,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 462161673,
+       "co2": 6877488,
+       "coal": 65499889,
+       "coalHeat": 49120001,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171937209,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.74,
        "served": 1.0,
        "mwh": 7294890,
@@ -1257,6 +1644,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 383630061,
+       "co2": 6877544,
+       "coal": 65500422,
+       "coalHeat": 49120400,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171938607,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 7294890,
+         "cost": 383630061,
+         "co2": 6877544,
+         "coal": 65500422,
+         "coalHeat": 49120400,
+         "imp": 0,
+         "re": 0,
+         "carbon": 171938607,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 422862964,
+       "co2": 6877511,
+       "coal": 65500101,
+       "coalHeat": 49120160,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171937766,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 7294890,
+         "cost": 422862964,
+         "co2": 6877511,
+         "coal": 65500101,
+         "coalHeat": 49120160,
+         "imp": 0,
+         "re": 0,
+         "carbon": 171937766,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 462210482,
+       "co2": 6878292,
+       "coal": 65507546,
+       "coalHeat": 49125743,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171957309,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.75,
@@ -1431,6 +1927,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 383630061,
+       "co2": 6877544,
+       "coal": 65500422,
+       "coalHeat": 49120400,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171938607,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 422851531,
+       "co2": 6877303,
+       "coal": 65498121,
+       "coalHeat": 49118675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171932569,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.3,
+       "served": 1.0,
+       "mwh": 7294680,
+       "cost": 461736911,
+       "co2": 6398014,
+       "coal": 60933469,
+       "coalHeat": 49178724,
+       "imp": 0,
+       "re": 26273559,
+       "carbon": 159950356,
+       "solarMW": 369.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.717,
+        "solar": 0.283,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.29,
        "served": 1.0,
        "mwh": 7294630,
@@ -1560,6 +2120,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 383630061,
+       "co2": 6877544,
+       "coal": 65500422,
+       "coalHeat": 49120400,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171938607,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 7294890,
+         "cost": 383630061,
+         "co2": 6877544,
+         "coal": 65500422,
+         "coalHeat": 49120400,
+         "imp": 0,
+         "re": 0,
+         "carbon": 171938607,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.98,
+       "served": 1.0,
+       "mwh": 7294890,
+       "cost": 422951137,
+       "co2": 6879114,
+       "coal": 65515371,
+       "coalHeat": 49131611,
+       "imp": 0,
+       "re": 0,
+       "carbon": 171977849,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.24,
+       "served": 1.0,
+       "mwh": 7294836,
+       "cost": 461294047,
+       "co2": 6382996,
+       "coal": 60790439,
+       "coalHeat": 49184418,
+       "imp": 2173,
+       "re": 27023740,
+       "carbon": 159574902,
+       "solarMW": 380.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.708,
+        "solar": 0.291,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.21,
@@ -1757,6 +2405,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.17,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 29297673,
+       "co2": 524574,
+       "coal": 4995942,
+       "coalHeat": 3757632,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13114349,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.01,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 32290101,
+       "co2": 524571,
+       "coal": 4995918,
+       "coalHeat": 3757613,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13114285,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.86,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 35287549,
+       "co2": 524570,
+       "coal": 4995902,
+       "coalHeat": 3757601,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13114242,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.71,
        "served": 1.0,
        "mwh": 512460,
@@ -1883,6 +2594,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.17,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 29297673,
+       "co2": 524574,
+       "coal": 4995942,
+       "coalHeat": 3757632,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13114349,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.17,
+         "served": 1.0,
+         "mwh": 512460,
+         "cost": 29297673,
+         "co2": 524574,
+         "coal": 4995942,
+         "coalHeat": 3757632,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13114349,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.01,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 32290101,
+       "co2": 524571,
+       "coal": 4995918,
+       "coalHeat": 3757613,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13114285,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.01,
+         "served": 1.0,
+         "mwh": 512460,
+         "cost": 32290101,
+         "co2": 524571,
+         "coal": 4995918,
+         "coalHeat": 3757613,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13114285,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.63,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 35168104,
+       "co2": 519605,
+       "coal": 4948615,
+       "coalHeat": 3758041,
+       "imp": 3083,
+       "re": 0,
+       "carbon": 12990114,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.961,
+        "grid": 0.039,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.39,
@@ -2063,6 +2884,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.17,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 29297673,
+       "co2": 524574,
+       "coal": 4995942,
+       "coalHeat": 3757632,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13114349,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.01,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 32289230,
+       "co2": 524556,
+       "coal": 4995767,
+       "coalHeat": 3757500,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13113888,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.44,
+       "served": 1.0,
+       "mwh": 512449,
+       "cost": 35072197,
+       "co2": 484821,
+       "coal": 4617341,
+       "coalHeat": 3762069,
+       "imp": 0,
+       "re": 2032777,
+       "carbon": 12120520,
+       "solarMW": 28.4,
+       "batMW": 0.4,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.69,
+        "solar": 0.31,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.82,
        "served": 1.0,
        "mwh": 512446,
@@ -2193,6 +3078,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.17,
+       "served": 1.0,
+       "mwh": 512460,
+       "cost": 29297673,
+       "co2": 524574,
+       "coal": 4995942,
+       "coalHeat": 3757632,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13114349,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.17,
+         "served": 1.0,
+         "mwh": 512460,
+         "cost": 29297673,
+         "co2": 524574,
+         "coal": 4995942,
+         "coalHeat": 3757632,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13114349,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.86,
+       "served": 1.0,
+       "mwh": 512457,
+       "cost": 32210538,
+       "co2": 488101,
+       "coal": 4648579,
+       "coalHeat": 3758470,
+       "imp": 387,
+       "re": 1796905,
+       "carbon": 12202520,
+       "solarMW": 25.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.719,
+        "solar": 0.278,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.31,
+       "served": 1.0,
+       "mwh": 512452,
+       "cost": 35003739,
+       "co2": 484053,
+       "coal": 4610026,
+       "coalHeat": 3762508,
+       "imp": 612,
+       "re": 2020202,
+       "carbon": 12101317,
+       "solarMW": 28.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.684,
+        "solar": 0.311,
+        "grid": 0.006,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.68,
@@ -2394,6 +3369,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 54.34,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1166468867,
+       "co2": 20901896,
+       "coal": 199065676,
+       "coalHeat": 149309089,
+       "imp": 0,
+       "re": 0,
+       "carbon": 522547399,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 59.89,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1285703588,
+       "co2": 20901794,
+       "coal": 199064703,
+       "coalHeat": 149308359,
+       "imp": 0,
+       "re": 0,
+       "carbon": 522544845,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 65.46,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1405138300,
+       "co2": 20901726,
+       "coal": 199064058,
+       "coalHeat": 149307875,
+       "imp": 0,
+       "re": 0,
+       "carbon": 522543152,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 71.02,
        "served": 1.0,
        "mwh": 21466380,
@@ -2520,6 +3558,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 54.34,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1166468867,
+       "co2": 20901896,
+       "coal": 199065676,
+       "coalHeat": 149309089,
+       "imp": 0,
+       "re": 0,
+       "carbon": 522547399,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 54.34,
+         "served": 1.0,
+         "mwh": 21466380,
+         "cost": 1166468867,
+         "co2": 20901896,
+         "coal": 199065676,
+         "coalHeat": 149309089,
+         "imp": 0,
+         "re": 0,
+         "carbon": 522547399,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 59.89,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1285703588,
+       "co2": 20901794,
+       "coal": 199064703,
+       "coalHeat": 149308359,
+       "imp": 0,
+       "re": 0,
+       "carbon": 522544845,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 59.89,
+         "served": 1.0,
+         "mwh": 21466380,
+         "cost": 1285703588,
+         "co2": 20901794,
+         "coal": 199064703,
+         "coalHeat": 149308359,
+         "imp": 0,
+         "re": 0,
+         "carbon": 522544845,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 65.46,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1405227307,
+       "co2": 20901749,
+       "coal": 199064275,
+       "coalHeat": 149325330,
+       "imp": 1485,
+       "re": 0,
+       "carbon": 522543721,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 71.02,
@@ -2700,6 +3847,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 54.34,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1166468867,
+       "co2": 20901896,
+       "coal": 199065676,
+       "coalHeat": 149309089,
+       "imp": 0,
+       "re": 0,
+       "carbon": 522547399,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 59.89,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1285668843,
+       "co2": 20901162,
+       "coal": 199058685,
+       "coalHeat": 149303845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 522529048,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 65.26,
+       "served": 1.0,
+       "mwh": 21465820,
+       "cost": 1400855466,
+       "co2": 19381748,
+       "coal": 184588080,
+       "coalHeat": 149485949,
+       "imp": 0,
+       "re": 80919670,
+       "carbon": 484543711,
+       "solarMW": 1134.5,
+       "batMW": 6.3,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.705,
+        "solar": 0.295,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 70.4,
        "served": 1.0,
        "mwh": 21465678,
@@ -2830,6 +4041,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 54.34,
+       "served": 1.0,
+       "mwh": 21466380,
+       "cost": 1166468867,
+       "co2": 20901896,
+       "coal": 199065676,
+       "coalHeat": 149309089,
+       "imp": 0,
+       "re": 0,
+       "carbon": 522547399,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 54.34,
+         "served": 1.0,
+         "mwh": 21466380,
+         "cost": 1166468867,
+         "co2": 20901896,
+         "coal": 199065676,
+         "coalHeat": 149309089,
+         "imp": 0,
+         "re": 0,
+         "carbon": 522547399,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 59.84,
+       "served": 1.0,
+       "mwh": 21466337,
+       "cost": 1284531610,
+       "co2": 20312115,
+       "coal": 193448713,
+       "coalHeat": 149342851,
+       "imp": 6720,
+       "re": 29173286,
+       "carbon": 507802873,
+       "solarMW": 410.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.892,
+        "solar": 0.107,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 65.17,
+       "served": 1.0,
+       "mwh": 21466220,
+       "cost": 1398881333,
+       "co2": 19337636,
+       "coal": 184167962,
+       "coalHeat": 149503681,
+       "imp": 17337,
+       "re": 82083681,
+       "carbon": 483440900,
+       "solarMW": 1154.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.696,
+        "solar": 0.3,
+        "grid": 0.004,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 70.28,
@@ -3031,6 +4332,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 53.31,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 174645903,
+       "co2": 3130236,
+       "coal": 29811773,
+       "coalHeat": 22359673,
+       "imp": 0,
+       "re": 0,
+       "carbon": 78255904,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 58.76,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 192502313,
+       "co2": 3130221,
+       "coal": 29811627,
+       "coalHeat": 22359564,
+       "imp": 0,
+       "re": 0,
+       "carbon": 78255522,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 64.22,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 210388674,
+       "co2": 3130211,
+       "coal": 29811531,
+       "coalHeat": 22359491,
+       "imp": 0,
+       "re": 0,
+       "carbon": 78255268,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 69.68,
        "served": 1.0,
        "mwh": 3276240,
@@ -3157,6 +4521,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 53.31,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 174645903,
+       "co2": 3130236,
+       "coal": 29811773,
+       "coalHeat": 22359673,
+       "imp": 0,
+       "re": 0,
+       "carbon": 78255904,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 53.31,
+         "served": 1.0,
+         "mwh": 3276240,
+         "cost": 174645903,
+         "co2": 3130236,
+         "coal": 29811773,
+         "coalHeat": 22359673,
+         "imp": 0,
+         "re": 0,
+         "carbon": 78255904,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 58.76,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 192502313,
+       "co2": 3130221,
+       "coal": 29811627,
+       "coalHeat": 22359564,
+       "imp": 0,
+       "re": 0,
+       "carbon": 78255522,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 58.76,
+         "served": 1.0,
+         "mwh": 3276240,
+         "cost": 192502313,
+         "co2": 3130221,
+         "coal": 29811627,
+         "coalHeat": 22359564,
+         "imp": 0,
+         "re": 0,
+         "carbon": 78255522,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 64.21,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 210360476,
+       "co2": 3128519,
+       "coal": 29795422,
+       "coalHeat": 22362105,
+       "imp": 1262,
+       "re": 0,
+       "carbon": 78212984,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.998,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 69.66,
@@ -3337,6 +4811,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 53.31,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 174645903,
+       "co2": 3130236,
+       "coal": 29811773,
+       "coalHeat": 22359673,
+       "imp": 0,
+       "re": 0,
+       "carbon": 78255904,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 58.76,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 192497110,
+       "co2": 3130126,
+       "coal": 29810726,
+       "coalHeat": 22358888,
+       "imp": 0,
+       "re": 0,
+       "carbon": 78253156,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 64.1,
+       "served": 1.0,
+       "mwh": 3276149,
+       "cost": 210010265,
+       "co2": 2907692,
+       "coal": 27692308,
+       "coalHeat": 22386195,
+       "imp": 0,
+       "re": 12046879,
+       "carbon": 72692309,
+       "solarMW": 169.2,
+       "batMW": 0.4,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.711,
+        "solar": 0.289,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 69.15,
        "served": 1.0,
        "mwh": 3276127,
@@ -3467,6 +5005,95 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 53.31,
+       "served": 1.0,
+       "mwh": 3276240,
+       "cost": 174645903,
+       "co2": 3130236,
+       "coal": 29811773,
+       "coalHeat": 22359673,
+       "imp": 0,
+       "re": 0,
+       "carbon": 78255904,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 53.31,
+         "served": 1.0,
+         "mwh": 3276240,
+         "cost": 174645903,
+         "co2": 3130236,
+         "coal": 29811773,
+         "coalHeat": 22359673,
+         "imp": 0,
+         "re": 0,
+         "carbon": 78255904,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 58.74,
+       "served": 1.0,
+       "mwh": 3276237,
+       "cost": 192455843,
+       "co2": 3094354,
+       "coal": 29470039,
+       "coalHeat": 22364756,
+       "imp": 390,
+       "re": 1796905,
+       "carbon": 77358852,
+       "solarMW": 25.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.956,
+        "solar": 0.043,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 64.03,
+       "served": 1.0,
+       "mwh": 3276216,
+       "cost": 209767421,
+       "co2": 2900779,
+       "coal": 27626464,
+       "coalHeat": 22388793,
+       "imp": 1779,
+       "re": 12320234,
+       "carbon": 72519468,
+       "solarMW": 173.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.702,
+        "solar": 0.295,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 69.06,
@@ -3668,6 +5295,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 53.61,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 501358814,
+       "co2": 8985398,
+       "coal": 85575222,
+       "coalHeat": 64192513,
+       "imp": 0,
+       "re": 0,
+       "carbon": 224634958,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 59.1,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 552615957,
+       "co2": 8985354,
+       "coal": 85574804,
+       "coalHeat": 64192200,
+       "imp": 0,
+       "re": 0,
+       "carbon": 224633860,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 64.59,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 603959073,
+       "co2": 8985325,
+       "coal": 85574527,
+       "coalHeat": 64191992,
+       "imp": 0,
+       "re": 0,
+       "carbon": 224633133,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 70.08,
        "served": 1.0,
        "mwh": 9351300,
@@ -3794,6 +5484,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 53.61,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 501358814,
+       "co2": 8985398,
+       "coal": 85575222,
+       "coalHeat": 64192513,
+       "imp": 0,
+       "re": 0,
+       "carbon": 224634958,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 53.61,
+         "served": 1.0,
+         "mwh": 9351300,
+         "cost": 501358814,
+         "co2": 8985398,
+         "coal": 85575222,
+         "coalHeat": 64192513,
+         "imp": 0,
+         "re": 0,
+         "carbon": 224634958,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 59.1,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 552615957,
+       "co2": 8985354,
+       "coal": 85574804,
+       "coalHeat": 64192200,
+       "imp": 0,
+       "re": 0,
+       "carbon": 224633860,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 59.1,
+         "served": 1.0,
+         "mwh": 9351300,
+         "cost": 552615957,
+         "co2": 8985354,
+         "coal": 85574804,
+         "coalHeat": 64192200,
+         "imp": 0,
+         "re": 0,
+         "carbon": 224633860,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 64.59,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 604008646,
+       "co2": 8985797,
+       "coal": 85579015,
+       "coalHeat": 64199496,
+       "imp": 355,
+       "re": 0,
+       "carbon": 224644914,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 70.08,
@@ -3969,6 +5768,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 53.61,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 501358814,
+       "co2": 8985398,
+       "coal": 85575222,
+       "coalHeat": 64192513,
+       "imp": 0,
+       "re": 0,
+       "carbon": 224634958,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 59.1,
+       "served": 1.0,
+       "mwh": 9351236,
+       "cost": 552658725,
+       "co2": 8837370,
+       "coal": 84165427,
+       "coalHeat": 64189888,
+       "imp": 0,
+       "re": 7492917,
+       "carbon": 220934247,
+       "solarMW": 105.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.938,
+        "solar": 0.062,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 64.38,
+       "served": 1.0,
+       "mwh": 9351006,
+       "cost": 602028540,
+       "co2": 8315884,
+       "coal": 79198894,
+       "coalHeat": 64268201,
+       "imp": 0,
+       "re": 35540901,
+       "carbon": 207897098,
+       "solarMW": 499.3,
+       "batMW": 1.2,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.697,
+        "solar": 0.303,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 69.44,
        "served": 1.0,
        "mwh": 9351082,
@@ -4099,6 +5963,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 53.61,
+       "served": 1.0,
+       "mwh": 9351300,
+       "cost": 501358814,
+       "co2": 8985398,
+       "coal": 85575222,
+       "coalHeat": 64192513,
+       "imp": 0,
+       "re": 0,
+       "carbon": 224634958,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 53.61,
+         "served": 1.0,
+         "mwh": 9351300,
+         "cost": 501358814,
+         "co2": 8985398,
+         "coal": 85575222,
+         "coalHeat": 64192513,
+         "imp": 0,
+         "re": 0,
+         "carbon": 224634958,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 59.08,
+       "served": 1.0,
+       "mwh": 9351289,
+       "cost": 552511051,
+       "co2": 8833388,
+       "coal": 84127509,
+       "coalHeat": 64207084,
+       "imp": 2152,
+       "re": 7707385,
+       "carbon": 220834711,
+       "solarMW": 108.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.936,
+        "solar": 0.063,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 64.3,
+       "served": 1.0,
+       "mwh": 9351143,
+       "cost": 601251359,
+       "co2": 8308819,
+       "coal": 79131605,
+       "coalHeat": 64275684,
+       "imp": 4030,
+       "re": 35668111,
+       "carbon": 207720463,
+       "solarMW": 501.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.694,
+        "solar": 0.304,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 69.35,
@@ -4299,6 +6253,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 29108133,
+       "co2": 526816,
+       "coal": 5017293,
+       "coalHeat": 4526238,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13170393,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.4,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 32113350,
+       "co2": 526813,
+       "coal": 5017268,
+       "coalHeat": 4526216,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13170329,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.25,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 35123607,
+       "co2": 526811,
+       "coal": 5017252,
+       "coalHeat": 4526202,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13170286,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.1,
        "served": 1.0,
        "mwh": 514650,
@@ -4425,6 +6442,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 29108133,
+       "co2": 526816,
+       "coal": 5017293,
+       "coalHeat": 4526238,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13170393,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.56,
+         "served": 1.0,
+         "mwh": 514650,
+         "cost": 29108133,
+         "co2": 526816,
+         "coal": 5017293,
+         "coalHeat": 4526238,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13170393,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.4,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 32113350,
+       "co2": 526813,
+       "coal": 5017268,
+       "coalHeat": 4526216,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13170329,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.4,
+         "served": 1.0,
+         "mwh": 514650,
+         "cost": 32113350,
+         "co2": 526813,
+         "coal": 5017268,
+         "coalHeat": 4526216,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13170329,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.25,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 35125614,
+       "co2": 526802,
+       "coal": 5017166,
+       "coalHeat": 4526731,
+       "imp": 43,
+       "re": 0,
+       "carbon": 13170060,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.999,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.11,
@@ -4603,6 +6730,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 29108133,
+       "co2": 526816,
+       "coal": 5017293,
+       "coalHeat": 4526238,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13170393,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.41,
+       "served": 1.0,
+       "mwh": 514644,
+       "cost": 32117420,
+       "co2": 514136,
+       "coal": 4896534,
+       "coalHeat": 4526048,
+       "imp": 0,
+       "re": 642250,
+       "carbon": 12853403,
+       "solarMW": 9.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.754,
+        "solar": 0.245,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.19,
+       "served": 1.0,
+       "mwh": 514646,
+       "cost": 35091419,
+       "co2": 513605,
+       "coal": 4891477,
+       "coalHeat": 4531675,
+       "imp": 0,
+       "re": 709883,
+       "carbon": 12840127,
+       "solarMW": 9.9,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.732,
+        "solar": 0.268,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.88,
        "served": 1.0,
        "mwh": 514646,
@@ -4733,6 +6925,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 514650,
+       "cost": 29108133,
+       "co2": 526816,
+       "coal": 5017293,
+       "coalHeat": 4526238,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13170393,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.56,
+         "served": 1.0,
+         "mwh": 514650,
+         "cost": 29108133,
+         "co2": 526816,
+         "coal": 5017293,
+         "coalHeat": 4526238,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13170393,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.38,
+       "served": 1.0,
+       "mwh": 514648,
+       "cost": 32101147,
+       "co2": 513731,
+       "coal": 4892674,
+       "coalHeat": 4527250,
+       "imp": 183,
+       "re": 660633,
+       "carbon": 12843269,
+       "solarMW": 9.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.744,
+        "solar": 0.252,
+        "grid": 0.004,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.14,
+       "served": 1.0,
+       "mwh": 514646,
+       "cost": 35066125,
+       "co2": 513467,
+       "coal": 4890159,
+       "coalHeat": 4532139,
+       "imp": 167,
+       "re": 704618,
+       "carbon": 12836669,
+       "solarMW": 9.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.728,
+        "solar": 0.268,
+        "grid": 0.004,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.82,
@@ -4933,6 +7215,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.2,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 13529695,
+       "co2": 242111,
+       "coal": 2305820,
+       "coalHeat": 1729365,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6052776,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.04,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 14910816,
+       "co2": 242110,
+       "coal": 2305808,
+       "coalHeat": 1729356,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6052747,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.89,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 16294253,
+       "co2": 242109,
+       "coal": 2305801,
+       "coalHeat": 1729351,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6052727,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.74,
        "served": 1.0,
        "mwh": 236520,
@@ -5059,6 +7404,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.2,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 13529695,
+       "co2": 242111,
+       "coal": 2305820,
+       "coalHeat": 1729365,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6052776,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.2,
+         "served": 1.0,
+         "mwh": 236520,
+         "cost": 13529695,
+         "co2": 242111,
+         "coal": 2305820,
+         "coalHeat": 1729365,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6052776,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.04,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 14910816,
+       "co2": 242110,
+       "coal": 2305808,
+       "coalHeat": 1729356,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6052747,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.04,
+         "served": 1.0,
+         "mwh": 236520,
+         "cost": 14910816,
+         "co2": 242110,
+         "coal": 2305808,
+         "coalHeat": 1729356,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6052747,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.9,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 16295971,
+       "co2": 242137,
+       "coal": 2306070,
+       "coalHeat": 1729553,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6053435,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.75,
@@ -5236,6 +7690,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.2,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 13529695,
+       "co2": 242111,
+       "coal": 2305820,
+       "coalHeat": 1729365,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6052776,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.87,
+       "served": 1.0,
+       "mwh": 236510,
+       "cost": 14869709,
+       "co2": 223847,
+       "coal": 2131873,
+       "coalHeat": 1729242,
+       "imp": 0,
+       "re": 884014,
+       "carbon": 5596167,
+       "solarMW": 12.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.698,
+        "solar": 0.301,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.33,
+       "served": 1.0,
+       "mwh": 236514,
+       "cost": 16161553,
+       "co2": 223173,
+       "coal": 2125455,
+       "coalHeat": 1731399,
+       "imp": 0,
+       "re": 941115,
+       "carbon": 5579320,
+       "solarMW": 13.1,
+       "batMW": 0.2,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.683,
+        "solar": 0.317,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.7,
        "served": 1.0,
        "mwh": 236514,
@@ -5366,6 +7885,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.2,
+       "served": 1.0,
+       "mwh": 236520,
+       "cost": 13529695,
+       "co2": 242111,
+       "coal": 2305820,
+       "coalHeat": 1729365,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6052776,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.2,
+         "served": 1.0,
+         "mwh": 236520,
+         "cost": 13529695,
+         "co2": 242111,
+         "coal": 2305820,
+         "coalHeat": 1729365,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6052776,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.78,
+       "served": 1.0,
+       "mwh": 236519,
+       "cost": 14849420,
+       "co2": 223717,
+       "coal": 2130634,
+       "coalHeat": 1729750,
+       "imp": 143,
+       "re": 886559,
+       "carbon": 5592914,
+       "solarMW": 12.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.695,
+        "solar": 0.302,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.22,
+       "served": 1.0,
+       "mwh": 236517,
+       "cost": 16135258,
+       "co2": 222947,
+       "coal": 2123309,
+       "coalHeat": 1731618,
+       "imp": 132,
+       "re": 938601,
+       "carbon": 5573685,
+       "solarMW": 13.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.679,
+        "solar": 0.319,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.57,
@@ -5563,6 +8172,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.63,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 6862128,
+       "co2": 124045,
+       "coal": 1181377,
+       "coalHeat": 868241,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3101114,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.47,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 7569739,
+       "co2": 124044,
+       "coal": 1181371,
+       "coalHeat": 868236,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3101099,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.32,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 8278537,
+       "co2": 124044,
+       "coal": 1181367,
+       "coalHeat": 868234,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3101089,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.17,
        "served": 1.0,
        "mwh": 121180,
@@ -5689,6 +8361,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.63,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 6862128,
+       "co2": 124045,
+       "coal": 1181377,
+       "coalHeat": 868241,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3101114,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.63,
+         "served": 1.0,
+         "mwh": 121180,
+         "cost": 6862128,
+         "co2": 124045,
+         "coal": 1181377,
+         "coalHeat": 868241,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3101114,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.47,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 7569739,
+       "co2": 124044,
+       "coal": 1181371,
+       "coalHeat": 868236,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3101099,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.47,
+         "served": 1.0,
+         "mwh": 121180,
+         "cost": 7569739,
+         "co2": 124044,
+         "coal": 1181371,
+         "coalHeat": 868236,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3101099,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.32,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 8278763,
+       "co2": 124031,
+       "coal": 1181251,
+       "coalHeat": 868335,
+       "imp": 16,
+       "re": 0,
+       "carbon": 3100784,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.999,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.17,
@@ -5864,6 +8646,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.63,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 6862128,
+       "co2": 124045,
+       "coal": 1181377,
+       "coalHeat": 868241,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3101114,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.32,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 7552270,
+       "co2": 114917,
+       "coal": 1094451,
+       "coalHeat": 868210,
+       "imp": 0,
+       "re": 442007,
+       "carbon": 2872934,
+       "solarMW": 6.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.723,
+        "solar": 0.277,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.8,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 8215965,
+       "co2": 114610,
+       "coal": 1091528,
+       "coalHeat": 869291,
+       "imp": 0,
+       "re": 465419,
+       "carbon": 2865261,
+       "solarMW": 6.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.709,
+        "solar": 0.291,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.19,
        "served": 1.0,
        "mwh": 121180,
@@ -5994,6 +8841,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.63,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 6862128,
+       "co2": 124045,
+       "coal": 1181377,
+       "coalHeat": 868241,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3101114,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.63,
+         "served": 1.0,
+         "mwh": 121180,
+         "cost": 6862128,
+         "co2": 124045,
+         "coal": 1181377,
+         "coalHeat": 868241,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3101114,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.34,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 7553934,
+       "co2": 114948,
+       "coal": 1094739,
+       "coalHeat": 868439,
+       "imp": 0,
+       "re": 442007,
+       "carbon": 2873690,
+       "solarMW": 6.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.723,
+        "solar": 0.277,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.8,
+       "served": 1.0,
+       "mwh": 121180,
+       "cost": 8216487,
+       "co2": 114616,
+       "coal": 1091585,
+       "coalHeat": 869377,
+       "imp": 4,
+       "re": 465419,
+       "carbon": 2865411,
+       "solarMW": 6.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.709,
+        "solar": 0.291,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.17,
@@ -6192,6 +9127,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 103732689,
+       "co2": 1859466,
+       "coal": 17709202,
+       "coalHeat": 13281916,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46486656,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 114340001,
+       "co2": 1859457,
+       "coal": 17709116,
+       "coalHeat": 13281851,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46486428,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 124965105,
+       "co2": 1859451,
+       "coal": 17709058,
+       "coalHeat": 13281808,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46486278,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.75,
        "served": 1.0,
        "mwh": 1972303,
@@ -6318,6 +9316,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 103732689,
+       "co2": 1859466,
+       "coal": 17709202,
+       "coalHeat": 13281916,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46486656,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 1972303,
+         "cost": 103732689,
+         "co2": 1859466,
+         "coal": 17709202,
+         "coalHeat": 13281916,
+         "imp": 0,
+         "re": 0,
+         "carbon": 46486656,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 114340001,
+       "co2": 1859457,
+       "coal": 17709116,
+       "coalHeat": 13281851,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46486428,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 1972303,
+         "cost": 114340001,
+         "co2": 1859457,
+         "coal": 17709116,
+         "coalHeat": 13281851,
+         "imp": 0,
+         "re": 0,
+         "carbon": 46486428,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.37,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 124978301,
+       "co2": 1859668,
+       "coal": 17711128,
+       "coalHeat": 13283361,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46491712,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.75,
@@ -6492,6 +9599,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 103732689,
+       "co2": 1859466,
+       "coal": 17709202,
+       "coalHeat": 13281916,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46486656,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 114336910,
+       "co2": 1859401,
+       "coal": 17708580,
+       "coalHeat": 13281450,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46485023,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.19,
+       "served": 1.0,
+       "mwh": 1972235,
+       "cost": 124623494,
+       "co2": 1720909,
+       "coal": 16389613,
+       "coalHeat": 13297567,
+       "imp": 0,
+       "re": 7397897,
+       "carbon": 43022734,
+       "solarMW": 104.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.698,
+        "solar": 0.302,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.16,
        "served": 1.0,
        "mwh": 1972258,
@@ -6621,6 +9792,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 103732689,
+       "co2": 1859466,
+       "coal": 17709202,
+       "coalHeat": 13281916,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46486656,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 1972303,
+         "cost": 103732689,
+         "co2": 1859466,
+         "coal": 17709202,
+         "coalHeat": 13281916,
+         "imp": 0,
+         "re": 0,
+         "carbon": 46486656,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.98,
+       "served": 1.0,
+       "mwh": 1972303,
+       "cost": 114363840,
+       "co2": 1859891,
+       "coal": 17713244,
+       "coalHeat": 13284948,
+       "imp": 0,
+       "re": 0,
+       "carbon": 46497265,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.12,
+       "served": 1.0,
+       "mwh": 1972287,
+       "cost": 124499995,
+       "co2": 1719538,
+       "coal": 16376553,
+       "coalHeat": 13299226,
+       "imp": 578,
+       "re": 7449088,
+       "carbon": 42988452,
+       "solarMW": 104.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.694,
+        "solar": 0.304,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.09,
@@ -6818,6 +10077,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 17189929,
+       "co2": 311117,
+       "coal": 2963021,
+       "coalHeat": 2661343,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7777930,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.4,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 18964695,
+       "co2": 311116,
+       "coal": 2963006,
+       "coalHeat": 2661330,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7777892,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.25,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 20742438,
+       "co2": 311115,
+       "coal": 2962997,
+       "coalHeat": 2661321,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7777866,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.1,
        "served": 1.0,
        "mwh": 303933,
@@ -6944,6 +10266,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 17189929,
+       "co2": 311117,
+       "coal": 2963021,
+       "coalHeat": 2661343,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7777930,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.56,
+         "served": 1.0,
+         "mwh": 303933,
+         "cost": 17189929,
+         "co2": 311117,
+         "coal": 2963021,
+         "coalHeat": 2661343,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7777930,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.4,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 18964695,
+       "co2": 311116,
+       "coal": 2963006,
+       "coalHeat": 2661330,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7777892,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.4,
+         "served": 1.0,
+         "mwh": 303933,
+         "cost": 18964695,
+         "co2": 311116,
+         "coal": 2963006,
+         "coalHeat": 2661330,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7777892,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.25,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 20744323,
+       "co2": 311138,
+       "coal": 2963218,
+       "coalHeat": 2661632,
+       "imp": 8,
+       "re": 0,
+       "carbon": 7778447,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.1,
@@ -7123,6 +10554,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 17189929,
+       "co2": 311117,
+       "coal": 2963021,
+       "coalHeat": 2661343,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7777930,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.41,
+       "served": 1.0,
+       "mwh": 303929,
+       "cost": 18967217,
+       "co2": 303328,
+       "coal": 2888839,
+       "coalHeat": 2661230,
+       "imp": 0,
+       "re": 394556,
+       "carbon": 7583203,
+       "solarMW": 5.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.755,
+        "solar": 0.245,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.18,
+       "served": 1.0,
+       "mwh": 303930,
+       "cost": 20721738,
+       "co2": 302986,
+       "coal": 2885584,
+       "coalHeat": 2664538,
+       "imp": 0,
+       "re": 436105,
+       "carbon": 7574658,
+       "solarMW": 6.1,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.732,
+        "solar": 0.268,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.87,
        "served": 1.0,
        "mwh": 303930,
@@ -7253,6 +10749,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 303933,
+       "cost": 17189929,
+       "co2": 311117,
+       "coal": 2963021,
+       "coalHeat": 2661343,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7777930,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.56,
+         "served": 1.0,
+         "mwh": 303933,
+         "cost": 17189929,
+         "co2": 311117,
+         "coal": 2963021,
+         "coalHeat": 2661343,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7777930,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.37,
+       "served": 1.0,
+       "mwh": 303931,
+       "cost": 18957042,
+       "co2": 303076,
+       "coal": 2886436,
+       "coalHeat": 2661937,
+       "imp": 112,
+       "re": 405849,
+       "carbon": 7576895,
+       "solarMW": 5.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.744,
+        "solar": 0.252,
+        "grid": 0.004,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.13,
+       "served": 1.0,
+       "mwh": 303931,
+       "cost": 20706158,
+       "co2": 302900,
+       "coal": 2884763,
+       "coalHeat": 2664812,
+       "imp": 103,
+       "re": 432871,
+       "carbon": 7572502,
+       "solarMW": 6.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.728,
+        "solar": 0.268,
+        "grid": 0.004,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.8,
@@ -7453,6 +11039,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 9822450,
+       "co2": 177775,
+       "coal": 1693091,
+       "coalHeat": 1520731,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4444363,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.4,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 10836563,
+       "co2": 177774,
+       "coal": 1693082,
+       "coalHeat": 1520723,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4444341,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.25,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 11852378,
+       "co2": 177773,
+       "coal": 1693077,
+       "coalHeat": 1520718,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4444327,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.1,
        "served": 1.0,
        "mwh": 173669,
@@ -7579,6 +11228,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 9822450,
+       "co2": 177775,
+       "coal": 1693091,
+       "coalHeat": 1520731,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4444363,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.56,
+         "served": 1.0,
+         "mwh": 173669,
+         "cost": 9822450,
+         "co2": 177775,
+         "coal": 1693091,
+         "coalHeat": 1520731,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4444363,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.4,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 10836563,
+       "co2": 177774,
+       "coal": 1693082,
+       "coalHeat": 1520723,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4444341,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.4,
+         "served": 1.0,
+         "mwh": 173669,
+         "cost": 10836563,
+         "co2": 177774,
+         "coal": 1693082,
+         "coalHeat": 1520723,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4444341,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.23,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 11849413,
+       "co2": 177621,
+       "coal": 1691632,
+       "coalHeat": 1520896,
+       "imp": 106,
+       "re": 0,
+       "carbon": 4440535,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.99,
+        "grid": 0.01,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.07,
@@ -7759,6 +11518,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 9822450,
+       "co2": 177775,
+       "coal": 1693091,
+       "coalHeat": 1520731,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4444363,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.27,
+       "served": 1.0,
+       "mwh": 173665,
+       "cost": 10813610,
+       "co2": 172982,
+       "coal": 1647446,
+       "coalHeat": 1520649,
+       "imp": 0,
+       "re": 221604,
+       "carbon": 4324544,
+       "solarMW": 3.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.736,
+        "solar": 0.264,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.03,
+       "served": 1.0,
+       "mwh": 173666,
+       "cost": 11813753,
+       "co2": 172926,
+       "coal": 1646917,
+       "coalHeat": 1522539,
+       "imp": 0,
+       "re": 238009,
+       "carbon": 4323158,
+       "solarMW": 3.3,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.721,
+        "solar": 0.279,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.71,
        "served": 1.0,
        "mwh": 173666,
@@ -7889,6 +11713,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.56,
+       "served": 1.0,
+       "mwh": 173669,
+       "cost": 9822450,
+       "co2": 177775,
+       "coal": 1693091,
+       "coalHeat": 1520731,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4444363,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.56,
+         "served": 1.0,
+         "mwh": 173669,
+         "cost": 9822450,
+         "co2": 177775,
+         "coal": 1693091,
+         "coalHeat": 1520731,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4444363,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.25,
+       "served": 1.0,
+       "mwh": 173668,
+       "cost": 10810972,
+       "co2": 172988,
+       "coal": 1647507,
+       "coalHeat": 1521067,
+       "imp": 36,
+       "re": 221820,
+       "carbon": 4324706,
+       "solarMW": 3.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.733,
+        "solar": 0.265,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.99,
+       "served": 1.0,
+       "mwh": 173668,
+       "cost": 11807641,
+       "co2": 172816,
+       "coal": 1645867,
+       "coalHeat": 1522709,
+       "imp": 95,
+       "re": 236513,
+       "carbon": 4320401,
+       "solarMW": 3.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.714,
+        "solar": 0.28,
+        "grid": 0.007,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.67,
@@ -8086,6 +12000,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.16,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 3381973,
+       "co2": 60570,
+       "coal": 576861,
+       "coalHeat": 432640,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1514259,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.99,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 3727496,
+       "co2": 60570,
+       "coal": 576858,
+       "coalHeat": 432638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1514252,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.84,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 4073598,
+       "co2": 60570,
+       "coal": 576856,
+       "coalHeat": 432637,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1514247,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.69,
        "served": 1.0,
        "mwh": 59172,
@@ -8212,6 +12189,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.16,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 3381973,
+       "co2": 60570,
+       "coal": 576861,
+       "coalHeat": 432640,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1514259,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.16,
+         "served": 1.0,
+         "mwh": 59172,
+         "cost": 3381973,
+         "co2": 60570,
+         "coal": 576861,
+         "coalHeat": 432640,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1514259,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.99,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 3727496,
+       "co2": 60570,
+       "coal": 576858,
+       "coalHeat": 432638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1514252,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.99,
+         "served": 1.0,
+         "mwh": 59172,
+         "cost": 3727496,
+         "co2": 60570,
+         "coal": 576858,
+         "coalHeat": 432638,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1514252,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.57,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 4057207,
+       "co2": 59890,
+       "coal": 570385,
+       "coalHeat": 432687,
+       "imp": 421,
+       "re": 0,
+       "carbon": 1497262,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.955,
+        "grid": 0.045,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.21,
@@ -8392,6 +12479,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.16,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 3381973,
+       "co2": 60570,
+       "coal": 576861,
+       "coalHeat": 432640,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1514259,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.99,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 3727395,
+       "co2": 60568,
+       "coal": 576840,
+       "coalHeat": 432625,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1514206,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.42,
+       "served": 1.0,
+       "mwh": 59170,
+       "cost": 4048371,
+       "co2": 55923,
+       "coal": 532600,
+       "coalHeat": 433151,
+       "imp": 0,
+       "re": 237596,
+       "carbon": 1398075,
+       "solarMW": 3.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.689,
+        "solar": 0.311,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.8,
        "served": 1.0,
        "mwh": 59170,
@@ -8522,6 +12673,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.16,
+       "served": 1.0,
+       "mwh": 59172,
+       "cost": 3381973,
+       "co2": 60570,
+       "coal": 576861,
+       "coalHeat": 432640,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1514259,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.16,
+         "served": 1.0,
+         "mwh": 59172,
+         "cost": 3381973,
+         "co2": 60570,
+         "coal": 576861,
+         "coalHeat": 432640,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1514259,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.84,
+       "served": 1.0,
+       "mwh": 59171,
+       "cost": 3718187,
+       "co2": 56307,
+       "coal": 536258,
+       "coalHeat": 432737,
+       "imp": 45,
+       "re": 210027,
+       "carbon": 1407678,
+       "solarMW": 3.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.718,
+        "solar": 0.279,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.08,
+       "served": 1.0,
+       "mwh": 59171,
+       "cost": 4028391,
+       "co2": 54948,
+       "coal": 523315,
+       "coalHeat": 433204,
+       "imp": 779,
+       "re": 236126,
+       "carbon": 1373702,
+       "solarMW": 3.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.624,
+        "solar": 0.312,
+        "grid": 0.064,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.4,
@@ -8724,6 +12965,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 53.07,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 524332633,
+       "co2": 9398068,
+       "coal": 89505405,
+       "coalHeat": 67124138,
+       "imp": 0,
+       "re": 0,
+       "carbon": 234951689,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 58.5,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 577958264,
+       "co2": 9398284,
+       "coal": 89507465,
+       "coalHeat": 67125683,
+       "imp": 0,
+       "re": 0,
+       "carbon": 234957096,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.94,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 631645926,
+       "co2": 9398007,
+       "coal": 89504827,
+       "coalHeat": 67123704,
+       "imp": 0,
+       "re": 0,
+       "carbon": 234950170,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 69.38,
        "served": 1.0,
        "mwh": 9879090,
@@ -8843,6 +13147,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 53.07,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 524332633,
+       "co2": 9398068,
+       "coal": 89505405,
+       "coalHeat": 67124138,
+       "imp": 0,
+       "re": 0,
+       "carbon": 234951689,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 53.07,
+         "served": 1.0,
+         "mwh": 9879090,
+         "cost": 524332633,
+         "co2": 9398068,
+         "coal": 89505405,
+         "coalHeat": 67124138,
+         "imp": 0,
+         "re": 0,
+         "carbon": 234951689,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 58.5,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 577958264,
+       "co2": 9398284,
+       "coal": 89507465,
+       "coalHeat": 67125683,
+       "imp": 0,
+       "re": 0,
+       "carbon": 234957096,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 58.5,
+         "served": 1.0,
+         "mwh": 9879090,
+         "cost": 577958264,
+         "co2": 9398284,
+         "coal": 89507465,
+         "coalHeat": 67125683,
+         "imp": 0,
+         "re": 0,
+         "carbon": 234957096,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.94,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 631645926,
+       "co2": 9398007,
+       "coal": 89504827,
+       "coalHeat": 67123704,
+       "imp": 0,
+       "re": 0,
+       "carbon": 234950170,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.94,
+         "served": 1.0,
+         "mwh": 9879090,
+         "cost": 631645926,
+         "co2": 9398007,
+         "coal": 89504827,
+         "coalHeat": 67123704,
+         "imp": 0,
+         "re": 0,
+         "carbon": 234950170,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -9024,6 +13460,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 53.07,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 524332633,
+       "co2": 9398068,
+       "coal": 89505405,
+       "coalHeat": 67124138,
+       "imp": 0,
+       "re": 0,
+       "carbon": 234951689,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 58.49,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 577827350,
+       "co2": 9363784,
+       "coal": 89178900,
+       "coalHeat": 67126043,
+       "imp": 0,
+       "re": 1612595,
+       "carbon": 234094612,
+       "solarMW": 22.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.986,
+        "solar": 0.014,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.64,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 628683807,
+       "co2": 8736198,
+       "coal": 83201885,
+       "coalHeat": 67205684,
+       "imp": 0,
+       "re": 33967039,
+       "carbon": 218404949,
+       "solarMW": 477.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.712,
+        "solar": 0.288,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.68,
        "served": 1.0,
        "mwh": 9879089,
@@ -9153,6 +13654,95 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 53.07,
+       "served": 1.0,
+       "mwh": 9879090,
+       "cost": 524332633,
+       "co2": 9398068,
+       "coal": 89505405,
+       "coalHeat": 67124138,
+       "imp": 0,
+       "re": 0,
+       "carbon": 234951689,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 53.07,
+         "served": 1.0,
+         "mwh": 9879090,
+         "cost": 524332633,
+         "co2": 9398068,
+         "coal": 89505405,
+         "coalHeat": 67124138,
+         "imp": 0,
+         "re": 0,
+         "carbon": 234951689,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 58.48,
+       "served": 1.0,
+       "mwh": 9879088,
+       "cost": 577743829,
+       "co2": 9362558,
+       "coal": 89167222,
+       "coalHeat": 67127933,
+       "imp": 944,
+       "re": 1633344,
+       "carbon": 234063958,
+       "solarMW": 23.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.986,
+        "solar": 0.014,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.55,
+       "served": 1.0,
+       "mwh": 9879066,
+       "cost": 627783143,
+       "co2": 8726100,
+       "coal": 83105710,
+       "coalHeat": 67207492,
+       "imp": 8211,
+       "re": 34078048,
+       "carbon": 218152488,
+       "solarMW": 479.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.708,
+        "grid": 0.004,
+        "solar": 0.288,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.59,
@@ -9350,6 +13940,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 942512876,
+       "co2": 16895306,
+       "coal": 160907677,
+       "coalHeat": 120675842,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422382651,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 1038917956,
+       "co2": 16895695,
+       "coal": 160911380,
+       "coalHeat": 120678619,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422392371,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 1135434551,
+       "co2": 16895197,
+       "coal": 160906637,
+       "coalHeat": 120675062,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422379921,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.75,
        "served": 1.0,
        "mwh": 17920770,
@@ -9469,6 +14122,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 942512876,
+       "co2": 16895306,
+       "coal": 160907677,
+       "coalHeat": 120675842,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422382651,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 17920770,
+         "cost": 942512876,
+         "co2": 16895306,
+         "coal": 160907677,
+         "coalHeat": 120675842,
+         "imp": 0,
+         "re": 0,
+         "carbon": 422382651,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 1038917956,
+       "co2": 16895695,
+       "coal": 160911380,
+       "coalHeat": 120678619,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422392371,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 17920770,
+         "cost": 1038917956,
+         "co2": 16895695,
+         "coal": 160911380,
+         "coalHeat": 120678619,
+         "imp": 0,
+         "re": 0,
+         "carbon": 422392371,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 1135434551,
+       "co2": 16895197,
+       "coal": 160906637,
+       "coalHeat": 120675062,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422379921,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.36,
+         "served": 1.0,
+         "mwh": 17920770,
+         "cost": 1135434551,
+         "co2": 16895197,
+         "coal": 160906637,
+         "coalHeat": 120675062,
+         "imp": 0,
+         "re": 0,
+         "carbon": 422379921,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -9650,6 +14435,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 942512876,
+       "co2": 16895306,
+       "coal": 160907677,
+       "coalHeat": 120675842,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422382651,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 1038922940,
+       "co2": 16895785,
+       "coal": 160912243,
+       "coalHeat": 120679266,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422394637,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.05,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 1129961728,
+       "co2": 15623879,
+       "coal": 148798849,
+       "coalHeat": 120822451,
+       "imp": 0,
+       "re": 65444944,
+       "carbon": 390596979,
+       "solarMW": 920.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.695,
+        "solar": 0.305,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.03,
        "served": 1.0,
        "mwh": 17920770,
@@ -9779,6 +14628,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 942512876,
+       "co2": 16895306,
+       "coal": 160907677,
+       "coalHeat": 120675842,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422382651,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 17920770,
+         "cost": 942512876,
+         "co2": 16895306,
+         "coal": 160907677,
+         "coalHeat": 120675842,
+         "imp": 0,
+         "re": 0,
+         "carbon": 422382651,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 17920770,
+       "cost": 1038949338,
+       "co2": 16896266,
+       "coal": 160916814,
+       "coalHeat": 120682695,
+       "imp": 0,
+       "re": 0,
+       "carbon": 422406638,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.96,
+       "served": 1.0,
+       "mwh": 17920723,
+       "cost": 1128295761,
+       "co2": 15605990,
+       "coal": 148628474,
+       "coalHeat": 120825676,
+       "imp": 14948,
+       "re": 65626332,
+       "carbon": 390149746,
+       "solarMW": 923.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.69,
+        "solar": 0.306,
+        "grid": 0.004,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.93,
@@ -9976,6 +14913,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 203314011,
+       "co2": 3644511,
+       "coal": 34709632,
+       "coalHeat": 26032219,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91112785,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 224109693,
+       "co2": 3644595,
+       "coal": 34710431,
+       "coalHeat": 26032818,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91114881,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 244929430,
+       "co2": 3644488,
+       "coal": 34709408,
+       "coalHeat": 26032051,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91112196,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.75,
        "served": 1.0,
        "mwh": 3865716,
@@ -10095,6 +15095,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 203314011,
+       "co2": 3644511,
+       "coal": 34709632,
+       "coalHeat": 26032219,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91112785,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 3865716,
+         "cost": 203314011,
+         "co2": 3644511,
+         "coal": 34709632,
+         "coalHeat": 26032219,
+         "imp": 0,
+         "re": 0,
+         "carbon": 91112785,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 224109693,
+       "co2": 3644595,
+       "coal": 34710431,
+       "coalHeat": 26032818,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91114881,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 3865716,
+         "cost": 224109693,
+         "co2": 3644595,
+         "coal": 34710431,
+         "coalHeat": 26032818,
+         "imp": 0,
+         "re": 0,
+         "carbon": 91114881,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 244929430,
+       "co2": 3644488,
+       "coal": 34709408,
+       "coalHeat": 26032051,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91112196,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.36,
+         "served": 1.0,
+         "mwh": 3865716,
+         "cost": 244929430,
+         "co2": 3644488,
+         "coal": 34709408,
+         "coalHeat": 26032051,
+         "imp": 0,
+         "re": 0,
+         "carbon": 91112196,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -10276,6 +15408,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 203314011,
+       "co2": 3644511,
+       "coal": 34709632,
+       "coalHeat": 26032219,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91112785,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 224110768,
+       "co2": 3644615,
+       "coal": 34710617,
+       "coalHeat": 26032958,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91115370,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.05,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 243749620,
+       "co2": 3370392,
+       "coal": 32098974,
+       "coalHeat": 26063846,
+       "imp": 0,
+       "re": 14110017,
+       "carbon": 84259808,
+       "solarMW": 198.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.695,
+        "solar": 0.305,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.03,
        "served": 1.0,
        "mwh": 3865716,
@@ -10405,6 +15601,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 203314011,
+       "co2": 3644511,
+       "coal": 34709632,
+       "coalHeat": 26032219,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91112785,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 3865716,
+         "cost": 203314011,
+         "co2": 3644511,
+         "coal": 34709632,
+         "coalHeat": 26032219,
+         "imp": 0,
+         "re": 0,
+         "carbon": 91112785,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.98,
+       "served": 1.0,
+       "mwh": 3865716,
+       "cost": 224116463,
+       "co2": 3644718,
+       "coal": 34711603,
+       "coalHeat": 26033698,
+       "imp": 0,
+       "re": 0,
+       "carbon": 91117959,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.96,
+       "served": 1.0,
+       "mwh": 3865706,
+       "cost": 243386737,
+       "co2": 3366491,
+       "coal": 32061823,
+       "coalHeat": 26064542,
+       "imp": 3267,
+       "re": 14149124,
+       "carbon": 84162286,
+       "solarMW": 199.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.69,
+        "solar": 0.306,
+        "grid": 0.004,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.93,
@@ -10602,6 +15886,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.15,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 20290866,
+       "co2": 363407,
+       "coal": 3461015,
+       "coalHeat": 2595745,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9085163,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.0,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 22364474,
+       "co2": 363415,
+       "coal": 3461094,
+       "coalHeat": 2595805,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9085373,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.84,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 24440480,
+       "co2": 363404,
+       "coal": 3460992,
+       "coalHeat": 2595728,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9085105,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.69,
        "served": 1.0,
        "mwh": 355019,
@@ -10721,6 +16068,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.15,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 20290866,
+       "co2": 363407,
+       "coal": 3461015,
+       "coalHeat": 2595745,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9085163,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.15,
+         "served": 1.0,
+         "mwh": 355019,
+         "cost": 20290866,
+         "co2": 363407,
+         "coal": 3461015,
+         "coalHeat": 2595745,
+         "imp": 0,
+         "re": 0,
+         "carbon": 9085163,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.0,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 22364474,
+       "co2": 363415,
+       "coal": 3461094,
+       "coalHeat": 2595805,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9085373,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.0,
+         "served": 1.0,
+         "mwh": 355019,
+         "cost": 22364474,
+         "co2": 363415,
+         "coal": 3461094,
+         "coalHeat": 2595805,
+         "imp": 0,
+         "re": 0,
+         "carbon": 9085373,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.84,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 24440480,
+       "co2": 363404,
+       "coal": 3460992,
+       "coalHeat": 2595728,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9085105,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.84,
+         "served": 1.0,
+         "mwh": 355019,
+         "cost": 24440480,
+         "co2": 363404,
+         "coal": 3460992,
+         "coalHeat": 2595728,
+         "imp": 0,
+         "re": 0,
+         "carbon": 9085105,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -10902,6 +16381,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.15,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 20290866,
+       "co2": 363407,
+       "coal": 3461015,
+       "coalHeat": 2595745,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9085163,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.7,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 22258346,
+       "co2": 335961,
+       "coal": 3199632,
+       "coalHeat": 2595819,
+       "imp": 0,
+       "re": 1281476,
+       "carbon": 8399033,
+       "solarMW": 18.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.698,
+        "solar": 0.302,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.16,
+       "served": 1.0,
+       "mwh": 355018,
+       "cost": 24196560,
+       "co2": 335323,
+       "coal": 3193555,
+       "coalHeat": 2598896,
+       "imp": 0,
+       "re": 1334577,
+       "carbon": 8383083,
+       "solarMW": 18.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.686,
+        "solar": 0.314,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.55,
        "served": 1.0,
        "mwh": 355018,
@@ -11031,6 +16575,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.15,
+       "served": 1.0,
+       "mwh": 355019,
+       "cost": 20290866,
+       "co2": 363407,
+       "coal": 3461015,
+       "coalHeat": 2595745,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9085163,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.15,
+         "served": 1.0,
+         "mwh": 355019,
+         "cost": 20290866,
+         "co2": 363407,
+         "coal": 3461015,
+         "coalHeat": 2595745,
+         "imp": 0,
+         "re": 0,
+         "carbon": 9085163,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.48,
+       "served": 1.0,
+       "mwh": 355017,
+       "cost": 22180873,
+       "co2": 334785,
+       "coal": 3188429,
+       "coalHeat": 2595879,
+       "imp": 750,
+       "re": 1297964,
+       "carbon": 8369626,
+       "solarMW": 18.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.685,
+        "solar": 0.306,
+        "grid": 0.009,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.98,
+       "served": 1.0,
+       "mwh": 355018,
+       "cost": 24132925,
+       "co2": 334267,
+       "coal": 3183499,
+       "coalHeat": 2598968,
+       "imp": 693,
+       "re": 1351678,
+       "carbon": 8356685,
+       "solarMW": 19.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.675,
+        "solar": 0.317,
+        "grid": 0.008,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.35,
@@ -11228,6 +16862,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 70330260,
+       "co2": 1282232,
+       "coal": 12211735,
+       "coalHeat": 3672060,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32055805,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 77644706,
+       "co2": 1282225,
+       "coal": 12211669,
+       "coalHeat": 3672040,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32055631,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 84977668,
+       "co2": 1282323,
+       "coal": 12212604,
+       "coalHeat": 3672322,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32058086,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 1252680,
@@ -11347,6 +17044,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 70330533,
+       "co2": 1282238,
+       "coal": 12211788,
+       "coalHeat": 3672076,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32055943,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 1252680,
+         "cost": 70330533,
+         "co2": 1282238,
+         "coal": 12211788,
+         "coalHeat": 3672076,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32055943,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 77645010,
+       "co2": 1282231,
+       "coal": 12211722,
+       "coalHeat": 3672056,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32055769,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 1252680,
+         "cost": 77645010,
+         "co2": 1282231,
+         "coal": 12211722,
+         "coalHeat": 3672056,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32055769,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 84978004,
+       "co2": 1282329,
+       "coal": 12212657,
+       "coalHeat": 3672337,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32058224,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 1252680,
+         "cost": 84978004,
+         "co2": 1282329,
+         "coal": 12212657,
+         "coalHeat": 3672337,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32058224,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -11528,6 +17357,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 70330231,
+       "co2": 1282232,
+       "coal": 12211730,
+       "coalHeat": 3672059,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32055790,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 77644674,
+       "co2": 1282225,
+       "coal": 12211663,
+       "coalHeat": 3672039,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32055616,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 84973812,
+       "co2": 1282260,
+       "coal": 12211999,
+       "coalHeat": 3672140,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32056498,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.01,
        "served": 1.0,
        "mwh": 1252680,
@@ -11656,6 +17548,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 70330533,
+       "co2": 1282238,
+       "coal": 12211788,
+       "coalHeat": 3672076,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32055943,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 1252680,
+         "cost": 70330533,
+         "co2": 1282238,
+         "coal": 12211788,
+         "coalHeat": 3672076,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32055943,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 77645010,
+       "co2": 1282231,
+       "coal": 12211722,
+       "coalHeat": 3672056,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32055769,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 1252680,
+         "cost": 77645010,
+         "co2": 1282231,
+         "coal": 12211722,
+         "coalHeat": 3672056,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32055769,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 1252680,
+       "cost": 84973766,
+       "co2": 1282259,
+       "coal": 12211992,
+       "coalHeat": 3672137,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32056479,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.01,
@@ -11843,6 +17844,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 19672800,
+       "co2": 358666,
+       "coal": 3415870,
+       "coalHeat": 1024761,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966659,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 21718799,
+       "co2": 358664,
+       "coal": 3415851,
+       "coalHeat": 1024755,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 23769977,
+       "co2": 358692,
+       "coal": 3416113,
+       "coalHeat": 1024834,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8967297,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 350400,
@@ -11962,6 +18026,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 19672876,
+       "co2": 358668,
+       "coal": 3415885,
+       "coalHeat": 1024765,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966697,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 350400,
+         "cost": 19672876,
+         "co2": 358668,
+         "coal": 3415885,
+         "coalHeat": 1024765,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8966697,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 21718884,
+       "co2": 358666,
+       "coal": 3415866,
+       "coalHeat": 1024760,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966649,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 350400,
+         "cost": 21718884,
+         "co2": 358666,
+         "coal": 3415866,
+         "coalHeat": 1024760,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8966649,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 23770071,
+       "co2": 358693,
+       "coal": 3416128,
+       "coalHeat": 1024838,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8967335,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 350400,
+         "cost": 23770071,
+         "co2": 358693,
+         "coal": 3416128,
+         "coalHeat": 1024838,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8967335,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -12143,6 +18339,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 19672792,
+       "co2": 358666,
+       "coal": 3415868,
+       "coalHeat": 1024761,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966655,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 21718790,
+       "co2": 358664,
+       "coal": 3415850,
+       "coalHeat": 1024755,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966606,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 23768898,
+       "co2": 358674,
+       "coal": 3415944,
+       "coalHeat": 1024783,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966852,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.01,
        "served": 1.0,
        "mwh": 350400,
@@ -12271,6 +18530,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 19672876,
+       "co2": 358668,
+       "coal": 3415885,
+       "coalHeat": 1024765,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966697,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 350400,
+         "cost": 19672876,
+         "co2": 358668,
+         "coal": 3415885,
+         "coalHeat": 1024765,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8966697,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 21718884,
+       "co2": 358666,
+       "coal": 3415866,
+       "coalHeat": 1024760,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966649,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 350400,
+         "cost": 21718884,
+         "co2": 358666,
+         "coal": 3415866,
+         "coalHeat": 1024760,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8966649,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 350400,
+       "cost": 23768886,
+       "co2": 358674,
+       "coal": 3415942,
+       "coalHeat": 1024783,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8966847,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.01,
@@ -12458,6 +18826,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.62,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 13268685,
+       "co2": 239858,
+       "coal": 2284363,
+       "coalHeat": 2049522,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996453,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 14636947,
+       "co2": 239857,
+       "coal": 2284351,
+       "coalHeat": 2049511,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996420,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.32,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 16008672,
+       "co2": 239875,
+       "coal": 2284526,
+       "coalHeat": 2049668,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996880,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.16,
        "served": 1.0,
        "mwh": 234330,
@@ -12577,6 +19008,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.62,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 13268736,
+       "co2": 239859,
+       "coal": 2284373,
+       "coalHeat": 2049531,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996479,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.62,
+         "served": 1.0,
+         "mwh": 234330,
+         "cost": 13268736,
+         "co2": 239859,
+         "coal": 2284373,
+         "coalHeat": 2049531,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5996479,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 14637004,
+       "co2": 239858,
+       "coal": 2284360,
+       "coalHeat": 2049520,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996446,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.46,
+         "served": 1.0,
+         "mwh": 234330,
+         "cost": 14637004,
+         "co2": 239858,
+         "coal": 2284360,
+         "coalHeat": 2049520,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5996446,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.32,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 16008735,
+       "co2": 239876,
+       "coal": 2284535,
+       "coalHeat": 2049677,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996906,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.32,
+         "served": 1.0,
+         "mwh": 234330,
+         "cost": 16008735,
+         "co2": 239876,
+         "coal": 2284535,
+         "coalHeat": 2049677,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5996906,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -12758,6 +19321,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.62,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 13268680,
+       "co2": 239858,
+       "coal": 2284362,
+       "coalHeat": 2049521,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996450,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 14636941,
+       "co2": 239857,
+       "coal": 2284350,
+       "coalHeat": 2049510,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996418,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.23,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 15989470,
+       "co2": 233226,
+       "coal": 2221204,
+       "coalHeat": 2049566,
+       "imp": 0,
+       "re": 350793,
+       "carbon": 5830660,
+       "solarMW": 4.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.731,
+        "solar": 0.269,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.85,
        "served": 1.0,
        "mwh": 234330,
@@ -12888,6 +19515,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.62,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 13268736,
+       "co2": 239859,
+       "coal": 2284373,
+       "coalHeat": 2049531,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996479,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.62,
+         "served": 1.0,
+         "mwh": 234330,
+         "cost": 13268736,
+         "co2": 239859,
+         "coal": 2284373,
+         "coalHeat": 2049531,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5996479,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 234330,
+       "cost": 14637004,
+       "co2": 239858,
+       "coal": 2284360,
+       "coalHeat": 2049520,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5996446,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.46,
+         "served": 1.0,
+         "mwh": 234330,
+         "cost": 14637004,
+         "co2": 239858,
+         "coal": 2284360,
+         "coalHeat": 2049520,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5996446,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.17,
+       "served": 1.0,
+       "mwh": 234329,
+       "cost": 15973742,
+       "co2": 232968,
+       "coal": 2218743,
+       "coalHeat": 2049557,
+       "imp": 152,
+       "re": 357291,
+       "carbon": 5824201,
+       "solarMW": 5.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.72,
+        "solar": 0.274,
+        "grid": 0.006,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.77,
@@ -13088,6 +19826,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 58.05,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3178042,
+       "co2": 56042,
+       "coal": 533730,
+       "coalHeat": 405635,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1401040,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.89,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3497729,
+       "co2": 56041,
+       "coal": 533727,
+       "coalHeat": 405632,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1401033,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.74,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3818226,
+       "co2": 56046,
+       "coal": 533768,
+       "coalHeat": 405663,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1401140,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 75.59,
        "served": 1.0,
        "mwh": 54750,
@@ -13209,6 +20010,144 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.996,
+          "grid": 0.004,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.69,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3158441,
+       "co2": 55982,
+       "coal": 533163,
+       "coalHeat": 405636,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1399552,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.996,
+        "grid": 0.004,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.69,
+         "served": 1.0,
+         "mwh": 54750,
+         "cost": 3158441,
+         "co2": 55982,
+         "coal": 533163,
+         "coalHeat": 405636,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1399552,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.996,
+          "grid": 0.004,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.52,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3477789,
+       "co2": 55982,
+       "coal": 533160,
+       "coalHeat": 405634,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1399544,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.996,
+        "grid": 0.004,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.52,
+         "served": 1.0,
+         "mwh": 54750,
+         "cost": 3477789,
+         "co2": 55982,
+         "coal": 533160,
+         "coalHeat": 405634,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1399544,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.996,
+          "grid": 0.004,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 69.37,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3797945,
+       "co2": 55986,
+       "coal": 533201,
+       "coalHeat": 405665,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1399652,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.996,
+        "grid": 0.004,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 69.37,
+         "served": 1.0,
+         "mwh": 54750,
+         "cost": 3797945,
+         "co2": 55986,
+         "coal": 533201,
+         "coalHeat": 405665,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1399652,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 0.996,
@@ -13398,6 +20337,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.75,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3161694,
+       "co2": 56047,
+       "coal": 533781,
+       "coalHeat": 405634,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1401175,
+       "solarMW": 0.0,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.59,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3481412,
+       "co2": 56047,
+       "coal": 533778,
+       "coalHeat": 405632,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1401168,
+       "solarMW": 0.0,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.28,
+       "served": 1.0,
+       "mwh": 54748,
+       "cost": 3793174,
+       "co2": 51578,
+       "coal": 491215,
+       "coalHeat": 405625,
+       "imp": 0,
+       "re": 244598,
+       "carbon": 1289438,
+       "solarMW": 3.4,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.668,
+        "solar": 0.332,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.6,
        "served": 1.0,
        "mwh": 54748,
@@ -13531,6 +20534,121 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.69,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3158441,
+       "co2": 55982,
+       "coal": 533163,
+       "coalHeat": 405636,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1399552,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.996,
+        "grid": 0.004,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.69,
+         "served": 1.0,
+         "mwh": 54750,
+         "cost": 3158441,
+         "co2": 55982,
+         "coal": 533163,
+         "coalHeat": 405636,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1399552,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.996,
+          "grid": 0.004,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.52,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3477789,
+       "co2": 55982,
+       "coal": 533160,
+       "coalHeat": 405634,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1399544,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.996,
+        "grid": 0.004,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.52,
+         "served": 1.0,
+         "mwh": 54750,
+         "cost": 3477789,
+         "co2": 55982,
+         "coal": 533160,
+         "coalHeat": 405634,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1399544,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.996,
+          "grid": 0.004,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 69.14,
+       "served": 1.0,
+       "mwh": 54750,
+       "cost": 3785371,
+       "co2": 51437,
+       "coal": 489872,
+       "coalHeat": 405641,
+       "imp": 125,
+       "re": 245908,
+       "carbon": 1285913,
+       "solarMW": 3.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.657,
+        "solar": 0.334,
+        "grid": 0.009,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.38,
@@ -13731,6 +20849,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.88,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 11916862,
+       "co2": 214453,
+       "coal": 2042406,
+       "coalHeat": 1836030,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361315,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.72,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 13140198,
+       "co2": 214451,
+       "coal": 2042394,
+       "coalHeat": 1836020,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361286,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.57,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 14366632,
+       "co2": 214468,
+       "coal": 2042551,
+       "coalHeat": 1836161,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361696,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.42,
        "served": 1.0,
        "mwh": 209510,
@@ -13850,6 +21031,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.88,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 11916907,
+       "co2": 214454,
+       "coal": 2042414,
+       "coalHeat": 1836038,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361338,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.88,
+         "served": 1.0,
+         "mwh": 209510,
+         "cost": 11916907,
+         "co2": 214454,
+         "coal": 2042414,
+         "coalHeat": 1836038,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5361338,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.72,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 13140249,
+       "co2": 214452,
+       "coal": 2042403,
+       "coalHeat": 1836028,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361309,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.72,
+         "served": 1.0,
+         "mwh": 209510,
+         "cost": 13140249,
+         "co2": 214452,
+         "coal": 2042403,
+         "coalHeat": 1836028,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5361309,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.57,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 14366688,
+       "co2": 214469,
+       "coal": 2042560,
+       "coalHeat": 1836169,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361719,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.57,
+         "served": 1.0,
+         "mwh": 209510,
+         "cost": 14366688,
+         "co2": 214469,
+         "coal": 2042560,
+         "coalHeat": 1836169,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5361719,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -14031,6 +21344,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.88,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 11916857,
+       "co2": 214452,
+       "coal": 2042405,
+       "coalHeat": 1836029,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361312,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.72,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 13140193,
+       "co2": 214451,
+       "coal": 2042394,
+       "coalHeat": 1836019,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361283,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.55,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 14362797,
+       "co2": 210138,
+       "coal": 2001314,
+       "coalHeat": 1836070,
+       "imp": 0,
+       "re": 236357,
+       "carbon": 5253451,
+       "solarMW": 3.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.801,
+        "solar": 0.199,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.21,
        "served": 1.0,
        "mwh": 209510,
@@ -14161,6 +21538,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.88,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 11916907,
+       "co2": 214454,
+       "coal": 2042414,
+       "coalHeat": 1836038,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361338,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.88,
+         "served": 1.0,
+         "mwh": 209510,
+         "cost": 11916907,
+         "co2": 214454,
+         "coal": 2042414,
+         "coalHeat": 1836038,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5361338,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.72,
+       "served": 1.0,
+       "mwh": 209510,
+       "cost": 13140249,
+       "co2": 214452,
+       "coal": 2042403,
+       "coalHeat": 1836028,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5361309,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.72,
+         "served": 1.0,
+         "mwh": 209510,
+         "cost": 13140249,
+         "co2": 214452,
+         "coal": 2042403,
+         "coalHeat": 1836028,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5361309,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.5,
+       "served": 1.0,
+       "mwh": 209509,
+       "cost": 14350569,
+       "co2": 209867,
+       "coal": 1998733,
+       "coalHeat": 1836062,
+       "imp": 123,
+       "re": 244988,
+       "carbon": 5246675,
+       "solarMW": 3.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.788,
+        "solar": 0.206,
+        "grid": 0.005,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.13,
@@ -14361,6 +21849,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 14007600,
+       "co2": 251064,
+       "coal": 2391088,
+       "coalHeat": 1793332,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276605,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 15439786,
+       "co2": 251063,
+       "coal": 2391075,
+       "coalHeat": 1793322,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276571,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 16875598,
+       "co2": 251082,
+       "coal": 2391258,
+       "coalHeat": 1793459,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6277052,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.65,
        "served": 1.0,
        "mwh": 245278,
@@ -14480,6 +22031,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 14007653,
+       "co2": 251065,
+       "coal": 2391098,
+       "coalHeat": 1793339,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276632,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.11,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 14007653,
+         "co2": 251065,
+         "coal": 2391098,
+         "coalHeat": 1793339,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6276632,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 15439846,
+       "co2": 251064,
+       "coal": 2391085,
+       "coalHeat": 1793330,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276598,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.95,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 15439846,
+         "co2": 251064,
+         "coal": 2391085,
+         "coalHeat": 1793330,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6276598,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 16875664,
+       "co2": 251083,
+       "coal": 2391268,
+       "coalHeat": 1793467,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6277079,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.8,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 16875664,
+         "co2": 251083,
+         "coal": 2391268,
+         "coalHeat": 1793467,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6277079,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -14661,6 +22344,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 14007594,
+       "co2": 251064,
+       "coal": 2391087,
+       "coalHeat": 1793331,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276602,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 15439780,
+       "co2": 251063,
+       "coal": 2391074,
+       "coalHeat": 1793321,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276568,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.75,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 16861723,
+       "co2": 233286,
+       "coal": 2221767,
+       "coalHeat": 1793370,
+       "imp": 0,
+       "re": 973201,
+       "carbon": 5832139,
+       "solarMW": 13.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.717,
+        "solar": 0.283,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.1,
        "served": 1.0,
        "mwh": 245278,
@@ -14791,6 +22538,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 14007653,
+       "co2": 251065,
+       "coal": 2391098,
+       "coalHeat": 1793339,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276632,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.11,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 14007653,
+         "co2": 251065,
+         "coal": 2391098,
+         "coalHeat": 1793339,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6276632,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 15439846,
+       "co2": 251064,
+       "coal": 2391085,
+       "coalHeat": 1793330,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276598,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.95,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 15439846,
+         "co2": 251064,
+         "coal": 2391085,
+         "coalHeat": 1793330,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6276598,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.56,
+       "served": 1.0,
+       "mwh": 245277,
+       "cost": 16816551,
+       "co2": 232343,
+       "coal": 2212794,
+       "coalHeat": 1793360,
+       "imp": 434,
+       "re": 1003021,
+       "carbon": 5808585,
+       "solarMW": 14.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.702,
+        "solar": 0.292,
+        "grid": 0.007,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.87,
@@ -14991,6 +22849,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 48.21,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 483092723,
+       "co2": 8349174,
+       "coal": 79515946,
+       "coalHeat": 23840882,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208729358,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 52.96,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 530720275,
+       "co2": 8349129,
+       "coal": 79515513,
+       "coalHeat": 23840753,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208728222,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.72,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 578468409,
+       "co2": 8349768,
+       "coal": 79521603,
+       "coalHeat": 23842579,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208744208,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 62.48,
        "served": 1.0,
        "mwh": 10021440,
@@ -15110,6 +23031,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 48.21,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 483094499,
+       "co2": 8349210,
+       "coal": 79516289,
+       "coalHeat": 23840985,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208730258,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 48.21,
+         "served": 1.0,
+         "mwh": 10021440,
+         "cost": 483094499,
+         "co2": 8349210,
+         "coal": 79516289,
+         "coalHeat": 23840985,
+         "imp": 0,
+         "re": 0,
+         "carbon": 208730258,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 52.96,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 530722257,
+       "co2": 8349165,
+       "coal": 79515856,
+       "coalHeat": 23840855,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208729122,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.96,
+         "served": 1.0,
+         "mwh": 10021440,
+         "cost": 530722257,
+         "co2": 8349165,
+         "coal": 79515856,
+         "coalHeat": 23840855,
+         "imp": 0,
+         "re": 0,
+         "carbon": 208729122,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.72,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 578470597,
+       "co2": 8349804,
+       "coal": 79521946,
+       "coalHeat": 23842681,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208745109,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.72,
+         "served": 1.0,
+         "mwh": 10021440,
+         "cost": 578470597,
+         "co2": 8349804,
+         "coal": 79521946,
+         "coalHeat": 23842681,
+         "imp": 0,
+         "re": 0,
+         "carbon": 208745109,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -15291,6 +23344,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 48.21,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 483092530,
+       "co2": 8349170,
+       "coal": 79515909,
+       "coalHeat": 23840871,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208729260,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 52.96,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 530720064,
+       "co2": 8349125,
+       "coal": 79515476,
+       "coalHeat": 23840742,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208728125,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.72,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 578443293,
+       "co2": 8349355,
+       "coal": 79517663,
+       "coalHeat": 23841397,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208733866,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 62.43,
        "served": 1.0,
        "mwh": 10021440,
@@ -15418,6 +23534,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 48.21,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 483094499,
+       "co2": 8349210,
+       "coal": 79516289,
+       "coalHeat": 23840985,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208730258,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 48.21,
+         "served": 1.0,
+         "mwh": 10021440,
+         "cost": 483094499,
+         "co2": 8349210,
+         "coal": 79516289,
+         "coalHeat": 23840985,
+         "imp": 0,
+         "re": 0,
+         "carbon": 208730258,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 52.96,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 530722257,
+       "co2": 8349165,
+       "coal": 79515856,
+       "coalHeat": 23840855,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208729122,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.96,
+         "served": 1.0,
+         "mwh": 10021440,
+         "cost": 530722257,
+         "co2": 8349165,
+         "coal": 79515856,
+         "coalHeat": 23840855,
+         "imp": 0,
+         "re": 0,
+         "carbon": 208729122,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.72,
+       "served": 1.0,
+       "mwh": 10021440,
+       "cost": 578442996,
+       "co2": 8349350,
+       "coal": 79517617,
+       "coalHeat": 23841383,
+       "imp": 0,
+       "re": 0,
+       "carbon": 208733744,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 62.43,
@@ -15604,6 +23829,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 72274364,
+       "co2": 1318618,
+       "coal": 12558271,
+       "coalHeat": 8817508,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32965461,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 79796374,
+       "co2": 1318611,
+       "coal": 12558203,
+       "coalHeat": 8817460,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32965282,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 87337427,
+       "co2": 1318712,
+       "coal": 12559164,
+       "coalHeat": 8818135,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32967807,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.83,
        "served": 1.0,
        "mwh": 1398700,
@@ -15723,6 +24011,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 72274645,
+       "co2": 1318624,
+       "coal": 12558325,
+       "coalHeat": 8817546,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32965604,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.67,
+         "served": 1.0,
+         "mwh": 1398700,
+         "cost": 72274645,
+         "co2": 1318624,
+         "coal": 12558325,
+         "coalHeat": 8817546,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32965604,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 79796687,
+       "co2": 1318617,
+       "coal": 12558257,
+       "coalHeat": 8817498,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32965424,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 1398700,
+         "cost": 79796687,
+         "co2": 1318617,
+         "coal": 12558257,
+         "coalHeat": 8817498,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32965424,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 87337772,
+       "co2": 1318718,
+       "coal": 12559219,
+       "coalHeat": 8818173,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32967949,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.44,
+         "served": 1.0,
+         "mwh": 1398700,
+         "cost": 87337772,
+         "co2": 1318718,
+         "coal": 12559219,
+         "coalHeat": 8818173,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32967949,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -15904,6 +24324,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 72274334,
+       "co2": 1318618,
+       "coal": 12558265,
+       "coalHeat": 8817504,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32965446,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 79796341,
+       "co2": 1318611,
+       "coal": 12558197,
+       "coalHeat": 8817456,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32965267,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 87333461,
+       "co2": 1318647,
+       "coal": 12558542,
+       "coalHeat": 8817698,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32966173,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.86,
        "served": 1.0,
        "mwh": 1398700,
@@ -16033,6 +24516,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 72274645,
+       "co2": 1318624,
+       "coal": 12558325,
+       "coalHeat": 8817546,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32965604,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.67,
+         "served": 1.0,
+         "mwh": 1398700,
+         "cost": 72274645,
+         "co2": 1318624,
+         "coal": 12558325,
+         "coalHeat": 8817546,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32965604,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 79796687,
+       "co2": 1318617,
+       "coal": 12558257,
+       "coalHeat": 8817498,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32965424,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 1398700,
+         "cost": 79796687,
+         "co2": 1318617,
+         "coal": 12558257,
+         "coalHeat": 8817498,
+         "imp": 0,
+         "re": 0,
+         "carbon": 32965424,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 1398700,
+       "cost": 87333414,
+       "co2": 1318646,
+       "coal": 12558535,
+       "coalHeat": 8817693,
+       "imp": 0,
+       "re": 0,
+       "carbon": 32966154,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.86,
@@ -16223,6 +24815,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 31335820,
+       "co2": 571302,
+       "coal": 5440969,
+       "coalHeat": 1633725,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282542,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 34594789,
+       "co2": 571299,
+       "coal": 5440939,
+       "coalHeat": 1633716,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282465,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 37862008,
+       "co2": 571342,
+       "coal": 5441356,
+       "coalHeat": 1633841,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14283559,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 558135,
@@ -16342,6 +24997,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 31335941,
+       "co2": 571304,
+       "coal": 5440992,
+       "coalHeat": 1633732,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282604,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 558135,
+         "cost": 31335941,
+         "co2": 571304,
+         "coal": 5440992,
+         "coalHeat": 1633732,
+         "imp": 0,
+         "re": 0,
+         "carbon": 14282604,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 34594924,
+       "co2": 571301,
+       "coal": 5440962,
+       "coalHeat": 1633723,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282526,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 558135,
+         "cost": 34594924,
+         "co2": 571301,
+         "coal": 5440962,
+         "coalHeat": 1633723,
+         "imp": 0,
+         "re": 0,
+         "carbon": 14282526,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 37862157,
+       "co2": 571345,
+       "coal": 5441379,
+       "coalHeat": 1633849,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14283620,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 558135,
+         "cost": 37862157,
+         "co2": 571345,
+         "coal": 5441379,
+         "coalHeat": 1633849,
+         "imp": 0,
+         "re": 0,
+         "carbon": 14283620,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -16523,6 +25310,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 31335806,
+       "co2": 571301,
+       "coal": 5440966,
+       "coalHeat": 1633724,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282536,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 34594774,
+       "co2": 571298,
+       "coal": 5440936,
+       "coalHeat": 1633716,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282458,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 37860290,
+       "co2": 571314,
+       "coal": 5441086,
+       "coalHeat": 1633761,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282851,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.01,
        "served": 1.0,
        "mwh": 558135,
@@ -16651,6 +25501,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 31335941,
+       "co2": 571304,
+       "coal": 5440992,
+       "coalHeat": 1633732,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282604,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 558135,
+         "cost": 31335941,
+         "co2": 571304,
+         "coal": 5440992,
+         "coalHeat": 1633732,
+         "imp": 0,
+         "re": 0,
+         "carbon": 14282604,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 34594924,
+       "co2": 571301,
+       "coal": 5440962,
+       "coalHeat": 1633723,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282526,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 558135,
+         "cost": 34594924,
+         "co2": 571301,
+         "coal": 5440962,
+         "coalHeat": 1633723,
+         "imp": 0,
+         "re": 0,
+         "carbon": 14282526,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 558135,
+       "cost": 37860270,
+       "co2": 571314,
+       "coal": 5441083,
+       "coalHeat": 1633760,
+       "imp": 0,
+       "re": 0,
+       "carbon": 14282843,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.01,
@@ -16838,6 +25797,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 28724747,
+       "co2": 523698,
+       "coal": 4987597,
+       "coalHeat": 1497603,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092443,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 31712161,
+       "co2": 523695,
+       "coal": 4987570,
+       "coalHeat": 1497595,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092371,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 34707138,
+       "co2": 523735,
+       "coal": 4987952,
+       "coalHeat": 1497709,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13093374,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 511628,
@@ -16957,6 +25979,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 28724859,
+       "co2": 523700,
+       "coal": 4987619,
+       "coalHeat": 1497609,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092499,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 511628,
+         "cost": 28724859,
+         "co2": 523700,
+         "coal": 4987619,
+         "coalHeat": 1497609,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13092499,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 31712285,
+       "co2": 523697,
+       "coal": 4987592,
+       "coalHeat": 1497601,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092428,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 511628,
+         "cost": 31712285,
+         "co2": 523697,
+         "coal": 4987592,
+         "coalHeat": 1497601,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13092428,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 34707275,
+       "co2": 523737,
+       "coal": 4987974,
+       "coalHeat": 1497716,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13093431,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 511628,
+         "cost": 34707275,
+         "co2": 523737,
+         "coal": 4987974,
+         "coalHeat": 1497716,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13093431,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -17138,6 +26292,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 28724735,
+       "co2": 523697,
+       "coal": 4987595,
+       "coalHeat": 1497602,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092437,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 31712148,
+       "co2": 523695,
+       "coal": 4987568,
+       "coalHeat": 1497594,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092365,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 34705563,
+       "co2": 523709,
+       "coal": 4987705,
+       "coalHeat": 1497635,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092725,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.01,
        "served": 1.0,
        "mwh": 511628,
@@ -17266,6 +26483,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 28724859,
+       "co2": 523700,
+       "coal": 4987619,
+       "coalHeat": 1497609,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092499,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 511628,
+         "cost": 28724859,
+         "co2": 523700,
+         "coal": 4987619,
+         "coalHeat": 1497609,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13092499,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 31712285,
+       "co2": 523697,
+       "coal": 4987592,
+       "coalHeat": 1497601,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092428,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 511628,
+         "cost": 31712285,
+         "co2": 523697,
+         "coal": 4987592,
+         "coalHeat": 1497601,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13092428,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 511628,
+       "cost": 34705544,
+       "co2": 523709,
+       "coal": 4987702,
+       "coalHeat": 1497634,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13092718,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.01,
@@ -17453,6 +26779,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 14007600,
+       "co2": 251064,
+       "coal": 2391088,
+       "coalHeat": 1793332,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276605,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 15439786,
+       "co2": 251063,
+       "coal": 2391075,
+       "coalHeat": 1793322,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276571,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 16875598,
+       "co2": 251082,
+       "coal": 2391258,
+       "coalHeat": 1793459,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6277052,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.65,
        "served": 1.0,
        "mwh": 245278,
@@ -17572,6 +26961,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 14007653,
+       "co2": 251065,
+       "coal": 2391098,
+       "coalHeat": 1793339,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276632,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.11,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 14007653,
+         "co2": 251065,
+         "coal": 2391098,
+         "coalHeat": 1793339,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6276632,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 15439846,
+       "co2": 251064,
+       "coal": 2391085,
+       "coalHeat": 1793330,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276598,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.95,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 15439846,
+         "co2": 251064,
+         "coal": 2391085,
+         "coalHeat": 1793330,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6276598,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 16875664,
+       "co2": 251083,
+       "coal": 2391268,
+       "coalHeat": 1793467,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6277079,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.8,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 16875664,
+         "co2": 251083,
+         "coal": 2391268,
+         "coalHeat": 1793467,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6277079,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -17753,6 +27274,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 14007594,
+       "co2": 251064,
+       "coal": 2391087,
+       "coalHeat": 1793331,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276602,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 15439780,
+       "co2": 251063,
+       "coal": 2391074,
+       "coalHeat": 1793321,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276568,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.75,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 16861723,
+       "co2": 233286,
+       "coal": 2221767,
+       "coalHeat": 1793370,
+       "imp": 0,
+       "re": 973201,
+       "carbon": 5832139,
+       "solarMW": 13.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.717,
+        "solar": 0.283,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.1,
        "served": 1.0,
        "mwh": 245278,
@@ -17883,6 +27468,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 14007653,
+       "co2": 251065,
+       "coal": 2391098,
+       "coalHeat": 1793339,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276632,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.11,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 14007653,
+         "co2": 251065,
+         "coal": 2391098,
+         "coalHeat": 1793339,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6276632,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 245278,
+       "cost": 15439846,
+       "co2": 251064,
+       "coal": 2391085,
+       "coalHeat": 1793330,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6276598,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.95,
+         "served": 1.0,
+         "mwh": 245278,
+         "cost": 15439846,
+         "co2": 251064,
+         "coal": 2391085,
+         "coalHeat": 1793330,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6276598,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.56,
+       "served": 1.0,
+       "mwh": 245277,
+       "cost": 16816551,
+       "co2": 232343,
+       "coal": 2212794,
+       "coalHeat": 1793360,
+       "imp": 434,
+       "re": 1003021,
+       "carbon": 5808585,
+       "solarMW": 14.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.702,
+        "solar": 0.292,
+        "grid": 0.007,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.87,
@@ -18083,6 +27779,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 13132386,
+       "co2": 235377,
+       "coal": 2241686,
+       "coalHeat": 1681270,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884426,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 14475085,
+       "co2": 235376,
+       "coal": 2241674,
+       "coalHeat": 1681261,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884394,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 15821183,
+       "co2": 235394,
+       "coal": 2241846,
+       "coalHeat": 1681389,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884845,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.65,
        "served": 1.0,
        "mwh": 229952,
@@ -18202,6 +27961,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 13132436,
+       "co2": 235378,
+       "coal": 2241696,
+       "coalHeat": 1681277,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884451,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.11,
+         "served": 1.0,
+         "mwh": 229952,
+         "cost": 13132436,
+         "co2": 235378,
+         "coal": 2241696,
+         "coalHeat": 1681277,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5884451,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 14475141,
+       "co2": 235377,
+       "coal": 2241684,
+       "coalHeat": 1681268,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884419,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.95,
+         "served": 1.0,
+         "mwh": 229952,
+         "cost": 14475141,
+         "co2": 235377,
+         "coal": 2241684,
+         "coalHeat": 1681268,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5884419,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 15821245,
+       "co2": 235395,
+       "coal": 2241855,
+       "coalHeat": 1681397,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884870,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.8,
+         "served": 1.0,
+         "mwh": 229952,
+         "cost": 15821245,
+         "co2": 235395,
+         "coal": 2241855,
+         "coalHeat": 1681397,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5884870,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -18383,6 +28274,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 13132380,
+       "co2": 235377,
+       "coal": 2241685,
+       "coalHeat": 1681269,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884423,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 14475079,
+       "co2": 235376,
+       "coal": 2241673,
+       "coalHeat": 1681260,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884391,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.59,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 15772911,
+       "co2": 218301,
+       "coal": 2079056,
+       "coalHeat": 1681306,
+       "imp": 0,
+       "re": 902826,
+       "carbon": 5457523,
+       "solarMW": 12.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.71,
+        "solar": 0.29,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.94,
        "served": 1.0,
        "mwh": 229952,
@@ -18513,6 +28468,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 13132436,
+       "co2": 235378,
+       "coal": 2241696,
+       "coalHeat": 1681277,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884451,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.11,
+         "served": 1.0,
+         "mwh": 229952,
+         "cost": 13132436,
+         "co2": 235378,
+         "coal": 2241696,
+         "coalHeat": 1681277,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5884451,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 229952,
+       "cost": 14475141,
+       "co2": 235377,
+       "coal": 2241684,
+       "coalHeat": 1681268,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5884419,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.95,
+         "served": 1.0,
+         "mwh": 229952,
+         "cost": 14475141,
+         "co2": 235377,
+         "coal": 2241684,
+         "coalHeat": 1681268,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5884419,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.42,
+       "served": 1.0,
+       "mwh": 229951,
+       "cost": 15733521,
+       "co2": 217650,
+       "coal": 2072857,
+       "coalHeat": 1681296,
+       "imp": 379,
+       "re": 919549,
+       "carbon": 5441249,
+       "solarMW": 12.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.699,
+        "solar": 0.295,
+        "grid": 0.006,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.74,
@@ -18713,6 +28779,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 6267262,
+       "co2": 114262,
+       "coal": 1088211,
+       "coalHeat": 326728,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856553,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 6919066,
+       "co2": 114262,
+       "coal": 1088205,
+       "coalHeat": 326726,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856538,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 7572520,
+       "co2": 114270,
+       "coal": 1088288,
+       "coalHeat": 326751,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856757,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 111629,
@@ -18832,6 +28961,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 6267287,
+       "co2": 114263,
+       "coal": 1088215,
+       "coalHeat": 326729,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856566,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 111629,
+         "cost": 6267287,
+         "co2": 114263,
+         "coal": 1088215,
+         "coalHeat": 326729,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2856566,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 6919093,
+       "co2": 114262,
+       "coal": 1088210,
+       "coalHeat": 326728,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856550,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 111629,
+         "cost": 6919093,
+         "co2": 114262,
+         "coal": 1088210,
+         "coalHeat": 326728,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2856550,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 7572550,
+       "co2": 114271,
+       "coal": 1088293,
+       "coalHeat": 326753,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856769,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 111629,
+         "cost": 7572550,
+         "co2": 114271,
+         "coal": 1088293,
+         "coalHeat": 326753,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2856769,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -19013,6 +29274,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 6267260,
+       "co2": 114262,
+       "coal": 1088210,
+       "coalHeat": 326728,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856552,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 6919063,
+       "co2": 114261,
+       "coal": 1088204,
+       "coalHeat": 326726,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856536,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 7572177,
+       "co2": 114265,
+       "coal": 1088234,
+       "coalHeat": 326735,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856615,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.01,
        "served": 1.0,
        "mwh": 111629,
@@ -19141,6 +29465,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.14,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 6267287,
+       "co2": 114263,
+       "coal": 1088215,
+       "coalHeat": 326729,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856566,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.14,
+         "served": 1.0,
+         "mwh": 111629,
+         "cost": 6267287,
+         "co2": 114263,
+         "coal": 1088215,
+         "coalHeat": 326729,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2856566,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 6919093,
+       "co2": 114262,
+       "coal": 1088210,
+       "coalHeat": 326728,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856550,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.98,
+         "served": 1.0,
+         "mwh": 111629,
+         "cost": 6919093,
+         "co2": 114262,
+         "coal": 1088210,
+         "coalHeat": 326728,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2856550,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 111629,
+       "cost": 7572173,
+       "co2": 114265,
+       "coal": 1088234,
+       "coalHeat": 326735,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2856613,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.01,
@@ -19328,6 +29761,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 4600273,
+       "co2": 82996,
+       "coal": 790439,
+       "coalHeat": 709654,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2074904,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.57,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 5073721,
+       "co2": 82996,
+       "coal": 790435,
+       "coalHeat": 709650,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2074892,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 5548368,
+       "co2": 83002,
+       "coal": 790496,
+       "coalHeat": 709705,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2075051,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.27,
        "served": 1.0,
        "mwh": 81083,
@@ -19447,6 +29943,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 4600290,
+       "co2": 82996,
+       "coal": 790443,
+       "coalHeat": 709657,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2074912,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 81083,
+         "cost": 4600290,
+         "co2": 82996,
+         "coal": 790443,
+         "coalHeat": 709657,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2074912,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.57,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 5073741,
+       "co2": 82996,
+       "coal": 790439,
+       "coalHeat": 709653,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2074901,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.57,
+         "served": 1.0,
+         "mwh": 81083,
+         "cost": 5073741,
+         "co2": 82996,
+         "coal": 790439,
+         "coalHeat": 709653,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2074901,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 5548390,
+       "co2": 83002,
+       "coal": 790499,
+       "coalHeat": 709708,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2075060,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.43,
+         "served": 1.0,
+         "mwh": 81083,
+         "cost": 5548390,
+         "co2": 83002,
+         "coal": 790499,
+         "coalHeat": 709708,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2075060,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -19628,6 +30256,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 4600271,
+       "co2": 82996,
+       "coal": 790439,
+       "coalHeat": 709654,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2074903,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.57,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 5073719,
+       "co2": 82996,
+       "coal": 790435,
+       "coalHeat": 709650,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2074891,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.35,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 5542291,
+       "co2": 80905,
+       "coal": 770525,
+       "coalHeat": 709669,
+       "imp": 0,
+       "re": 110617,
+       "carbon": 2022627,
+       "solarMW": 1.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.753,
+        "solar": 0.247,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.99,
        "served": 1.0,
        "mwh": 81083,
@@ -19756,6 +30448,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 4600290,
+       "co2": 82996,
+       "coal": 790443,
+       "coalHeat": 709657,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2074912,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 81083,
+         "cost": 4600290,
+         "co2": 82996,
+         "coal": 790443,
+         "coalHeat": 709657,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2074912,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.57,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 5073741,
+       "co2": 82996,
+       "coal": 790439,
+       "coalHeat": 709653,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2074901,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.57,
+         "served": 1.0,
+         "mwh": 81083,
+         "cost": 5073741,
+         "co2": 82996,
+         "coal": 790439,
+         "coalHeat": 709653,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2074901,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.29,
+       "served": 1.0,
+       "mwh": 81083,
+       "cost": 5537330,
+       "co2": 80824,
+       "coal": 769749,
+       "coalHeat": 709666,
+       "imp": 48,
+       "re": 112666,
+       "carbon": 2020591,
+       "solarMW": 1.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.744,
+        "solar": 0.251,
+        "grid": 0.005,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.91,
@@ -19947,6 +30750,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 8190545,
+       "co2": 147960,
+       "coal": 1409146,
+       "coalHeat": 1259691,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3699008,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9034526,
+       "co2": 147959,
+       "coal": 1409129,
+       "coalHeat": 1259676,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698964,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.35,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9879941,
+       "co2": 147958,
+       "coal": 1409119,
+       "coalHeat": 1259667,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698938,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.2,
        "served": 1.0,
        "mwh": 144540,
@@ -20073,6 +30939,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 8190566,
+       "co2": 147961,
+       "coal": 1409150,
+       "coalHeat": 1259695,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3699019,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.67,
+         "served": 1.0,
+         "mwh": 144540,
+         "cost": 8190566,
+         "co2": 147961,
+         "coal": 1409150,
+         "coalHeat": 1259695,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3699019,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9034550,
+       "co2": 147959,
+       "coal": 1409133,
+       "coalHeat": 1259680,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698974,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.51,
+         "served": 1.0,
+         "mwh": 144540,
+         "cost": 9034550,
+         "co2": 147959,
+         "coal": 1409133,
+         "coalHeat": 1259680,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3698974,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.31,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9874049,
+       "co2": 147784,
+       "coal": 1407468,
+       "coalHeat": 1259737,
+       "imp": 78,
+       "re": 0,
+       "carbon": 3694605,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.988,
+        "grid": 0.012,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.16,
@@ -20253,6 +31229,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.66,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 8190238,
+       "co2": 147954,
+       "coal": 1409087,
+       "coalHeat": 1259638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698852,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.5,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9034409,
+       "co2": 147956,
+       "coal": 1409109,
+       "coalHeat": 1259658,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698911,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.35,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9879914,
+       "co2": 147957,
+       "coal": 1409115,
+       "coalHeat": 1259663,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698927,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.08,
        "served": 1.0,
        "mwh": 144540,
@@ -20383,6 +31422,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.66,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 8190238,
+       "co2": 147954,
+       "coal": 1409087,
+       "coalHeat": 1259638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698852,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.66,
+         "served": 1.0,
+         "mwh": 144540,
+         "cost": 8190238,
+         "co2": 147954,
+         "coal": 1409087,
+         "coalHeat": 1259638,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3698852,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9034554,
+       "co2": 147959,
+       "coal": 1409134,
+       "coalHeat": 1259680,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698977,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.51,
+         "served": 1.0,
+         "mwh": 144540,
+         "cost": 9034554,
+         "co2": 147959,
+         "coal": 1409134,
+         "coalHeat": 1259680,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3698977,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.26,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9866042,
+       "co2": 143353,
+       "coal": 1365265,
+       "coalHeat": 1259650,
+       "imp": 341,
+       "re": 241438,
+       "carbon": 3583821,
+       "solarMW": 3.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.707,
+        "solar": 0.268,
+        "grid": 0.026,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.86,
@@ -20586,6 +31736,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 8190545,
+       "co2": 147960,
+       "coal": 1409146,
+       "coalHeat": 1259691,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3699008,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9034526,
+       "co2": 147959,
+       "coal": 1409129,
+       "coalHeat": 1259676,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698964,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.35,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9879941,
+       "co2": 147958,
+       "coal": 1409119,
+       "coalHeat": 1259667,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698938,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.2,
        "served": 1.0,
        "mwh": 144540,
@@ -20712,6 +31925,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 8190566,
+       "co2": 147961,
+       "coal": 1409150,
+       "coalHeat": 1259695,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3699019,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.67,
+         "served": 1.0,
+         "mwh": 144540,
+         "cost": 8190566,
+         "co2": 147961,
+         "coal": 1409150,
+         "coalHeat": 1259695,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3699019,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9034550,
+       "co2": 147959,
+       "coal": 1409133,
+       "coalHeat": 1259680,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698974,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.51,
+         "served": 1.0,
+         "mwh": 144540,
+         "cost": 9034550,
+         "co2": 147959,
+         "coal": 1409133,
+         "coalHeat": 1259680,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3698974,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.31,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9874049,
+       "co2": 147784,
+       "coal": 1407468,
+       "coalHeat": 1259737,
+       "imp": 78,
+       "re": 0,
+       "carbon": 3694605,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.988,
+        "grid": 0.012,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.16,
@@ -20892,6 +32215,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.66,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 8190238,
+       "co2": 147954,
+       "coal": 1409087,
+       "coalHeat": 1259638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698852,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.5,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9034409,
+       "co2": 147956,
+       "coal": 1409109,
+       "coalHeat": 1259658,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698911,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.35,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9879914,
+       "co2": 147957,
+       "coal": 1409115,
+       "coalHeat": 1259663,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698927,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.08,
        "served": 1.0,
        "mwh": 144540,
@@ -21022,6 +32408,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.66,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 8190238,
+       "co2": 147954,
+       "coal": 1409087,
+       "coalHeat": 1259638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698852,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.66,
+         "served": 1.0,
+         "mwh": 144540,
+         "cost": 8190238,
+         "co2": 147954,
+         "coal": 1409087,
+         "coalHeat": 1259638,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3698852,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9034554,
+       "co2": 147959,
+       "coal": 1409134,
+       "coalHeat": 1259680,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3698977,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.51,
+         "served": 1.0,
+         "mwh": 144540,
+         "cost": 9034554,
+         "co2": 147959,
+         "coal": 1409134,
+         "coalHeat": 1259680,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3698977,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.26,
+       "served": 1.0,
+       "mwh": 144540,
+       "cost": 9866042,
+       "co2": 143353,
+       "coal": 1365265,
+       "coalHeat": 1259650,
+       "imp": 341,
+       "re": 241438,
+       "carbon": 3583821,
+       "solarMW": 3.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.707,
+        "solar": 0.268,
+        "grid": 0.026,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.86,
@@ -21225,6 +32722,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.33,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 13309057,
+       "co2": 237633,
+       "coal": 2263174,
+       "coalHeat": 704573,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940831,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.17,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 14664542,
+       "co2": 237630,
+       "coal": 2263147,
+       "coalHeat": 704565,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940760,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.02,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 16022330,
+       "co2": 237629,
+       "coal": 2263131,
+       "coalHeat": 704560,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940719,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.87,
        "served": 1.0,
        "mwh": 232140,
@@ -21351,6 +32911,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.33,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 13309091,
+       "co2": 237634,
+       "coal": 2263180,
+       "coalHeat": 704575,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940848,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.33,
+         "served": 1.0,
+         "mwh": 232140,
+         "cost": 13309091,
+         "co2": 237634,
+         "coal": 2263180,
+         "coalHeat": 704575,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5940848,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.17,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 14664580,
+       "co2": 237631,
+       "coal": 2263153,
+       "coalHeat": 704567,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940777,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.17,
+         "served": 1.0,
+         "mwh": 232140,
+         "cost": 14664580,
+         "co2": 237631,
+         "coal": 2263153,
+         "coalHeat": 704567,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5940777,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 69.02,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 16023124,
+       "co2": 237642,
+       "coal": 2263256,
+       "coalHeat": 704598,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5941046,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.88,
@@ -21526,6 +33195,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.33,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 13308564,
+       "co2": 237623,
+       "coal": 2263078,
+       "coalHeat": 704543,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940581,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.17,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 14664355,
+       "co2": 237627,
+       "coal": 2263114,
+       "coalHeat": 704554,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940675,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.02,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 16022286,
+       "co2": 237628,
+       "coal": 2263124,
+       "coalHeat": 704557,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940701,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.28,
        "served": 1.0,
        "mwh": 232140,
@@ -21656,6 +33388,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.33,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 13308564,
+       "co2": 237623,
+       "coal": 2263078,
+       "coalHeat": 704543,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940581,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.33,
+         "served": 1.0,
+         "mwh": 232140,
+         "cost": 13308564,
+         "co2": 237623,
+         "coal": 2263078,
+         "coalHeat": 704543,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5940581,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.17,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 14664587,
+       "co2": 237631,
+       "coal": 2263154,
+       "coalHeat": 704567,
+       "imp": 0,
+       "re": 0,
+       "carbon": 5940781,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.17,
+         "served": 1.0,
+         "mwh": 232140,
+         "cost": 14664587,
+         "co2": 237631,
+         "coal": 2263154,
+         "coalHeat": 704567,
+         "imp": 0,
+         "re": 0,
+         "carbon": 5940781,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.64,
+       "served": 1.0,
+       "mwh": 232140,
+       "cost": 15932988,
+       "co2": 191654,
+       "coal": 1825279,
+       "coalHeat": 704550,
+       "imp": 1972,
+       "re": 2523534,
+       "carbon": 4791359,
+       "solarMW": 35.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.719,
+        "solar": 0.267,
+        "grid": 0.014,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.1,
@@ -21856,6 +33699,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.19,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 2964286,
+       "co2": 53056,
+       "coal": 505300,
+       "coalHeat": 441248,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326412,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.03,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 3266926,
+       "co2": 53056,
+       "coal": 505294,
+       "coalHeat": 441242,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326396,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.88,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 3570080,
+       "co2": 53055,
+       "coal": 505290,
+       "coalHeat": 441239,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326387,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.73,
        "served": 1.0,
        "mwh": 51830,
@@ -21982,6 +33888,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.19,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 2964294,
+       "co2": 53057,
+       "coal": 505301,
+       "coalHeat": 441249,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326416,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.19,
+         "served": 1.0,
+         "mwh": 51830,
+         "cost": 2964294,
+         "co2": 53057,
+         "coal": 505301,
+         "coalHeat": 441249,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1326416,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.03,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 3266934,
+       "co2": 53056,
+       "coal": 505295,
+       "coalHeat": 441244,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326400,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.03,
+         "served": 1.0,
+         "mwh": 51830,
+         "cost": 3266934,
+         "co2": 53056,
+         "coal": 505295,
+         "coalHeat": 441244,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1326400,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.88,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 3570257,
+       "co2": 53058,
+       "coal": 505318,
+       "coalHeat": 441264,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326460,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.74,
@@ -22157,6 +34172,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.19,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 2964176,
+       "co2": 53054,
+       "coal": 505279,
+       "coalHeat": 441229,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326356,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.03,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 3266884,
+       "co2": 53055,
+       "coal": 505287,
+       "coalHeat": 441236,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326377,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.88,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 3570070,
+       "co2": 53055,
+       "coal": 505289,
+       "coalHeat": 441238,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326383,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.59,
        "served": 1.0,
        "mwh": 51830,
@@ -22287,6 +34365,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.19,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 2964176,
+       "co2": 53054,
+       "coal": 505279,
+       "coalHeat": 441229,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326356,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.19,
+         "served": 1.0,
+         "mwh": 51830,
+         "cost": 2964176,
+         "co2": 53054,
+         "coal": 505279,
+         "coalHeat": 441229,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1326356,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.03,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 3266936,
+       "co2": 53056,
+       "coal": 505295,
+       "coalHeat": 441244,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1326401,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.03,
+         "served": 1.0,
+         "mwh": 51830,
+         "cost": 3266936,
+         "co2": 53056,
+         "coal": 505295,
+         "coalHeat": 441244,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1326401,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 51830,
+       "cost": 3565718,
+       "co2": 50828,
+       "coal": 484074,
+       "coalHeat": 441233,
+       "imp": 96,
+       "re": 122247,
+       "carbon": 1270694,
+       "solarMW": 1.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.669,
+        "solar": 0.314,
+        "grid": 0.017,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.31,
@@ -22485,6 +34674,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 21149603,
+       "co2": 385594,
+       "coal": 3672320,
+       "coalHeat": 2562084,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639839,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 23349068,
+       "co2": 385589,
+       "coal": 3672276,
+       "coalHeat": 2562053,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639724,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 25552271,
+       "co2": 385586,
+       "coal": 3672250,
+       "coalHeat": 2562035,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639657,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 376680,
@@ -22611,6 +34863,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 21149658,
+       "co2": 385595,
+       "coal": 3672330,
+       "coalHeat": 2562091,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639867,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 376680,
+         "cost": 21149658,
+         "co2": 385595,
+         "coal": 3672330,
+         "coalHeat": 2562091,
+         "imp": 0,
+         "re": 0,
+         "carbon": 9639867,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 23349129,
+       "co2": 385590,
+       "coal": 3672286,
+       "coalHeat": 2562060,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639752,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 376680,
+         "cost": 23349129,
+         "co2": 385590,
+         "coal": 3672286,
+         "coalHeat": 2562060,
+         "imp": 0,
+         "re": 0,
+         "carbon": 9639752,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 25553560,
+       "co2": 385608,
+       "coal": 3672453,
+       "coalHeat": 2562176,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9640188,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.69,
@@ -22786,6 +35147,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 21148802,
+       "co2": 385577,
+       "coal": 3672165,
+       "coalHeat": 2561976,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639433,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 23348764,
+       "co2": 385583,
+       "coal": 3672223,
+       "coalHeat": 2562016,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639586,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 25552199,
+       "co2": 385585,
+       "coal": 3672239,
+       "coalHeat": 2562027,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639627,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.44,
        "served": 1.0,
        "mwh": 376680,
@@ -22914,6 +35338,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 21148802,
+       "co2": 385577,
+       "coal": 3672165,
+       "coalHeat": 2561976,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639433,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 376680,
+         "cost": 21148802,
+         "co2": 385577,
+         "coal": 3672165,
+         "coalHeat": 2561976,
+         "imp": 0,
+         "re": 0,
+         "carbon": 9639433,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 23349141,
+       "co2": 385590,
+       "coal": 3672288,
+       "coalHeat": 2562062,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639757,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 376680,
+         "cost": 23349141,
+         "co2": 385590,
+         "coal": 3672288,
+         "coalHeat": 2562062,
+         "imp": 0,
+         "re": 0,
+         "carbon": 9639757,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 376680,
+       "cost": 25551954,
+       "co2": 385581,
+       "coal": 3672201,
+       "coalHeat": 2562000,
+       "imp": 0,
+       "re": 0,
+       "carbon": 9639526,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.41,
@@ -23101,6 +35634,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 440037972,
+       "co2": 8028384,
+       "coal": 76460796,
+       "coalHeat": 22972069,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200709589,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 485832696,
+       "co2": 8028287,
+       "coal": 76459879,
+       "coalHeat": 22971794,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200707184,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 531705237,
+       "co2": 8028232,
+       "coal": 76459348,
+       "coalHeat": 22971634,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200705789,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.83,
        "served": 1.0,
        "mwh": 8515359,
@@ -23227,6 +35823,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 440039118,
+       "co2": 8028407,
+       "coal": 76461017,
+       "coalHeat": 22972136,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200710171,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.68,
+         "served": 1.0,
+         "mwh": 8515359,
+         "cost": 440039118,
+         "co2": 8028407,
+         "coal": 76461017,
+         "coalHeat": 22972136,
+         "imp": 0,
+         "re": 0,
+         "carbon": 200710171,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 485833975,
+       "co2": 8028311,
+       "coal": 76460101,
+       "coalHeat": 22971861,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200707765,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 8515359,
+         "cost": 485833975,
+         "co2": 8028311,
+         "coal": 76460101,
+         "coalHeat": 22971861,
+         "imp": 0,
+         "re": 0,
+         "carbon": 200707765,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 531732085,
+       "co2": 8028674,
+       "coal": 76463560,
+       "coalHeat": 22972900,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200716845,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.83,
@@ -23401,6 +36106,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 440021302,
+       "co2": 8028045,
+       "coal": 76457575,
+       "coalHeat": 22971102,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200701134,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 485826364,
+       "co2": 8028172,
+       "coal": 76458783,
+       "coalHeat": 22971465,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200704305,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 531703746,
+       "co2": 8028207,
+       "coal": 76459114,
+       "coalHeat": 22971564,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200705175,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.81,
        "served": 1.0,
        "mwh": 8515359,
@@ -23528,6 +36296,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 440021298,
+       "co2": 8028045,
+       "coal": 76457574,
+       "coalHeat": 22971101,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200701132,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.67,
+         "served": 1.0,
+         "mwh": 8515359,
+         "cost": 440021298,
+         "co2": 8028045,
+         "coal": 76457574,
+         "coalHeat": 22971101,
+         "imp": 0,
+         "re": 0,
+         "carbon": 200701132,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 485834220,
+       "co2": 8028315,
+       "coal": 76460143,
+       "coalHeat": 22971873,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200707876,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 8515359,
+         "cost": 485834220,
+         "co2": 8028315,
+         "coal": 76460143,
+         "coalHeat": 22971873,
+         "imp": 0,
+         "re": 0,
+         "carbon": 200707876,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 531698640,
+       "co2": 8028123,
+       "coal": 76458313,
+       "coalHeat": 22971323,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200703072,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.78,
@@ -23718,6 +36595,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 440037972,
+       "co2": 8028384,
+       "coal": 76460796,
+       "coalHeat": 22972069,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200709589,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 485832696,
+       "co2": 8028287,
+       "coal": 76459879,
+       "coalHeat": 22971794,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200707184,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 531705237,
+       "co2": 8028232,
+       "coal": 76459348,
+       "coalHeat": 22971634,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200705789,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.83,
        "served": 1.0,
        "mwh": 8515359,
@@ -23844,6 +36784,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 440039118,
+       "co2": 8028407,
+       "coal": 76461017,
+       "coalHeat": 22972136,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200710171,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.68,
+         "served": 1.0,
+         "mwh": 8515359,
+         "cost": 440039118,
+         "co2": 8028407,
+         "coal": 76461017,
+         "coalHeat": 22972136,
+         "imp": 0,
+         "re": 0,
+         "carbon": 200710171,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 485833975,
+       "co2": 8028311,
+       "coal": 76460101,
+       "coalHeat": 22971861,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200707765,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 8515359,
+         "cost": 485833975,
+         "co2": 8028311,
+         "coal": 76460101,
+         "coalHeat": 22971861,
+         "imp": 0,
+         "re": 0,
+         "carbon": 200707765,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 531732085,
+       "co2": 8028674,
+       "coal": 76463560,
+       "coalHeat": 22972900,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200716845,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.83,
@@ -24018,6 +37067,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 440021302,
+       "co2": 8028045,
+       "coal": 76457575,
+       "coalHeat": 22971102,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200701134,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 485826364,
+       "co2": 8028172,
+       "coal": 76458783,
+       "coalHeat": 22971465,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200704305,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 531703746,
+       "co2": 8028207,
+       "coal": 76459114,
+       "coalHeat": 22971564,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200705175,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.81,
        "served": 1.0,
        "mwh": 8515359,
@@ -24145,6 +37257,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 440021298,
+       "co2": 8028045,
+       "coal": 76457574,
+       "coalHeat": 22971101,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200701132,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.67,
+         "served": 1.0,
+         "mwh": 8515359,
+         "cost": 440021298,
+         "co2": 8028045,
+         "coal": 76457574,
+         "coalHeat": 22971101,
+         "imp": 0,
+         "re": 0,
+         "carbon": 200701132,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 485834220,
+       "co2": 8028315,
+       "coal": 76460143,
+       "coalHeat": 22971873,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200707876,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 8515359,
+         "cost": 485834220,
+         "co2": 8028315,
+         "coal": 76460143,
+         "coalHeat": 22971873,
+         "imp": 0,
+         "re": 0,
+         "carbon": 200707876,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 8515359,
+       "cost": 531698640,
+       "co2": 8028123,
+       "coal": 76458313,
+       "coalHeat": 22971323,
+       "imp": 0,
+       "re": 0,
+       "carbon": 200703072,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.78,
@@ -24335,6 +37556,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 181071986,
+       "co2": 3303613,
+       "coal": 31462985,
+       "coalHeat": 22024090,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82590336,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 199916137,
+       "co2": 3303574,
+       "coal": 31462608,
+       "coalHeat": 22023826,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82589346,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 218792308,
+       "co2": 3303551,
+       "coal": 31462389,
+       "coalHeat": 22023673,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82588772,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.83,
        "served": 1.0,
        "mwh": 3504000,
@@ -24461,6 +37745,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 181072458,
+       "co2": 3303623,
+       "coal": 31463076,
+       "coalHeat": 22024153,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82590575,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.68,
+         "served": 1.0,
+         "mwh": 3504000,
+         "cost": 181072458,
+         "co2": 3303623,
+         "coal": 31463076,
+         "coalHeat": 22024153,
+         "imp": 0,
+         "re": 0,
+         "carbon": 82590575,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 199916663,
+       "co2": 3303583,
+       "coal": 31462699,
+       "coalHeat": 22023889,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82589585,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 3504000,
+         "cost": 199916663,
+         "co2": 3303583,
+         "coal": 31462699,
+         "coalHeat": 22023889,
+         "imp": 0,
+         "re": 0,
+         "carbon": 82589585,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 218803355,
+       "co2": 3303733,
+       "coal": 31464123,
+       "coalHeat": 22024886,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82593322,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.83,
@@ -24636,6 +38029,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 181065127,
+       "co2": 3303474,
+       "coal": 31461660,
+       "coalHeat": 22023162,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82586857,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 199913531,
+       "co2": 3303526,
+       "coal": 31462157,
+       "coalHeat": 22023510,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82588162,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 218791694,
+       "co2": 3303541,
+       "coal": 31462293,
+       "coalHeat": 22023605,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82588520,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.81,
        "served": 1.0,
        "mwh": 3504000,
@@ -24763,6 +38219,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 181065125,
+       "co2": 3303474,
+       "coal": 31461659,
+       "coalHeat": 22023162,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82586856,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.67,
+         "served": 1.0,
+         "mwh": 3504000,
+         "cost": 181065125,
+         "co2": 3303474,
+         "coal": 31461659,
+         "coalHeat": 22023162,
+         "imp": 0,
+         "re": 0,
+         "carbon": 82586856,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 199916764,
+       "co2": 3303585,
+       "coal": 31462717,
+       "coalHeat": 22023902,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82589631,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 3504000,
+         "cost": 199916764,
+         "co2": 3303585,
+         "coal": 31462717,
+         "coalHeat": 22023902,
+         "imp": 0,
+         "re": 0,
+         "carbon": 82589631,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 3504000,
+       "cost": 218789593,
+       "co2": 3303506,
+       "coal": 31461964,
+       "coalHeat": 22023374,
+       "imp": 0,
+       "re": 0,
+       "carbon": 82587654,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.78,
@@ -24950,6 +38515,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 49.47,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 488247548,
+       "co2": 8223255,
+       "coal": 78316716,
+       "coalHeat": 58737520,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205581379,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 54.22,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 535153839,
+       "co2": 8223157,
+       "coal": 78315777,
+       "coalHeat": 58736816,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205578915,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 58.98,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 582139836,
+       "co2": 8223099,
+       "coal": 78315233,
+       "coalHeat": 58736407,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205577487,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 63.74,
        "served": 1.0,
        "mwh": 9869603,
@@ -25076,6 +38704,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 49.47,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 488248722,
+       "co2": 8223279,
+       "coal": 78316943,
+       "coalHeat": 58737690,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205581975,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 49.47,
+         "served": 1.0,
+         "mwh": 9869603,
+         "cost": 488248722,
+         "co2": 8223279,
+         "coal": 78316943,
+         "coalHeat": 58737690,
+         "imp": 0,
+         "re": 0,
+         "carbon": 205581975,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 54.22,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 535155149,
+       "co2": 8223180,
+       "coal": 78316004,
+       "coalHeat": 58736986,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205579511,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 54.22,
+         "served": 1.0,
+         "mwh": 9869603,
+         "cost": 535155149,
+         "co2": 8223180,
+         "coal": 78316004,
+         "coalHeat": 58736986,
+         "imp": 0,
+         "re": 0,
+         "carbon": 205579511,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 58.99,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 582167340,
+       "co2": 8223552,
+       "coal": 78319547,
+       "coalHeat": 58739643,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205588811,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 63.75,
@@ -25250,6 +38987,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 49.47,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 488230471,
+       "co2": 8222909,
+       "coal": 78313417,
+       "coalHeat": 58735045,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205572719,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 54.22,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 535147353,
+       "co2": 8223039,
+       "coal": 78314654,
+       "coalHeat": 58735973,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205575967,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 58.98,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 582138309,
+       "co2": 8223074,
+       "coal": 78314993,
+       "coalHeat": 58736228,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205576858,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 63.73,
        "served": 1.0,
        "mwh": 9869603,
@@ -25377,6 +39177,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 49.47,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 488230467,
+       "co2": 8222909,
+       "coal": 78313416,
+       "coalHeat": 58735045,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205572717,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 49.47,
+         "served": 1.0,
+         "mwh": 9869603,
+         "cost": 488230467,
+         "co2": 8222909,
+         "coal": 78313416,
+         "coalHeat": 58735045,
+         "imp": 0,
+         "re": 0,
+         "carbon": 205572717,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 54.22,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 535155400,
+       "co2": 8223185,
+       "coal": 78316048,
+       "coalHeat": 58737018,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205579625,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 54.22,
+         "served": 1.0,
+         "mwh": 9869603,
+         "cost": 535155400,
+         "co2": 8223185,
+         "coal": 78316048,
+         "coalHeat": 58737018,
+         "imp": 0,
+         "re": 0,
+         "carbon": 205579625,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 58.98,
+       "served": 1.0,
+       "mwh": 9869603,
+       "cost": 582133078,
+       "co2": 8222988,
+       "coal": 78314173,
+       "coalHeat": 58735612,
+       "imp": 0,
+       "re": 0,
+       "carbon": 205574704,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 63.7,
@@ -25566,6 +39475,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.14,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 15768314,
+       "co2": 282470,
+       "coal": 2690188,
+       "coalHeat": 2028316,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061743,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.98,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 17379550,
+       "co2": 282466,
+       "coal": 2690155,
+       "coalHeat": 2028292,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061658,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.83,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 18993524,
+       "co2": 282464,
+       "coal": 2690137,
+       "coalHeat": 2028278,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061609,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.68,
        "served": 1.0,
        "mwh": 275940,
@@ -25692,6 +39664,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.14,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 15768354,
+       "co2": 282471,
+       "coal": 2690196,
+       "coalHeat": 2028322,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061763,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.14,
+         "served": 1.0,
+         "mwh": 275940,
+         "cost": 15768354,
+         "co2": 282471,
+         "coal": 2690196,
+         "coalHeat": 2028322,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7061763,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.98,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 17379595,
+       "co2": 282467,
+       "coal": 2690163,
+       "coalHeat": 2028298,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061679,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.98,
+         "served": 1.0,
+         "mwh": 275940,
+         "cost": 17379595,
+         "co2": 282467,
+         "coal": 2690163,
+         "coalHeat": 2028298,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7061679,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.67,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 18949463,
+       "co2": 281201,
+       "coal": 2678105,
+       "coalHeat": 2028389,
+       "imp": 553,
+       "re": 0,
+       "carbon": 7030025,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.982,
+        "grid": 0.018,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.5,
@@ -25872,6 +39954,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.14,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 15767727,
+       "co2": 282458,
+       "coal": 2690074,
+       "coalHeat": 2028231,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061445,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.98,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 17379327,
+       "co2": 282462,
+       "coal": 2690117,
+       "coalHeat": 2028263,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061557,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.83,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 18993472,
+       "co2": 282463,
+       "coal": 2690129,
+       "coalHeat": 2028272,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061587,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.51,
        "served": 1.0,
        "mwh": 275940,
@@ -26002,6 +40147,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.14,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 15767727,
+       "co2": 282458,
+       "coal": 2690074,
+       "coalHeat": 2028231,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061445,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.14,
+         "served": 1.0,
+         "mwh": 275940,
+         "cost": 15767727,
+         "co2": 282458,
+         "coal": 2690074,
+         "coalHeat": 2028231,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7061445,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.98,
+       "served": 1.0,
+       "mwh": 275940,
+       "cost": 17379603,
+       "co2": 282467,
+       "coal": 2690165,
+       "coalHeat": 2028299,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7061683,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.98,
+         "served": 1.0,
+         "mwh": 275940,
+         "cost": 17379603,
+         "co2": 282467,
+         "coal": 2690165,
+         "coalHeat": 2028299,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7061683,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.79,
+       "served": 1.0,
+       "mwh": 275939,
+       "cost": 18980526,
+       "co2": 262691,
+       "coal": 2501824,
+       "coalHeat": 2028240,
+       "imp": 1296,
+       "re": 1063185,
+       "carbon": 6567287,
+       "solarMW": 15.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.716,
+        "solar": 0.262,
+        "grid": 0.022,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.14,
@@ -26199,6 +40455,60 @@ window.GARUDA = {
        "mix": {}
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1475554,
+       "co2": 26902,
+       "coal": 256208,
+       "coalHeat": 256208,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672547,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {}
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1629005,
+       "co2": 26902,
+       "coal": 256205,
+       "coalHeat": 256205,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672539,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {}
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1782717,
+       "co2": 26901,
+       "coal": 256204,
+       "coalHeat": 256204,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672534,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {}
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 26280,
@@ -26307,6 +40617,100 @@ window.GARUDA = {
          "mix": {}
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1475558,
+       "co2": 26902,
+       "coal": 256209,
+       "coalHeat": 256209,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672549,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {},
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 26280,
+         "cost": 1475558,
+         "co2": 26902,
+         "coal": 256209,
+         "coalHeat": 256209,
+         "imp": 0,
+         "re": 0,
+         "carbon": 672549,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {}
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1629009,
+       "co2": 26902,
+       "coal": 256206,
+       "coalHeat": 256206,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672541,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {},
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 26280,
+         "cost": 1629009,
+         "co2": 26902,
+         "coal": 256206,
+         "coalHeat": 256206,
+         "imp": 0,
+         "re": 0,
+         "carbon": 672541,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {}
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1782807,
+       "co2": 26903,
+       "coal": 256218,
+       "coalHeat": 256218,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672571,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {}
       },
       {
        "lcoe": 73.69,
@@ -26457,6 +40861,60 @@ window.GARUDA = {
        "mix": {}
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1475498,
+       "co2": 26901,
+       "coal": 256198,
+       "coalHeat": 256198,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672519,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {}
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1628984,
+       "co2": 26901,
+       "coal": 256202,
+       "coalHeat": 256202,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672529,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {}
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1782712,
+       "co2": 26901,
+       "coal": 256203,
+       "coalHeat": 256203,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672532,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {}
+      },
+      {
        "lcoe": 73.67,
        "served": 1.0,
        "mwh": 26280,
@@ -26565,6 +41023,100 @@ window.GARUDA = {
          "mix": {}
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1475498,
+       "co2": 26901,
+       "coal": 256198,
+       "coalHeat": 256198,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672519,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {},
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 26280,
+         "cost": 1475498,
+         "co2": 26901,
+         "coal": 256198,
+         "coalHeat": 256198,
+         "imp": 0,
+         "re": 0,
+         "carbon": 672519,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {}
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1629010,
+       "co2": 26902,
+       "coal": 256206,
+       "coalHeat": 256206,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672541,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {},
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 26280,
+         "cost": 1629010,
+         "co2": 26902,
+         "coal": 256206,
+         "coalHeat": 256206,
+         "imp": 0,
+         "re": 0,
+         "carbon": 672541,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {}
+        }
+       ]
+      },
+      {
+       "lcoe": 67.83,
+       "served": 1.0,
+       "mwh": 26280,
+       "cost": 1782694,
+       "co2": 26901,
+       "coal": 256200,
+       "coalHeat": 256200,
+       "imp": 0,
+       "re": 0,
+       "carbon": 672525,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {}
       },
       {
        "lcoe": 73.63,
@@ -26727,6 +41279,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 14413685,
+       "co2": 260051,
+       "coal": 2476681,
+       "coalHeat": 2220472,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501287,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 15897046,
+       "co2": 260048,
+       "coal": 2476651,
+       "coalHeat": 2220446,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501209,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 17382927,
+       "co2": 260047,
+       "coal": 2476634,
+       "coalHeat": 2220430,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501164,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.27,
        "served": 1.0,
        "mwh": 254040,
@@ -26853,6 +41468,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 14413723,
+       "co2": 260052,
+       "coal": 2476688,
+       "coalHeat": 2220479,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501306,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 254040,
+         "cost": 14413723,
+         "co2": 260052,
+         "coal": 2476688,
+         "coalHeat": 2220479,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6501306,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 15897087,
+       "co2": 260049,
+       "coal": 2476658,
+       "coalHeat": 2220452,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501228,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 254040,
+         "cost": 15897087,
+         "co2": 260049,
+         "coal": 2476658,
+         "coalHeat": 2220452,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6501228,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.37,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 17368544,
+       "co2": 259627,
+       "coal": 2472642,
+       "coalHeat": 2220553,
+       "imp": 187,
+       "re": 0,
+       "carbon": 6490686,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.984,
+        "grid": 0.016,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.21,
@@ -27033,6 +41758,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 14413146,
+       "co2": 260041,
+       "coal": 2476576,
+       "coalHeat": 2220379,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501013,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 15896841,
+       "co2": 260045,
+       "coal": 2476616,
+       "coalHeat": 2220414,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501116,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 17382879,
+       "co2": 260046,
+       "coal": 2476626,
+       "coalHeat": 2220424,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.2,
        "served": 1.0,
        "mwh": 254040,
@@ -27161,6 +41949,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 14413146,
+       "co2": 260041,
+       "coal": 2476576,
+       "coalHeat": 2220379,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501013,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 254040,
+         "cost": 14413146,
+         "co2": 260041,
+         "coal": 2476576,
+         "coalHeat": 2220379,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6501013,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 15897095,
+       "co2": 260049,
+       "coal": 2476660,
+       "coalHeat": 2220453,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501232,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 254040,
+         "cost": 15897095,
+         "co2": 260049,
+         "coal": 2476660,
+         "coalHeat": 2220453,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6501232,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.39,
+       "served": 1.0,
+       "mwh": 254039,
+       "cost": 17374398,
+       "co2": 253283,
+       "coal": 2412215,
+       "coalHeat": 2220389,
+       "imp": 524,
+       "re": 358017,
+       "carbon": 6332064,
+       "solarMW": 5.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.749,
+        "solar": 0.228,
+        "grid": 0.023,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.03,
@@ -27355,6 +42254,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 14413685,
+       "co2": 260051,
+       "coal": 2476681,
+       "coalHeat": 2220472,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501287,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 15897046,
+       "co2": 260048,
+       "coal": 2476651,
+       "coalHeat": 2220446,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501209,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 17382927,
+       "co2": 260047,
+       "coal": 2476634,
+       "coalHeat": 2220430,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501164,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.27,
        "served": 1.0,
        "mwh": 254040,
@@ -27481,6 +42443,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 14413723,
+       "co2": 260052,
+       "coal": 2476688,
+       "coalHeat": 2220479,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501306,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 254040,
+         "cost": 14413723,
+         "co2": 260052,
+         "coal": 2476688,
+         "coalHeat": 2220479,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6501306,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 15897087,
+       "co2": 260049,
+       "coal": 2476658,
+       "coalHeat": 2220452,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501228,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 254040,
+         "cost": 15897087,
+         "co2": 260049,
+         "coal": 2476658,
+         "coalHeat": 2220452,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6501228,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.37,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 17368544,
+       "co2": 259627,
+       "coal": 2472642,
+       "coalHeat": 2220553,
+       "imp": 187,
+       "re": 0,
+       "carbon": 6490686,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.984,
+        "grid": 0.016,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.21,
@@ -27661,6 +42733,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 14413146,
+       "co2": 260041,
+       "coal": 2476576,
+       "coalHeat": 2220379,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501013,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 15896841,
+       "co2": 260045,
+       "coal": 2476616,
+       "coalHeat": 2220414,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501116,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 17382879,
+       "co2": 260046,
+       "coal": 2476626,
+       "coalHeat": 2220424,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.2,
        "served": 1.0,
        "mwh": 254040,
@@ -27789,6 +42924,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 14413146,
+       "co2": 260041,
+       "coal": 2476576,
+       "coalHeat": 2220379,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501013,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 254040,
+         "cost": 14413146,
+         "co2": 260041,
+         "coal": 2476576,
+         "coalHeat": 2220379,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6501013,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 254040,
+       "cost": 15897095,
+       "co2": 260049,
+       "coal": 2476660,
+       "coalHeat": 2220453,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6501232,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 254040,
+         "cost": 15897095,
+         "co2": 260049,
+         "coal": 2476660,
+         "coalHeat": 2220453,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6501232,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.39,
+       "served": 1.0,
+       "mwh": 254039,
+       "cost": 17374398,
+       "co2": 253283,
+       "coal": 2412215,
+       "coalHeat": 2220389,
+       "imp": 524,
+       "re": 358017,
+       "carbon": 6332064,
+       "solarMW": 5.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.749,
+        "solar": 0.228,
+        "grid": 0.023,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.03,
@@ -27983,6 +43229,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 48889436,
+       "co2": 891976,
+       "coal": 8495006,
+       "coalHeat": 2517039,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22299391,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 53977357,
+       "co2": 891965,
+       "coal": 8494904,
+       "coalHeat": 2517009,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22299123,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 59073923,
+       "co2": 891959,
+       "coal": 8494845,
+       "coalHeat": 2516991,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22298968,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.83,
        "served": 1.0,
        "mwh": 946080,
@@ -28109,6 +43418,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 48889564,
+       "co2": 891978,
+       "coal": 8495031,
+       "coalHeat": 2517046,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22299455,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.68,
+         "served": 1.0,
+         "mwh": 946080,
+         "cost": 48889564,
+         "co2": 891978,
+         "coal": 8495031,
+         "coalHeat": 2517046,
+         "imp": 0,
+         "re": 0,
+         "carbon": 22299455,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 53977499,
+       "co2": 891968,
+       "coal": 8494929,
+       "coalHeat": 2517016,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22299188,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 946080,
+         "cost": 53977499,
+         "co2": 891968,
+         "coal": 8494929,
+         "coalHeat": 2517016,
+         "imp": 0,
+         "re": 0,
+         "carbon": 22299188,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 59076906,
+       "co2": 892008,
+       "coal": 8495313,
+       "coalHeat": 2517130,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22300197,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.82,
@@ -28289,6 +43707,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 48887584,
+       "co2": 891938,
+       "coal": 8494648,
+       "coalHeat": 2516933,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22298451,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 53976653,
+       "co2": 891952,
+       "coal": 8494782,
+       "coalHeat": 2516973,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22298804,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 59073757,
+       "co2": 891956,
+       "coal": 8494819,
+       "coalHeat": 2516983,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22298900,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.81,
        "served": 1.0,
        "mwh": 946080,
@@ -28416,6 +43897,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 48887584,
+       "co2": 891938,
+       "coal": 8494648,
+       "coalHeat": 2516933,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22298451,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.67,
+         "served": 1.0,
+         "mwh": 946080,
+         "cost": 48887584,
+         "co2": 891938,
+         "coal": 8494648,
+         "coalHeat": 2516933,
+         "imp": 0,
+         "re": 0,
+         "carbon": 22298451,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 53977526,
+       "co2": 891968,
+       "coal": 8494933,
+       "coalHeat": 2517017,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22299200,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 946080,
+         "cost": 53977526,
+         "co2": 891968,
+         "coal": 8494933,
+         "coalHeat": 2517017,
+         "imp": 0,
+         "re": 0,
+         "carbon": 22299200,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 946080,
+       "cost": 59073190,
+       "co2": 891947,
+       "coal": 8494730,
+       "coalHeat": 2516957,
+       "imp": 0,
+       "re": 0,
+       "carbon": 22298667,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.78,
@@ -28603,6 +44193,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 55087337,
+       "co2": 1004337,
+       "coal": 9565112,
+       "coalHeat": 6661417,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25108419,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 60816177,
+       "co2": 1004325,
+       "coal": 9564997,
+       "coalHeat": 6661337,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25108118,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 66554752,
+       "co2": 1004318,
+       "coal": 9564931,
+       "coalHeat": 6661291,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25107943,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 981120,
@@ -28729,6 +44382,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 55087480,
+       "co2": 1004340,
+       "coal": 9565140,
+       "coalHeat": 6661437,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25108491,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 981120,
+         "cost": 55087480,
+         "co2": 1004340,
+         "coal": 9565140,
+         "coalHeat": 6661437,
+         "imp": 0,
+         "re": 0,
+         "carbon": 25108491,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 60816337,
+       "co2": 1004328,
+       "coal": 9565025,
+       "coalHeat": 6661357,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25108191,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 981120,
+         "cost": 60816337,
+         "co2": 1004328,
+         "coal": 9565025,
+         "coalHeat": 6661357,
+         "imp": 0,
+         "re": 0,
+         "carbon": 25108191,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.78,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 66501111,
+       "co2": 1002753,
+       "coal": 9550032,
+       "coalHeat": 6661658,
+       "imp": 700,
+       "re": 0,
+       "carbon": 25068834,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.995,
+        "grid": 0.005,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.6,
@@ -28909,6 +44672,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 55085252,
+       "co2": 1004294,
+       "coal": 9564709,
+       "coalHeat": 6661137,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25107361,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 60815385,
+       "co2": 1004310,
+       "coal": 9564860,
+       "coalHeat": 6661242,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25107758,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 66554566,
+       "co2": 1004315,
+       "coal": 9564902,
+       "coalHeat": 6661271,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25107867,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.67,
        "served": 1.0,
        "mwh": 981120,
@@ -29035,6 +44861,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 55085252,
+       "co2": 1004294,
+       "coal": 9564709,
+       "coalHeat": 6661137,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25107361,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 981120,
+         "cost": 55085252,
+         "co2": 1004294,
+         "coal": 9564709,
+         "coalHeat": 6661137,
+         "imp": 0,
+         "re": 0,
+         "carbon": 25107361,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 60816368,
+       "co2": 1004328,
+       "coal": 9565030,
+       "coalHeat": 6661360,
+       "imp": 0,
+       "re": 0,
+       "carbon": 25108204,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 981120,
+         "cost": 60816368,
+         "co2": 1004328,
+         "coal": 9565030,
+         "coalHeat": 6661360,
+         "imp": 0,
+         "re": 0,
+         "carbon": 25108204,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.82,
+       "served": 1.0,
+       "mwh": 981120,
+       "cost": 66536596,
+       "co2": 1002686,
+       "coal": 9549388,
+       "coalHeat": 6661201,
+       "imp": 1371,
+       "re": 0,
+       "carbon": 25067142,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.995,
+        "grid": 0.005,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.59,
@@ -29221,6 +45157,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 58.83,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 2920490,
+       "co2": 50815,
+       "coal": 483949,
+       "coalHeat": 448365,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1270366,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 64.67,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 3210342,
+       "co2": 50814,
+       "coal": 483943,
+       "coalHeat": 448359,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1270351,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 70.52,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 3500687,
+       "co2": 50814,
+       "coal": 483940,
+       "coalHeat": 448356,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1270342,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 76.37,
        "served": 1.0,
        "mwh": 49640,
@@ -29350,6 +45349,120 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 58.38,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 2897939,
+       "co2": 50695,
+       "coal": 482812,
+       "coalHeat": 448363,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1267381,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.968,
+        "grid": 0.032,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 58.38,
+         "served": 1.0,
+         "mwh": 49640,
+         "cost": 2897939,
+         "co2": 50695,
+         "coal": 482812,
+         "coalHeat": 448363,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1267381,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.968,
+          "grid": 0.032,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 64.2,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 3187110,
+       "co2": 50695,
+       "coal": 482806,
+       "coalHeat": 448358,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1267366,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.968,
+        "grid": 0.032,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 64.2,
+         "served": 1.0,
+         "mwh": 49640,
+         "cost": 3187110,
+         "co2": 50695,
+         "coal": 482806,
+         "coalHeat": 448358,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1267366,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.968,
+          "grid": 0.032,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 70.1,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 3479974,
+       "co2": 50697,
+       "coal": 482828,
+       "coalHeat": 448378,
+       "imp": 52,
+       "re": 0,
+       "carbon": 1267423,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.968,
+        "grid": 0.032,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 75.95,
@@ -29531,6 +45644,72 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 58.52,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 2904923,
+       "co2": 50519,
+       "coal": 481133,
+       "coalHeat": 448343,
+       "imp": 0,
+       "re": 16218,
+       "carbon": 1262975,
+       "solarMW": 0.2,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.918,
+        "solar": 0.082,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 64.28,
+       "served": 1.0,
+       "mwh": 49639,
+       "cost": 3190686,
+       "co2": 49584,
+       "coal": 472228,
+       "coalHeat": 448346,
+       "imp": 0,
+       "re": 65053,
+       "carbon": 1239599,
+       "solarMW": 0.9,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.669,
+        "solar": 0.331,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.82,
+       "served": 1.0,
+       "mwh": 49639,
+       "cost": 3465687,
+       "co2": 48362,
+       "coal": 460593,
+       "coalHeat": 448348,
+       "imp": 0,
+       "re": 129976,
+       "carbon": 1209057,
+       "solarMW": 1.8,
+       "batMW": 0.2,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.343,
+        "solar": 0.657,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 75.34,
        "served": 1.0,
        "mwh": 49639,
@@ -29660,6 +45839,125 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 58.49,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 2903398,
+       "co2": 50520,
+       "coal": 481138,
+       "coalHeat": 448346,
+       "imp": 0,
+       "re": 15786,
+       "carbon": 1262988,
+       "solarMW": 0.2,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.918,
+        "solar": 0.08,
+        "grid": 0.002,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 58.49,
+         "served": 1.0,
+         "mwh": 49640,
+         "cost": 2903398,
+         "co2": 50520,
+         "coal": 481138,
+         "coalHeat": 448346,
+         "imp": 0,
+         "re": 15786,
+         "carbon": 1262988,
+         "solarMW": 0.2,
+         "batMW": 0.1,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.918,
+          "solar": 0.08,
+          "grid": 0.002,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 64.18,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 3185767,
+       "co2": 48861,
+       "coal": 465342,
+       "coalHeat": 448357,
+       "imp": 0,
+       "re": 102035,
+       "carbon": 1221524,
+       "solarMW": 1.4,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.476,
+        "solar": 0.518,
+        "grid": 0.006,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 64.18,
+         "served": 1.0,
+         "mwh": 49640,
+         "cost": 3185767,
+         "co2": 48861,
+         "coal": 465342,
+         "coalHeat": 448357,
+         "imp": 0,
+         "re": 102035,
+         "carbon": 1221524,
+         "solarMW": 1.4,
+         "batMW": 0.1,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.476,
+          "solar": 0.518,
+          "grid": 0.006,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 69.75,
+       "served": 1.0,
+       "mwh": 49640,
+       "cost": 3462564,
+       "co2": 48389,
+       "coal": 460847,
+       "coalHeat": 448345,
+       "imp": 25,
+       "re": 127584,
+       "carbon": 1209723,
+       "solarMW": 1.8,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.35,
+        "solar": 0.642,
+        "grid": 0.008,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 75.21,
@@ -29857,6 +46155,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.92,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3074749,
+       "co2": 55298,
+       "coal": 526651,
+       "coalHeat": 384313,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382458,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.76,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3390176,
+       "co2": 55298,
+       "coal": 526644,
+       "coalHeat": 384308,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382441,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.61,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3706140,
+       "co2": 55297,
+       "coal": 526641,
+       "coalHeat": 384305,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382431,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.46,
        "served": 1.0,
        "mwh": 54020,
@@ -29983,6 +46344,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.92,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3074757,
+       "co2": 55298,
+       "coal": 526652,
+       "coalHeat": 384314,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382462,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.92,
+         "served": 1.0,
+         "mwh": 54020,
+         "cost": 3074757,
+         "co2": 55298,
+         "coal": 526652,
+         "coalHeat": 384314,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1382462,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.76,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3390185,
+       "co2": 55298,
+       "coal": 526646,
+       "coalHeat": 384309,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382445,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.76,
+         "served": 1.0,
+         "mwh": 54020,
+         "cost": 3390185,
+         "co2": 55298,
+         "coal": 526646,
+         "coalHeat": 384309,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1382445,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.61,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3706325,
+       "co2": 55300,
+       "coal": 526670,
+       "coalHeat": 384326,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382508,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.46,
@@ -30157,6 +46627,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.92,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3074634,
+       "co2": 55296,
+       "coal": 526628,
+       "coalHeat": 384296,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382399,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.76,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3390133,
+       "co2": 55297,
+       "coal": 526637,
+       "coalHeat": 384302,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382421,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.33,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3691011,
+       "co2": 50655,
+       "coal": 482426,
+       "coalHeat": 384304,
+       "imp": 0,
+       "re": 243358,
+       "carbon": 1266367,
+       "solarMW": 3.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.689,
+        "solar": 0.311,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.67,
        "served": 1.0,
        "mwh": 54020,
@@ -30287,6 +46821,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.92,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3074634,
+       "co2": 55296,
+       "coal": 526628,
+       "coalHeat": 384296,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382399,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.92,
+         "served": 1.0,
+         "mwh": 54020,
+         "cost": 3074634,
+         "co2": 55296,
+         "coal": 526628,
+         "coalHeat": 384296,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1382399,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.76,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3390187,
+       "co2": 55298,
+       "coal": 526646,
+       "coalHeat": 384309,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1382446,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.76,
+         "served": 1.0,
+         "mwh": 54020,
+         "cost": 3390187,
+         "co2": 55298,
+         "coal": 526646,
+         "coalHeat": 384309,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1382446,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.32,
+       "served": 1.0,
+       "mwh": 54020,
+       "cost": 3690537,
+       "co2": 50646,
+       "coal": 482340,
+       "coalHeat": 384300,
+       "imp": 7,
+       "re": 243358,
+       "carbon": 1266142,
+       "solarMW": 3.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.689,
+        "solar": 0.311,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.62,
@@ -30486,6 +47131,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.76,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5386722,
+       "co2": 97146,
+       "coal": 925197,
+       "coalHeat": 697456,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428642,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.6,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5940850,
+       "co2": 97145,
+       "coal": 925186,
+       "coalHeat": 697448,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428613,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.45,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 6495921,
+       "co2": 97144,
+       "coal": 925179,
+       "coalHeat": 697443,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428596,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.3,
        "served": 1.0,
        "mwh": 94900,
@@ -30612,6 +47320,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.76,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5386735,
+       "co2": 97146,
+       "coal": 925200,
+       "coalHeat": 697458,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428649,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.76,
+         "served": 1.0,
+         "mwh": 94900,
+         "cost": 5386735,
+         "co2": 97146,
+         "coal": 925200,
+         "coalHeat": 697458,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2428649,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.6,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5940866,
+       "co2": 97145,
+       "coal": 925188,
+       "coalHeat": 697450,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428620,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.6,
+         "served": 1.0,
+         "mwh": 94900,
+         "cost": 5940866,
+         "co2": 97145,
+         "coal": 925188,
+         "coalHeat": 697450,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2428620,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.45,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 6496246,
+       "co2": 97149,
+       "coal": 925230,
+       "coalHeat": 697481,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428729,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.31,
@@ -30786,6 +47603,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.76,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5386520,
+       "co2": 97142,
+       "coal": 925158,
+       "coalHeat": 697427,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428539,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.6,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5940774,
+       "co2": 97143,
+       "coal": 925172,
+       "coalHeat": 697438,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428578,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.21,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 6473226,
+       "co2": 90180,
+       "coal": 858857,
+       "coalHeat": 697441,
+       "imp": 0,
+       "re": 365037,
+       "carbon": 2254499,
+       "solarMW": 5.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.709,
+        "solar": 0.291,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.62,
        "served": 1.0,
        "mwh": 94900,
@@ -30916,6 +47797,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.76,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5386520,
+       "co2": 97142,
+       "coal": 925158,
+       "coalHeat": 697427,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428539,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.76,
+         "served": 1.0,
+         "mwh": 94900,
+         "cost": 5386520,
+         "co2": 97142,
+         "coal": 925158,
+         "coalHeat": 697427,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2428539,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.6,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5940869,
+       "co2": 97145,
+       "coal": 925189,
+       "coalHeat": 697450,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428621,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.6,
+         "served": 1.0,
+         "mwh": 94900,
+         "cost": 5940869,
+         "co2": 97145,
+         "coal": 925189,
+         "coalHeat": 697450,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2428621,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.2,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 6472506,
+       "co2": 90166,
+       "coal": 858727,
+       "coalHeat": 697433,
+       "imp": 11,
+       "re": 365037,
+       "carbon": 2254157,
+       "solarMW": 5.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.708,
+        "solar": 0.291,
+        "grid": 0.001,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.58,
@@ -31115,6 +48107,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 18690347,
+       "co2": 340757,
+       "coal": 3245306,
+       "coalHeat": 2305875,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518928,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 20634060,
+       "co2": 340753,
+       "coal": 3245267,
+       "coalHeat": 2305848,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518826,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 22581077,
+       "co2": 340751,
+       "coal": 3245244,
+       "coalHeat": 2305832,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518766,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 332880,
@@ -31241,6 +48296,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 18690395,
+       "co2": 340758,
+       "coal": 3245315,
+       "coalHeat": 2305882,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518952,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 332880,
+         "cost": 18690395,
+         "co2": 340758,
+         "coal": 3245315,
+         "coalHeat": 2305882,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8518952,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 20634114,
+       "co2": 340754,
+       "coal": 3245276,
+       "coalHeat": 2305854,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518850,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 332880,
+         "cost": 20634114,
+         "co2": 340754,
+         "coal": 3245276,
+         "coalHeat": 2305854,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8518850,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 22582216,
+       "co2": 340769,
+       "coal": 3245423,
+       "coalHeat": 2305959,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8519236,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.69,
@@ -31415,6 +48579,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 18689639,
+       "co2": 340743,
+       "coal": 3245169,
+       "coalHeat": 2305778,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518569,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 20633791,
+       "co2": 340748,
+       "coal": 3245220,
+       "coalHeat": 2305814,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518704,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.59,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 22497864,
+       "co2": 315216,
+       "coal": 3002062,
+       "coalHeat": 2305824,
+       "imp": 0,
+       "re": 1338467,
+       "carbon": 7880412,
+       "solarMW": 18.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.741,
+        "solar": 0.259,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.98,
        "served": 1.0,
        "mwh": 332880,
@@ -31543,6 +48771,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 18689639,
+       "co2": 340743,
+       "coal": 3245169,
+       "coalHeat": 2305778,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518569,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 332880,
+         "cost": 18689639,
+         "co2": 340743,
+         "coal": 3245169,
+         "coalHeat": 2305778,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8518569,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 20634125,
+       "co2": 340754,
+       "coal": 3245278,
+       "coalHeat": 2305856,
+       "imp": 0,
+       "re": 0,
+       "carbon": 8518855,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 332880,
+         "cost": 20634125,
+         "co2": 340754,
+         "coal": 3245278,
+         "coalHeat": 2305856,
+         "imp": 0,
+         "re": 0,
+         "carbon": 8518855,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.58,
+       "served": 1.0,
+       "mwh": 332880,
+       "cost": 22497664,
+       "co2": 315213,
+       "coal": 3002030,
+       "coalHeat": 2305800,
+       "imp": 0,
+       "re": 1338467,
+       "carbon": 7880329,
+       "solarMW": 18.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.741,
+        "solar": 0.259,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.95,
@@ -31730,6 +49068,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 8130082,
+       "co2": 145719,
+       "coal": 1387795,
+       "coalHeat": 1024833,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3642963,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 8961276,
+       "co2": 145717,
+       "coal": 1387779,
+       "coalHeat": 1024821,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3642919,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 9793881,
+       "co2": 145716,
+       "coal": 1387769,
+       "coalHeat": 1024814,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3642894,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.65,
        "served": 1.0,
        "mwh": 142350,
@@ -31856,6 +49257,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 8130103,
+       "co2": 145719,
+       "coal": 1387799,
+       "coalHeat": 1024836,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3642973,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.11,
+         "served": 1.0,
+         "mwh": 142350,
+         "cost": 8130103,
+         "co2": 145719,
+         "coal": 1387799,
+         "coalHeat": 1024836,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3642973,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 8961299,
+       "co2": 145717,
+       "coal": 1387783,
+       "coalHeat": 1024824,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3642929,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.95,
+         "served": 1.0,
+         "mwh": 142350,
+         "cost": 8961299,
+         "co2": 145717,
+         "coal": 1387783,
+         "coalHeat": 1024824,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3642929,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.8,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 9794369,
+       "co2": 145724,
+       "coal": 1387845,
+       "coalHeat": 1024870,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3643094,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.66,
@@ -32030,6 +49540,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 8129780,
+       "co2": 145712,
+       "coal": 1387737,
+       "coalHeat": 1024790,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3642809,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.95,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 8961161,
+       "co2": 145715,
+       "coal": 1387759,
+       "coalHeat": 1024806,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3642867,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.52,
+       "served": 1.0,
+       "mwh": 142347,
+       "cost": 9754283,
+       "co2": 134106,
+       "coal": 1277201,
+       "coalHeat": 1024800,
+       "imp": 0,
+       "re": 608394,
+       "carbon": 3352651,
+       "solarMW": 8.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.695,
+        "solar": 0.305,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.83,
        "served": 1.0,
        "mwh": 142349,
@@ -32160,6 +49734,121 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.11,
+       "served": 1.0,
+       "mwh": 142350,
+       "cost": 8129780,
+       "co2": 145712,
+       "coal": 1387737,
+       "coalHeat": 1024790,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3642809,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.11,
+         "served": 1.0,
+         "mwh": 142350,
+         "cost": 8129780,
+         "co2": 145712,
+         "coal": 1387737,
+         "coalHeat": 1024790,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3642809,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.93,
+       "served": 1.0,
+       "mwh": 142349,
+       "cost": 8957495,
+       "co2": 144574,
+       "coal": 1376898,
+       "coalHeat": 1024820,
+       "imp": 0,
+       "re": 57431,
+       "carbon": 3614357,
+       "solarMW": 0.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.97,
+        "solar": 0.029,
+        "grid": 0.001,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.93,
+         "served": 1.0,
+         "mwh": 142349,
+         "cost": 8957495,
+         "co2": 144574,
+         "coal": 1376898,
+         "coalHeat": 1024820,
+         "imp": 0,
+         "re": 57431,
+         "carbon": 3614357,
+         "solarMW": 0.8,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.97,
+          "solar": 0.029,
+          "grid": 0.001,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.25,
+       "served": 1.0,
+       "mwh": 142349,
+       "cost": 9714853,
+       "co2": 133561,
+       "coal": 1272010,
+       "coalHeat": 1024795,
+       "imp": 302,
+       "re": 619486,
+       "carbon": 3339026,
+       "solarMW": 8.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.681,
+        "solar": 0.31,
+        "grid": 0.009,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.48,
@@ -32359,6 +50048,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.96,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 3492959,
+       "co2": 62771,
+       "coal": 597819,
+       "coalHeat": 448365,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1569276,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.8,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 3851011,
+       "co2": 62770,
+       "coal": 597812,
+       "coalHeat": 448359,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1569257,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.65,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 4209672,
+       "co2": 62770,
+       "coal": 597808,
+       "coalHeat": 448356,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1569246,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.5,
        "served": 1.0,
        "mwh": 61320,
@@ -32485,6 +50237,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.96,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 3492968,
+       "co2": 62771,
+       "coal": 597821,
+       "coalHeat": 448366,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1569281,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.96,
+         "served": 1.0,
+         "mwh": 61320,
+         "cost": 3492968,
+         "co2": 62771,
+         "coal": 597821,
+         "coalHeat": 448366,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1569281,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.8,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 3851021,
+       "co2": 62770,
+       "coal": 597814,
+       "coalHeat": 448361,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1569262,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.8,
+         "served": 1.0,
+         "mwh": 61320,
+         "cost": 3851021,
+         "co2": 62770,
+         "coal": 597814,
+         "coalHeat": 448361,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1569262,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.54,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 4203110,
+       "co2": 62581,
+       "coal": 596008,
+       "coalHeat": 448381,
+       "imp": 83,
+       "re": 0,
+       "carbon": 1564522,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.988,
+        "grid": 0.012,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.38,
@@ -32665,6 +50527,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.96,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 3492828,
+       "co2": 62768,
+       "coal": 597794,
+       "coalHeat": 448346,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1569210,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.8,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 3850962,
+       "co2": 62769,
+       "coal": 597804,
+       "coalHeat": 448353,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1569235,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.26,
+       "served": 1.0,
+       "mwh": 61319,
+       "cost": 4185874,
+       "co2": 58073,
+       "coal": 553075,
+       "coalHeat": 448341,
+       "imp": 0,
+       "re": 241533,
+       "carbon": 1451822,
+       "solarMW": 3.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.701,
+        "solar": 0.299,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.64,
        "served": 1.0,
        "mwh": 61318,
@@ -32795,6 +50721,121 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.96,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 3492828,
+       "co2": 62768,
+       "coal": 597794,
+       "coalHeat": 448346,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1569210,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.96,
+         "served": 1.0,
+         "mwh": 61320,
+         "cost": 3492828,
+         "co2": 62768,
+         "coal": 597794,
+         "coalHeat": 448346,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1569210,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.7,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 3844988,
+       "co2": 58447,
+       "coal": 556640,
+       "coalHeat": 448359,
+       "imp": 0,
+       "re": 218674,
+       "carbon": 1461179,
+       "solarMW": 3.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.725,
+        "solar": 0.272,
+        "grid": 0.003,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.7,
+         "served": 1.0,
+         "mwh": 61320,
+         "cost": 3844988,
+         "co2": 58447,
+         "coal": 556640,
+         "coalHeat": 448359,
+         "imp": 0,
+         "re": 218674,
+         "carbon": 1461179,
+         "solarMW": 3.1,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 0.725,
+          "solar": 0.272,
+          "grid": 0.003,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.05,
+       "served": 1.0,
+       "mwh": 61320,
+       "cost": 4172804,
+       "co2": 57851,
+       "coal": 550960,
+       "coalHeat": 448348,
+       "imp": 205,
+       "re": 240659,
+       "carbon": 1446269,
+       "solarMW": 3.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.687,
+        "solar": 0.298,
+        "grid": 0.015,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.32,
@@ -32994,6 +51035,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.6,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 467189678,
+       "co2": 8374658,
+       "coal": 79758648,
+       "coalHeat": 59819001,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209366450,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 514959588,
+       "co2": 8374558,
+       "coal": 79757692,
+       "coalHeat": 59818284,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209363941,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 562810670,
+       "co2": 8374499,
+       "coal": 79757138,
+       "coalHeat": 59817868,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209362486,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.75,
        "served": 1.0,
        "mwh": 8882638,
@@ -33120,6 +51224,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.6,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 467190873,
+       "co2": 8374682,
+       "coal": 79758879,
+       "coalHeat": 59819174,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209367057,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.6,
+         "served": 1.0,
+         "mwh": 8882638,
+         "cost": 467190873,
+         "co2": 8374682,
+         "coal": 79758879,
+         "coalHeat": 59819174,
+         "imp": 0,
+         "re": 0,
+         "carbon": 209367057,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 514960922,
+       "co2": 8374582,
+       "coal": 79757923,
+       "coalHeat": 59818457,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209364547,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 8882638,
+         "cost": 514960922,
+         "co2": 8374582,
+         "coal": 79757923,
+         "coalHeat": 59818457,
+         "imp": 0,
+         "re": 0,
+         "carbon": 209364547,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 562838676,
+       "co2": 8374961,
+       "coal": 79761531,
+       "coalHeat": 59821163,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209374019,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.75,
@@ -33294,6 +51507,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 467172290,
+       "co2": 8374305,
+       "coal": 79755288,
+       "coalHeat": 59816481,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209357631,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 514952983,
+       "co2": 8374438,
+       "coal": 79756548,
+       "coalHeat": 59817426,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209360938,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 562809114,
+       "co2": 8374474,
+       "coal": 79756893,
+       "coalHeat": 59817685,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209361845,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.73,
        "served": 1.0,
        "mwh": 8882638,
@@ -33421,6 +51697,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 467172285,
+       "co2": 8374305,
+       "coal": 79755287,
+       "coalHeat": 59816480,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209357629,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 8882638,
+         "cost": 467172285,
+         "co2": 8374305,
+         "coal": 79755287,
+         "coalHeat": 59816480,
+         "imp": 0,
+         "re": 0,
+         "carbon": 209357629,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 514961177,
+       "co2": 8374587,
+       "coal": 79757967,
+       "coalHeat": 59818490,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209364663,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 8882638,
+         "cost": 514961177,
+         "co2": 8374587,
+         "coal": 79757967,
+         "coalHeat": 59818490,
+         "imp": 0,
+         "re": 0,
+         "carbon": 209364663,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 8882638,
+       "cost": 562803788,
+       "co2": 8374386,
+       "coal": 79756058,
+       "coalHeat": 59817058,
+       "imp": 0,
+       "re": 0,
+       "carbon": 209359652,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.69,
@@ -33618,6 +52003,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 298752933,
+       "co2": 5450673,
+       "coal": 51911172,
+       "coalHeat": 36448295,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136266828,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 329844133,
+       "co2": 5450608,
+       "coal": 51910550,
+       "coalHeat": 36447858,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136265195,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 360988163,
+       "co2": 5450570,
+       "coal": 51910190,
+       "coalHeat": 36447605,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136264248,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.83,
        "served": 1.0,
        "mwh": 5781293,
@@ -33744,6 +52192,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 298753711,
+       "co2": 5450689,
+       "coal": 51911323,
+       "coalHeat": 36448401,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136267222,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.68,
+         "served": 1.0,
+         "mwh": 5781293,
+         "cost": 298753711,
+         "co2": 5450689,
+         "coal": 51911323,
+         "coalHeat": 36448401,
+         "imp": 0,
+         "re": 0,
+         "carbon": 136267222,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 329845001,
+       "co2": 5450624,
+       "coal": 51910701,
+       "coalHeat": 36447964,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136265589,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 5781293,
+         "cost": 329845001,
+         "co2": 5450624,
+         "coal": 51910701,
+         "coalHeat": 36447964,
+         "imp": 0,
+         "re": 0,
+         "carbon": 136265589,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 361006391,
+       "co2": 5450870,
+       "coal": 51913049,
+       "coalHeat": 36449613,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136271754,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.83,
@@ -33918,6 +52475,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 298741616,
+       "co2": 5450444,
+       "coal": 51908986,
+       "coalHeat": 36446760,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136261088,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 329839834,
+       "co2": 5450530,
+       "coal": 51909806,
+       "coalHeat": 36447336,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136263240,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 360987151,
+       "co2": 5450553,
+       "coal": 51910031,
+       "coalHeat": 36447493,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136263831,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.52,
        "served": 1.0,
        "mwh": 5781293,
@@ -34047,6 +52667,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.67,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 298741613,
+       "co2": 5450443,
+       "coal": 51908985,
+       "coalHeat": 36446759,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136261086,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.67,
+         "served": 1.0,
+         "mwh": 5781293,
+         "cost": 298741613,
+         "co2": 5450443,
+         "coal": 51908985,
+         "coalHeat": 36446759,
+         "imp": 0,
+         "re": 0,
+         "carbon": 136261086,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 329845167,
+       "co2": 5450627,
+       "coal": 51910729,
+       "coalHeat": 36447984,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136265665,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 5781293,
+         "cost": 329845167,
+         "co2": 5450627,
+         "coal": 51910729,
+         "coalHeat": 36447984,
+         "imp": 0,
+         "re": 0,
+         "carbon": 136265665,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 5781293,
+       "cost": 360983685,
+       "co2": 5450496,
+       "coal": 51909487,
+       "coalHeat": 36447112,
+       "imp": 0,
+       "re": 0,
+       "carbon": 136262403,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.49,
@@ -34237,6 +52966,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.6,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 186875921,
+       "co2": 3349864,
+       "coal": 31903467,
+       "coalHeat": 23927620,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83746601,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 205983890,
+       "co2": 3349824,
+       "coal": 31903085,
+       "coalHeat": 23927333,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83745597,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 225124327,
+       "co2": 3349801,
+       "coal": 31902863,
+       "coalHeat": 23927167,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83745015,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.75,
        "served": 1.0,
        "mwh": 3553056,
@@ -34363,6 +53155,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.6,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 186876399,
+       "co2": 3349874,
+       "coal": 31903559,
+       "coalHeat": 23927689,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83746843,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.6,
+         "served": 1.0,
+         "mwh": 3553056,
+         "cost": 186876399,
+         "co2": 3349874,
+         "coal": 31903559,
+         "coalHeat": 23927689,
+         "imp": 0,
+         "re": 0,
+         "carbon": 83746843,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 205984423,
+       "co2": 3349834,
+       "coal": 31903177,
+       "coalHeat": 23927402,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83745840,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 3553056,
+         "cost": 205984423,
+         "co2": 3349834,
+         "coal": 31903177,
+         "coalHeat": 23927402,
+         "imp": 0,
+         "re": 0,
+         "carbon": 83745840,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 225135530,
+       "co2": 3349985,
+       "coal": 31904620,
+       "coalHeat": 23928485,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83749628,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.73,
@@ -34543,6 +53444,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 186868966,
+       "co2": 3349723,
+       "coal": 31902123,
+       "coalHeat": 23926612,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83743073,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 205981248,
+       "co2": 3349776,
+       "coal": 31902627,
+       "coalHeat": 23926990,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83744396,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 225123705,
+       "co2": 3349790,
+       "coal": 31902765,
+       "coalHeat": 23927094,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83744759,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.73,
        "served": 1.0,
        "mwh": 3553056,
@@ -34670,6 +53634,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.59,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 186868964,
+       "co2": 3349723,
+       "coal": 31902123,
+       "coalHeat": 23926612,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83743072,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.59,
+         "served": 1.0,
+         "mwh": 3553056,
+         "cost": 186868964,
+         "co2": 3349723,
+         "coal": 31902123,
+         "coalHeat": 23926612,
+         "imp": 0,
+         "re": 0,
+         "carbon": 83743072,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 205984525,
+       "co2": 3349835,
+       "coal": 31903195,
+       "coalHeat": 23927416,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83745886,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 3553056,
+         "cost": 205984525,
+         "co2": 3349835,
+         "coal": 31903195,
+         "coalHeat": 23927416,
+         "imp": 0,
+         "re": 0,
+         "carbon": 83745886,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 3553056,
+       "cost": 225121575,
+       "co2": 3349755,
+       "coal": 31902431,
+       "coalHeat": 23926843,
+       "imp": 0,
+       "re": 0,
+       "carbon": 83743881,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.68,
@@ -34867,6 +53940,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 5935009,
+       "co2": 107078,
+       "coal": 1019788,
+       "coalHeat": 915511,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676942,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 6545791,
+       "co2": 107076,
+       "coal": 1019775,
+       "coalHeat": 915500,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676910,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 7157611,
+       "co2": 107076,
+       "coal": 1019768,
+       "coalHeat": 915493,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676892,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.28,
        "served": 1.0,
        "mwh": 104602,
@@ -34993,6 +54129,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 5935024,
+       "co2": 107078,
+       "coal": 1019790,
+       "coalHeat": 915513,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676950,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 104602,
+         "cost": 5935024,
+         "co2": 107078,
+         "coal": 1019790,
+         "coalHeat": 915513,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2676950,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 6545808,
+       "co2": 107077,
+       "coal": 1019778,
+       "coalHeat": 915502,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676918,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 104602,
+         "cost": 6545808,
+         "co2": 107077,
+         "coal": 1019778,
+         "coalHeat": 915502,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2676918,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 7157969,
+       "co2": 107082,
+       "coal": 1019824,
+       "coalHeat": 915544,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2677039,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.28,
@@ -35167,6 +54412,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 5934786,
+       "co2": 107073,
+       "coal": 1019745,
+       "coalHeat": 915472,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676830,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 6545706,
+       "co2": 107075,
+       "coal": 1019761,
+       "coalHeat": 915487,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676872,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 7157591,
+       "co2": 107075,
+       "coal": 1019765,
+       "coalHeat": 915491,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676883,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.18,
        "served": 1.0,
        "mwh": 104602,
@@ -35295,6 +54603,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 5934786,
+       "co2": 107073,
+       "coal": 1019745,
+       "coalHeat": 915472,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676829,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 104602,
+         "cost": 5934786,
+         "co2": 107073,
+         "coal": 1019745,
+         "coalHeat": 915472,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2676829,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 6545811,
+       "co2": 107077,
+       "coal": 1019779,
+       "coalHeat": 915503,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2676919,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 104602,
+         "cost": 6545811,
+         "co2": 107077,
+         "coal": 1019779,
+         "coalHeat": 915503,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2676919,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.38,
+       "served": 1.0,
+       "mwh": 104602,
+       "cost": 7152250,
+       "co2": 104355,
+       "coal": 993858,
+       "coalHeat": 915481,
+       "imp": 117,
+       "re": 149264,
+       "carbon": 2608877,
+       "solarMW": 2.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.752,
+        "solar": 0.236,
+        "grid": 0.013,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.0,
@@ -35486,6 +54905,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 5516286,
+       "co2": 99523,
+       "coal": 947843,
+       "coalHeat": 850911,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488087,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 6083978,
+       "co2": 99522,
+       "coal": 947831,
+       "coalHeat": 850900,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488058,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 6652635,
+       "co2": 99522,
+       "coal": 947825,
+       "coalHeat": 850895,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488040,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.28,
        "served": 1.0,
        "mwh": 97223,
@@ -35612,6 +55094,115 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 5516300,
+       "co2": 99524,
+       "coal": 947846,
+       "coalHeat": 850913,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488095,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 97223,
+         "cost": 5516300,
+         "co2": 99524,
+         "coal": 947846,
+         "coalHeat": 850913,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2488095,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 6083994,
+       "co2": 99523,
+       "coal": 947834,
+       "coalHeat": 850903,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488065,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 97223,
+         "cost": 6083994,
+         "co2": 99523,
+         "coal": 947834,
+         "coalHeat": 850903,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2488065,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 6652968,
+       "co2": 99527,
+       "coal": 947877,
+       "coalHeat": 850941,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488177,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.28,
@@ -35786,6 +55377,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 5516079,
+       "co2": 99519,
+       "coal": 947803,
+       "coalHeat": 850875,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2487983,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 6083900,
+       "co2": 99521,
+       "coal": 947818,
+       "coalHeat": 850888,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488022,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 6652616,
+       "co2": 99521,
+       "coal": 947822,
+       "coalHeat": 850892,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488033,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.18,
        "served": 1.0,
        "mwh": 97223,
@@ -35914,6 +55568,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 5516079,
+       "co2": 99519,
+       "coal": 947803,
+       "coalHeat": 850875,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2487983,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 97223,
+         "cost": 5516079,
+         "co2": 99519,
+         "coal": 947803,
+         "coalHeat": 850875,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2487983,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 6083997,
+       "co2": 99523,
+       "coal": 947835,
+       "coalHeat": 850903,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2488066,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 97223,
+         "cost": 6083997,
+         "co2": 99523,
+         "coal": 947835,
+         "coalHeat": 850903,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2488066,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.38,
+       "served": 1.0,
+       "mwh": 97223,
+       "cost": 6647652,
+       "co2": 96993,
+       "coal": 923739,
+       "coalHeat": 850883,
+       "imp": 108,
+       "re": 138751,
+       "carbon": 2424816,
+       "solarMW": 2.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.752,
+        "solar": 0.236,
+        "grid": 0.013,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.0,
@@ -36105,6 +55870,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1610164,
+       "co2": 29050,
+       "coal": 276669,
+       "coalHeat": 248401,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726257,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1775870,
+       "co2": 29050,
+       "coal": 276666,
+       "coalHeat": 248398,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726249,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1941857,
+       "co2": 29050,
+       "coal": 276664,
+       "coalHeat": 248396,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726244,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.28,
        "served": 1.0,
        "mwh": 28379,
@@ -36231,6 +56059,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1610168,
+       "co2": 29050,
+       "coal": 276670,
+       "coalHeat": 248402,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726259,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 28379,
+         "cost": 1610168,
+         "co2": 29050,
+         "coal": 276670,
+         "coalHeat": 248402,
+         "imp": 0,
+         "re": 0,
+         "carbon": 726259,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1775874,
+       "co2": 29050,
+       "coal": 276667,
+       "coalHeat": 248399,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726251,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 28379,
+         "cost": 1775874,
+         "co2": 29050,
+         "coal": 276667,
+         "coalHeat": 248399,
+         "imp": 0,
+         "re": 0,
+         "carbon": 726251,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.37,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1940244,
+       "co2": 29003,
+       "coal": 276217,
+       "coalHeat": 248410,
+       "imp": 21,
+       "re": 0,
+       "carbon": 725069,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.984,
+        "grid": 0.016,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.21,
@@ -36411,6 +56349,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1610104,
+       "co2": 29049,
+       "coal": 276658,
+       "coalHeat": 248391,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726227,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1775847,
+       "co2": 29050,
+       "coal": 276662,
+       "coalHeat": 248395,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726238,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1941852,
+       "co2": 29050,
+       "coal": 276663,
+       "coalHeat": 248396,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726241,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.2,
        "served": 1.0,
        "mwh": 28379,
@@ -36539,6 +56540,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1610104,
+       "co2": 29049,
+       "coal": 276658,
+       "coalHeat": 248391,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726227,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 28379,
+         "cost": 1610104,
+         "co2": 29049,
+         "coal": 276658,
+         "coalHeat": 248391,
+         "imp": 0,
+         "re": 0,
+         "carbon": 726227,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1775875,
+       "co2": 29050,
+       "coal": 276667,
+       "coalHeat": 248399,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726251,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 28379,
+         "cost": 1775875,
+         "co2": 29050,
+         "coal": 276667,
+         "coalHeat": 248399,
+         "imp": 0,
+         "re": 0,
+         "carbon": 726251,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.39,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1940934,
+       "co2": 28306,
+       "coal": 269579,
+       "coalHeat": 248392,
+       "imp": 56,
+       "re": 39501,
+       "carbon": 707644,
+       "solarMW": 0.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.75,
+        "solar": 0.228,
+        "grid": 0.022,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.04,
@@ -36730,6 +56842,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1610164,
+       "co2": 29050,
+       "coal": 276669,
+       "coalHeat": 248401,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726257,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1775870,
+       "co2": 29050,
+       "coal": 276666,
+       "coalHeat": 248398,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726249,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1941857,
+       "co2": 29050,
+       "coal": 276664,
+       "coalHeat": 248396,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726244,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.28,
        "served": 1.0,
        "mwh": 28379,
@@ -36856,6 +57031,116 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1610168,
+       "co2": 29050,
+       "coal": 276670,
+       "coalHeat": 248402,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726259,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 28379,
+         "cost": 1610168,
+         "co2": 29050,
+         "coal": 276670,
+         "coalHeat": 248402,
+         "imp": 0,
+         "re": 0,
+         "carbon": 726259,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1775874,
+       "co2": 29050,
+       "coal": 276667,
+       "coalHeat": 248399,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726251,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 28379,
+         "cost": 1775874,
+         "co2": 29050,
+         "coal": 276667,
+         "coalHeat": 248399,
+         "imp": 0,
+         "re": 0,
+         "carbon": 726251,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.37,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1940286,
+       "co2": 29004,
+       "coal": 276228,
+       "coalHeat": 248410,
+       "imp": 20,
+       "re": 0,
+       "carbon": 725099,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.984,
+        "grid": 0.016,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.21,
@@ -37036,6 +57321,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1610104,
+       "co2": 29049,
+       "coal": 276658,
+       "coalHeat": 248391,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726227,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1775847,
+       "co2": 29050,
+       "coal": 276662,
+       "coalHeat": 248395,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726238,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.43,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1941852,
+       "co2": 29050,
+       "coal": 276663,
+       "coalHeat": 248396,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726241,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.2,
        "served": 1.0,
        "mwh": 28379,
@@ -37164,6 +57512,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.74,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1610104,
+       "co2": 29049,
+       "coal": 276658,
+       "coalHeat": 248391,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726227,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.74,
+         "served": 1.0,
+         "mwh": 28379,
+         "cost": 1610104,
+         "co2": 29049,
+         "coal": 276658,
+         "coalHeat": 248391,
+         "imp": 0,
+         "re": 0,
+         "carbon": 726227,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.58,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1775875,
+       "co2": 29050,
+       "coal": 276667,
+       "coalHeat": 248399,
+       "imp": 0,
+       "re": 0,
+       "carbon": 726251,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.58,
+         "served": 1.0,
+         "mwh": 28379,
+         "cost": 1775875,
+         "co2": 29050,
+         "coal": 276667,
+         "coalHeat": 248399,
+         "imp": 0,
+         "re": 0,
+         "carbon": 726251,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.39,
+       "served": 1.0,
+       "mwh": 28379,
+       "cost": 1940851,
+       "co2": 28298,
+       "coal": 269505,
+       "coalHeat": 248392,
+       "imp": 62,
+       "re": 39501,
+       "carbon": 707450,
+       "solarMW": 0.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.747,
+        "solar": 0.228,
+        "grid": 0.025,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.03,
@@ -37357,6 +57816,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.53,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 110292473,
+       "co2": 1993367,
+       "coal": 18984450,
+       "coalHeat": 14216987,
+       "imp": 0,
+       "re": 0,
+       "carbon": 49834182,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.95,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 121661880,
+       "co2": 1993326,
+       "coal": 18984056,
+       "coalHeat": 14216691,
+       "imp": 0,
+       "re": 0,
+       "carbon": 49833146,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.38,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 133055375,
+       "co2": 1993376,
+       "coal": 18984536,
+       "coalHeat": 14217051,
+       "imp": 0,
+       "re": 0,
+       "carbon": 49834407,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.8,
        "served": 1.0,
        "mwh": 2099480,
@@ -37476,6 +57998,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 52.53,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 110292473,
+       "co2": 1993367,
+       "coal": 18984450,
+       "coalHeat": 14216987,
+       "imp": 0,
+       "re": 0,
+       "carbon": 49834182,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.53,
+         "served": 1.0,
+         "mwh": 2099480,
+         "cost": 110292473,
+         "co2": 1993367,
+         "coal": 18984450,
+         "coalHeat": 14216987,
+         "imp": 0,
+         "re": 0,
+         "carbon": 49834182,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.95,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 121661880,
+       "co2": 1993326,
+       "coal": 18984056,
+       "coalHeat": 14216691,
+       "imp": 0,
+       "re": 0,
+       "carbon": 49833146,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.95,
+         "served": 1.0,
+         "mwh": 2099480,
+         "cost": 121661880,
+         "co2": 1993326,
+         "coal": 18984056,
+         "coalHeat": 14216691,
+         "imp": 0,
+         "re": 0,
+         "carbon": 49833146,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.38,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 133055375,
+       "co2": 1993376,
+       "coal": 18984536,
+       "coalHeat": 14217051,
+       "imp": 0,
+       "re": 0,
+       "carbon": 49834407,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.38,
+         "served": 1.0,
+         "mwh": 2099480,
+         "cost": 133055375,
+         "co2": 1993376,
+         "coal": 18984536,
+         "coalHeat": 14217051,
+         "imp": 0,
+         "re": 0,
+         "carbon": 49834407,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -37657,6 +58311,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.53,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 110292473,
+       "co2": 1993367,
+       "coal": 18984450,
+       "coalHeat": 14216987,
+       "imp": 0,
+       "re": 0,
+       "carbon": 49834182,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.93,
+       "served": 1.0,
+       "mwh": 2099477,
+       "cost": 121628521,
+       "co2": 1980283,
+       "coal": 18859839,
+       "coalHeat": 14213559,
+       "imp": 0,
+       "re": 625616,
+       "carbon": 49507077,
+       "solarMW": 8.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.977,
+        "solar": 0.023,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.18,
+       "served": 1.0,
+       "mwh": 2099478,
+       "cost": 132646143,
+       "co2": 1855668,
+       "coal": 17673028,
+       "coalHeat": 14199074,
+       "imp": 0,
+       "re": 7261929,
+       "carbon": 46391698,
+       "solarMW": 102.1,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.73,
+        "solar": 0.27,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.21,
        "served": 1.0,
        "mwh": 2099478,
@@ -37787,6 +58506,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.53,
+       "served": 1.0,
+       "mwh": 2099480,
+       "cost": 110292473,
+       "co2": 1993367,
+       "coal": 18984450,
+       "coalHeat": 14216987,
+       "imp": 0,
+       "re": 0,
+       "carbon": 49834182,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.53,
+         "served": 1.0,
+         "mwh": 2099480,
+         "cost": 110292473,
+         "co2": 1993367,
+         "coal": 18984450,
+         "coalHeat": 14216987,
+         "imp": 0,
+         "re": 0,
+         "carbon": 49834182,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.93,
+       "served": 1.0,
+       "mwh": 2099479,
+       "cost": 121624697,
+       "co2": 1980095,
+       "coal": 18858052,
+       "coalHeat": 14213961,
+       "imp": 93,
+       "re": 635099,
+       "carbon": 49502386,
+       "solarMW": 8.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.976,
+        "solar": 0.024,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.17,
+       "served": 1.0,
+       "mwh": 2099479,
+       "cost": 132632300,
+       "co2": 1855595,
+       "coal": 17672333,
+       "coalHeat": 14198663,
+       "imp": 56,
+       "re": 7254746,
+       "carbon": 46389873,
+       "solarMW": 102.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.73,
+        "solar": 0.27,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.21,
@@ -37983,6 +58790,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.58,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 14745226,
+       "co2": 266780,
+       "coal": 2540762,
+       "coalHeat": 2284551,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6669501,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.42,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 16266838,
+       "co2": 266774,
+       "coal": 2540710,
+       "coalHeat": 2284504,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6669362,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.27,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 17791674,
+       "co2": 266781,
+       "coal": 2540774,
+       "coalHeat": 2284561,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6669531,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.11,
        "served": 1.0,
        "mwh": 260610,
@@ -38102,6 +58972,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.58,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 14745226,
+       "co2": 266780,
+       "coal": 2540762,
+       "coalHeat": 2284551,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6669501,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.58,
+         "served": 1.0,
+         "mwh": 260610,
+         "cost": 14745226,
+         "co2": 266780,
+         "coal": 2540762,
+         "coalHeat": 2284551,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6669501,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.42,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 16266838,
+       "co2": 266774,
+       "coal": 2540710,
+       "coalHeat": 2284504,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6669362,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.42,
+         "served": 1.0,
+         "mwh": 260610,
+         "cost": 16266838,
+         "co2": 266774,
+         "coal": 2540710,
+         "coalHeat": 2284504,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6669362,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.27,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 17791674,
+       "co2": 266781,
+       "coal": 2540774,
+       "coalHeat": 2284561,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6669531,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.27,
+         "served": 1.0,
+         "mwh": 260610,
+         "cost": 17791674,
+         "co2": 266781,
+         "coal": 2540774,
+         "coalHeat": 2284561,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6669531,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -38283,6 +59285,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.58,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 14745226,
+       "co2": 266780,
+       "coal": 2540762,
+       "coalHeat": 2284551,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6669501,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.38,
+       "served": 1.0,
+       "mwh": 260605,
+       "cost": 16257429,
+       "co2": 260397,
+       "coal": 2479969,
+       "coalHeat": 2283971,
+       "imp": 0,
+       "re": 313484,
+       "carbon": 6509918,
+       "solarMW": 4.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.765,
+        "solar": 0.235,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.03,
+       "served": 1.0,
+       "mwh": 260606,
+       "cost": 17728950,
+       "co2": 259418,
+       "coal": 2470650,
+       "coalHeat": 2281640,
+       "imp": 0,
+       "re": 356504,
+       "carbon": 6485456,
+       "solarMW": 4.9,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.739,
+        "solar": 0.261,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.7,
        "served": 1.0,
        "mwh": 260606,
@@ -38411,6 +59478,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.58,
+       "served": 1.0,
+       "mwh": 260610,
+       "cost": 14745226,
+       "co2": 266780,
+       "coal": 2540762,
+       "coalHeat": 2284551,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6669501,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.58,
+         "served": 1.0,
+         "mwh": 260610,
+         "cost": 14745226,
+         "co2": 266780,
+         "coal": 2540762,
+         "coalHeat": 2284551,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6669501,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.36,
+       "served": 1.0,
+       "mwh": 260608,
+       "cost": 16251541,
+       "co2": 260177,
+       "coal": 2477874,
+       "coalHeat": 2284055,
+       "imp": 92,
+       "re": 322291,
+       "carbon": 6504419,
+       "solarMW": 4.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.757,
+        "solar": 0.241,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.99,
+       "served": 1.0,
+       "mwh": 260608,
+       "cost": 17719169,
+       "co2": 259394,
+       "coal": 2470421,
+       "coalHeat": 2281596,
+       "imp": 49,
+       "re": 350136,
+       "carbon": 6484856,
+       "solarMW": 4.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.738,
+        "solar": 0.26,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.64,
@@ -38608,6 +59765,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.64,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 9592556,
+       "co2": 173370,
+       "coal": 1651140,
+       "coalHeat": 1252589,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4334242,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.48,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 10581391,
+       "co2": 173366,
+       "coal": 1651105,
+       "coalHeat": 1252563,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4334152,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.33,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 11572320,
+       "co2": 173370,
+       "coal": 1651147,
+       "coalHeat": 1252594,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4334261,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.17,
        "served": 1.0,
        "mwh": 169360,
@@ -38727,6 +59947,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.64,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 9592556,
+       "co2": 173370,
+       "coal": 1651140,
+       "coalHeat": 1252589,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4334242,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.64,
+         "served": 1.0,
+         "mwh": 169360,
+         "cost": 9592556,
+         "co2": 173370,
+         "coal": 1651140,
+         "coalHeat": 1252589,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4334242,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.48,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 10581391,
+       "co2": 173366,
+       "coal": 1651105,
+       "coalHeat": 1252563,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4334152,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.48,
+         "served": 1.0,
+         "mwh": 169360,
+         "cost": 10581391,
+         "co2": 173366,
+         "coal": 1651105,
+         "coalHeat": 1252563,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4334152,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.33,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 11572320,
+       "co2": 173370,
+       "coal": 1651147,
+       "coalHeat": 1252594,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4334261,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.33,
+         "served": 1.0,
+         "mwh": 169360,
+         "cost": 11572320,
+         "co2": 173370,
+         "coal": 1651147,
+         "coalHeat": 1252594,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4334261,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -38908,6 +60260,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.64,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 9592556,
+       "co2": 173370,
+       "coal": 1651140,
+       "coalHeat": 1252589,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4334242,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.43,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 10573111,
+       "co2": 162825,
+       "coal": 1550718,
+       "coalHeat": 1252289,
+       "imp": 0,
+       "re": 521347,
+       "carbon": 4070636,
+       "solarMW": 7.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.749,
+        "solar": 0.251,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.85,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 11491683,
+       "co2": 161525,
+       "coal": 1538334,
+       "coalHeat": 1251012,
+       "imp": 0,
+       "re": 582555,
+       "carbon": 4038126,
+       "solarMW": 8.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.722,
+        "solar": 0.278,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.29,
        "served": 1.0,
        "mwh": 169360,
@@ -39038,6 +60455,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.64,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 9592556,
+       "co2": 173370,
+       "coal": 1651140,
+       "coalHeat": 1252589,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4334242,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.64,
+         "served": 1.0,
+         "mwh": 169360,
+         "cost": 9592556,
+         "co2": 173370,
+         "coal": 1651140,
+         "coalHeat": 1252589,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4334242,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.43,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 10573354,
+       "co2": 162830,
+       "coal": 1550761,
+       "coalHeat": 1252323,
+       "imp": 0,
+       "re": 521347,
+       "carbon": 4070747,
+       "solarMW": 7.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.749,
+        "solar": 0.251,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.85,
+       "served": 1.0,
+       "mwh": 169360,
+       "cost": 11490783,
+       "co2": 161508,
+       "coal": 1538173,
+       "coalHeat": 1250975,
+       "imp": 11,
+       "re": 582555,
+       "carbon": 4037704,
+       "solarMW": 8.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.722,
+        "solar": 0.278,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.26,
@@ -39236,6 +60741,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 45742641,
+       "co2": 833968,
+       "coal": 7942551,
+       "coalHeat": 5551245,
+       "imp": 0,
+       "re": 0,
+       "carbon": 20849197,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 50499276,
+       "co2": 833951,
+       "coal": 7942386,
+       "coalHeat": 5551130,
+       "imp": 0,
+       "re": 0,
+       "carbon": 20848763,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 55265988,
+       "co2": 833972,
+       "coal": 7942587,
+       "coalHeat": 5551270,
+       "imp": 0,
+       "re": 0,
+       "carbon": 20849291,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 814680,
@@ -39355,6 +60923,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 45742641,
+       "co2": 833968,
+       "coal": 7942551,
+       "coalHeat": 5551245,
+       "imp": 0,
+       "re": 0,
+       "carbon": 20849197,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 814680,
+         "cost": 45742641,
+         "co2": 833968,
+         "coal": 7942551,
+         "coalHeat": 5551245,
+         "imp": 0,
+         "re": 0,
+         "carbon": 20849197,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 50499276,
+       "co2": 833951,
+       "coal": 7942386,
+       "coalHeat": 5551130,
+       "imp": 0,
+       "re": 0,
+       "carbon": 20848763,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 814680,
+         "cost": 50499276,
+         "co2": 833951,
+         "coal": 7942386,
+         "coalHeat": 5551130,
+         "imp": 0,
+         "re": 0,
+         "carbon": 20848763,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 55265988,
+       "co2": 833972,
+       "coal": 7942587,
+       "coalHeat": 5551270,
+       "imp": 0,
+       "re": 0,
+       "carbon": 20849291,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 814680,
+         "cost": 55265988,
+         "co2": 833972,
+         "coal": 7942587,
+         "coalHeat": 5551270,
+         "imp": 0,
+         "re": 0,
+         "carbon": 20849291,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -39536,6 +61236,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 45742641,
+       "co2": 833968,
+       "coal": 7942551,
+       "coalHeat": 5551245,
+       "imp": 0,
+       "re": 0,
+       "carbon": 20849197,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.93,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 50454558,
+       "co2": 774953,
+       "coal": 7380505,
+       "coalHeat": 5549915,
+       "imp": 0,
+       "re": 2919541,
+       "carbon": 19373826,
+       "solarMW": 41.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.766,
+        "solar": 0.234,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.3,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 54824913,
+       "co2": 767810,
+       "coal": 7312479,
+       "coalHeat": 5544260,
+       "imp": 0,
+       "re": 3262308,
+       "carbon": 19195258,
+       "solarMW": 45.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.74,
+        "solar": 0.26,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.66,
        "served": 1.0,
        "mwh": 814680,
@@ -39664,6 +61429,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 45742641,
+       "co2": 833968,
+       "coal": 7942551,
+       "coalHeat": 5551245,
+       "imp": 0,
+       "re": 0,
+       "carbon": 20849197,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 814680,
+         "cost": 45742641,
+         "co2": 833968,
+         "coal": 7942551,
+         "coalHeat": 5551245,
+         "imp": 0,
+         "re": 0,
+         "carbon": 20849197,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.93,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 50455715,
+       "co2": 774974,
+       "coal": 7380706,
+       "coalHeat": 5550066,
+       "imp": 0,
+       "re": 2919541,
+       "carbon": 19374352,
+       "solarMW": 41.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.766,
+        "solar": 0.234,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.29,
+       "served": 1.0,
+       "mwh": 814680,
+       "cost": 54823507,
+       "co2": 767787,
+       "coal": 7312259,
+       "coalHeat": 5544093,
+       "imp": 0,
+       "re": 3262308,
+       "carbon": 19194679,
+       "solarMW": 45.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.74,
+        "solar": 0.26,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.67,
@@ -39851,6 +61704,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.76,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5386777,
+       "co2": 97147,
+       "coal": 925208,
+       "coalHeat": 697464,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428670,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.6,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5940865,
+       "co2": 97145,
+       "coal": 925188,
+       "coalHeat": 697450,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428619,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.45,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 6496128,
+       "co2": 97147,
+       "coal": 925212,
+       "coalHeat": 697467,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428681,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.3,
        "served": 1.0,
        "mwh": 94900,
@@ -39970,6 +61886,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.76,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5386777,
+       "co2": 97147,
+       "coal": 925208,
+       "coalHeat": 697464,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428670,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.76,
+         "served": 1.0,
+         "mwh": 94900,
+         "cost": 5386777,
+         "co2": 97147,
+         "coal": 925208,
+         "coalHeat": 697464,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2428670,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.6,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5940865,
+       "co2": 97145,
+       "coal": 925188,
+       "coalHeat": 697450,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428619,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.6,
+         "served": 1.0,
+         "mwh": 94900,
+         "cost": 5940865,
+         "co2": 97145,
+         "coal": 925188,
+         "coalHeat": 697450,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2428619,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.45,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 6496128,
+       "co2": 97147,
+       "coal": 925212,
+       "coalHeat": 697467,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428681,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.45,
+         "served": 1.0,
+         "mwh": 94900,
+         "cost": 6496128,
+         "co2": 97147,
+         "coal": 925212,
+         "coalHeat": 697467,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2428681,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -40151,6 +62199,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.76,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5386777,
+       "co2": 97147,
+       "coal": 925208,
+       "coalHeat": 697464,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428670,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.55,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5935980,
+       "co2": 90822,
+       "coal": 864971,
+       "coalHeat": 697297,
+       "imp": 0,
+       "re": 312808,
+       "carbon": 2270548,
+       "solarMW": 4.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.736,
+        "solar": 0.264,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.95,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 6448272,
+       "co2": 90049,
+       "coal": 857606,
+       "coalHeat": 696586,
+       "imp": 0,
+       "re": 349533,
+       "carbon": 2251217,
+       "solarMW": 4.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.708,
+        "solar": 0.292,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.35,
        "served": 1.0,
        "mwh": 94900,
@@ -40281,6 +62394,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.76,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5386777,
+       "co2": 97147,
+       "coal": 925208,
+       "coalHeat": 697464,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2428670,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.76,
+         "served": 1.0,
+         "mwh": 94900,
+         "cost": 5386777,
+         "co2": 97147,
+         "coal": 925208,
+         "coalHeat": 697464,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2428670,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.55,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 5936116,
+       "co2": 90824,
+       "coal": 864994,
+       "coalHeat": 697316,
+       "imp": 0,
+       "re": 312808,
+       "carbon": 2270609,
+       "solarMW": 4.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.736,
+        "solar": 0.264,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.94,
+       "served": 1.0,
+       "mwh": 94900,
+       "cost": 6447745,
+       "co2": 90039,
+       "coal": 857512,
+       "coalHeat": 696565,
+       "imp": 7,
+       "re": 349533,
+       "carbon": 2250969,
+       "solarMW": 4.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.708,
+        "solar": 0.292,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.32,
@@ -40479,6 +62680,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 3640280,
+       "co2": 65761,
+       "coal": 626294,
+       "coalHeat": 469721,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1644023,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 4015355,
+       "co2": 65760,
+       "coal": 626281,
+       "coalHeat": 469711,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1643989,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.36,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 4391225,
+       "co2": 65761,
+       "coal": 626297,
+       "coalHeat": 469723,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1644030,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.2,
        "served": 1.0,
        "mwh": 64240,
@@ -40598,6 +62862,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 3640280,
+       "co2": 65761,
+       "coal": 626294,
+       "coalHeat": 469721,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1644023,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.67,
+         "served": 1.0,
+         "mwh": 64240,
+         "cost": 3640280,
+         "co2": 65761,
+         "coal": 626294,
+         "coalHeat": 469721,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1644023,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 4015355,
+       "co2": 65760,
+       "coal": 626281,
+       "coalHeat": 469711,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1643989,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.51,
+         "served": 1.0,
+         "mwh": 64240,
+         "cost": 4015355,
+         "co2": 65760,
+         "coal": 626281,
+         "coalHeat": 469711,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1643989,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.36,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 4391225,
+       "co2": 65761,
+       "coal": 626297,
+       "coalHeat": 469723,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1644030,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.36,
+         "served": 1.0,
+         "mwh": 64240,
+         "cost": 4391225,
+         "co2": 65761,
+         "coal": 626297,
+         "coalHeat": 469723,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1644030,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -40779,6 +63175,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 3640280,
+       "co2": 65761,
+       "coal": 626294,
+       "coalHeat": 469721,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1644023,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.45,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 4012086,
+       "co2": 61544,
+       "coal": 586134,
+       "coalHeat": 469608,
+       "imp": 0,
+       "re": 208539,
+       "carbon": 1538602,
+       "solarMW": 2.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.744,
+        "solar": 0.256,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.86,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 4359245,
+       "co2": 61028,
+       "coal": 581215,
+       "coalHeat": 469130,
+       "imp": 0,
+       "re": 233022,
+       "carbon": 1525689,
+       "solarMW": 3.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.717,
+        "solar": 0.283,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.27,
        "served": 1.0,
        "mwh": 64240,
@@ -40909,6 +63370,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 3640280,
+       "co2": 65761,
+       "coal": 626294,
+       "coalHeat": 469721,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1644023,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.67,
+         "served": 1.0,
+         "mwh": 64240,
+         "cost": 3640280,
+         "co2": 65761,
+         "coal": 626294,
+         "coalHeat": 469721,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1644023,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 4012178,
+       "co2": 61546,
+       "coal": 586150,
+       "coalHeat": 469621,
+       "imp": 0,
+       "re": 208539,
+       "carbon": 1538644,
+       "solarMW": 2.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.744,
+        "solar": 0.256,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.85,
+       "served": 1.0,
+       "mwh": 64240,
+       "cost": 4358892,
+       "co2": 61021,
+       "coal": 581152,
+       "coalHeat": 469116,
+       "imp": 4,
+       "re": 233022,
+       "carbon": 1525523,
+       "solarMW": 3.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.716,
+        "solar": 0.283,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.24,
@@ -41107,6 +63656,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.48,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 4205779,
+       "co2": 76223,
+       "coal": 725932,
+       "coalHeat": 555125,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1905572,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.32,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 4640525,
+       "co2": 76221,
+       "coal": 725917,
+       "coalHeat": 555113,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1905532,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.17,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 5076192,
+       "co2": 76223,
+       "coal": 725935,
+       "coalHeat": 555127,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1905580,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.02,
        "served": 1.0,
        "mwh": 74460,
@@ -41226,6 +63838,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.48,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 4205779,
+       "co2": 76223,
+       "coal": 725932,
+       "coalHeat": 555125,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1905572,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.48,
+         "served": 1.0,
+         "mwh": 74460,
+         "cost": 4205779,
+         "co2": 76223,
+         "coal": 725932,
+         "coalHeat": 555125,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1905572,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.32,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 4640525,
+       "co2": 76221,
+       "coal": 725917,
+       "coalHeat": 555113,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1905532,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.32,
+         "served": 1.0,
+         "mwh": 74460,
+         "cost": 4640525,
+         "co2": 76221,
+         "coal": 725917,
+         "coalHeat": 555113,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1905532,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.17,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 5076192,
+       "co2": 76223,
+       "coal": 725935,
+       "coalHeat": 555127,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1905580,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.17,
+         "served": 1.0,
+         "mwh": 74460,
+         "cost": 5076192,
+         "co2": 76223,
+         "coal": 725935,
+         "coalHeat": 555127,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1905580,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -41407,6 +64151,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.48,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 4205779,
+       "co2": 76223,
+       "coal": 725932,
+       "coalHeat": 555125,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1905572,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.28,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 4637131,
+       "co2": 72004,
+       "coal": 685748,
+       "coalHeat": 554992,
+       "imp": 0,
+       "re": 208539,
+       "carbon": 1800088,
+       "solarMW": 2.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.766,
+        "solar": 0.234,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.73,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 5043411,
+       "co2": 71476,
+       "coal": 680727,
+       "coalHeat": 554426,
+       "imp": 0,
+       "re": 233022,
+       "carbon": 1786909,
+       "solarMW": 3.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.74,
+        "solar": 0.26,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.2,
        "served": 1.0,
        "mwh": 74460,
@@ -41535,6 +64344,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.48,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 4205779,
+       "co2": 76223,
+       "coal": 725932,
+       "coalHeat": 555125,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1905572,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.48,
+         "served": 1.0,
+         "mwh": 74460,
+         "cost": 4205779,
+         "co2": 76223,
+         "coal": 725932,
+         "coalHeat": 555125,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1905572,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.28,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 4637238,
+       "co2": 72005,
+       "coal": 685767,
+       "coalHeat": 555007,
+       "imp": 0,
+       "re": 208539,
+       "carbon": 1800137,
+       "solarMW": 2.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.766,
+        "solar": 0.234,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.73,
+       "served": 1.0,
+       "mwh": 74460,
+       "cost": 5043038,
+       "co2": 71469,
+       "coal": 680661,
+       "coalHeat": 554409,
+       "imp": 4,
+       "re": 233022,
+       "carbon": 1786735,
+       "solarMW": 3.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.74,
+        "solar": 0.26,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.18,
@@ -41727,6 +64624,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 4918564,
+       "co2": 89674,
+       "coal": 854038,
+       "coalHeat": 597826,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2241849,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 5430030,
+       "co2": 89672,
+       "coal": 854020,
+       "coalHeat": 597814,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2241803,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 5942579,
+       "co2": 89674,
+       "coal": 854042,
+       "coalHeat": 597829,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2241859,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 87600,
@@ -41846,6 +64806,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 4918564,
+       "co2": 89674,
+       "coal": 854038,
+       "coalHeat": 597826,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2241849,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 87600,
+         "cost": 4918564,
+         "co2": 89674,
+         "coal": 854038,
+         "coalHeat": 597826,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2241849,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 5430030,
+       "co2": 89672,
+       "coal": 854020,
+       "coalHeat": 597814,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2241803,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 87600,
+         "cost": 5430030,
+         "co2": 89672,
+         "coal": 854020,
+         "coalHeat": 597814,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2241803,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 5942579,
+       "co2": 89674,
+       "coal": 854042,
+       "coalHeat": 597829,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2241859,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 87600,
+         "cost": 5942579,
+         "co2": 89674,
+         "coal": 854042,
+         "coalHeat": 597829,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2241859,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -42027,6 +65119,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 4918564,
+       "co2": 89674,
+       "coal": 854038,
+       "coalHeat": 597826,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2241849,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.93,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 5425235,
+       "co2": 83351,
+       "coal": 793818,
+       "coalHeat": 597683,
+       "imp": 0,
+       "re": 312808,
+       "carbon": 2083772,
+       "solarMW": 4.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.766,
+        "solar": 0.234,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.3,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 5895297,
+       "co2": 82585,
+       "coal": 786526,
+       "coalHeat": 597074,
+       "imp": 0,
+       "re": 349533,
+       "carbon": 2064631,
+       "solarMW": 4.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.74,
+        "solar": 0.26,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.67,
        "served": 1.0,
        "mwh": 87600,
@@ -42155,6 +65312,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 4918564,
+       "co2": 89674,
+       "coal": 854038,
+       "coalHeat": 597826,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2241849,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 87600,
+         "cost": 4918564,
+         "co2": 89674,
+         "coal": 854038,
+         "coalHeat": 597826,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2241849,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.93,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 5425359,
+       "co2": 83353,
+       "coal": 793839,
+       "coalHeat": 597699,
+       "imp": 0,
+       "re": 312808,
+       "carbon": 2083828,
+       "solarMW": 4.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.766,
+        "solar": 0.234,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.3,
+       "served": 1.0,
+       "mwh": 87600,
+       "cost": 5895146,
+       "co2": 82583,
+       "coal": 786503,
+       "coalHeat": 597056,
+       "imp": 0,
+       "re": 349533,
+       "carbon": 2064569,
+       "solarMW": 4.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.74,
+        "solar": 0.26,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.67,
@@ -42342,6 +65587,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 7819532,
+       "co2": 142564,
+       "coal": 1357749,
+       "coalHeat": 945973,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3564092,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 8632661,
+       "co2": 142561,
+       "coal": 1357721,
+       "coalHeat": 945953,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3564018,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 9447513,
+       "co2": 142564,
+       "coal": 1357755,
+       "coalHeat": 945977,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3564108,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 139266,
@@ -42461,6 +65769,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 7819532,
+       "co2": 142564,
+       "coal": 1357749,
+       "coalHeat": 945973,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3564092,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 139266,
+         "cost": 7819532,
+         "co2": 142564,
+         "coal": 1357749,
+         "coalHeat": 945973,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3564092,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 8632661,
+       "co2": 142561,
+       "coal": 1357721,
+       "coalHeat": 945953,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3564018,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 139266,
+         "cost": 8632661,
+         "co2": 142561,
+         "coal": 1357721,
+         "coalHeat": 945953,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3564018,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 9447513,
+       "co2": 142564,
+       "coal": 1357755,
+       "coalHeat": 945977,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3564108,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 139266,
+         "cost": 9447513,
+         "co2": 142564,
+         "coal": 1357755,
+         "coalHeat": 945977,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3564108,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -42642,6 +66082,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 7819532,
+       "co2": 142564,
+       "coal": 1357749,
+       "coalHeat": 945973,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3564092,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 8631237,
+       "co2": 132754,
+       "coal": 1264324,
+       "coalHeat": 945746,
+       "imp": 0,
+       "re": 490778,
+       "carbon": 3318850,
+       "solarMW": 6.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.35,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 9379640,
+       "co2": 131506,
+       "coal": 1252434,
+       "coalHeat": 944782,
+       "imp": 0,
+       "re": 550631,
+       "carbon": 3287639,
+       "solarMW": 7.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.72,
        "served": 1.0,
        "mwh": 139266,
@@ -42770,6 +66275,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 7819532,
+       "co2": 142564,
+       "coal": 1357749,
+       "coalHeat": 945973,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3564092,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 139266,
+         "cost": 7819532,
+         "co2": 142564,
+         "coal": 1357749,
+         "coalHeat": 945973,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3564092,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 8631435,
+       "co2": 132758,
+       "coal": 1264358,
+       "coalHeat": 945772,
+       "imp": 0,
+       "re": 490778,
+       "carbon": 3318940,
+       "solarMW": 6.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.35,
+       "served": 1.0,
+       "mwh": 139266,
+       "cost": 9379400,
+       "co2": 131502,
+       "coal": 1252396,
+       "coalHeat": 944754,
+       "imp": 0,
+       "re": 550631,
+       "carbon": 3287540,
+       "solarMW": 7.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.73,
@@ -42957,6 +66550,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 3934851,
+       "co2": 71739,
+       "coal": 683230,
+       "coalHeat": 512423,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1793479,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 4344024,
+       "co2": 71738,
+       "coal": 683216,
+       "coalHeat": 512412,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1793442,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 4754063,
+       "co2": 71739,
+       "coal": 683233,
+       "coalHeat": 512425,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1793487,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 70080,
@@ -43076,6 +66732,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 3934851,
+       "co2": 71739,
+       "coal": 683230,
+       "coalHeat": 512423,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1793479,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 70080,
+         "cost": 3934851,
+         "co2": 71739,
+         "coal": 683230,
+         "coalHeat": 512423,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1793479,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 4344024,
+       "co2": 71738,
+       "coal": 683216,
+       "coalHeat": 512412,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1793442,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 70080,
+         "cost": 4344024,
+         "co2": 71738,
+         "coal": 683216,
+         "coalHeat": 512412,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1793442,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 4754063,
+       "co2": 71739,
+       "coal": 683233,
+       "coalHeat": 512425,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1793487,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 70080,
+         "cost": 4754063,
+         "co2": 71739,
+         "coal": 683233,
+         "coalHeat": 512425,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1793487,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -43257,6 +67045,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 3934851,
+       "co2": 71739,
+       "coal": 683230,
+       "coalHeat": 512423,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1793479,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 4343281,
+       "co2": 67667,
+       "coal": 644448,
+       "coalHeat": 512300,
+       "imp": 0,
+       "re": 203578,
+       "carbon": 1691676,
+       "solarMW": 2.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.42,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 4724944,
+       "co2": 67136,
+       "coal": 639394,
+       "coalHeat": 511778,
+       "imp": 0,
+       "re": 228405,
+       "carbon": 1678408,
+       "solarMW": 3.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.88,
        "served": 1.0,
        "mwh": 70080,
@@ -43385,6 +67238,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 3934851,
+       "co2": 71739,
+       "coal": 683230,
+       "coalHeat": 512423,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1793479,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 70080,
+         "cost": 3934851,
+         "co2": 71739,
+         "coal": 683230,
+         "coalHeat": 512423,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1793479,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 4343382,
+       "co2": 67669,
+       "coal": 644465,
+       "coalHeat": 512314,
+       "imp": 0,
+       "re": 203578,
+       "carbon": 1691722,
+       "solarMW": 2.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.42,
+       "served": 1.0,
+       "mwh": 70080,
+       "cost": 4724821,
+       "co2": 67134,
+       "coal": 639374,
+       "coalHeat": 511762,
+       "imp": 0,
+       "re": 228405,
+       "carbon": 1678358,
+       "solarMW": 3.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.88,
@@ -43572,6 +67513,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 10312752,
+       "co2": 188019,
+       "coal": 1790661,
+       "coalHeat": 1263976,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4700485,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 11385143,
+       "co2": 188015,
+       "coal": 1790624,
+       "coalHeat": 1263950,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4700387,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 12459806,
+       "co2": 188020,
+       "coal": 1790669,
+       "coalHeat": 1263982,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4700506,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 183671,
@@ -43691,6 +67695,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 10312752,
+       "co2": 188019,
+       "coal": 1790661,
+       "coalHeat": 1263976,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4700485,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 183671,
+         "cost": 10312752,
+         "co2": 188019,
+         "coal": 1790661,
+         "coalHeat": 1263976,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4700485,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 11385143,
+       "co2": 188015,
+       "coal": 1790624,
+       "coalHeat": 1263950,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4700387,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 183671,
+         "cost": 11385143,
+         "co2": 188015,
+         "coal": 1790624,
+         "coalHeat": 1263950,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4700387,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 12459806,
+       "co2": 188020,
+       "coal": 1790669,
+       "coalHeat": 1263982,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4700506,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 183671,
+         "cost": 12459806,
+         "co2": 188020,
+         "coal": 1790669,
+         "coalHeat": 1263982,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4700506,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -43872,6 +68008,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 10312752,
+       "co2": 188019,
+       "coal": 1790661,
+       "coalHeat": 1263976,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4700485,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 11383253,
+       "co2": 175471,
+       "coal": 1671152,
+       "coalHeat": 1263673,
+       "imp": 0,
+       "re": 627732,
+       "carbon": 4386773,
+       "solarMW": 8.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.36,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 12372559,
+       "co2": 173868,
+       "coal": 1655889,
+       "coalHeat": 1262385,
+       "imp": 0,
+       "re": 704288,
+       "carbon": 4346708,
+       "solarMW": 9.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.75,
        "served": 1.0,
        "mwh": 183671,
@@ -44000,6 +68201,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 10312752,
+       "co2": 188019,
+       "coal": 1790661,
+       "coalHeat": 1263976,
+       "imp": 0,
+       "re": 0,
+       "carbon": 4700485,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 183671,
+         "cost": 10312752,
+         "co2": 188019,
+         "coal": 1790661,
+         "coalHeat": 1263976,
+         "imp": 0,
+         "re": 0,
+         "carbon": 4700485,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 11383515,
+       "co2": 175476,
+       "coal": 1671197,
+       "coalHeat": 1263707,
+       "imp": 0,
+       "re": 627732,
+       "carbon": 4386892,
+       "solarMW": 8.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.36,
+       "served": 1.0,
+       "mwh": 183671,
+       "cost": 12372241,
+       "co2": 173863,
+       "coal": 1655839,
+       "coalHeat": 1262347,
+       "imp": 0,
+       "re": 704288,
+       "carbon": 4346577,
+       "solarMW": 9.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.76,
@@ -44187,6 +68476,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.6,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 6433668,
+       "co2": 114334,
+       "coal": 1088898,
+       "coalHeat": 882506,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2858358,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.44,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 7085788,
+       "co2": 114332,
+       "coal": 1088876,
+       "coalHeat": 882487,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2858298,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.29,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 7739289,
+       "co2": 114335,
+       "coal": 1088903,
+       "coalHeat": 882510,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2858371,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 75.14,
        "served": 1.0,
        "mwh": 111690,
@@ -44306,6 +68658,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.6,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 6433668,
+       "co2": 114334,
+       "coal": 1088898,
+       "coalHeat": 882506,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2858358,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.6,
+         "served": 1.0,
+         "mwh": 111690,
+         "cost": 6433668,
+         "co2": 114334,
+         "coal": 1088898,
+         "coalHeat": 882506,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2858358,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.44,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 7085788,
+       "co2": 114332,
+       "coal": 1088876,
+       "coalHeat": 882487,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2858298,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.44,
+         "served": 1.0,
+         "mwh": 111690,
+         "cost": 7085788,
+         "co2": 114332,
+         "coal": 1088876,
+         "coalHeat": 882487,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2858298,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 69.29,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 7739289,
+       "co2": 114335,
+       "coal": 1088903,
+       "coalHeat": 882510,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2858371,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 69.29,
+         "served": 1.0,
+         "mwh": 111690,
+         "cost": 7739289,
+         "co2": 114335,
+         "coal": 1088903,
+         "coalHeat": 882510,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2858371,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -44487,6 +68971,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.6,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 6433668,
+       "co2": 114334,
+       "coal": 1088898,
+       "coalHeat": 882506,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2858358,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.39,
+       "served": 1.0,
+       "mwh": 111688,
+       "cost": 7079733,
+       "co2": 108038,
+       "coal": 1028932,
+       "coalHeat": 882280,
+       "imp": 0,
+       "re": 314929,
+       "carbon": 2700946,
+       "solarMW": 4.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.711,
+        "solar": 0.289,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.85,
+       "served": 1.0,
+       "mwh": 111689,
+       "cost": 7690149,
+       "co2": 107360,
+       "coal": 1022476,
+       "coalHeat": 881381,
+       "imp": 0,
+       "re": 348487,
+       "carbon": 2683999,
+       "solarMW": 4.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.684,
+        "solar": 0.316,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.32,
        "served": 1.0,
        "mwh": 111689,
@@ -44617,6 +69166,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.6,
+       "served": 1.0,
+       "mwh": 111690,
+       "cost": 6433668,
+       "co2": 114334,
+       "coal": 1088898,
+       "coalHeat": 882506,
+       "imp": 0,
+       "re": 0,
+       "carbon": 2858358,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.6,
+         "served": 1.0,
+         "mwh": 111690,
+         "cost": 6433668,
+         "co2": 114334,
+         "coal": 1088898,
+         "coalHeat": 882506,
+         "imp": 0,
+         "re": 0,
+         "carbon": 2858358,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.25,
+       "served": 1.0,
+       "mwh": 111687,
+       "cost": 7063668,
+       "co2": 107775,
+       "coal": 1026433,
+       "coalHeat": 882293,
+       "imp": 102,
+       "re": 325267,
+       "carbon": 2694386,
+       "solarMW": 4.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.699,
+        "solar": 0.298,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.67,
+       "served": 1.0,
+       "mwh": 111689,
+       "cost": 7669753,
+       "co2": 107253,
+       "coal": 1021456,
+       "coalHeat": 881364,
+       "imp": 63,
+       "re": 348062,
+       "carbon": 2681321,
+       "solarMW": 4.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.68,
+        "solar": 0.317,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.13,
@@ -44817,6 +69456,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 16723116,
+       "co2": 304891,
+       "coal": 2903728,
+       "coalHeat": 2049691,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7622287,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 18462101,
+       "co2": 304885,
+       "coal": 2903668,
+       "coalHeat": 2049648,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7622129,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 20204770,
+       "co2": 304893,
+       "coal": 2903741,
+       "coalHeat": 2049700,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7622321,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 297840,
@@ -44936,6 +69638,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 16723116,
+       "co2": 304891,
+       "coal": 2903728,
+       "coalHeat": 2049691,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7622287,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 297840,
+         "cost": 16723116,
+         "co2": 304891,
+         "coal": 2903728,
+         "coalHeat": 2049691,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7622287,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 18462101,
+       "co2": 304885,
+       "coal": 2903668,
+       "coalHeat": 2049648,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7622129,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 297840,
+         "cost": 18462101,
+         "co2": 304885,
+         "coal": 2903668,
+         "coalHeat": 2049648,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7622129,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 20204770,
+       "co2": 304893,
+       "coal": 2903741,
+       "coalHeat": 2049700,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7622321,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 297840,
+         "cost": 20204770,
+         "co2": 304893,
+         "coal": 2903741,
+         "coalHeat": 2049700,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7622321,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -45117,6 +69951,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 16723116,
+       "co2": 304891,
+       "coal": 2903728,
+       "coalHeat": 2049691,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7622287,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 18459036,
+       "co2": 284544,
+       "coal": 2709940,
+       "coalHeat": 2049200,
+       "imp": 0,
+       "re": 1017889,
+       "carbon": 7113592,
+       "solarMW": 14.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.36,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 20063295,
+       "co2": 281945,
+       "coal": 2685191,
+       "coalHeat": 2047111,
+       "imp": 0,
+       "re": 1142026,
+       "carbon": 7048625,
+       "solarMW": 16.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.75,
        "served": 1.0,
        "mwh": 297840,
@@ -45245,6 +70144,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 16723116,
+       "co2": 304891,
+       "coal": 2903728,
+       "coalHeat": 2049691,
+       "imp": 0,
+       "re": 0,
+       "carbon": 7622287,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 297840,
+         "cost": 16723116,
+         "co2": 304891,
+         "coal": 2903728,
+         "coalHeat": 2049691,
+         "imp": 0,
+         "re": 0,
+         "carbon": 7622287,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 18459461,
+       "co2": 284551,
+       "coal": 2710013,
+       "coalHeat": 2049255,
+       "imp": 0,
+       "re": 1017889,
+       "carbon": 7113785,
+       "solarMW": 14.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.36,
+       "served": 1.0,
+       "mwh": 297840,
+       "cost": 20062778,
+       "co2": 281937,
+       "coal": 2685110,
+       "coalHeat": 2047050,
+       "imp": 0,
+       "re": 1142026,
+       "carbon": 7048413,
+       "solarMW": 16.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.76,
@@ -45432,6 +70419,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.81,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 13588092,
+       "co2": 240624,
+       "coal": 2291661,
+       "coalHeat": 1743675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.65,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 14960522,
+       "co2": 240619,
+       "coal": 2291613,
+       "coalHeat": 1743638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015485,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.5,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 16335859,
+       "co2": 240625,
+       "coal": 2291671,
+       "coalHeat": 1743683,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015637,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 75.34,
        "served": 1.0,
        "mwh": 235059,
@@ -45551,6 +70601,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.81,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 13588092,
+       "co2": 240624,
+       "coal": 2291661,
+       "coalHeat": 1743675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.81,
+         "served": 1.0,
+         "mwh": 235059,
+         "cost": 13588092,
+         "co2": 240624,
+         "coal": 2291661,
+         "coalHeat": 1743675,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6015610,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.65,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 14960522,
+       "co2": 240619,
+       "coal": 2291613,
+       "coalHeat": 1743638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015485,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.65,
+         "served": 1.0,
+         "mwh": 235059,
+         "cost": 14960522,
+         "co2": 240619,
+         "coal": 2291613,
+         "coalHeat": 1743638,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6015485,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 69.5,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 16335859,
+       "co2": 240625,
+       "coal": 2291671,
+       "coalHeat": 1743683,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015637,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 69.5,
+         "served": 1.0,
+         "mwh": 235059,
+         "cost": 16335859,
+         "co2": 240625,
+         "coal": 2291671,
+         "coalHeat": 1743683,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6015637,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -45732,6 +70914,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.81,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 13588092,
+       "co2": 240624,
+       "coal": 2291661,
+       "coalHeat": 1743675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.59,
+       "served": 1.0,
+       "mwh": 235055,
+       "cost": 14946201,
+       "co2": 223174,
+       "coal": 2125466,
+       "coalHeat": 1743221,
+       "imp": 0,
+       "re": 873823,
+       "carbon": 5579348,
+       "solarMW": 12.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.698,
+        "solar": 0.302,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.95,
+       "served": 1.0,
+       "mwh": 235056,
+       "cost": 16207304,
+       "co2": 221333,
+       "coal": 2107935,
+       "coalHeat": 1741446,
+       "imp": 0,
+       "re": 970890,
+       "carbon": 5533330,
+       "solarMW": 13.5,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.67,
+        "solar": 0.33,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.3,
        "served": 1.0,
        "mwh": 235057,
@@ -45862,6 +71109,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.81,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 13588092,
+       "co2": 240624,
+       "coal": 2291661,
+       "coalHeat": 1743675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.81,
+         "served": 1.0,
+         "mwh": 235059,
+         "cost": 13588092,
+         "co2": 240624,
+         "coal": 2291661,
+         "coalHeat": 1743675,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6015610,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.39,
+       "served": 1.0,
+       "mwh": 235052,
+       "cost": 14900280,
+       "co2": 222443,
+       "coal": 2118508,
+       "coalHeat": 1743250,
+       "imp": 283,
+       "re": 902507,
+       "carbon": 5561085,
+       "solarMW": 12.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.685,
+        "solar": 0.312,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.7,
+       "served": 1.0,
+       "mwh": 235056,
+       "cost": 16148955,
+       "co2": 221074,
+       "coal": 2105471,
+       "coalHeat": 1741416,
+       "imp": 176,
+       "re": 965756,
+       "carbon": 5526861,
+       "solarMW": 13.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.665,
+        "solar": 0.331,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.04,
@@ -46065,6 +71402,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.81,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 13588092,
+       "co2": 240624,
+       "coal": 2291661,
+       "coalHeat": 1743675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.65,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 14960522,
+       "co2": 240619,
+       "coal": 2291613,
+       "coalHeat": 1743638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015485,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.5,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 16335859,
+       "co2": 240625,
+       "coal": 2291671,
+       "coalHeat": 1743683,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015637,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 75.34,
        "served": 1.0,
        "mwh": 235059,
@@ -46184,6 +71584,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.81,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 13588092,
+       "co2": 240624,
+       "coal": 2291661,
+       "coalHeat": 1743675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.81,
+         "served": 1.0,
+         "mwh": 235059,
+         "cost": 13588092,
+         "co2": 240624,
+         "coal": 2291661,
+         "coalHeat": 1743675,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6015610,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.65,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 14960522,
+       "co2": 240619,
+       "coal": 2291613,
+       "coalHeat": 1743638,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015485,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.65,
+         "served": 1.0,
+         "mwh": 235059,
+         "cost": 14960522,
+         "co2": 240619,
+         "coal": 2291613,
+         "coalHeat": 1743638,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6015485,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 69.5,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 16335859,
+       "co2": 240625,
+       "coal": 2291671,
+       "coalHeat": 1743683,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015637,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 69.5,
+         "served": 1.0,
+         "mwh": 235059,
+         "cost": 16335859,
+         "co2": 240625,
+         "coal": 2291671,
+         "coalHeat": 1743683,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6015637,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -46365,6 +71897,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.81,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 13588092,
+       "co2": 240624,
+       "coal": 2291661,
+       "coalHeat": 1743675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.59,
+       "served": 1.0,
+       "mwh": 235055,
+       "cost": 14946201,
+       "co2": 223174,
+       "coal": 2125466,
+       "coalHeat": 1743221,
+       "imp": 0,
+       "re": 873823,
+       "carbon": 5579348,
+       "solarMW": 12.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.698,
+        "solar": 0.302,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.95,
+       "served": 1.0,
+       "mwh": 235056,
+       "cost": 16207304,
+       "co2": 221333,
+       "coal": 2107935,
+       "coalHeat": 1741446,
+       "imp": 0,
+       "re": 970890,
+       "carbon": 5533330,
+       "solarMW": 13.5,
+       "batMW": 0.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.67,
+        "solar": 0.33,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.3,
        "served": 1.0,
        "mwh": 235057,
@@ -46495,6 +72092,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.81,
+       "served": 1.0,
+       "mwh": 235059,
+       "cost": 13588092,
+       "co2": 240624,
+       "coal": 2291661,
+       "coalHeat": 1743675,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6015610,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.81,
+         "served": 1.0,
+         "mwh": 235059,
+         "cost": 13588092,
+         "co2": 240624,
+         "coal": 2291661,
+         "coalHeat": 1743675,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6015610,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.39,
+       "served": 1.0,
+       "mwh": 235052,
+       "cost": 14900280,
+       "co2": 222443,
+       "coal": 2118508,
+       "coalHeat": 1743250,
+       "imp": 283,
+       "re": 902507,
+       "carbon": 5561085,
+       "solarMW": 12.7,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.685,
+        "solar": 0.312,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.7,
+       "served": 1.0,
+       "mwh": 235056,
+       "cost": 16148955,
+       "co2": 221074,
+       "coal": 2105471,
+       "coalHeat": 1741416,
+       "imp": 176,
+       "re": 965756,
+       "carbon": 5526861,
+       "solarMW": 13.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.665,
+        "solar": 0.331,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 74.04,
@@ -46698,6 +72385,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 8601486,
+       "co2": 156820,
+       "coal": 1493524,
+       "coalHeat": 1048645,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3920501,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 9495927,
+       "co2": 156817,
+       "coal": 1493493,
+       "coalHeat": 1048623,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3920419,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 10392264,
+       "co2": 156821,
+       "coal": 1493531,
+       "coalHeat": 1048649,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3920519,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 153193,
@@ -46817,6 +72567,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 8601486,
+       "co2": 156820,
+       "coal": 1493524,
+       "coalHeat": 1048645,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3920501,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 153193,
+         "cost": 8601486,
+         "co2": 156820,
+         "coal": 1493524,
+         "coalHeat": 1048645,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3920501,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 9495927,
+       "co2": 156817,
+       "coal": 1493493,
+       "coalHeat": 1048623,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3920419,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 153193,
+         "cost": 9495927,
+         "co2": 156817,
+         "coal": 1493493,
+         "coalHeat": 1048623,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3920419,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 10392264,
+       "co2": 156821,
+       "coal": 1493531,
+       "coalHeat": 1048649,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3920519,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 153193,
+         "cost": 10392264,
+         "co2": 156821,
+         "coal": 1493531,
+         "coalHeat": 1048649,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3920519,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -46998,6 +72880,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 8601486,
+       "co2": 156820,
+       "coal": 1493524,
+       "coalHeat": 1048645,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3920501,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 9494355,
+       "co2": 146221,
+       "coal": 1392582,
+       "coalHeat": 1048393,
+       "imp": 0,
+       "re": 530232,
+       "carbon": 3655527,
+       "solarMW": 7.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.36,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 10318721,
+       "co2": 144869,
+       "coal": 1379709,
+       "coalHeat": 1047325,
+       "imp": 0,
+       "re": 594897,
+       "carbon": 3621736,
+       "solarMW": 8.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.74,
        "served": 1.0,
        "mwh": 153193,
@@ -47126,6 +73073,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 8601486,
+       "co2": 156820,
+       "coal": 1493524,
+       "coalHeat": 1048645,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3920501,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 153193,
+         "cost": 8601486,
+         "co2": 156820,
+         "coal": 1493524,
+         "coalHeat": 1048645,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3920501,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 9494573,
+       "co2": 146225,
+       "coal": 1392619,
+       "coalHeat": 1048422,
+       "imp": 0,
+       "re": 530232,
+       "carbon": 3655626,
+       "solarMW": 7.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.774,
+        "solar": 0.226,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.36,
+       "served": 1.0,
+       "mwh": 153193,
+       "cost": 10318456,
+       "co2": 144865,
+       "coal": 1379667,
+       "coalHeat": 1047293,
+       "imp": 0,
+       "re": 594897,
+       "carbon": 3621627,
+       "solarMW": 8.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.748,
+        "solar": 0.252,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.74,
@@ -47313,6 +73348,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 8361558,
+       "co2": 152446,
+       "coal": 1451864,
+       "coalHeat": 1024845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 9231050,
+       "co2": 152443,
+       "coal": 1451834,
+       "coalHeat": 1024824,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811064,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 10102385,
+       "co2": 152446,
+       "coal": 1451871,
+       "coalHeat": 1024850,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811161,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 148920,
@@ -47432,6 +73530,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 8361558,
+       "co2": 152446,
+       "coal": 1451864,
+       "coalHeat": 1024845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 148920,
+         "cost": 8361558,
+         "co2": 152446,
+         "coal": 1451864,
+         "coalHeat": 1024845,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3811144,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 9231050,
+       "co2": 152443,
+       "coal": 1451834,
+       "coalHeat": 1024824,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811064,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 148920,
+         "cost": 9231050,
+         "co2": 152443,
+         "coal": 1451834,
+         "coalHeat": 1024824,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3811064,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 10102385,
+       "co2": 152446,
+       "coal": 1451871,
+       "coalHeat": 1024850,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811161,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 148920,
+         "cost": 10102385,
+         "co2": 152446,
+         "coal": 1451871,
+         "coalHeat": 1024850,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3811161,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -47613,6 +73843,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 8361558,
+       "co2": 152446,
+       "coal": 1451864,
+       "coalHeat": 1024845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.96,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 9226833,
+       "co2": 141652,
+       "coal": 1349063,
+       "coalHeat": 1024600,
+       "imp": 0,
+       "re": 537613,
+       "carbon": 3541291,
+       "solarMW": 7.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.76,
+        "solar": 0.24,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.33,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 10026556,
+       "co2": 140729,
+       "coal": 1340275,
+       "coalHeat": 1023556,
+       "imp": 0,
+       "re": 579862,
+       "carbon": 3518222,
+       "solarMW": 8.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.743,
+        "solar": 0.257,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 72.71,
        "served": 1.0,
        "mwh": 148920,
@@ -47741,6 +74036,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 8361558,
+       "co2": 152446,
+       "coal": 1451864,
+       "coalHeat": 1024845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 148920,
+         "cost": 8361558,
+         "co2": 152446,
+         "coal": 1451864,
+         "coalHeat": 1024845,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3811144,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.96,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 9227044,
+       "co2": 141656,
+       "coal": 1349100,
+       "coalHeat": 1024628,
+       "imp": 0,
+       "re": 537613,
+       "carbon": 3541388,
+       "solarMW": 7.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.76,
+        "solar": 0.24,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.33,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 10026298,
+       "co2": 140725,
+       "coal": 1340235,
+       "coalHeat": 1023525,
+       "imp": 0,
+       "re": 579862,
+       "carbon": 3518116,
+       "solarMW": 8.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.743,
+        "solar": 0.257,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.71,
@@ -47931,6 +74314,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 8361558,
+       "co2": 152446,
+       "coal": 1451864,
+       "coalHeat": 1024845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 9231050,
+       "co2": 152443,
+       "coal": 1451834,
+       "coalHeat": 1024824,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811064,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 10102385,
+       "co2": 152446,
+       "coal": 1451871,
+       "coalHeat": 1024850,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811161,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.68,
        "served": 1.0,
        "mwh": 148920,
@@ -48050,6 +74496,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 8361558,
+       "co2": 152446,
+       "coal": 1451864,
+       "coalHeat": 1024845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 148920,
+         "cost": 8361558,
+         "co2": 152446,
+         "coal": 1451864,
+         "coalHeat": 1024845,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3811144,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.99,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 9231050,
+       "co2": 152443,
+       "coal": 1451834,
+       "coalHeat": 1024824,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811064,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 61.99,
+         "served": 1.0,
+         "mwh": 148920,
+         "cost": 9231050,
+         "co2": 152443,
+         "coal": 1451834,
+         "coalHeat": 1024824,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3811064,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 67.84,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 10102385,
+       "co2": 152446,
+       "coal": 1451871,
+       "coalHeat": 1024850,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811161,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 67.84,
+         "served": 1.0,
+         "mwh": 148920,
+         "cost": 10102385,
+         "co2": 152446,
+         "coal": 1451871,
+         "coalHeat": 1024850,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3811161,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -48231,6 +74809,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 8361558,
+       "co2": 152446,
+       "coal": 1451864,
+       "coalHeat": 1024845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.97,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 9229217,
+       "co2": 152409,
+       "coal": 1451516,
+       "coalHeat": 1024600,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3810230,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.76,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 10090700,
+       "co2": 152254,
+       "coal": 1450037,
+       "coalHeat": 1023556,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3806348,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.58,
        "served": 1.0,
        "mwh": 148920,
@@ -48357,6 +74998,92 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.15,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 8361558,
+       "co2": 152446,
+       "coal": 1451864,
+       "coalHeat": 1024845,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3811144,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.15,
+         "served": 1.0,
+         "mwh": 148920,
+         "cost": 8361558,
+         "co2": 152446,
+         "coal": 1451864,
+         "coalHeat": 1024845,
+         "imp": 0,
+         "re": 0,
+         "carbon": 3811144,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 61.98,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 9229444,
+       "co2": 152413,
+       "coal": 1451556,
+       "coalHeat": 1024628,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3810334,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.76,
+       "served": 1.0,
+       "mwh": 148920,
+       "cost": 10090421,
+       "co2": 152249,
+       "coal": 1449993,
+       "coalHeat": 1023525,
+       "imp": 0,
+       "re": 0,
+       "carbon": 3806233,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.59,
@@ -48540,6 +75267,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.6,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 415283912,
+       "co2": 7444226,
+       "coal": 70897390,
+       "coalHeat": 53173042,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186105648,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 457742937,
+       "co2": 7444071,
+       "coal": 70895916,
+       "coalHeat": 53171937,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186101779,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 500291919,
+       "co2": 7444259,
+       "coal": 70897709,
+       "coalHeat": 53173282,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186106487,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.75,
        "served": 1.0,
        "mwh": 7895677,
@@ -48659,6 +75449,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 52.6,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 415283912,
+       "co2": 7444226,
+       "coal": 70897390,
+       "coalHeat": 53173042,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186105648,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.6,
+         "served": 1.0,
+         "mwh": 7895677,
+         "cost": 415283912,
+         "co2": 7444226,
+         "coal": 70897390,
+         "coalHeat": 53173042,
+         "imp": 0,
+         "re": 0,
+         "carbon": 186105648,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.97,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 457742937,
+       "co2": 7444071,
+       "coal": 70895916,
+       "coalHeat": 53171937,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186101779,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.97,
+         "served": 1.0,
+         "mwh": 7895677,
+         "cost": 457742937,
+         "co2": 7444071,
+         "coal": 70895916,
+         "coalHeat": 53171937,
+         "imp": 0,
+         "re": 0,
+         "carbon": 186101779,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.36,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 500291919,
+       "co2": 7444259,
+       "coal": 70897709,
+       "coalHeat": 53173282,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186106487,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.36,
+         "served": 1.0,
+         "mwh": 7895677,
+         "cost": 500291919,
+         "co2": 7444259,
+         "coal": 70897709,
+         "coalHeat": 53173282,
+         "imp": 0,
+         "re": 0,
+         "carbon": 186106487,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -48840,6 +75762,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.6,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 415283912,
+       "co2": 7444226,
+       "coal": 70897390,
+       "coalHeat": 53173042,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186105648,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.96,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 457653362,
+       "co2": 7442442,
+       "coal": 70880403,
+       "coalHeat": 53160303,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186061059,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.19,
+       "served": 1.0,
+       "mwh": 7895480,
+       "cost": 498934584,
+       "co2": 6902059,
+       "coal": 65733892,
+       "coalHeat": 53105087,
+       "imp": 0,
+       "re": 28949260,
+       "carbon": 172551465,
+       "solarMW": 407.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.713,
+        "solar": 0.287,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.17,
        "served": 1.0,
        "mwh": 7895451,
@@ -48969,6 +75955,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.6,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 415283912,
+       "co2": 7444226,
+       "coal": 70897390,
+       "coalHeat": 53173042,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186105648,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.6,
+         "served": 1.0,
+         "mwh": 7895677,
+         "cost": 415283912,
+         "co2": 7444226,
+         "coal": 70897390,
+         "coalHeat": 53173042,
+         "imp": 0,
+         "re": 0,
+         "carbon": 186105648,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.96,
+       "served": 1.0,
+       "mwh": 7895677,
+       "cost": 457664483,
+       "co2": 7442645,
+       "coal": 70882329,
+       "coalHeat": 53161747,
+       "imp": 0,
+       "re": 0,
+       "carbon": 186066114,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.11,
+       "served": 1.0,
+       "mwh": 7895575,
+       "cost": 498310731,
+       "co2": 6898443,
+       "coal": 65699461,
+       "coalHeat": 53104078,
+       "imp": 3124,
+       "re": 28967553,
+       "carbon": 172461084,
+       "solarMW": 407.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.712,
+        "solar": 0.287,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 68.07,
@@ -49166,6 +76240,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 81916916,
+       "co2": 1494556,
+       "coal": 14233862,
+       "coalHeat": 9994019,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37363889,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 90441291,
+       "co2": 1494524,
+       "coal": 14233566,
+       "coalHeat": 9993811,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37363112,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 98983726,
+       "co2": 1494562,
+       "coal": 14233927,
+       "coalHeat": 9994064,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37364057,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.83,
        "served": 1.0,
        "mwh": 1585192,
@@ -49285,6 +76422,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 81916916,
+       "co2": 1494556,
+       "coal": 14233862,
+       "coalHeat": 9994019,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37363889,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.68,
+         "served": 1.0,
+         "mwh": 1585192,
+         "cost": 81916916,
+         "co2": 1494556,
+         "coal": 14233862,
+         "coalHeat": 9994019,
+         "imp": 0,
+         "re": 0,
+         "carbon": 37363889,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.05,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 90441291,
+       "co2": 1494524,
+       "coal": 14233566,
+       "coalHeat": 9993811,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37363112,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.05,
+         "served": 1.0,
+         "mwh": 1585192,
+         "cost": 90441291,
+         "co2": 1494524,
+         "coal": 14233566,
+         "coalHeat": 9993811,
+         "imp": 0,
+         "re": 0,
+         "carbon": 37363112,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.44,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 98983726,
+       "co2": 1494562,
+       "coal": 14233927,
+       "coalHeat": 9994064,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37364057,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.44,
+         "served": 1.0,
+         "mwh": 1585192,
+         "cost": 98983726,
+         "co2": 1494562,
+         "coal": 14233927,
+         "coalHeat": 9994064,
+         "imp": 0,
+         "re": 0,
+         "carbon": 37364057,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -49466,6 +76735,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 81916916,
+       "co2": 1494556,
+       "coal": 14233862,
+       "coalHeat": 9994019,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37363889,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 57.04,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 90423307,
+       "co2": 1494197,
+       "coal": 14230452,
+       "coalHeat": 9991624,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37354937,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.32,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 98782455,
+       "co2": 1387547,
+       "coal": 13214734,
+       "coalHeat": 9981442,
+       "imp": 0,
+       "re": 5745695,
+       "carbon": 34688676,
+       "solarMW": 80.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.764,
+        "solar": 0.236,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.3,
        "served": 1.0,
        "mwh": 1585192,
@@ -49595,6 +76928,93 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 51.68,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 81916916,
+       "co2": 1494556,
+       "coal": 14233862,
+       "coalHeat": 9994019,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37363889,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 51.68,
+         "served": 1.0,
+         "mwh": 1585192,
+         "cost": 81916916,
+         "co2": 1494556,
+         "coal": 14233862,
+         "coalHeat": 9994019,
+         "imp": 0,
+         "re": 0,
+         "carbon": 37363889,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.04,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 90425540,
+       "co2": 1494238,
+       "coal": 14230839,
+       "coalHeat": 9991896,
+       "imp": 0,
+       "re": 0,
+       "carbon": 37355952,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.31,
+       "served": 1.0,
+       "mwh": 1585192,
+       "cost": 98779914,
+       "co2": 1387505,
+       "coal": 13214335,
+       "coalHeat": 9981141,
+       "imp": 0,
+       "re": 5745695,
+       "carbon": 34687630,
+       "solarMW": 80.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.764,
+        "solar": 0.236,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.3,
@@ -49785,6 +77205,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.16,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 63181028,
+       "co2": 1131569,
+       "coal": 10776846,
+       "coalHeat": 8082635,
+       "imp": 0,
+       "re": 0,
+       "carbon": 28289222,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.0,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 69635065,
+       "co2": 1131545,
+       "coal": 10776622,
+       "coalHeat": 8082467,
+       "imp": 0,
+       "re": 0,
+       "carbon": 28288633,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.85,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 76102776,
+       "co2": 1131574,
+       "coal": 10776895,
+       "coalHeat": 8082671,
+       "imp": 0,
+       "re": 0,
+       "carbon": 28289349,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.69,
        "served": 1.0,
        "mwh": 1105398,
@@ -49904,6 +77387,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.16,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 63181028,
+       "co2": 1131569,
+       "coal": 10776846,
+       "coalHeat": 8082635,
+       "imp": 0,
+       "re": 0,
+       "carbon": 28289222,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.16,
+         "served": 1.0,
+         "mwh": 1105398,
+         "cost": 63181028,
+         "co2": 1131569,
+         "coal": 10776846,
+         "coalHeat": 8082635,
+         "imp": 0,
+         "re": 0,
+         "carbon": 28289222,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.0,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 69635065,
+       "co2": 1131545,
+       "coal": 10776622,
+       "coalHeat": 8082467,
+       "imp": 0,
+       "re": 0,
+       "carbon": 28288633,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.0,
+         "served": 1.0,
+         "mwh": 1105398,
+         "cost": 69635065,
+         "co2": 1131545,
+         "coal": 10776622,
+         "coalHeat": 8082467,
+         "imp": 0,
+         "re": 0,
+         "carbon": 28288633,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.85,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 76102776,
+       "co2": 1131574,
+       "coal": 10776895,
+       "coalHeat": 8082671,
+       "imp": 0,
+       "re": 0,
+       "carbon": 28289349,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.85,
+         "served": 1.0,
+         "mwh": 1105398,
+         "cost": 76102776,
+         "co2": 1131574,
+         "coal": 10776895,
+         "coalHeat": 8082671,
+         "imp": 0,
+         "re": 0,
+         "carbon": 28289349,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -50085,6 +77700,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.16,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 63181028,
+       "co2": 1131569,
+       "coal": 10776846,
+       "coalHeat": 8082635,
+       "imp": 0,
+       "re": 0,
+       "carbon": 28289222,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.96,
+       "served": 1.0,
+       "mwh": 1105348,
+       "cost": 69592406,
+       "co2": 1054984,
+       "coal": 10047462,
+       "coalHeat": 8080403,
+       "imp": 0,
+       "re": 3830125,
+       "carbon": 26374588,
+       "solarMW": 53.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.73,
+        "solar": 0.27,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.36,
+       "served": 1.0,
+       "mwh": 1105373,
+       "cost": 75561667,
+       "co2": 1045351,
+       "coal": 9955719,
+       "coalHeat": 8072215,
+       "imp": 0,
+       "re": 4361606,
+       "carbon": 26133763,
+       "solarMW": 60.4,
+       "batMW": 1.1,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.7,
+        "solar": 0.3,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.73,
        "served": 1.0,
        "mwh": 1105376,
@@ -50215,6 +77895,96 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.16,
+       "served": 1.0,
+       "mwh": 1105398,
+       "cost": 63181028,
+       "co2": 1131569,
+       "coal": 10776846,
+       "coalHeat": 8082635,
+       "imp": 0,
+       "re": 0,
+       "carbon": 28289222,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.16,
+         "served": 1.0,
+         "mwh": 1105398,
+         "cost": 63181028,
+         "co2": 1131569,
+         "coal": 10776846,
+         "coalHeat": 8082635,
+         "imp": 0,
+         "re": 0,
+         "carbon": 28289222,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.89,
+       "served": 1.0,
+       "mwh": 1105381,
+       "cost": 69515419,
+       "co2": 1052490,
+       "coal": 10023715,
+       "coalHeat": 8080824,
+       "imp": 1074,
+       "re": 3925594,
+       "carbon": 26312252,
+       "solarMW": 55.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.721,
+        "solar": 0.276,
+        "grid": 0.003,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.24,
+       "served": 1.0,
+       "mwh": 1105387,
+       "cost": 75432640,
+       "co2": 1045515,
+       "coal": 9957286,
+       "coalHeat": 8072178,
+       "imp": 618,
+       "re": 4247923,
+       "carbon": 26137876,
+       "solarMW": 59.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.701,
+        "solar": 0.297,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.59,
@@ -50415,6 +78185,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.76,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 40822880,
+       "co2": 729552,
+       "coal": 6948111,
+       "coalHeat": 2163086,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18238790,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 58.13,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 44983964,
+       "co2": 729536,
+       "coal": 6947966,
+       "coalHeat": 2163041,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18238411,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.52,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 49153864,
+       "co2": 729555,
+       "coal": 6948142,
+       "coalHeat": 2163095,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18238873,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 68.91,
        "served": 1.0,
        "mwh": 773795,
@@ -50534,6 +78367,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 52.76,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 40822880,
+       "co2": 729552,
+       "coal": 6948111,
+       "coalHeat": 2163086,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18238790,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.76,
+         "served": 1.0,
+         "mwh": 773795,
+         "cost": 40822880,
+         "co2": 729552,
+         "coal": 6948111,
+         "coalHeat": 2163086,
+         "imp": 0,
+         "re": 0,
+         "carbon": 18238790,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 58.13,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 44983964,
+       "co2": 729536,
+       "coal": 6947966,
+       "coalHeat": 2163041,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18238411,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 58.13,
+         "served": 1.0,
+         "mwh": 773795,
+         "cost": 44983964,
+         "co2": 729536,
+         "coal": 6947966,
+         "coalHeat": 2163041,
+         "imp": 0,
+         "re": 0,
+         "carbon": 18238411,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.52,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 49153864,
+       "co2": 729555,
+       "coal": 6948142,
+       "coalHeat": 2163095,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18238873,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.52,
+         "served": 1.0,
+         "mwh": 773795,
+         "cost": 49153864,
+         "co2": 729555,
+         "coal": 6948142,
+         "coalHeat": 2163095,
+         "imp": 0,
+         "re": 0,
+         "carbon": 18238873,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -50715,6 +78680,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 52.76,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 40822880,
+       "co2": 729552,
+       "coal": 6948111,
+       "coalHeat": 2163086,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18238790,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 58.12,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 44975185,
+       "co2": 729377,
+       "coal": 6946446,
+       "coalHeat": 2162567,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18234421,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.18,
+       "served": 1.0,
+       "mwh": 773754,
+       "cost": 48887106,
+       "co2": 598701,
+       "coal": 5701916,
+       "coalHeat": 2160185,
+       "imp": 0,
+       "re": 7026976,
+       "carbon": 14967530,
+       "solarMW": 98.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.741,
+        "solar": 0.259,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 67.58,
        "served": 1.0,
        "mwh": 773784,
@@ -50844,6 +78873,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 52.76,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 40822880,
+       "co2": 729552,
+       "coal": 6948111,
+       "coalHeat": 2163086,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18238790,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 52.76,
+         "served": 1.0,
+         "mwh": 773795,
+         "cost": 40822880,
+         "co2": 729552,
+         "coal": 6948111,
+         "coalHeat": 2163086,
+         "imp": 0,
+         "re": 0,
+         "carbon": 18238790,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 58.12,
+       "served": 1.0,
+       "mwh": 773795,
+       "cost": 44976275,
+       "co2": 729397,
+       "coal": 6946635,
+       "coalHeat": 2162626,
+       "imp": 0,
+       "re": 0,
+       "carbon": 18234916,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.98,
+       "served": 1.0,
+       "mwh": 773786,
+       "cost": 48734190,
+       "co2": 594599,
+       "coal": 5662845,
+       "coalHeat": 2160240,
+       "imp": 905,
+       "re": 7191241,
+       "carbon": 14864969,
+       "solarMW": 101.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.733,
+        "solar": 0.265,
+        "grid": 0.002,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 67.14,
@@ -51041,6 +79158,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 28870224,
+       "co2": 521535,
+       "coal": 4966998,
+       "coalHeat": 3747048,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13038370,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 31844859,
+       "co2": 521524,
+       "coal": 4966895,
+       "coalHeat": 3746970,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13038099,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.36,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 34825797,
+       "co2": 521537,
+       "coal": 4967021,
+       "coalHeat": 3747065,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13038429,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.2,
        "served": 1.0,
        "mwh": 509473,
@@ -51160,6 +79340,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 28870224,
+       "co2": 521535,
+       "coal": 4966998,
+       "coalHeat": 3747048,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13038370,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.67,
+         "served": 1.0,
+         "mwh": 509473,
+         "cost": 28870224,
+         "co2": 521535,
+         "coal": 4966998,
+         "coalHeat": 3747048,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13038370,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.51,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 31844859,
+       "co2": 521524,
+       "coal": 4966895,
+       "coalHeat": 3746970,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13038099,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.51,
+         "served": 1.0,
+         "mwh": 509473,
+         "cost": 31844859,
+         "co2": 521524,
+         "coal": 4966895,
+         "coalHeat": 3746970,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13038099,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.36,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 34825797,
+       "co2": 521537,
+       "coal": 4967021,
+       "coalHeat": 3747065,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13038429,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.36,
+         "served": 1.0,
+         "mwh": 509473,
+         "cost": 34825797,
+         "co2": 521537,
+         "coal": 4967021,
+         "coalHeat": 3747065,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13038429,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -51341,6 +79653,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 28870224,
+       "co2": 521535,
+       "coal": 4966998,
+       "coalHeat": 3747048,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13038370,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 31819282,
+       "co2": 488677,
+       "coal": 4654068,
+       "coalHeat": 3746150,
+       "imp": 0,
+       "re": 1624829,
+       "carbon": 12216930,
+       "solarMW": 22.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.744,
+        "solar": 0.256,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.87,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 34575923,
+       "co2": 484644,
+       "coal": 4615653,
+       "coalHeat": 3742333,
+       "imp": 0,
+       "re": 1815591,
+       "carbon": 12116089,
+       "solarMW": 25.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.717,
+        "solar": 0.283,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.28,
        "served": 1.0,
        "mwh": 509473,
@@ -51471,6 +79848,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.67,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 28870224,
+       "co2": 521535,
+       "coal": 4966998,
+       "coalHeat": 3747048,
+       "imp": 0,
+       "re": 0,
+       "carbon": 13038370,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.67,
+         "served": 1.0,
+         "mwh": 509473,
+         "cost": 28870224,
+         "co2": 521535,
+         "coal": 4966998,
+         "coalHeat": 3747048,
+         "imp": 0,
+         "re": 0,
+         "carbon": 13038370,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 31820012,
+       "co2": 488690,
+       "coal": 4654195,
+       "coalHeat": 3746252,
+       "imp": 0,
+       "re": 1624829,
+       "carbon": 12217262,
+       "solarMW": 22.9,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.744,
+        "solar": 0.256,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.86,
+       "served": 1.0,
+       "mwh": 509473,
+       "cost": 34573154,
+       "co2": 484591,
+       "coal": 4615156,
+       "coalHeat": 3742220,
+       "imp": 34,
+       "re": 1815591,
+       "carbon": 12114785,
+       "solarMW": 25.5,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.716,
+        "solar": 0.283,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.26,
@@ -51669,6 +80134,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.63,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 2897386,
+       "co2": 52376,
+       "coal": 498815,
+       "coalHeat": 371136,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1309389,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.47,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 3196116,
+       "co2": 52374,
+       "coal": 498805,
+       "coalHeat": 371129,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1309362,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.32,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 3495479,
+       "co2": 52376,
+       "coal": 498817,
+       "coalHeat": 371138,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1309395,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.16,
        "served": 1.0,
        "mwh": 51164,
@@ -51788,6 +80316,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.63,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 2897386,
+       "co2": 52376,
+       "coal": 498815,
+       "coalHeat": 371136,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1309389,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.63,
+         "served": 1.0,
+         "mwh": 51164,
+         "cost": 2897386,
+         "co2": 52376,
+         "coal": 498815,
+         "coalHeat": 371136,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1309389,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.47,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 3196116,
+       "co2": 52374,
+       "coal": 498805,
+       "coalHeat": 371129,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1309362,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.47,
+         "served": 1.0,
+         "mwh": 51164,
+         "cost": 3196116,
+         "co2": 52374,
+         "coal": 498805,
+         "coalHeat": 371129,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1309362,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.32,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 3495479,
+       "co2": 52376,
+       "coal": 498817,
+       "coalHeat": 371138,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1309395,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.32,
+         "served": 1.0,
+         "mwh": 51164,
+         "cost": 3495479,
+         "co2": 52376,
+         "coal": 498817,
+         "coalHeat": 371138,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1309395,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -51969,6 +80629,71 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.63,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 2897386,
+       "co2": 52376,
+       "coal": 498815,
+       "coalHeat": 371136,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1309389,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 3195584,
+       "co2": 49056,
+       "coal": 467202,
+       "coalHeat": 371047,
+       "imp": 0,
+       "re": 166018,
+       "carbon": 1226405,
+       "solarMW": 2.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.753,
+        "solar": 0.247,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.86,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 3472202,
+       "co2": 48630,
+       "coal": 463140,
+       "coalHeat": 370669,
+       "imp": 0,
+       "re": 186265,
+       "carbon": 1215742,
+       "solarMW": 2.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.725,
+        "solar": 0.275,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.27,
        "served": 1.0,
        "mwh": 51164,
@@ -52099,6 +80824,94 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.63,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 2897386,
+       "co2": 52376,
+       "coal": 498815,
+       "coalHeat": 371136,
+       "imp": 0,
+       "re": 0,
+       "carbon": 1309389,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.63,
+         "served": 1.0,
+         "mwh": 51164,
+         "cost": 2897386,
+         "co2": 52376,
+         "coal": 498815,
+         "coalHeat": 371136,
+         "imp": 0,
+         "re": 0,
+         "carbon": 1309389,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.46,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 3195658,
+       "co2": 49058,
+       "coal": 467215,
+       "coalHeat": 371058,
+       "imp": 0,
+       "re": 166018,
+       "carbon": 1226439,
+       "solarMW": 2.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.753,
+        "solar": 0.247,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.86,
+       "served": 1.0,
+       "mwh": 51164,
+       "cost": 3472065,
+       "co2": 48627,
+       "coal": 463118,
+       "coalHeat": 370658,
+       "imp": 1,
+       "re": 186265,
+       "carbon": 1215684,
+       "solarMW": 2.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.725,
+        "solar": 0.275,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.25,
@@ -52298,6 +81111,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.17,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 27250000,
+       "co2": 487076,
+       "coal": 4638817,
+       "coalHeat": 3487992,
+       "imp": 0,
+       "re": 0,
+       "carbon": 12176894,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.04,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 30050000,
+       "co2": 487464,
+       "coal": 4642515,
+       "coalHeat": 3490773,
+       "imp": 0,
+       "re": 0,
+       "carbon": 12186602,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.91,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 32850000,
+       "co2": 487703,
+       "coal": 4644789,
+       "coalHeat": 3492483,
+       "imp": 0,
+       "re": 0,
+       "carbon": 12192571,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.79,
        "served": 1.0,
        "mwh": 476690,
@@ -52417,6 +81293,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.17,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 27250000,
+       "co2": 487076,
+       "coal": 4638817,
+       "coalHeat": 3487992,
+       "imp": 0,
+       "re": 0,
+       "carbon": 12176894,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.17,
+         "served": 1.0,
+         "mwh": 476690,
+         "cost": 27250000,
+         "co2": 487076,
+         "coal": 4638817,
+         "coalHeat": 3487992,
+         "imp": 0,
+         "re": 0,
+         "carbon": 12176894,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.04,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 30050000,
+       "co2": 487464,
+       "coal": 4642515,
+       "coalHeat": 3490773,
+       "imp": 0,
+       "re": 0,
+       "carbon": 12186602,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.04,
+         "served": 1.0,
+         "mwh": 476690,
+         "cost": 30050000,
+         "co2": 487464,
+         "coal": 4642515,
+         "coalHeat": 3490773,
+         "imp": 0,
+         "re": 0,
+         "carbon": 12186602,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.91,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 32850000,
+       "co2": 487703,
+       "coal": 4644789,
+       "coalHeat": 3492483,
+       "imp": 0,
+       "re": 0,
+       "carbon": 12192571,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.91,
+         "served": 1.0,
+         "mwh": 476690,
+         "cost": 32850000,
+         "co2": 487703,
+         "coal": 4644789,
+         "coalHeat": 3492483,
+         "imp": 0,
+         "re": 0,
+         "carbon": 12192571,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -52599,6 +81607,72 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.27,
+       "served": 1.0,
+       "mwh": 476682,
+       "cost": 27300496,
+       "co2": 450545,
+       "coal": 4290905,
+       "coalHeat": 3499028,
+       "imp": 0,
+       "re": 1692461,
+       "carbon": 11263627,
+       "solarMW": 23.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.686,
+        "solar": 0.314,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.5,
+       "served": 1.0,
+       "mwh": 476686,
+       "cost": 29790805,
+       "co2": 447446,
+       "coal": 4261393,
+       "coalHeat": 3490737,
+       "imp": 0,
+       "re": 1789778,
+       "carbon": 11186156,
+       "solarMW": 25.2,
+       "batMW": 0.3,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.669,
+        "solar": 0.331,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 67.77,
+       "served": 1.0,
+       "mwh": 476684,
+       "cost": 32304790,
+       "co2": 444860,
+       "coal": 4236765,
+       "coalHeat": 3487115,
+       "imp": 0,
+       "re": 1901984,
+       "carbon": 11121509,
+       "solarMW": 26.8,
+       "batMW": 0.5,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.651,
+        "solar": 0.349,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.23,
        "served": 1.0,
        "mwh": 476682,
@@ -52728,6 +81802,75 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.53,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 26947596,
+       "co2": 444457,
+       "coal": 4232920,
+       "coalHeat": 3491645,
+       "imp": 3390,
+       "re": 1746815,
+       "carbon": 11111416,
+       "solarMW": 24.6,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.643,
+        "solar": 0.323,
+        "grid": 0.033,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 61.91,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 29510282,
+       "co2": 441992,
+       "coal": 4209444,
+       "coalHeat": 3490395,
+       "imp": 5085,
+       "re": 1835077,
+       "carbon": 11049792,
+       "solarMW": 25.8,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.624,
+        "solar": 0.338,
+        "grid": 0.038,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 66.96,
+       "served": 1.0,
+       "mwh": 476690,
+       "cost": 31919023,
+       "co2": 438273,
+       "coal": 4174033,
+       "coalHeat": 3495043,
+       "imp": 5085,
+       "re": 2001844,
+       "carbon": 10956837,
+       "solarMW": 28.2,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.589,
+        "solar": 0.362,
+        "grid": 0.05,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 72.02,
@@ -52925,6 +82068,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.25,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 43502207,
+       "co2": 777337,
+       "coal": 7403205,
+       "coalHeat": 5539958,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19433413,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.09,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 47945488,
+       "co2": 777496,
+       "coal": 7404723,
+       "coalHeat": 5541094,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19437397,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.94,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 52388769,
+       "co2": 777503,
+       "coal": 7404793,
+       "coalHeat": 5541147,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19437581,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.79,
        "served": 1.0,
        "mwh": 759930,
@@ -53044,6 +82250,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 57.25,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 43502207,
+       "co2": 777337,
+       "coal": 7403205,
+       "coalHeat": 5539958,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19433413,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.25,
+         "served": 1.0,
+         "mwh": 759930,
+         "cost": 43502207,
+         "co2": 777337,
+         "coal": 7403205,
+         "coalHeat": 5539958,
+         "imp": 0,
+         "re": 0,
+         "carbon": 19433413,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.09,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 47945488,
+       "co2": 777496,
+       "coal": 7404723,
+       "coalHeat": 5541094,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19437397,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.09,
+         "served": 1.0,
+         "mwh": 759930,
+         "cost": 47945488,
+         "co2": 777496,
+         "coal": 7404723,
+         "coalHeat": 5541094,
+         "imp": 0,
+         "re": 0,
+         "carbon": 19437397,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.94,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 52388769,
+       "co2": 777503,
+       "coal": 7404793,
+       "coalHeat": 5541147,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19437581,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.94,
+         "served": 1.0,
+         "mwh": 759930,
+         "cost": 52388769,
+         "co2": 777503,
+         "coal": 7404793,
+         "coalHeat": 5541147,
+         "imp": 0,
+         "re": 0,
+         "carbon": 19437581,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -53226,6 +82564,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 57.25,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 43502207,
+       "co2": 777337,
+       "coal": 7403205,
+       "coalHeat": 5539958,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19433413,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 63.09,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 47945488,
+       "co2": 777496,
+       "coal": 7404723,
+       "coalHeat": 5541094,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19437397,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 69.0,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 52433764,
+       "co2": 778245,
+       "coal": 7411853,
+       "coalHeat": 5546430,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19456115,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.73,
        "served": 1.0,
        "mwh": 759897,
@@ -53355,6 +82756,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 57.25,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 43502207,
+       "co2": 777337,
+       "coal": 7403205,
+       "coalHeat": 5539958,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19433413,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 57.25,
+         "served": 1.0,
+         "mwh": 759930,
+         "cost": 43502207,
+         "co2": 777337,
+         "coal": 7403205,
+         "coalHeat": 5539958,
+         "imp": 0,
+         "re": 0,
+         "carbon": 19433413,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 63.09,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 47945488,
+       "co2": 777496,
+       "coal": 7404723,
+       "coalHeat": 5541094,
+       "imp": 0,
+       "re": 0,
+       "carbon": 19437397,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 63.09,
+         "served": 1.0,
+         "mwh": 759930,
+         "cost": 47945488,
+         "co2": 777496,
+         "coal": 7404723,
+         "coalHeat": 5541094,
+         "imp": 0,
+         "re": 0,
+         "carbon": 19437397,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.76,
+       "served": 1.0,
+       "mwh": 759930,
+       "cost": 52253757,
+       "co2": 724043,
+       "coal": 6895645,
+       "coalHeat": 5546070,
+       "imp": 5605,
+       "re": 2939255,
+       "carbon": 18101069,
+       "solarMW": 41.4,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.724,
+        "solar": 0.25,
+        "grid": 0.026,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.91,
@@ -53552,6 +83064,69 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.52,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 14724562,
+       "co2": 266476,
+       "coal": 2537870,
+       "coalHeat": 2279504,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6661908,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.37,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 16247749,
+       "co2": 266531,
+       "coal": 2538390,
+       "coalHeat": 2279972,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6663274,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.22,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 17770937,
+       "co2": 266533,
+       "coal": 2538414,
+       "coalHeat": 2279993,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6663337,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 74.06,
        "served": 1.0,
        "mwh": 260509,
@@ -53671,6 +83246,138 @@ window.GARUDA = {
          "batMW": 0.0,
          "firmMW": 0.0,
          "t": 30.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 56.52,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 14724562,
+       "co2": 266476,
+       "coal": 2537870,
+       "coalHeat": 2279504,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6661908,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.52,
+         "served": 1.0,
+         "mwh": 260509,
+         "cost": 14724562,
+         "co2": 266476,
+         "coal": 2537870,
+         "coalHeat": 2279504,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6661908,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.37,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 16247749,
+       "co2": 266531,
+       "coal": 2538390,
+       "coalHeat": 2279972,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6663274,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.37,
+         "served": 1.0,
+         "mwh": 260509,
+         "cost": 16247749,
+         "co2": 266531,
+         "coal": 2538390,
+         "coalHeat": 2279972,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6663274,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.22,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 17770937,
+       "co2": 266533,
+       "coal": 2538414,
+       "coalHeat": 2279993,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6663337,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 68.22,
+         "served": 1.0,
+         "mwh": 260509,
+         "cost": 17770937,
+         "co2": 266533,
+         "coal": 2538414,
+         "coalHeat": 2279993,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6663337,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 60.0,
          "g": 71.0,
          "mix": {
           "coal": 1.0,
@@ -53852,6 +83559,70 @@ window.GARUDA = {
        }
       },
       {
+       "lcoe": 56.52,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 14724562,
+       "co2": 266476,
+       "coal": 2537870,
+       "coalHeat": 2279504,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6661908,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 62.37,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 16247749,
+       "co2": 266531,
+       "coal": 2538390,
+       "coalHeat": 2279972,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6663274,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       }
+      },
+      {
+       "lcoe": 68.2,
+       "served": 1.0,
+       "mwh": 260508,
+       "cost": 17766440,
+       "co2": 259877,
+       "coal": 2475016,
+       "coalHeat": 2282167,
+       "imp": 0,
+       "re": 364971,
+       "carbon": 6496917,
+       "solarMW": 5.1,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.746,
+        "solar": 0.254,
+        "unserved": 0.0
+       }
+      },
+      {
        "lcoe": 73.83,
        "served": 1.0,
        "mwh": 260509,
@@ -53982,6 +83753,117 @@ window.GARUDA = {
          }
         }
        ]
+      },
+      {
+       "lcoe": 56.52,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 14724562,
+       "co2": 266476,
+       "coal": 2537870,
+       "coalHeat": 2279504,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6661908,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 40.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 56.52,
+         "served": 1.0,
+         "mwh": 260509,
+         "cost": 14724562,
+         "co2": 266476,
+         "coal": 2537870,
+         "coalHeat": 2279504,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6661908,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 40.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 62.37,
+       "served": 1.0,
+       "mwh": 260509,
+       "cost": 16247749,
+       "co2": 266531,
+       "coal": 2538390,
+       "coalHeat": 2279972,
+       "imp": 0,
+       "re": 0,
+       "carbon": 6663274,
+       "solarMW": 0.0,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 50.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 1.0,
+        "unserved": 0.0
+       },
+       "tariffs": [
+        {
+         "lcoe": 62.37,
+         "served": 1.0,
+         "mwh": 260509,
+         "cost": 16247749,
+         "co2": 266531,
+         "coal": 2538390,
+         "coalHeat": 2279972,
+         "imp": 0,
+         "re": 0,
+         "carbon": 6663274,
+         "solarMW": 0.0,
+         "batMW": 0.0,
+         "firmMW": 0.0,
+         "t": 50.0,
+         "g": 71.0,
+         "mix": {
+          "coal": 1.0,
+          "unserved": 0.0
+         }
+        }
+       ]
+      },
+      {
+       "lcoe": 68.11,
+       "served": 1.0,
+       "mwh": 260507,
+       "cost": 17743584,
+       "co2": 259472,
+       "coal": 2471160,
+       "coalHeat": 2282003,
+       "imp": 252,
+       "re": 373583,
+       "carbon": 6486795,
+       "solarMW": 5.3,
+       "batMW": 0.0,
+       "firmMW": 0.0,
+       "t": 60.0,
+       "g": 59.0,
+       "mix": {
+        "coal": 0.731,
+        "solar": 0.26,
+        "grid": 0.008,
+        "unserved": 0.0
+       }
       },
       {
        "lcoe": 73.73,

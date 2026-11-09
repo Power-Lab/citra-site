@@ -358,12 +358,25 @@
   function emText(em) { return (em > 0 ? '−' + em : em < 0 ? '+' + (-em) : '±0') + '% CO₂'; }
   function money(v) { return '$' + v.toFixed(wired ? 1 : 0); }
 
+  /* A pathway beats business as usual only by more than TIE of its cost: between the coal-price
+     runs the figures are interpolated, and smaller gaps are within that error (at $31/t a straight
+     line from the $30 run, where nothing is built, to the $70 run gives cents of saving). */
+  var TIE = 0.01;
+  function bestAlt(rows) { return rows.slice(1).reduce(function (a, b) { return b.val < a.val ? b : a; }); }
+  function beatsCoal(rows) { var alt = bestAlt(rows); return alt.val < rows[0].val * (1 - TIE) ? alt : null; }
+  /* the pathway to mark cheapest: one that beats BAU by more than TIE, else BAU when it is lowest,
+     else none (a tie) */
+  function cheapestOf(rows) {
+    var alt = beatsCoal(rows);
+    if (alt) return alt;
+    return bestAlt(rows).val >= rows[0].val ? rows[0] : null;
+  }
+
   /* first coal price above the current one at which some pathway undercuts BAU (wired sites) */
   function coalCrossover() {
     for (var x = state.cp + 1; x <= 300; x++) {
-      var rows = lcoe({ cp: x, gt: state.gt, sx: state.sx });
-      var alt = rows.slice(1).reduce(function (a, b) { return b.val < a.val ? b : a; });
-      if (alt.val < rows[0].val) return { x: x, path: alt };
+      var alt = beatsCoal(lcoe({ cp: x, gt: state.gt, sx: state.sx }));
+      if (alt) return { x: x, path: alt };
     }
     return null;
   }
@@ -377,12 +390,12 @@
   var chart;
   function recompute() {
     var rows = lcoe(state);
-    var cheapest = rows.reduce(function (a, b) { return b.val < a.val ? b : a; });
+    var cheapest = wired ? cheapestOf(rows) : rows.reduce(function (a, b) { return b.val < a.val ? b : a; });
     var max = Math.max.apply(null, rows.map(function (r) { return r.val; }));
 
     /* pathway bars */
     document.getElementById('pathlist').innerHTML = rows.map(function (r) {
-      var win = r.key === cheapest.key ? ' win' : '';
+      var win = cheapest && r.key === cheapest.key ? ' win' : '';
       return '<div class="pth' + win + '">' +
         '<div class="top"><b>' + r.name + (win ? ' <span class="rec">· ' + t(wired ? 'path_cheapest' : 'recommended') + '</span>' : '') + '</b>' +
         '<span style="color:#6b6a78">' + money(r.val) + '/MWh · ' + emText(r.em) + '</span></div>' +
@@ -395,9 +408,9 @@
       /* what the capex slider is scaled from */
       document.getElementById('slSolarNote').textContent = t('sl_solar_note').replace('{s}', G.capex.solar)
         .replace('{bp}', G.capex.batPower).replace('{be}', G.capex.batEnergy).replace('{w}', G.capex.wacc);
-      var cx = cheapest.key === 'bau' ? coalCrossover() : null;
-      document.getElementById('insight').innerHTML = cheapest.key !== 'bau'
-        ? t('ins_res_now').replace('{p}', state.cp).replace('{path}', cheapest.name)
+      var alt = beatsCoal(rows), cx = alt ? null : coalCrossover();
+      document.getElementById('insight').innerHTML = alt
+        ? t('ins_res_now').replace('{p}', state.cp).replace('{path}', alt.name)
         : cx ? t('ins_res_later').replace('{p}', state.cp).replace('{x}', cx.x).replace('{path}', cx.path.name)
           : t('ins_res_never');
     } else {
@@ -415,7 +428,7 @@
     /* chart */
     if (chart) {
       chart.data.datasets[0].data = rows.map(function (r) { return Number(r.val.toFixed(wired ? 1 : 0)); });
-      chart.data.datasets[0].backgroundColor = rows.map(function (r) { return r.key === cheapest.key ? r.color : r.color + '59'; });
+      chart.data.datasets[0].backgroundColor = rows.map(function (r) { return cheapest && r.key === cheapest.key ? r.color : r.color + '59'; });
       chart.update();
     }
     if (wired && mixChart) {

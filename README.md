@@ -34,7 +34,7 @@ California San Diego.
   [GARUDA](https://github.com/Power-Lab/garuda) (Grid And Renewable Utilization & Deployment
   Analysis), the lab's open-source generation and transmission expansion model, using the
   [captive-indonesia-2025](https://github.com/Power-Lab/captive-indonesia-2025) study inputs.
-  Each site is a node in the model, run at captive coal prices of $30, $70 and $100 per tonne,
+  Each site is a node in the model, run at captive coal prices of $30, $40, $50, $60, $70 and $100 per tonne,
   and the pathways that buy grid power also at PLN tariffs of $45, $59 and $71 per MWh.
 - **PLN substations**: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
 - **PLN's planned connections**: RUPTL 2025–2034 (PLN's electricity supply business plan),
