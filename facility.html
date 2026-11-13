@@ -55,6 +55,13 @@
 
   <h2 class="sechead" data-i18n="fac_sec_decarb">Decarbonization pathways</h2>
   <div class="insight" style="margin:0 0 16px" id="facIllus">Pathway, cost and energy-mix figures below are illustrative. GARUDA results for each site are not loaded yet.</div>
+  <div id="capBox" style="display:none;margin:0 0 16px">
+    <div role="group" aria-labelledby="capLabel" style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+      <span id="capLabel" style="font-size:13px;font-weight:600;margin-right:4px" data-i18n="cap_label">Park CO₂</span>
+      <button type="button" class="chip on" id="capOff" aria-pressed="true" data-i18n="cap_off">No cap</button>
+      <button type="button" class="chip" id="capOn" aria-pressed="false" data-i18n="cap_on">35% cut</button>
+    </div>
+  </div>
 
   <div class="split">
     <div class="card">

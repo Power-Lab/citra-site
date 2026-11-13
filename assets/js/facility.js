@@ -232,6 +232,9 @@
   var RUN = { bau: 'base', solar: 'captive', grid: 'grid', hybrid: 'gridcaptive' };
   var wired = !!(site && site.path && Object.keys(RUN).every(function (k) { return site.path[RUN[k]]; }));
   var prices = wired ? G.islands[site.island].prices : null;
+  /* the clean pathways under the 35% park-CO2 cut (path.cap: the same runs with the island's park
+     CO2 capped at 65% of business as usual and electric boilers allowed); BAU stays uncapped */
+  var capAvail = wired && ['captive', 'grid', 'gridcaptive'].every(function (k) { return site.path[k].cap; });
   /* GARUDA prices captive coal per MMBtu; the slider is per tonne at 4,200 kcal/kg (GAR). */
   var MMBTU_PER_T = 16.67, BASELINE_T = 70;
   function setRange(id, min, max, step, v) {
@@ -247,7 +250,7 @@
 
   /* ---- sensitivity state ---- */
   var state = { cp: Number(document.getElementById('slCoal').value), gt: Number(document.getElementById('slTariff').value),
-    sx: Number(document.getElementById('slSolar').value) };
+    sx: Number(document.getElementById('slSolar').value), cap: false };
 
   /* A pathway at coal price cp ($/t): linear between GARUDA runs at different coal prices (the
      anchors), and from the nearest anchor to first order outside them. Returns the run figures and
@@ -319,7 +322,8 @@
   function garudaPaths(state) {
     var base = atPoint(site.path.base, state.cp, state.sx, state.gt).r, baseInt = base.co2 / base.mwh;
     return ['bau', 'solar', 'grid', 'hybrid'].map(function (k) {
-      var at = atPoint(site.path[RUN[k]], state.cp, state.sx, state.gt), p = at.r;
+      var src = site.path[RUN[k]];
+      var at = atPoint(state.cap && k !== 'bau' ? src.cap : src, state.cp, state.sx, state.gt), p = at.r;
       /* cost parts, US$/yr: coal burned for process heat and electricity together with the carbon
          cost on it, grid purchases, new solar + storage investment, and the rest (O&M, existing plant,
          start-ups), which the sliders leave unchanged */
@@ -408,11 +412,18 @@
       /* what the capex slider is scaled from */
       document.getElementById('slSolarNote').textContent = t('sl_solar_note').replace('{s}', G.capex.solar)
         .replace('{bp}', G.capex.batPower).replace('{be}', G.capex.batEnergy).replace('{w}', G.capex.wacc);
+      if (state.cap) {
+        /* under the cut: the cheapest capped pathway against staying on (uncapped) coal */
+        var best = bestAlt(rows), d = best.val - rows[0].val;
+        document.getElementById('insight').innerHTML = t(Math.abs(d) <= rows[0].val * TIE ? 'ins_cap_tie' : d > 0 ? 'ins_cap_more' : 'ins_cap_less')
+          .replace('{p}', state.cp).replace('{path}', best.name).replace('{d}', Math.abs(d).toFixed(1));
+      } else {
       var alt = beatsCoal(rows), cx = alt ? null : coalCrossover();
       document.getElementById('insight').innerHTML = alt
         ? t('ins_res_now').replace('{p}', state.cp).replace('{path}', alt.name)
         : cx ? t('ins_res_later').replace('{p}', state.cp).replace('{x}', cx.x).replace('{path}', cx.path.name)
           : t('ins_res_never');
+      }
     } else {
     /* insight: coal-price crossover vs the cheapest clean option */
     var cleanMin = Math.min(rows[1].val, rows[2].val, rows[3].val);
@@ -452,6 +463,22 @@
   bind('slTariff', 'gt', function (v) { return '$' + v + '/MWh'; });
   bind('slSolar', 'sx', function (v) { return Math.round(v * 100) + '%'; });
 
+  /* park CO2 switch: no cap / 35% cut */
+  if (capAvail) {
+    document.getElementById('capBox').style.display = '';
+    [['capOff', false], ['capOn', true]].forEach(function (b) {
+      document.getElementById(b[0]).addEventListener('click', function () {
+        state.cap = b[1];
+        ['capOff', 'capOn'].forEach(function (id) {
+          var on = (id === 'capOn') === state.cap, el = document.getElementById(id);
+          el.classList.toggle('on', on); el.setAttribute('aria-pressed', on);
+        });
+        sourceNotes();
+        recompute();
+      });
+    });
+  }
+
   /* notes that change with whether this site's pathways come from GARUDA */
   function sourceNotes() {
     /* the illustrative-figures warning shows only where the pathways are not from GARUDA */
@@ -463,12 +490,12 @@
       var f = window.FAC.find(function (x) { return x.id === id; });
       return f ? f.short : id;
     }).join(', ') : '';
-    document.getElementById('facPathp').textContent = t(wired ? 'fac_pathp_res' : 'fac_pathp') +
+    document.getElementById('facPathp').textContent = t(wired ? (state.cap ? 'fac_pathp_cap' : 'fac_pathp_res') : 'fac_pathp') +
       (shared ? t('path_shared').replace('{site}', shared) : '');
     document.getElementById('facMix').textContent = t(wired ? 'fac_mix_res' : 'fac_mix');
     document.getElementById('facCost').textContent = t(wired ? 'fac_cost_res' : 'fac_cost');
     document.getElementById('facPayer').textContent = t(wired ? 'fac_payer_res' : 'fac_payer');
-    document.getElementById('mixNote').textContent = wired ? t('mix_note_res')
+    document.getElementById('mixNote').textContent = wired ? t(state.cap ? 'mix_note_cap' : 'mix_note_res')
       : t('mix_note').replace('{c}', res.coal).replace('{e}', res.ei);
   }
 
@@ -535,7 +562,7 @@
         var el = document.getElementById(s[0]), out = [];
         sts.forEach(function (st) { [el.min, el.max].forEach(function (v) { var n = Object.assign({}, st); n[s[1]] = Number(v); out.push(n); }); });
         return out;
-      }, [{}]).forEach(function (st) {
+      }, capAvail ? [{ cap: false }, { cap: true }] : [{}]).forEach(function (st) {
         lcoe(st).forEach(function (r) { lo = Math.min(lo, r.val); hi = Math.max(hi, r.val); });
       });
       yRange = { min: Math.max(0, Math.floor(lo * 0.8 / 10) * 10), max: Math.ceil(hi / 10) * 10 };
