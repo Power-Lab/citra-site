@@ -379,7 +379,7 @@
   /* first coal price above the current one at which some pathway undercuts BAU (wired sites) */
   function coalCrossover() {
     for (var x = state.cp + 1; x <= 300; x++) {
-      var alt = beatsCoal(lcoe({ cp: x, gt: state.gt, sx: state.sx }));
+      var alt = beatsCoal(lcoe({ cp: x, gt: state.gt, sx: state.sx, cap: state.cap }));
       if (alt) return { x: x, path: alt };
     }
     return null;
@@ -391,11 +391,125 @@
     return key === 're' ? RE.reduce(function (sum, k) { return sum + (mix[k] || 0); }, 0) : mix[key] || 0;
   }
 
+  /* GARUDA often gives several pathways the same result: grid connection buys no grid power at the
+     tariff and so matches business as usual, hybrid buys almost none and matches on-site renewables,
+     and at low coal prices nothing is built at all. Pathways whose cost is within TIE of each other
+     and whose CO2 cut is within CO2_SAME points are shown as one outcome: one row, one bar per chart.
+     Rows keep the pathways' order (business as usual first) so they don't jump while dragging. */
+  var CO2_SAME = 5;
+  function outcomes(rows) {
+    var groups = [];
+    rows.slice().sort(function (a, b) { return a.val - b.val; }).forEach(function (r) {
+      var g = groups.filter(function (g) { return r.val <= g.min * (1 + TIE) && Math.abs(r.em - g.members[0].em) <= CO2_SAME; })[0];
+      if (g) g.members.push(r); else groups.push({ min: r.val, members: [r] });
+    });
+    groups.forEach(function (g) {
+      var keys = g.members.map(function (m) { return m.key; }), vals = g.members.map(function (m) { return m.val; }),
+        ems = g.members.map(function (m) { return m.em; });
+      g.has = function (k) { return keys.indexOf(k) >= 0; };
+      g.rep = g.has('bau') ? g.members.filter(function (m) { return m.key === 'bau'; })[0] : g.members[0];
+      g.max = Math.max.apply(null, vals);
+      g.emLo = Math.min.apply(null, ems); g.emHi = Math.max.apply(null, ems);
+      g.order = Math.min.apply(null, g.members.map(function (m) { return rows.indexOf(m); }));
+      g.members.sort(function (a, b) { return rows.indexOf(a) - rows.indexOf(b); });
+      /* on-site renewables never buys grid power, so a group with it is "add renewables"; hybrid on
+         its own is "add renewables and buy grid power" once it takes 1% or more from the grid */
+      var hyb = g.members.filter(function (m) { return m.key === 'hybrid'; })[0];
+      g.kind = g.has('bau') ? 'coal'
+        : keys.every(function (k) { return k === 'grid'; }) ? 'grid'
+          : g.has('solar') || !hyb || share(hyb.mix, 'grid') < 0.01 ? 're' : 'regrid';
+      g.title = t('out_' + g.kind);
+      g.names = g.members.map(function (m) { return m.name; }).join(', ');
+    });
+    /* two outcomes of the same kind (under the cut, say) are told apart by their pathways */
+    groups.forEach(function (g) {
+      if (groups.some(function (h) { return h !== g && h.kind === g.kind; })) { g.title = g.names; g.named = true; }
+    });
+    return groups.sort(function (a, b) { return a.order - b.order; });
+  }
+
+  function emRange(g) {
+    if (g.emLo === g.emHi) return emText(g.emLo);
+    return g.emLo > 0 ? '−' + g.emLo + '–' + g.emHi + '% CO₂' : emText(g.emLo).replace(' CO₂', '') + ' to ' + emText(g.emHi);
+  }
+  function moneyRange(g) {
+    var lo = money(g.min), hi = money(g.max);
+    return (lo === hi ? lo : lo + '–' + hi.slice(1)) + '/MWh';
+  }
+
+  /* the sentence above the outcomes: how many different results the pathways come to, which is
+     cheapest against staying on coal, why pathways coincide, and where clean options pull ahead */
+  function summary(groups, rows) {
+    var bau = rows[0], coal = groups.filter(function (g) { return g.has('bau'); })[0];
+    var s = t(state.cap ? 'sum_lead_cap' : 'sum_lead').replace('{p}', state.cp).replace('{g}', state.gt);
+    if (groups.length === 1) {
+      s += t('sum_one');
+    } else {
+      var best = groups.filter(function (g) { return g !== coal; }).sort(function (a, b) { return a.min - b.min; })[0];
+      var d = best.min - bau.val, o = best.title;
+      s += t('sum_n').replace('{n}', groups.length) +
+        (d < -bau.val * TIE ? t('sum_win').replace('{o}', o).replace('{d}', (-d).toFixed(1))
+          : d > bau.val * TIE ? t('sum_coal').replace('{o}', o).replace('{d}', d.toFixed(1))
+            : t('sum_tie').replace('{o}', o));
+    }
+    if (coal.has('grid')) s += t('sum_gridcoal').replace('{grid}', t('path_grid_s'));
+    var re = groups.filter(function (g) { return g.has('solar') && g.has('hybrid'); })[0];
+    var hy = rows.filter(function (r) { return r.key === 'hybrid'; })[0];
+    if (re && re !== coal && share(hy.mix, 'grid') < 0.02) s += t('sum_hyb').replace('{h}', t('path_hybrid')).replace('{s}', t('path_solar'));
+    if (!beatsCoal(rows)) {
+      var cx = coalCrossover();
+      if (cx) s += t('sum_x').replace('{x}', cx.x);
+    }
+    return s;
+  }
+
   var chart;
   function recompute() {
     var rows = lcoe(state);
     var cheapest = wired ? cheapestOf(rows) : rows.reduce(function (a, b) { return b.val < a.val ? b : a; });
     var max = Math.max.apply(null, rows.map(function (r) { return r.val; }));
+
+    if (wired) {
+      var groups = outcomes(rows);
+      document.getElementById('pathlist').innerHTML =
+        '<div class="insight" style="margin:4px 0 12px">' + summary(groups, rows) + '</div>' +
+        groups.map(function (g) {
+          var win = cheapest && g.has(cheapest.key) ? ' win' : '';
+          var builds = g.kind !== 'coal' && (g.has('solar') || g.has('hybrid'));
+          var r = builds ? g.members.filter(function (m) { return m.key === 'solar' || m.key === 'hybrid'; })[0] : null;
+          return '<div class="pth' + win + '">' +
+            '<div class="top"><b>' + g.title + (win ? ' <span class="rec">· ' + t('path_cheapest') + '</span>' : '') + '</b>' +
+            '<span style="color:#6b6a78">' + moneyRange(g) + ' · ' + emRange(g) + '</span></div>' +
+            (g.named ? '' : '<div class="sub" style="font-size:11.5px;margin:-2px 0 4px">' + g.names + '</div>') +
+            '<div class="track"><div class="bar" style="width:' + Math.round(g.rep.val / max * 100) + '%;background:' + g.rep.color + '"></div></div>' +
+            (r ? '<div class="sub" style="font-size:11.5px;margin-top:3px">' + buildText(r) + '</div>' : '') +
+          '</div>';
+        }).join('');
+      /* the summary above the outcomes replaces the note under the sliders */
+      document.getElementById('insight').style.display = 'none';
+      document.getElementById('slSolarNote').textContent = t('sl_solar_note').replace('{s}', G.capex.solar)
+        .replace('{bp}', G.capex.batPower).replace('{be}', G.capex.batEnergy).replace('{w}', G.capex.wacc);
+      var shorts = groups.map(function (g) {
+        return g.named ? g.members.map(function (m) { return m.short; }).join(' · ') : g.kind === 'regrid' ? t('out_regrid_s') : g.title;
+      });
+      if (chart) {
+        chart.data.labels = shorts;
+        chart.data.datasets[0].data = groups.map(function (g) { return Number(g.rep.val.toFixed(1)); });
+        chart.data.datasets[0].backgroundColor = groups.map(function (g) { return cheapest && g.has(cheapest.key) ? g.rep.color : g.rep.color + '59'; });
+        chart.update();
+      }
+      if (mixChart) {
+        mixChart.data.labels = shorts;
+        mixChart.data.datasets.forEach(function (d) { d.data = groups.map(function (g) { return Math.round(share(g.rep.mix, d.key) * 100); }); });
+        mixChart.update();
+      }
+      if (costChart) {
+        costChart.data.labels = shorts;
+        costChart.data.datasets.forEach(function (d) { d.data = groups.map(function (g) { return Number((g.rep.parts[d.key] / g.rep.mwh).toFixed(1)); }); });
+        costChart.update();
+      }
+      return;
+    }
 
     /* pathway bars */
     document.getElementById('pathlist').innerHTML = rows.map(function (r) {
@@ -404,27 +518,9 @@
         '<div class="top"><b>' + r.name + (win ? ' <span class="rec">· ' + t(wired ? 'path_cheapest' : 'recommended') + '</span>' : '') + '</b>' +
         '<span style="color:#6b6a78">' + money(r.val) + '/MWh · ' + emText(r.em) + '</span></div>' +
         '<div class="track"><div class="bar" style="width:' + Math.round(r.val / max * 100) + '%;background:' + r.color + '"></div></div>' +
-        (wired && (r.key === 'solar' || r.key === 'hybrid') ? '<div class="sub" style="font-size:11.5px;margin-top:3px">' + buildText(r) + '</div>' : '') +
       '</div>';
     }).join('');
 
-    if (wired) {
-      /* what the capex slider is scaled from */
-      document.getElementById('slSolarNote').textContent = t('sl_solar_note').replace('{s}', G.capex.solar)
-        .replace('{bp}', G.capex.batPower).replace('{be}', G.capex.batEnergy).replace('{w}', G.capex.wacc);
-      if (state.cap) {
-        /* under the cut: the cheapest capped pathway against staying on (uncapped) coal */
-        var best = bestAlt(rows), d = best.val - rows[0].val;
-        document.getElementById('insight').innerHTML = t(Math.abs(d) <= rows[0].val * TIE ? 'ins_cap_tie' : d > 0 ? 'ins_cap_more' : 'ins_cap_less')
-          .replace('{p}', state.cp).replace('{path}', best.name).replace('{d}', Math.abs(d).toFixed(1));
-      } else {
-      var alt = beatsCoal(rows), cx = alt ? null : coalCrossover();
-      document.getElementById('insight').innerHTML = alt
-        ? t('ins_res_now').replace('{p}', state.cp).replace('{path}', alt.name)
-        : cx ? t('ins_res_later').replace('{p}', state.cp).replace('{x}', cx.x).replace('{path}', cx.path.name)
-          : t('ins_res_never');
-      }
-    } else {
     /* insight: coal-price crossover vs the cheapest clean option */
     var cleanMin = Math.min(rows[1].val, rows[2].val, rows[3].val);
     var crossover = Math.round((cleanMin - 30) / 0.55);
@@ -434,21 +530,12 @@
     } else {
       ins.innerHTML = t('ins_later').replace('{x}', crossover).replace('{p}', state.cp);
     }
-    }
 
     /* chart */
     if (chart) {
-      chart.data.datasets[0].data = rows.map(function (r) { return Number(r.val.toFixed(wired ? 1 : 0)); });
+      chart.data.datasets[0].data = rows.map(function (r) { return Number(r.val.toFixed(0)); });
       chart.data.datasets[0].backgroundColor = rows.map(function (r) { return cheapest && r.key === cheapest.key ? r.color : r.color + '59'; });
       chart.update();
-    }
-    if (wired && mixChart) {
-      mixChart.data.datasets.forEach(function (d) { d.data = rows.map(function (r) { return Math.round(share(r.mix, d.key) * 100); }); });
-      mixChart.update();
-    }
-    if (wired && costChart) {
-      costChart.data.datasets.forEach(function (d) { d.data = rows.map(function (r) { return Number((r.parts[d.key] / r.mwh).toFixed(1)); }); });
-      costChart.update();
     }
   }
 
@@ -502,23 +589,20 @@
   window.onLangChange = function () { /* re-render labels on language switch */
     renderProfile();
     sourceNotes();
-    recompute();
     if (tlChart) {
       tlChart.data.datasets.forEach(function (d) { d.label = t(d.key); });
       tlChart.update();
     }
+    /* GARUDA sites: the chart labels are the outcomes, set by recompute() */
     var shorts = lcoe(state).map(function (r) { return r.short; });
     if (mixChart && wired) {
-      mixChart.data.labels = shorts;
       mixChart.data.datasets.forEach(function (d) { d.label = t('src_' + d.key); });
-      mixChart.update();
     } else if (mixChart) { mixChart.data.labels = [t('mix_coal'), t('mix_other'), t('mix_clean')]; mixChart.update(); }
     if (costChart && wired) {
-      costChart.data.labels = shorts;
       costChart.data.datasets.forEach(function (d) { d.label = t('part_' + d.key); });
-      costChart.update();
     } else if (costChart) { costChart.data.labels = COST_KEYS.map(t); costChart.update(); }
-    if (chart) { chart.data.labels = shorts; chart.update(); }
+    if (chart && !wired) { chart.data.labels = shorts; chart.update(); }
+    recompute();
   };
 
   /* ---- charts (init after libs ready) ---- */
