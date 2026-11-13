@@ -82,6 +82,18 @@ CAPEX_SCENARIOS = ['captive', 'gridcaptive']
 # The coal price the slider starts at and the pathways' headline figures use: the input folder of
 # that variant supplies the price (falls back to the island's own inputs if it is missing).
 BASELINE_VARIANT = 'p1_coal70_co2p25'
+# Runs with park CO2 capped 35% below business as usual (the model's CO235reduction: one cap on the
+# island's parks together, at 0.65 x the base run's park CO2) and electric steam boilers allowed in
+# the parks, at every coal price and tariff above: folders end __<anchor tag><CAP_SUFFIX>[_t<tariff>].
+# They give the facility page's "35% cut" view of the three clean pathways; business as usual stays
+# the uncapped base run.
+CAP_SUFFIX = '_cap35_eb'
+# Pathways that build in the parks run on inputs with every park geothermal candidate closed (input
+# folder <island>_<variant><NOGEO_SUFFIX>); business as usual and grid build nothing in the parks, so
+# theirs are the plain variant's runs. Set to '' to show the runs that allow park geothermal.
+NOGEO_SUFFIX = '_nogeo'
+NOGEO_SCENARIOS = ['captive', 'gridcaptive']
+CAP_SCENARIOS = ['captive', 'grid', 'gridcaptive']
 ANCHOR_SCENARIOS = ['base', 'grid', 'captive', 'gridcaptive']
 MMBTU_PER_T = 16.67
 BASELINE_T = 70  # $/t, the run behind BASELINE_VARIANT
@@ -93,6 +105,11 @@ COSTS = [
     ('Fixed_Costs_IP', 'parkGen'), ('Fixed_Costs_IP_Storage', 'parkStor'), ('Variable_Costs_IP', 'parkVar'),
     ('StartCostsIP', 'parkStart'), ('Grid_Import_Costs', 'imports'),
     ('NSE_Costs', 'nseGrid'), ('IPNSECosts', 'nseParkElec'), ('IPNSEHeatCosts', 'nseParkHeat')]
+# park cost parts of the model's objective (US$ m/yr), against which the per-park costs are checked.
+# In the capped runs the electric boilers' own cost (the model's Costs_IP_EBoiler) is left out of the
+# site's costs and data for the beta, as it is not a cost of supplying electricity; the power they
+# use stays in.
+PARK_PARTS = ('parkGen', 'parkStor', 'parkVar', 'parkStart', 'imports')
 
 
 def num(x):
@@ -185,6 +202,8 @@ def park_results(folder, dem_e, dem_h):
     heat = defaultdict(float)
     for r in rows(os.path.join(folder, 'ip_heat_generator_results.csv')):
         heat[int(r['Industrial_Park'])] += num(r['GWh']) * 1000
+    for r in rows(os.path.join(folder, 'ip_eboiler_results.csv')):  # electric boilers (capped runs)
+        heat[int(r['Industrial_Park'])] += num(r['Heat_GWh']) * 1000
     imp, peak = {}, {}
     for r in rows(os.path.join(folder, 'ip_import_results.csv')):
         imp[int(r['ID'])] = num(r['Total_Import_MWh'])
@@ -273,6 +292,12 @@ def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price, cpric
             mmbtu[int(r['Industrial_Park'])] += num(u['Heat_Rate_MMBTU_per_MWh']) * mwh
             mmbtu_heat[int(r['Industrial_Park'])] += num(u['Heat_Rate_MMBTU_per_MWh']) * mwh
     imp = {int(r['ID']): num(r['Total_Import_MWh']) for r in rows(os.path.join(folder, 'ip_import_results.csv'))}
+    # Electric boilers (capped runs): the model reports each park's annual cost (annualised investment,
+    # fixed and variable O&M) and steam capacity. Their electricity is in the park supply above.
+    boiler, boiler_mw = defaultdict(float), defaultdict(float)
+    for r in rows(os.path.join(folder, 'ip_eboiler_results.csv')):
+        boiler[int(r['Industrial_Park'])] += num(r['Annual_Cost_MUSD']) * 1e6
+        boiler_mw[int(r['Industrial_Park'])] += num(r['Capacity_MW_steam'])
 
     def scale(total_m, shares):
         s = sum(shares.values())
@@ -296,6 +321,8 @@ def park_costs(folder, isl_inputs, run, parks, ann_e, ann_h, import_price, cpric
             'coal': mmbtu[p] * k_var,
             'coalHeat': mmbtu_heat[p] * k_var,  # the part of it burned for process heat
             'solarMW': solar_mw[p], 'batMW': bat_mw[p], 'firmMW': firm_mw[p],  # what the model built
+            # electric steam boilers: their own cost (US$/yr, not in 'cost'; see PARK_PARTS) and MW of steam
+            'boiler': boiler[p], 'boilerMW': boiler_mw[p],
             'imp': k_imp * imp.get(p, 0.0) / import_price if import_price else 0.0,
             # annualised solar and battery investment, for the solar + storage capex slider
             're': solar_inv[p] + bat,
@@ -440,7 +467,7 @@ def main():
                     price = IMPORT_PRICE * (HIGH_IMPORT if scen == 'highimportprice' else 1)
                     pc = park_costs(folder, os.path.join(a.inputs, isl), run, parks, ann_e, ann_h, price)
                     parts = run['costParts']
-                    model = sum(parts[k] for k in ('parkGen', 'parkStor', 'parkVar', 'parkStart', 'imports'))
+                    model = sum(parts[k] for k in PARK_PARTS)
                     print('  %s %s: park costs %.0f of %.0f M$/yr, park CO2 %.2f of %.2f Mt'
                           % (isl, key, sum(c['cost'] for c in pc.values()) / 1e6, model,
                              sum(c['co2'] for c in pc.values()) / 1e6, run['co2Park']))
@@ -479,13 +506,19 @@ def main():
         for var in ([None] if tag else []) + COAL_VARIANTS:
             name = '%s_%s' % (isl, var) if var else isl
             vin = os.path.join(a.inputs, name)
-            for scen in ANCHOR_SCENARIOS:
-                folder = os.path.join(a.results, '%s_%s_%s_reference%s' % (scen, name, a.year, tag))
+            # the pathways without a CO2 cap, then the clean pathways under the 35% cut (CAP_SUFFIX)
+            modes = [(sc, False) for sc in ANCHOR_SCENARIOS] + ([(sc, True) for sc in CAP_SCENARIOS] if tag and var else [])
+            for scen, cap in modes:
+                sname, vin = name, os.path.join(a.inputs, name)
+                if var and scen in NOGEO_SCENARIOS:
+                    sname = name + NOGEO_SUFFIX
+                    vin = os.path.join(a.inputs, sname)
+                folder = os.path.join(a.results, '%s_%s_%s_reference%s%s' % (scen, sname, a.year, tag, CAP_SUFFIX if cap else ''))
                 if not os.path.exists(os.path.join(folder, 'run_info.json')):
                     continue
                 run = read_run(folder)
                 if run['gap'] > a.gate + GATE_SLACK:
-                    print('  excluded %s %s/%s: %s, gap %.1f%%' % (isl, scen, var, run['status'], 100 * run['gap']))
+                    print('  excluded %s %s/%s%s: %s, gap %.1f%%' % (isl, scen, var, ' cap' if cap else '', run['status'], 100 * run['gap']))
                     continue
                 vf = {r['Fuel']: r for r in rows(os.path.join(vin, 'fuels_data.csv'))}
                 vcp = carbon_price(var)
@@ -509,14 +542,15 @@ def main():
                     parks = park_results(f, dem_e, dem_h)
                     pc = park_costs(f, vin, r, parks, ann_e, ann_h, g, vcp)
                     parts = r['costParts']
-                    model = sum(parts[k] for k in ('parkGen', 'parkStor', 'parkVar', 'parkStart', 'imports'))
+                    model = sum(parts[k] for k in PARK_PARTS)
                     print('  %s %s at $%.0f/t coal, $%.0f/MWh%s%s: park costs %.0f of %.0f M$/yr, park CO2 %.2f of %.2f Mt'
-                          % (isl, scen, tonne, g, tag, ' (stand-in)' if f == folder and g != IMPORT_PRICE else '',
+                          % (isl, scen, tonne, g, tag + (CAP_SUFFIX if cap else ''), ' (stand-in)' if f == folder and g != IMPORT_PRICE else '',
                              sum(c['cost'] for c in pc.values()) / 1e6, model,
                              sum(c['co2'] for c in pc.values()) / 1e6, r['co2Park']))
                     run_rows.append(dict({'island': isl, 'scenario': scen, 'case': 'reference', 'coal_usd_t': tonne,
                                           'tariff_usd_mwh': g,
-                                          'stand_in': f == folder and g != IMPORT_PRICE, 'capex_pct': 100},
+                                          'stand_in': f == folder and g != IMPORT_PRICE, 'capex_pct': 100,
+                                          'park_co2_cut': 0.35 if cap else 0},
                                          **{k: v for k, v in r.items() if k != 'costParts'}, **r['costParts']))
                     points[g] = (parks, pc)
                 for sid, nodes in site_nodes.items():
@@ -526,6 +560,8 @@ def main():
                     # islands without full-UC reference runs get their sites' pathways from these runs alone
                     s = sites.setdefault(sid, {'island': isl, 'nodes': sorted(nodes), 'runs': {}})
                     path = s.setdefault('path', {}).setdefault(scen, {})
+                    if cap:  # the same pathway under the 35% cut
+                        path = path.setdefault('cap', {})
                     anchor, others = None, []
                     for g in sorted(points):
                         gp, gc = points[g]
@@ -536,7 +572,7 @@ def main():
                         else:
                             others.append(x)
                         site_rows.append(dict({'site_id': sid, 'island': isl, 'scenario': scen, 'coal_usd_t': tonne,
-                                               'tariff_usd_mwh': g, 'import_peak_mw': v['importPeak'],
+                                               'tariff_usd_mwh': g, 'park_co2_cut': 0.35 if cap else 0, 'import_peak_mw': v['importPeak'],
                                                'heat_served': v['heatServed']},
                                               **{'mw_' + k: y for k, y in v['cap'].items()},
                                               **{'new_mw_' + k: y for k, y in v['new'].items()},
@@ -560,7 +596,7 @@ def main():
                 parks = park_results(folder, dem_e, dem_h)
                 pc = park_costs(folder, vin, run, parks, ann_e, ann_h, IMPORT_PRICE, vcp)
                 parts = run['costParts']
-                model = sum(parts[k] for k in ('parkGen', 'parkStor', 'parkVar', 'parkStart', 'imports'))
+                model = sum(parts[k] for k in PARK_PARTS)
                 print('  %s %s at %d%% capex%s: park costs %.0f of %.0f M$/yr, park CO2 %.2f of %.2f Mt'
                       % (isl, scen, pct, tag, sum(c['cost'] for c in pc.values()) / 1e6, model,
                          sum(c['co2'] for c in pc.values()) / 1e6, run['co2Park']))
@@ -589,6 +625,14 @@ def main():
                 if not path.get('mwh'):  # a node with no demand or units in the model (Kalimantan park 6)
                     print('  %s %s: no energy served in the model, pathway left out' % (sid, scen))
                     del sites[sid]['path'][scen]
+                    continue
+                if 'cap' in path:  # the 35% cut needs a run at every coal price the uncapped pathway has
+                    path['cap']['anchors'].sort(key=lambda x: x['t'])
+                    want = {x['t'] for x in path['anchors'] if x['t'] != own or len(path['anchors']) == len(COAL_VARIANTS)}
+                    have = {x['t'] for x in path['cap']['anchors']}
+                    if not want <= have or not all(x.get('mwh') for x in path['cap']['anchors']):
+                        print('  %s %s: 35%% cut runs missing at $%s/t, left out' % (sid, scen, sorted(want - have)))
+                        del path['cap']
 
         if runs or any(sites[sid].get('path') for sid in site_nodes if sid in sites):
             islands[isl] = {'region': region, 'runs': runs, 'missing': missing, 'prices': prices}
@@ -603,7 +647,8 @@ def main():
         if not os.path.exists(os.path.join(a.inputs, base, 'network.csv')):
             continue
         cor = corridors(os.path.join(a.inputs, base), {
-            scen: os.path.join(a.results, '%s_%s_%s_reference%s' % (scen, base, a.year, tag)) for scen in CORRIDOR_SCENARIOS})
+            scen: os.path.join(a.results, '%s_%s_%s_reference%s' % (
+                scen, base + (NOGEO_SUFFIX if tag and scen in NOGEO_SCENARIOS else ''), a.year, tag)) for scen in CORRIDOR_SCENARIOS})
         if cor:
             lines[isl] = cor
             for c in cor:
@@ -637,9 +682,12 @@ def main():
             points = []
             for x in path.get('anchors', []):
                 points += [x] + x.get('tariffs', [])
-            for x in points + path.get('capex', []):
+            cut = []
+            for x in path.get('cap', {}).get('anchors', []):
+                cut += [x] + x.get('tariffs', [])
+            for x in points + path.get('capex', []) + cut:
                 r = {'site_id': sid, 'island': s['island'], 'shared_with': ';'.join(s.get('shared', [])),
-                     'scenario': scen, 'coal_usd_t': x.get('t', baseline), 'tariff_usd_mwh': x.get('g', IMPORT_PRICE),
+                     'scenario': scen, 'park_co2_cut': 0.35 if any(x is y for y in cut) else 0, 'coal_usd_t': x.get('t', baseline), 'tariff_usd_mwh': x.get('g', IMPORT_PRICE),
                      'capex_pct': round(x.get('x', 1) * 100),
                      'lcoe_usd_mwh': x.get('lcoe'), 'cost_usd_yr': x.get('cost'), 'carbon_cost_usd_yr': x.get('carbon'),
                      'demand_mwh_yr': x.get('mwh'),

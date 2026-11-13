@@ -47,7 +47,7 @@ The tables behind the site are in [`data/`](data):
 | File | Contents |
 |---|---|
 | `parks.csv` | The 86 sites: location, sector, captive coal capacity by status, main owner |
-| `garuda_2035_pathways.csv` | Each site's four pathways at each coal price and tariff: $/MWh, cost, carbon cost, CO₂, energy mix |
+| `garuda_2035_pathways.csv` | Each site's four pathways at each coal price and tariff: $/MWh, cost, carbon cost, CO₂, energy mix. Rows with `park_co2_cut` 0.35 are the three clean pathways with the island's park CO₂ cut 35% |
 | `garuda_2035_corridors.csv` | Transmission corridors between provinces: existing, used and added capacity |
 | `site_substations.csv` | Each site's nearest PLN substation (150 kV and above), distance and rough connection cost |
 | `ruptl_connections.csv` | Connections PLN plans for these sites in RUPTL 2025–2034 |
