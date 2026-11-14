@@ -58,8 +58,9 @@
       SUB && (SUB.ruptl.length || SUB.ruptlNoInfo) ? ['k_ruptl', ruptlText()] : null,
       ['k_aka', det.aliases.length ? esc(det.aliases.slice(0, 6).join(' · ')) + (det.aliases.length > 6 ? ' …' : '') : '—']
     ];
+    /* label over value, two to a row; the long list of other names takes a whole row */
     document.getElementById('facFacts').innerHTML = facts.filter(Boolean).map(function (f) {
-      return '<dt>' + t(f[0]) + '</dt><dd>' + f[1] + '</dd>';
+      return '<div class="fact' + (f[0] === 'k_aka' ? ' wide' : '') + '"><dt>' + t(f[0]) + '</dt><dd>' + f[1] + '</dd></div>';
     }).join('');
 
     /* units, grouped by plant; live units first */
@@ -186,7 +187,12 @@
     if (!det) return;
     var live = det.units.filter(function (u) { return bucket(u.status) !== 'off'; });
     var years = live.map(function (u) { return u.start; }).filter(Boolean);
-    if (!years.length) return;
+    if (!years.length) {  /* no start years recorded: a line instead of an empty chart */
+      document.getElementById('tlBox').style.display = 'none';
+      document.getElementById('tlNone').style.display = '';
+      document.getElementById('tlNone').textContent = t('tl_none');
+      return;
+    }
     var lo = Math.min.apply(null, years), hi = Math.max.apply(null, years), labels = [];
     for (var y = lo; y <= hi; y++) labels.push(String(y));
     var unknown = live.some(function (u) { return !u.start; });
@@ -588,6 +594,7 @@
 
   window.onLangChange = function () { /* re-render labels on language switch */
     renderProfile();
+    if (document.getElementById('tlNone').style.display !== 'none') document.getElementById('tlNone').textContent = t('tl_none');
     sourceNotes();
     if (tlChart) {
       tlChart.data.datasets.forEach(function (d) { d.label = t(d.key); });

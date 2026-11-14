@@ -39,18 +39,17 @@
     <h2 data-i18n="fac_profile">Captive coal on site</h2>
     <p class="sub" data-i18n-html="fac_source">Unit-level data from the <a href="https://earthwise.institute" target="_blank" rel="noopener">Earthwise Institute</a> <i>Indonesian Power Summary Database</i> (2026).</p>
     <div class="stats" id="facStats" style="margin:4px 0 14px"></div>
-    <div class="split">
+    <h3 class="h3" data-i18n="fac_facts">Key facts</h3>
+    <div class="split facts-row">
       <div>
-        <h3 class="h3" data-i18n="fac_timeline">Captive coal capacity by start year</h3>
-        <div style="position:relative;height:230px"><canvas id="tlChart" role="img" aria-label="Stacked bar chart of captive coal capacity by start year and status"></canvas></div>
-      </div>
-      <div>
-        <h3 class="h3" data-i18n="fac_facts">Key facts</h3>
         <div class="locmap" id="locMap" role="img" aria-label="Locator map of the site"></div>
-        <p class="sub" id="locCaption" style="margin:6px 0 12px"></p>
-        <dl class="facts" id="facFacts"></dl>
+        <p class="sub" id="locCaption" style="margin:6px 0 0"></p>
       </div>
+      <dl class="facts facts2" id="facFacts"></dl>
     </div>
+    <h3 class="h3" style="margin-top:20px" data-i18n="fac_timeline">Captive coal capacity by start year</h3>
+    <div id="tlBox" style="position:relative;height:190px"><canvas id="tlChart" role="img" aria-label="Stacked bar chart of captive coal capacity by start year and status"></canvas></div>
+    <p class="sub" id="tlNone" style="display:none;margin:0"></p>
   </div>
 
   <h2 class="sechead" data-i18n="fac_sec_decarb">Decarbonization pathways</h2>
