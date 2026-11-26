@@ -425,6 +425,8 @@
         : keys.every(function (k) { return k === 'grid'; }) ? 'grid'
           : g.has('solar') || !hyb || share(hyb.mix, 'grid') < 0.01 ? 're' : 'regrid';
       g.title = t('out_' + g.kind);
+      /* colour by what happens, not by whichever pathway is cheapest within the outcome */
+      g.color = { coal: PATH_COLOR.bau, re: PATH_COLOR.solar, grid: PATH_COLOR.grid, regrid: PATH_COLOR.hybrid }[g.kind];
       g.names = g.members.map(function (m) { return m.name; }).join(', ');
     });
     /* two outcomes of the same kind (under the cut, say) are told apart by their pathways */
@@ -469,6 +471,65 @@
     return s;
   }
 
+  /* the plain-language summary under the title: what the site is, how far it is from PLN's grid,
+     and what GARUDA finds at the baseline coal price and tariff, without a cap and under the 35% cut.
+     It stays fixed while the sliders move; the pathway section below follows them. */
+  function power(mw) {
+    return mw >= 1000 ? (mw / 1000).toFixed(1) + ' GW' : Math.round(mw).toLocaleString() + ' MW';
+  }
+  function pctText(x) { return x < 1 ? x.toFixed(1) : Math.round(x); }
+  function lede() {
+    var el = document.getElementById('facLede');
+    if (!wired) { el.style.display = 'none'; return; }
+    var cp = Math.round(prices.coal * MMBTU_PER_T), gt = prices.tariff;
+    /* sites still being built (no coal running yet) say what is under construction or planned */
+    var key = fac.op ? 'lede_site' : fac.con ? 'lede_site_con' : 'lede_site_plan';
+    var s = t(key).replace('{name}', esc(fac.short)).replace('{sector}', esc(window.sectorName(fac.sector)))
+      .replace('{prov}', esc(fac.prov)).replace('{op}', power(fac.op)).replace('{con}', power(fac.con))
+      .replace('{plan}', power(fac.plan)) + (fac.op && fac.con ? t('lede_con').replace('{con}', power(fac.con)) : '') + t('lede_dot');
+    if (SUB) {
+      s += t('lede_sp') + (SUB.km < 1 ? t('lede_sub_onsite') : t(SUB.sea ? 'lede_sub_sea' : 'lede_sub_km')
+        .replace('{km}', SUB.km < 10 ? SUB.km.toFixed(1) : Math.round(SUB.km))).replace('{kv}', SUB.kv);
+    }
+    var at = { cp: cp, gt: gt, sx: 1, cap: false }, rows = lcoe(at), bau = rows[0];
+    var alt = beatsCoal(rows);
+    s += t('lede_sp') + t('lede_at').replace('{p}', cp).replace('{g}', gt);
+    if (alt) {
+      var g = outcomes(rows).filter(function (x) { return x.has(alt.key); })[0];
+      s += t('lede_win').replace('{o}', g.title).replace('{pct}', pctText((1 - alt.val / bau.val) * 100)).replace('{em}', Math.max(0, alt.em));
+    } else {
+      var x = null;
+      for (var c = cp + 1; c <= 300 && !x; c++) if (beatsCoal(lcoe({ cp: c, gt: gt, sx: 1, cap: false }))) x = c;
+      s += x ? t('lede_coal_until').replace('{x}', x) : t('lede_coal');
+    }
+    if (capAvail) {
+      var cut = lcoe({ cp: cp, gt: gt, sx: 1, cap: true }), best = bestAlt(cut), d = best.val - cut[0].val;
+      var gc = outcomes(cut).filter(function (x) { return x.has(best.key); })[0];
+      s += t('lede_sp') + (d > 0 ? t('lede_cut_more') : t('lede_cut_less')).replace('{d}', Math.abs(d).toFixed(1))
+        .replace('{pct}', pctText(Math.abs(d) / cut[0].val * 100)).replace('{o}', gc.title);
+    }
+    el.innerHTML = s;
+    el.style.display = '';
+  }
+
+  /* one line under the cost chart: what drives the cheapest outcome's cost against staying on coal */
+  function costTake(groups, cheapest) {
+    var el = document.getElementById('costTake'), coal = groups.filter(function (g) { return g.has('bau'); })[0];
+    var b = coal.rep, per = function (r, k) { return r.parts[k] / r.mwh; };
+    var share = Math.round(per(b, 'coal') / b.val * 100);
+    var s = t('take_coal').replace('{v}', b.val.toFixed(1)).replace('{p}', share);
+    var other = groups.filter(function (g) { return g !== coal; }).sort(function (a, c) { return a.min - c.min; })[0];
+    if (other) {
+      var r = other.rep, dc = per(b, 'coal') - per(r, 'coal'), dr = per(r, 're') - per(b, 're'), dg = per(r, 'grid') - per(b, 'grid');
+      s += t('lede_sp') + t('take_alt').replace('{o}', other.title).replace('{dc}', dc.toFixed(1)).replace('{dr}', dr.toFixed(1)) +
+        (dg >= 0.5 ? t('take_grid').replace('{dg}', dg.toFixed(1)) : '') + t('lede_dot');
+    } else {
+      s += t('lede_sp') + t('take_one');
+    }
+    el.innerHTML = s;
+    el.style.display = '';
+  }
+
   var chart;
   function recompute() {
     var rows = lcoe(state);
@@ -487,7 +548,7 @@
             '<div class="top"><b>' + g.title + (win ? ' <span class="rec">· ' + t('path_cheapest') + '</span>' : '') + '</b>' +
             '<span style="color:#6b6a78">' + moneyRange(g) + ' · ' + emRange(g) + '</span></div>' +
             (g.named ? '' : '<div class="sub" style="font-size:11.5px;margin:-2px 0 4px">' + g.names + '</div>') +
-            '<div class="track"><div class="bar" style="width:' + Math.round(g.rep.val / max * 100) + '%;background:' + g.rep.color + '"></div></div>' +
+            '<div class="track"><div class="bar" style="width:' + Math.round(g.rep.val / max * 100) + '%;background:' + g.color + '"></div></div>' +
             (r ? '<div class="sub" style="font-size:11.5px;margin-top:3px">' + buildText(r) + '</div>' : '') +
           '</div>';
         }).join('');
@@ -501,7 +562,7 @@
       if (chart) {
         chart.data.labels = shorts;
         chart.data.datasets[0].data = groups.map(function (g) { return Number(g.rep.val.toFixed(1)); });
-        chart.data.datasets[0].backgroundColor = groups.map(function (g) { return cheapest && g.has(cheapest.key) ? g.rep.color : g.rep.color + '59'; });
+        chart.data.datasets[0].backgroundColor = groups.map(function (g) { return cheapest && g.has(cheapest.key) ? g.color : g.color + '59'; });
         chart.update();
       }
       if (mixChart) {
@@ -509,6 +570,7 @@
         mixChart.data.datasets.forEach(function (d) { d.data = groups.map(function (g) { return Math.round(share(g.rep.mix, d.key) * 100); }); });
         mixChart.update();
       }
+      costTake(groups, cheapest);
       if (costChart) {
         costChart.data.labels = shorts;
         costChart.data.datasets.forEach(function (d) { d.data = groups.map(function (g) { return Number((g.rep.parts[d.key] / g.rep.mwh).toFixed(1)); }); });
@@ -594,6 +656,7 @@
 
   window.onLangChange = function () { /* re-render labels on language switch */
     renderProfile();
+    lede();
     if (document.getElementById('tlNone').style.display !== 'none') document.getElementById('tlNone').textContent = t('tl_none');
     sourceNotes();
     if (tlChart) {
@@ -704,4 +767,5 @@
   renderProfile();
   sourceNotes();
   recompute();
+  lede();
 })();
