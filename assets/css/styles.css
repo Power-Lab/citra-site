@@ -169,6 +169,9 @@ table.dt td a.sublink:hover { color: var(--ink); }
 dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 0; font-size: 12.5px; }
 dl.facts dt { color: var(--mut); }
 dl.facts dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+/* facility page: the plain-language summary under the title */
+.lede { font-size: 16px; line-height: 1.6; color: var(--ink); max-width: 860px; margin: 10px 0 4px; }
+.lede b { font-weight: 600; }
 /* facility key facts beside the locator map: label over value, two columns */
 .split.facts-row { grid-template-columns: 1fr 1.5fr; }
 dl.facts2 { grid-template-columns: 1fr 1fr; gap: 12px 24px; align-content: start; }
